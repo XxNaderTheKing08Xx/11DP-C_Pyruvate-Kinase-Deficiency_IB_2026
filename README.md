@@ -5,10 +5,25 @@
 **Group:** 11DP-C. 
 **Authors:**. 
 ├── Aarón Godino Martínez. 
-├── Bruno Carrasquilla. 
+
+
+
+├── Bruno Carrasquilla.
+
+
+
 ├── Ettore Colombo. 
+
+
+
 ├── Leo Nader Al Hourani. 
+
+
+
 ├── Pol Monllau. 
+
+
+
 
 ## Description
 *Pyruvate kinase deficiency is a rare inherited genetic disorder that causes red blood cells to break down too early,  leading to a shortage of healthy red blood cells called hemolytic anemia.*. 
