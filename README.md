@@ -1,6 +1,6 @@
 # Bioinformatics Report - "11DP-C_Pyruvate-Kinase-Deficiency_IB_2026"
 
-**Course:** Introduction to Bioinformatics · UPC · 2026–2027
+**Course:** Introduction to Bioinformatics · UPC · 2026–2027. 
 **Group:** 11DP-C
 **Authors:** Aarón Godino Martínez, Bruno Carrasquilla, Ettore Colombo, Leo Nader Al Hourani, Pol Monllau
 
