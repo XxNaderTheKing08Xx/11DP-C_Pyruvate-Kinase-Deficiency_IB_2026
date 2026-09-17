@@ -1,4 +1,4 @@
-# BIOINFORMATIC PROJECT REPORT:  
+<span style="font-size: 2em; font-weight: bold;">BIOINFORMATIC PROJECT REPORT:</span>
 # "11DP-C_Pyruvate-Kinase-Deficiency_IB_2026". 
 
 **Course:** Introduction to Bioinformatics · UPC · 2026–2027. 
