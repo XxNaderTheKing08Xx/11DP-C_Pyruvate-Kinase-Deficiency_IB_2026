@@ -4,6 +4,8 @@
 **Course:** Introduction to Bioinformatics · UPC · 2026–2027. 
 **Group:** 11DP-C. 
 **Authors:**. 
+
+
 ├── Aarón Godino Martínez. 
 
 
