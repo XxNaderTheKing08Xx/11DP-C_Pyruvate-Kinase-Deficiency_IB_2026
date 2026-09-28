@@ -1,7 +1,9 @@
-# Bioinformatics Report - "11DP-C_Pyruvate-Kinase-Deficiency_IB_2026"
+# Bioinformatics Report "11DP-C_Pyruvate-Kinase-Deficiency_IB_2026"
 
 **Course:** Introduction to Bioinformatics · UPC · 2026–2027
+<br>
 **Group:** 11DP-C
+<br>
 **Authors:** Aarón Godino Martínez, Bruno Carrasquilla, Ettore Colombo, Leo Nader Al Hourani, Pol Monllau
 
 ## Description
@@ -10,11 +12,16 @@
 ## Repository Structure
 
 **11DP-C_Pyruvate-Kinase-Deficiency_IB_2026/**
+<br>
 ├── README.md    ← *this file*
+<br>
 ├── report.md    ← main report document*
+<br>
 ├── .gitignore   ← *already created by GitHub*
+<br>
 └── figures/     ← *images and plots referenced in the report*
-    └── .gitkeep ← *placeholder to track the empty folder*
+<br>
+    &emsp;&emsp;└── .gitkeep ← *placeholder to track the empty folder*
 
 ## How to Read This Report
 Open *report.md* directly on GitHub. It renders automatically.
