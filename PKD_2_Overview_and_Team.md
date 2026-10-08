@@ -55,13 +55,13 @@ Each specific objective corresponds to one topic of the Disease Project Overview
 
 #### Aarón Godino Martínez — Product Owner
 
-First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). *Background to be completed by the member.*
+First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). Student from Salvador Espriu’s high school and Icària’s high school.
 
 **Responsibilities.** Keeps the work focused on the project question; reviews the literature; writes the Background and the Abstract; assembles and delivers the report.
 
 #### Bruno Carrasquilla — Data and GitHub Manager
 
-First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). *Background to be completed by the member.*
+First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF).  Student from Sant Ignasi Sarria highschool.
 
 **Responsibilities.** Maintains the repository structure; retrieves identifiers, sequences, and variant evidence; archives the sources and the reference list; writes the Methods; checks the format; assembles the defence presentation.
 
@@ -73,13 +73,13 @@ First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). BSc and MSc in
 
 #### Leo Nader Al Hourani — Sequence Analyst
 
-First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). *Background to be completed by the member.*
+First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). Student from Salvador Espriu's high school and Icària high school.
 
 **Responsibilities.** Characterizes the supplied sequences; performs the pairwise and multiple alignments; writes the sequence Results; coordinates the read-through and the defence rehearsal.
 
 #### Pol Monllau — Structure Analyst
 
-First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). *Background to be completed by the member.*
+First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). Student from Betania-Patmos.
 
 **Responsibilities.** Selects the structures; maps the substituted residue; performs the superpositions; writes the structure Results and prepares the figures.
 
