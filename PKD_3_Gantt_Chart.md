@@ -1,0 +1,112 @@
+## 2. Gantt chart
+
+The project runs from **Thu 17 Sep** to **Thu 5 Nov** (the oral defence), 34 working days (Monday to Friday, excluding the holidays of 24 September and 12 October). It has two parts: **Phase 0**, completed before this plan was submitted, and the **planned work** (WP1 to WP4) from 9 October. Each analysis is scheduled after the class session that teaches its method.
+
+### Work packages
+
+| WP | Name | Start | End | Working days | Status |
+|---|---|---|---|---|---|
+| Phase 0 | Project start-up | Thu 17 Sep | Thu 8 Oct | 15 | Completed |
+| WP1 | Project management and GitHub | Fri 9 Oct | Tue 27 Oct | 12 | Planned |
+| WP2 | Data sources, literature, and sequences | Tue 13 Oct | Mon 19 Oct | 5 | Planned |
+| WP3 | Sequence and structure analysis | Wed 14 Oct | Wed 21 Oct | 6 | Planned |
+| WP4 | Report, delivery, and defence | Tue 20 Oct | Tue 3 Nov | 11 | Planned |
+| **Project** | | **Thu 17 Sep** | **Thu 5 Nov** | **34** | |
+
+### Chart
+
+![Gantt chart of Group 11DP-C, plan of 9 October 2026](gantt_chart_2026-10-09.png)
+
+*Bar colour shows the phase (grey: Phase 0, completed; WP1 to WP4 in the colours of the legend); the thin line under each bar shows its owner. Shaded columns are holidays; ◆ marks milestones; the bottom row shows the class sessions.*
+
+<details><summary>The same plan as a Mermaid chart, rendered by GitHub</summary>
+
+```mermaid
+gantt
+    title 11DP-C · Pyruvate Kinase Deficiency · plan of 9 October 2026
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b
+    excludes weekends, 2026-09-24, 2026-10-12
+    section Phase 0 (completed)
+    0.1 Create the GitHub repository and write the README (Leo) :done, p0_1, 2026-09-17, 1d
+    0.2 Create the report file and the folder structure (Ettore) :done, p0_2, 2026-09-17, 1d
+    0.3 Study the course instructions and the disease (All) :done, p0_3, 2026-09-21, 13d
+    0.4 Team meeting 1 (after class) (All) :done, p0_4, 2026-09-21, 1d
+    0.5 Format the report file (Aarón) :done, p0_5, 2026-09-28, 1d
+    0.6 Team meeting 2 (after class) (All) :done, p0_6, 2026-09-28, 1d
+    0.7 Team meeting 3 (after class) (All) :done, p0_7, 2026-10-05, 1d
+    0.8 Draft the project plan (introduction, objectives, Gantt chart, risks) (Ettore) :done, p0_8, 2026-10-05, 4d
+    0.9 Team meeting 4 (after class) - review of the draft plan, decision… (All) :done, p0_9, 2026-10-08, 1d
+    section WP1 Project management and GitHub
+    1.1 Review and commit the introduction (PKD_1), create the folders… (Ettore) :t1_1, 2026-10-09, 1d
+    1.2 Review and commit the overview and team section (PKD_2), submit… (Aarón) :t1_2, 2026-10-09, 1d
+    1.3 Review and commit the Gantt chart (PKD_3) (Leo) :t1_3, 2026-10-09, 1d
+    1.4 Review and commit the task details (PKD_4) (Pol) :t1_4, 2026-10-09, 1d
+    1.5 Review and commit the risk analysis and references (PKD_5, PKD_6) (Bruno) :t1_5, 2026-10-09, 1d
+    1.6 Create the Project Status document (Ettore) :t1_6, 2026-10-13, 1d
+    1.7 Weekly status update and team meeting (Fridays 16 and 23 Oct) (Ettore) :t1_7, 2026-10-16, 6d
+    1.8 Prepare the Project Status document for the 22 Oct discussion (Ettore) :t1_8, 2026-10-20, 1d
+    1.9 Produce the final Gantt chart with real dates (live version) (Ettore) :t1_9, 2026-10-27, 1d
+    section WP2 Data sources, literature, and sequences
+    2.1 Characterize the supplied sequences - translate both CDSs, compare… (Leo) :t2_1, 2026-10-13, 1d
+    2.2 Identify the gene, the isoform, and the reference entries (HGNC,… (Bruno) :t2_2, 2026-10-13, 1d
+    2.3 Collect clinical and population evidence on the variant (ClinVar,… (Bruno) :t2_3, 2026-10-15, 2d
+    2.4 Review the literature on PK and PKD - normal function, mechanism,… (Aarón) :t2_4, 2026-10-13, 3d
+    2.5 Retrieve the reviewed orthologous sequences - rat, mouse, and dog… (Bruno) :t2_5, 2026-10-14, 1d
+    2.6 Select the experimental structures - wild-type and mutant human… (Pol) :t2_6, 2026-10-13, 1d
+    2.7 Archive the sources in references/ and maintain the reference list (Bruno) :t2_7, 2026-10-19, 1d
+    2.8 Verify the sequence characterization independently - repeat the… (Ettore) :t2_8, 2026-10-14, 1d
+    section WP3 Sequence and structure analysis
+    3.1 Pairwise alignments of human PK with the rat and mouse orthologs… (Leo) :t3_1, 2026-10-15, 1d
+    3.2 Multiple sequence alignment of human, rat, mouse, and dog PK,… (Leo) :t3_2, 2026-10-16, 2d
+    3.3 Map the substituted residue on the wild-type structure - distances… (Pol) :t3_3, 2026-10-14, 2d
+    3.4 Superpose the wild-type and mutant structures (repeated in the 22… (Pol) :t3_4, 2026-10-16, 2d
+    3.5 Compare the human R-type and rat L-type structures around the… (Pol) :t3_5, 2026-10-20, 1d
+    3.6 Assess pathogenicity - combine clinical, population, conservation,… (Aarón) :t3_6, 2026-10-19, 1d
+    3.7 Explain the impact on the patient - from enzyme activity to… (Aarón) :t3_7, 2026-10-20, 1d
+    3.8 Team synthesis meeting - from variant to patient (Ettore) :t3_8, 2026-10-21, 1d
+    3.9 Verify the alignments independently - repeat the multiple sequence… (Bruno) :t3_9, 2026-10-20, 1d
+    section WP4 Report, delivery, and defence
+    4.1 Write the Background (Aarón) :t4_1, 2026-10-21, 2d
+    4.2 Write the Methods (Bruno) :t4_2, 2026-10-21, 2d
+    4.3 Write the Results on sequences and species comparison (Leo) :t4_3, 2026-10-20, 2d
+    4.4 Write the Results on structures, prepare the figures (Pol) :t4_4, 2026-10-21, 2d
+    4.5 Write the Discussion and Conclusions (Ettore) :t4_5, 2026-10-22, 2d
+    4.6 Write the Abstract and assemble the report (Aarón) :t4_6, 2026-10-26, 1d
+    4.7 Coordinate the full read-through and corrections (Leo) :t4_7, 2026-10-27, 1d
+    4.8 Check the format limits and the references (Bruno) :t4_8, 2026-10-27, 1d
+    4.9 Deliver the final report on GitHub (Aarón) :t4_9, 2026-10-28, 1d
+    4.10 Prepare the defence slides on the background and the impact on the… (Aarón) :t4_10, 2026-10-29, 1d
+    4.11 Prepare the defence slides on the data sources and methods (Bruno) :t4_11, 2026-10-29, 1d
+    4.12 Prepare the defence slides on the discussion and conclusions (Ettore) :t4_12, 2026-10-29, 1d
+    4.13 Prepare the defence slides on the sequence and species-comparison… (Leo) :t4_13, 2026-10-29, 1d
+    4.14 Prepare the defence slides on the structural results (Pol) :t4_14, 2026-10-29, 1d
+    4.15 Assemble the defence presentation - unify the format and confirm… (Bruno) :t4_15, 2026-10-30, 1d
+    4.16 Coordinate the defence rehearsal, with cross-questioning between… (Leo) :t4_16, 2026-11-02, 2d
+    section Milestones
+    M0 Project presented, repository created :milestone, m0, 2026-09-17, 0d
+    M1 Project plan submitted :milestone, m1, 2026-10-09, 0d
+    M2 Data collected (variant, sequences, structures, literature) :milestone, m2, 2026-10-19, 0d
+    M3 Analyses completed :milestone, m3, 2026-10-21, 0d
+    M4 Project Status document discussed :milestone, m4, 2026-10-22, 0d
+    M5 Report draft complete :milestone, m5, 2026-10-26, 0d
+    M6 Final report delivered :milestone, m6, 2026-10-28, 0d
+    M7 Oral defence (all members) :milestone, m7, 2026-11-05, 0d
+    section Class sessions
+    Project presentation and access to GitHub :milestone, 2026-09-17, 0d
+    Paper structure, sources and references :milestone, 2026-09-21, 0d
+    Structural biology :milestone, 2026-09-28, 0d
+    PDB lab :milestone, 2026-10-01, 0d
+    Genomics :milestone, 2026-10-05, 0d
+    Sequence alignment lab 1 :milestone, 2026-10-08, 0d
+    Sequence alignment lab 2 :milestone, 2026-10-15, 0d
+    Integrated bioinformatics reasoning :milestone, 2026-10-19, 0d
+    Structure superposition lab :milestone, 2026-10-22, 0d
+    Project retrospective (online, optional) :milestone, 2026-10-26, 0d
+    Project defence :milestone, 2026-11-05, 0d
+```
+
+</details>
+
+---
+[← 1. Project overview and team](PKD_2_Overview_and_Team.md) · [Index](README.md) · [2. Gantt chart: task details →](PKD_4_Task_Details.md)
