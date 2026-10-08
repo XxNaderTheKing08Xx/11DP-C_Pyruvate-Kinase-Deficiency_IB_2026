@@ -1,17 +1,45 @@
-# Project plan · Group 11DP-C
+[README.md](https://github.com/user-attachments/files/33195183/README.md)
+# BIOINFORMATIC PROJECT REPORT:
+# "11DP-C_Pyruvate-Kinase-Deficiency_IB_2026". 
 
-**Pyruvate Kinase Deficiency: from a *PKLR* variant to haemolytic anaemia**
+**Course:** Introduction to Bioinformatics · UPC · 2026–2027. 
+**Group:** 11DP-C. 
+**Authors:**. 
 
-Gantt chart and risk analysis, frozen on 9 October 2026 (Disease Project Formal Requirements, section IV). Read the sections in order:
 
-1. [Introduction](PKD_1_Introduction.md)
-2. [1. Project overview and team](PKD_2_Overview_and_Team.md)
-3. [2. Gantt chart](PKD_3_Gantt_Chart.md)
-4. [2. Gantt chart: task details](PKD_4_Task_Details.md)
-5. [3. Risk analysis](PKD_5_Risk_Analysis.md)
-6. [References](PKD_6_References.md)
+├── Aarón Godino Martínez. 
 
-Files in this folder:
 
-- [`gantt_chart_2026-10-09.png`](gantt_chart_2026-10-09.png): the Gantt chart of 9 October (frozen version).
-- [`Gantt_live_11DP-C.xlsx`](Gantt_live_11DP-C.xlsx): the live Gantt chart and Project Status, updated by each task owner until the end of the project.
+
+├── Bruno Carrasquilla.
+
+
+
+├── Ettore Colombo. 
+
+
+
+├── Leo Nader Al Hourani. 
+
+
+
+├── Pol Monllau. 
+
+
+
+
+## Description
+*Pyruvate kinase deficiency is a rare inherited genetic disorder that causes red blood cells to break down too early,  leading to a shortage of healthy red blood cells called hemolytic anemia.*. 
+
+## Repository Structure
+
+**11DP-C_Pyruvate-Kinase-Deficiency_IB_2026/**. 
+├── README.md    ← *this file*. 
+├── report.md    ← main report document*. 
+├── .gitignore   ← *already created by GitHub*. 
+└── figures/     ← *images and plots referenced in the report*. 
+    └── .gitkeep ← *placeholder to track the empty folder*. 
+
+## How to Read This Report
+Open *report.md* directly on GitHub. It renders automatically.  
+To read it locally, open the file in VS Code or any Markdown viewer.  
