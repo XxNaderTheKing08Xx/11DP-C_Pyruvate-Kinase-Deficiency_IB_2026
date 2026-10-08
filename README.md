@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33194660/README.md)
 # Project plan · Group 11DP-C
 
 **Pyruvate Kinase Deficiency: from a *PKLR* variant to haemolytic anaemia**
