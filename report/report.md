@@ -1,28 +1,17 @@
-# Bioinformatics Report "11DP-C_Pyruvate-Kinase-Deficiency_IB_2026"
+# Pyruvate Kinase Deficiency: from a *PKLR* variant to haemolytic anaemia
 
-**Course:** Introduction to Bioinformatics · UPC · 2026–2027
-<br>
-**Group:** 11DP-C
-<br>
-**Authors:** Aarón Godino Martínez, Bruno Carrasquilla, Ettore Colombo, Leo Nader Al Hourani, Pol Monllau
+*Main Project Report, written from 21 October 2026 (tasks 4.1 to 4.6 of the [project plan](../gantt/PKD_4_Task_Details.md)) in the BMC Bioinformatics format: at most 7 pages or 5 000 words, whichever is shorter, and at most five figures or tables.*
 
-## Description
-*Pyruvate kinase deficiency is a rare inherited genetic disorder that causes red blood cells to break down too early, leading to a shortage of healthy red blood cells called hemolytic anemia.*
+Aarón Godino Martínez, Bruno Carrasquilla, Ettore Colombo, Leo Nader Al Hourani, Pol Monllau
+Group 11DP-C · BSc in Bioinformatics (UPC-UB-UAB-UPF), Barcelona, Spain
 
-## Repository Structure
-
-**11DP-C_Pyruvate-Kinase-Deficiency_IB_2026/**
-<br>
-├── README.md    ← *this file*
-<br>
-├── report.md    ← main report document*
-<br>
-├── .gitignore   ← *already created by GitHub*
-<br>
-└── figures/     ← *images and plots referenced in the report*
-<br>
-    &emsp;&emsp;└── .gitkeep ← *placeholder to track the empty folder*
-
-## How to Read This Report
-Open *report.md* directly on GitHub. It renders automatically.
-To read it locally, open the file in VS Code or any Markdown viewer.
+## Abstract
+## Keywords
+## Background
+## Results
+## Discussion
+## Conclusions
+## Methods
+## Abbreviations
+## Declarations
+## References
