@@ -15,7 +15,7 @@ The project runs from **Thu 17 Sep** to **Thu 5 Nov** (the oral defence), 34 wor
 
 ### Chart
 
-<img width="2840" height="2070" alt="image" src="https://github.com/user-attachments/assets/109ec8ef-08b4-4f64-b536-c9224b424866" />
+![Gantt chart of Group 11DP-C, plan of 9 October 2026](gantt_chart_2026-10-09.png)
 
 
 *Bar colour shows the phase (grey: Phase 0, completed; WP1 to WP4 in the colours of the legend); the thin line under each bar shows its owner. Shaded columns are holidays; ◆ marks milestones; the bottom row shows the class sessions.*
