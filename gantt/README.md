@@ -13,5 +13,11 @@ Gantt chart and risk analysis, frozen on 9 October 2026 (Disease Project Formal 
 
 Files in this folder:
 
-- [`gantt_chart_2026-10-09.png`](gantt_chart_2026-10-09.png): the Gantt chart of 9 October (frozen version).
-- [`Gantt_live_11DP-C.xlsx`](Gantt_live_11DP-C.xlsx): the live Gantt chart and Project Status, updated by each task owner until the end of the project.
+Frozen and live version of the Gantt Chart:
+◊ [`gantt_chart_2026-10-09.png`](gantt_chart_2026-10-09.png): the Gantt chart of 9 October (frozen version).
+◊ [`Gantt_live_11DP-C.xlsx`](Gantt_live_11DP-C.xlsx): the live Gantt chart and Project Status, updated by each task owner until the end of the project.
+
+Complete readable version of the project in .pdf and .html format:
+◊ [`Full_PDF_11DP-C_PKD_project.html`]: 
+◊ [`Full_HTML_11DP-C_PKD_project.html`]: 
+
