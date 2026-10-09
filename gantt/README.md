@@ -23,7 +23,7 @@ Frozen and live version of the Gantt Chart:
 
 Complete readable version of the project in .pdf and .html format:
 
-◊ [`Full_PDF_11DP-C_PKD_project.html`]: (Full_PDF_11DP-C_PKD_project.html)
+◊ [`Full_PDF_11DP-C_PKD_project.html`](Full_PDF_11DP-C_PKD_project.html)
 
-◊ [`Full_HTML_11DP-C_PKD_project.html`]: (Full_HTML_11DP-C_PKD_project.html)
+◊ [`Full_HTML_11DP-C_PKD_project.html`](Full_HTML_11DP-C_PKD_project.html)
 
