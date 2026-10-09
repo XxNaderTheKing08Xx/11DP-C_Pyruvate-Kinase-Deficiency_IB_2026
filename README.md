@@ -14,9 +14,8 @@
 | [`status/`](status/) | Live Project Status document (from 13 October) | Formal Requirements II.2 and III |
 | [`references/`](references/) | Reference list of the sources cited | Formal Requirements II.4 |
 | [`figures/`](figures/) | Images used in the report | — |
-| [`Labs/`](Labs/) | Work from the course lab sessions | — |
 
 ## Where to start
 
-The project plan submitted on 9 October: [`gantt/PKD_1_Introduction.md`]
+The project submitted on 9 October: [`gantt/PKD_1_Introduction.md`]
 
