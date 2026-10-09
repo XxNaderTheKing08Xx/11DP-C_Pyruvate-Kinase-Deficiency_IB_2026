@@ -11,13 +11,19 @@ Gantt chart and risk analysis, frozen on 9 October 2026 (Disease Project Formal 
 5. [3. Risk analysis](PKD_5_Risk_Analysis.md)
 6. [References](../references/PKD_6_References.md)
 
+
 Files in this folder:
 
 Frozen and live version of the Gantt Chart:
+
 ◊ [`gantt_chart_2026-10-09.png`](gantt_chart_2026-10-09.png): the Gantt chart of 9 October (frozen version).
+
 ◊ [`Gantt_live_11DP-C.xlsx`](Gantt_live_11DP-C.xlsx): the live Gantt chart and Project Status, updated by each task owner until the end of the project.
 
+
 Complete readable version of the project in .pdf and .html format:
+
 ◊ [`Full_PDF_11DP-C_PKD_project.html`]: 
+
 ◊ [`Full_HTML_11DP-C_PKD_project.html`]: 
 
