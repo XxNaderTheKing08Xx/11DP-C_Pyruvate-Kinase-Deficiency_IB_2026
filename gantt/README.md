@@ -23,9 +23,6 @@ Frozen and live version of the Gantt Chart:
 ◊ [`Gantt_live_11DP-C.xlsx`](Gantt_live_11DP-C.xlsx): the live Gantt chart and Project Status, updated by each task owner until the end of the project.
 
 
-Complete readable version of the project in .pdf and .html format:
+Complete readable version of the project in .pdf format:
 
-◊ [`Full_PDF_11DP-C_PKD_project.html`](Full_PDF_11DP-C_PKD_project.html)
-
-◊ [`Full_HTML_11DP-C_PKD_project.html`](Full_HTML_11DP-C_PKD_project.html)
-
+◊ [`Full_PDF_11DP-C_PKD_project.html`](Full_PDF_11DP-C_PKD_project.pdf)
