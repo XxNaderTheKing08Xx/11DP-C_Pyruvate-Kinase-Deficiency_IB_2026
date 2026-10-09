@@ -5,10 +5,10 @@
 Gantt chart and risk analysis, frozen on 9 October 2026 (Disease Project Formal Requirements, section IV). Read the sections in order:
 
 - [Introduction](PKD_1_Introduction.md)
-- [1. Project overview and team](PKD_2_Overview_and_Team.md)
-- [2. Gantt chart](PKD_3_Gantt_Chart.md)
-- [2. Gantt chart: task details](PKD_4_Task_Details.md)
-- [3. Risk analysis](PKD_5_Risk_Analysis.md)
+- [Project overview and team](PKD_2_Overview_and_Team.md)
+- [Gantt chart](PKD_3_Gantt_Chart.md)
+- [Gantt chart: task details](PKD_4_Task_Details.md)
+- [Risk analysis](PKD_5_Risk_Analysis.md)
 - [References](../references/PKD_6_References.md)
 
 
