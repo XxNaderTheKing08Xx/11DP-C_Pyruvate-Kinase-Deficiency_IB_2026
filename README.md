@@ -17,5 +17,7 @@
 
 ## Where to start
 
-The project submitted on 9 October: [`gantt/PKD_1_Introduction.md`]
+The project submitted on 9 October: 
+
+[`Full_PDF_11DP-C_PKD_project.pdf`](Full_PDF_11DP-C_PKD_project.pdf)
 
