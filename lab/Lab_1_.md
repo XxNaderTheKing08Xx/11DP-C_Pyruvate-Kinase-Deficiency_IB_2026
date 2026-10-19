@@ -34,12 +34,12 @@ PROT ID:[**NP\_036756.3**](https://www.ncbi.nlm.nih.gov/protein/NP_036756.3?repo
 ![][image1]  
 This mutation is a substitution variant, c.1456C \>T  
 Q5: If the mutation is a nucleotide substitution, is it synonymous, missense or nonsense?   
-**CGG \> TGG. CGG codes for arginine(Arg) and TGG codes for tryptophan(Trp), therefore it’s a missense type of mutation.**
+CGG \> TGG. CGG codes for arginine(Arg) and TGG codes for tryptophan(Trp), therefore it’s a missense type of mutation.
 
  ![][image2]
 
 Q6: If nucleotides have been inserted or deleted, could the change alter the reading frame (i.e. frameshift)?  
-**Yes, 	it will always change the reading frame that’s after the inserted or deleted nucleotide.**
+Yes, 	it will always change the reading frame that’s after the inserted or deleted nucleotide.
 
 **Wild type and mutant protein alignment**  
 **![][image3]**  
@@ -54,7 +54,7 @@ Q8: Could the substitution change the interactions made by this position? Why?
 **Yes, because the arginine is a positively charged, hydrophilic basic amino acid; if we change it by a neutrally charged hydrophobic amino acid such as tryptophan, which is soluble in low polarity environments and is heavier than arginine(204.23g/mol \> 174.20g/mol), it would cause a localized alteration of the molecule properties, resulting on a far less effective protein.**
 
 Q9: Could this affect how the protein folds or functions? Why?  
-**Yes, because the change from arginine (polar, positive aminoacid) to tryptophan (apolar, larger, neutral amino acid) introduces a significant change in charge, size and chemical properties. Therefore, hydrogen bonding, electrostatic interactions, crucial active sites will be disrupted, which will alter how the protein folds and its functions.**
+Yes, because the change from arginine (polar, positive aminoacid) to tryptophan (apolar, larger, neutral amino acid) introduces a significant change in charge, size and chemical properties. Therefore, hydrogen bonding, electrostatic interactions, crucial active sites will be disrupted, which will alter how the protein folds and its functions.
 
 Q10: How does the sequence variant observed at the CDS level compare with the sequence variant observed at the protein level? 
 
