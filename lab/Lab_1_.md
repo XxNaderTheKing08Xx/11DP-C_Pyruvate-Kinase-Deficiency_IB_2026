@@ -31,12 +31,12 @@ PROT ID:[**NP\_036756.3**](https://www.ncbi.nlm.nih.gov/protein/NP_036756.3?repo
 
 **Mutant and Wild-Type Sequence Alignment:**
 
-![Image 1](WT-mutant_nucleotide_alignment.png)  
+![Image 1](lab_images/WT-mutant_nucleotide_alignment.png)  
 This mutation is a substitution variant, c.1456C \>T  
 Q5: If the mutation is a nucleotide substitution, is it synonymous, missense or nonsense?   
 CGG \> TGG. CGG codes for arginine(Arg) and TGG codes for tryptophan(Trp), therefore it’s a missense type of mutation.
 
- ![Image 2](WT-mutant_protein_alignment.png)
+ ![Image 2](lab_images/WT-mutant_protein_alignment.png)
 
 Q6: If nucleotides have been inserted or deleted, could the change alter the reading frame (i.e. frameshift)?  
 Yes, 	it will always change the reading frame that’s after the inserted or deleted nucleotide.
@@ -70,11 +70,11 @@ Q13: Are there any sequence positions with variants across the three species, ei
 
 Q14: Are there any highly conserved regions across the three species in the protein  
 sequences?  
-![Image 4](Mus_Musculus_protein_alignment.png)  
+![Image 4](lab_images/Mus_Musculus_protein_alignment.png)  
 *Query: PKD protein WT*  
 *Sbjct: NP\_035229.2 pyruvate kinase PKM isoform M2 \[Mus musculus\]*
 
-![Image 5](Rattus_norvegicus_protein_alignment.png)  
+![Image 5](lab_images/Rattus_norvegicus_protein_alignment.png)  
 *Query: PKD protein WT*  
 *Sbjct: NP\_445749.1 pyruvate kinase PKM \[Rattus norvegicus\]*  
 There is a highly conserved region amongst the three homologs in the position 265-366 with just 6 different amino acids in the positions 278(K→R), 286(V→A), 319(L→R), 325(V→I), 336(T→K) and 345(T→G)  
