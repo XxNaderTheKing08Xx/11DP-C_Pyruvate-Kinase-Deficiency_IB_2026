@@ -65,6 +65,7 @@ variant in the amino-acid mutant sequence?
 The mutated nucleotide alters the amino acid identified with its respective codon, therefore, the translated peptide chain. This can be seen as swapping the C nucleotide by a T nucleotide alters the codon from CGG, that codifies for Arg, to TGG ,that codifies for Trp.
 
 Q12: Are there any highly conserved regions across the three species in the CDS sequences? 
+Yes, the CDS exhibits highly conserved regions across the three species. It exhibits highly conserved regions because there was an evolutionary pressure to conserve it, because the pyruvate kinase enzyme is very necessary (it’s the last catalytic step in glycolysis).
 
 Q13: Are there any sequence positions with variants across the three species, either substitutions or gaps in the CDS sequences? 
 
