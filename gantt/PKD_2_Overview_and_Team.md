@@ -1,3 +1,4 @@
+[PKD_2_Overview_and_Team.md](https://github.com/user-attachments/files/33724968/PKD_2_Overview_and_Team.md)
 ## 1. Project overview and team
 
 **Project name:** Pyruvate Kinase Deficiency: from a *PKLR* variant to haemolytic anaemia
@@ -12,10 +13,10 @@ Each specific objective corresponds to one topic of the Disease Project Overview
 
 | ID | Objective | Accomplished when | Due |
 |---|---|---|---|
-| SO1 | **Identify** the cause of the disease from the gene, protein, structure, and function perspectives. | **The gene, isoform, and variant are identified and named in HGVS nomenclature at DNA and protein level,** and the variant's clinical classification, population frequency, and published functional effect are recorded with sources. | Fri 16 Oct |
-| SO2 | **Describe** the differences between the wild-type and the mutant gene, protein, structure, and function. | The substituted residue is located relative to the active site, the allosteric site, and the interfaces; **wild-type and mutant structures are superposed and their differences quantified; the functional difference is reported from the literature.** | Mon 19 Oct |
-| SO3 | **Explain** how these differences affect the patient. | A causal chain from the **variant to enzyme activity, red-cell ATP, haemolysis, and clinical severity is written, with each step supported by a source,** and the evidence is classified as measured, hypothetical, or unknown. | Tue 20 Oct |
-| SO4 | **Compare** the gene, protein, structure, and function of human PK with those of its orthologs in at least two other species, including the rat. | Human PK is aligned with the rat and mouse orthologs and with the dog ortholog as outgroup; **the residue at the substituted position is reported for every species and the lineage of each difference is stated; human and rat structures are compared around that position.** | Tue 20 Oct |
+| SO1 | **Identify** the cause of the disease from the *gene, protein, structure, and function perspectives*. | **The gene, isoform, and variant are identified and named in HGVS nomenclature at DNA and protein level,** and the variant's clinical classification, population frequency, and published functional effect are recorded with sources. | Fri 16 Oct |
+| SO2 | **Describe** the differences between *the wild-type and the mutant gene, protein, structure, and function*. | The substituted residue is located relative to the active site, the allosteric site, and the interfaces; **wild-type and mutant structures are superposed and their differences quantified; the functional difference is reported from the literature**. | Mon 19 Oct |
+| SO3 | **Explain** how these differences *affect the patient*. | A causal chain from the **variant to enzyme activity, red-cell ATP, haemolysis, and clinical severity is written, with each step supported by a source,** and the evidence is classified as measured, hypothetical, or unknown. | Tue 20 Oct |
+| SO4 | **Compare** the gene, protein, structure, and function of human PK *with those of its orthologs in at least two other species, including the rat*. | Human PK is aligned with the rat and mouse orthologs and with the dog ortholog as outgroup; **the residue at the substituted position is reported for every species and the lineage of each difference is stated; human and rat structures are compared around that position.** We will use the provided Wild-Type sequences to perform both **sequence and structural comparision**.  | Tue 20 Oct |
 
 ### How we will reach each objective
 
@@ -55,28 +56,28 @@ Each specific objective corresponds to one topic of the Disease Project Overview
 
 | Aarón Godino Martínez — Product Owner |
 |-|
-| First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). Past student of Cassablancas high school at Sabadell north and Castellarnau high school at Castellarnau; basic coding skills in python. |
+| First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). Past student of Cassablancas high school at Sabadell north and Castellarnau high school at Castellarnau; basic coding skills in python. <p><p>GitHub username: [Idonthaveanyideafornames](https://github.com/Idonthaveanyideafornames)</p></p>|
 | **Responsibilities.** Keeps the work focused on the project question; reviews the literature; writes the Background and the Abstract; assembles and delivers the report. |
 
 | Bruno Carrasquilla — Sequence Analyst |
 |-|
 | First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). Student from Sant Ignasi Sarrià high school. |
-| **Responsibilities.** Characterizes the supplied sequences; performs the pairwise and multiple alignments; writes the sequence Results; coordinates the read-through and the defence rehearsal. |
+| **Responsibilities.** Characterizes the supplied sequences; performs the pairwise and multiple alignments; writes the sequence Results; coordinates the read-through and the defence rehearsal. <p><p>GitHub username: [BrunoCarrasquilla](https://github.com/BrunoCarrasquilla)</p></p>|
 
 | Ettore Colombo — Project Manager |
 |-|
 | First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). BSc and MSc in Clinical Psychology. Currently conducting the thesis-related lab research for his MSc in Neuroscience (UAB). Basic coding skills in Python and R. Former professional actor. Primary caregiver since 2020. |
-| **Responsibilities.** Plans and monitors the schedule; keeps the Project Status document; chairs the team meetings; writes the Discussion and Conclusions. |
+| **Responsibilities.** Plans and monitors the schedule; keeps the Project Status document; chairs the team meetings; writes the Discussion and Conclusions. <p><p>GitHub username: [AIHector](https://github.com/AIHector)</p></p>|
 
 | Leo Nader Al Hourani — Data and GitHub Manager |
 |-|
 | First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). Student from Salvador Espriu's high school |
-| **Responsibilities.**  Maintains the repository structure; retrieves identifiers, sequences, and variant evidence; archives the sources and the reference list; writes the Methods; checks the format; assembles the defence presentation. |
+| **Responsibilities.**  Maintains the repository structure; retrieves identifiers, sequences, and variant evidence; archives the sources and the reference list; writes the Methods; checks the format; assembles the defence presentation. <p><p>GitHub username: [XxNaderTheKing08Xx](https://github.com/XxNaderTheKing08Xx)</p></p>|
 
 | Pol Monllau — Structure Analyst |
 |-|
 | First-year student of the BSc in Bioinformatics (UPC-UB-UAB-UPF). Student from Betania-Patmos |
-| **Responsibilities.** Selects the structures; maps the substituted residue; performs the superpositions; writes the structure Results and prepares the figures. |
+| **Responsibilities.** Selects the structures; maps the substituted residue; performs the superpositions; writes the structure Results and prepares the figures. <p><p>GitHub username: [polmonllau](https://github.com/polmonllau)</p></p>|
 
 ### Distribution of the planned work
 
