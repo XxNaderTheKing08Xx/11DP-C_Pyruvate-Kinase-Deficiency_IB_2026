@@ -4,11 +4,11 @@
 
 Aarón Godino Martínez, Bruno Carrasquilla, Ettore Colombo, Leo Nader Al Hourani, Pol Monllau  
 Group 11DP-C · BSc in Bioinformatics (UPC-UB-UAB-UPF), Barcelona, Spain  
-*Introduction to Bioinformatics* (2026/27-01, FIB-2703103) · 9 October 2026
+*Introduction to Bioinformatics* (2026/27-01, FIB-2703103) · Submitted on 9 October 2026; revised on 20 October 2026 after the instructor's feedback
 
 ---
 
-**Contents:** [1. Project overview and team](PKD_2_Overview_and_Team.md) · [2. Gantt chart](PKD_3_Gantt_Chart.md) · [2. Gantt chart: task details](PKD_4_Task_Details.md) · [3. Risk analysis](PKD_5_Risk_Analysis.md) · [References](PKD_6_References.md)
+**Contents:** [1. Project overview and team](PKD_2_Overview_and_Team.md) · [2. Gantt chart](PKD_3_Gantt_Chart.md) · [2. Gantt chart: task details](PKD_4_Task_Details.md) · [3. Risk analysis](PKD_5_Risk_Analysis.md) · [References](../references/PKD_6_References.md)
 
 ---
 
@@ -22,7 +22,7 @@ This document is our project plan: it defines our objectives, the work needed to
 
 ### Pyruvate Kinase Deficiency (PKD) in brief
 
-**The enzyme.** Pyruvate kinase (PK) catalyses the last step of glycolysis: the irreversible transfer of a phosphate group from phosphoenolpyruvate to adenosine diphosphate (ADP), which yields pyruvate and adenosine triphosphate (ATP). Its activity is regulated allosterically (Bianchi and Fermo 2020). The enzyme is a tetramer of four identical subunits, and both of its human isoforms are activated by fructose 1,6-bisphosphate, an intermediate of an earlier step of glycolysis (Valentini *et al.* 2002).
+**The enzyme.** Pyruvate kinase (PK) catalyses the last step of glycolysis: the irreversible transfer of a phosphate group from phosphoenolpyruvate to adenosine diphosphate (ADP), which yields pyruvate and adenosine triphosphate (ATP). Its activity is regulated allosterically (Bianchi and Fermo 2020). The R-type enzyme is a homotetramer, and fructose 1,6-bisphosphate, an intermediate of an earlier step of glycolysis, is its allosteric activator (Valentini *et al.* 2002, UniProt Consortium 2026).
 
 **Why red blood cells are affected.** Mature red blood cells lack a nucleus and organelles, including mitochondria, and therefore depend entirely on glycolysis for the ATP they need to maintain their integrity and function (Bianchi and Fermo 2020, Fattizzo *et al.* 2022, Luke *et al.* 2023). When PK activity is insufficient, ATP levels fall and the upstream metabolite 2,3-diphosphoglycerate (2,3-DPG) accumulates; the red cells become rigid and less flexible and are removed prematurely from the circulation, mainly in the spleen (Bianchi and Fermo 2020, Fattizzo *et al.* 2022). Because the anaemia is chronic and 2,3-DPG favours the release of oxygen to the tissues, patients may tolerate it better than other forms of anaemia (Fattizzo *et al.* 2022). The result is a chronic non-spherocytic haemolytic anaemia, whose severity ranges from mild or fully compensated haemolysis to life-threatening neonatal anaemia that requires exchange transfusion (Bianchi and Fermo 2020). In the 254 patients of the PKD Natural History Study, the most frequent complications were iron overload (48%) and gallstones (45%); pulmonary hypertension, extramedullary haematopoiesis, and leg ulcers were also observed (Grace *et al.* 2018).
 
@@ -64,7 +64,7 @@ Our general objective is to **explain** how the variant present in our mutant se
 1. **Identify** the cause of the disease from the gene, protein, structure, and function perspectives.
 2. **Describe** the differences between the wild-type and the mutant gene, protein, structure, and function.
 3. **Explain** how these differences affect the patient.
-4. **Compare** the gene, protein, structure, and function of human PK with those of its orthologs in at least two other species, including the rat, and infer what the comparison reveals about the affected function.
+4. **Compare** the gene, protein, structure, and function of wild-type human PK with those of its orthologs in at least two other species, including the rat, and assess the evolutionary conservation of the position affected by the variant.
 
 ### Our approach
 
@@ -74,8 +74,8 @@ The work is organized in six steps, each with a defined output; most of them app
 | ---------------------------- | ------------------------------------------------------------ | -------------------------------------------- | --------------------------------------------- | --------- |
 | 1. Sequence characterization | Verify that each CDS translates into the corresponding protein sequence; identify and name every difference between wild type and mutant, in the coding sequence and in the protein sequence | Sequence translation and pairwise comparison | Data sources                                  | 1, 2      |
 | 2. Background review         | Review the normal function of the gene and the enzyme, and the mechanism, inheritance, and clinical features of PKD | PubMed, NCBI Gene, OMIM, UniProt             | Data sources; paper structure and citation    | 1, 3      |
-| 3. Comparative analysis      | Retrieve the orthologous sequences, align them with the human sequence, and assess the conservation of the substituted position | UniProt, Ensembl, Clustal Omega              | Sequence alignment (8 and 15 Oct)             | 4         |
-| 4. Structural analysis       | Locate the substituted residue in experimental structures, relative to the active and allosteric sites; superpose the wild-type and mutant structures | PDB, molecular visualization software        | PDB (1 Oct); structure superposition (22 Oct) | 1, 2      |
+| 3. Comparative analysis      | Retrieve the wild-type orthologous sequences, align them with the wild-type human sequence, and assess the conservation of the substituted position | UniProt, Ensembl, Clustal Omega              | Sequence alignment (8 and 15 Oct)             | 4         |
+| 4. Structural analysis       | Locate the substituted residue in experimental structures, relative to the active and allosteric sites; superpose the wild-type and mutant structures; compare the human R-type and rat L-type structures around the substituted position | PDB, molecular visualization software        | PDB (1 Oct); structure superposition (22 Oct) | 1, 2, 4   |
 | 5. Pathogenicity assessment  | Combine clinical classification, population frequency, conservation, structural, and biochemical data, distinguishing measured results from hypotheses and open questions | ClinVar, gnomAD, primary literature          | Integrated bioinformatics reasoning (19 Oct)  | 2, 3      |
 | 6. Synthesis and report      | Write the answer to the project question as a manuscript in the *BMC Bioinformatics* format | GitHub, Markdown                             | Project management and GitHub                 | all       |
 
@@ -93,14 +93,14 @@ The project is developed in a **GitHub repository**, to which each member commit
 
 The project runs from 17 September 2026, when it was presented in class and our repository was created, to the oral defence on 5 November, Monday to Friday, excluding the holidays of 24 September (local) and 12 October (national). The key dates are:
 
-- **9 October:** submission of this plan (18:00 in the Disease Project Overview, 22:00 on the course's Moodle page; we work to the earlier time);
+- **9 October:** submission of this plan;
 - **22 October:** discussion of our Project Status document in class;
-- **28 October, 18:00:** delivery of the final report on GitHub (the Overview gives "Monday October 28th", but 28 October 2026 is a Wednesday, so we have asked the instructors to confirm the date);
+- **28 October, 18:00:** delivery of the final report on GitHub;
 - **5 November:** oral defence.
 
 ### Risks
 
-We identified our risks from the requirements stated in the course instructions. The five scored as high are committing work in bulk or too late, an unequal contribution among members, selecting an incorrect database record or misinterpreting a result, developing the parts of the project in isolation, and failing to meet the report format or the delivery deadline. Each risk has an owner and a contingency plan.
+Our risk analysis lists only external risks: uncertain events outside our control. We identified them from the Disease Project Overview, the course schedule, and the tools and databases on which our analysis depends. The four scored as high are the unavailability of GitHub near a deadline; the unavailability of the public databases (UniProt, PDB, NCBI) or the revision of their records during the project; the unavailability of a member through illness or other unforeseen circumstances; and the overlap of the project with the exams and deadlines of other courses. Each risk has an owner and a contingency plan. Committing our own work regularly, sharing the work equally, keeping the required repository structure, and updating the live documents are not risks but our obligations, which we manage through the plan and the Project Status document.
 
 ### Structure of this document
 
