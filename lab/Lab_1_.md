@@ -68,6 +68,8 @@ Q12: Are there any highly conserved regions across the three species in the CDS 
 Yes, the CDS exhibits highly conserved regions across the three species. It exhibits highly conserved regions because there was an evolutionary pressure to conserve it, because the pyruvate kinase enzyme is very necessary (it’s the last catalytic step in glycolysis).
 
 Q13: Are there any sequence positions with variants across the three species, either substitutions or gaps in the CDS sequences? 
+Yes, there are multiple sequence positions with variants across the three species, including nucleotide substitutions and gaps in the CDS.
+
 
 Q14: Are there any highly conserved regions across the three species in the protein  
 sequences?  
