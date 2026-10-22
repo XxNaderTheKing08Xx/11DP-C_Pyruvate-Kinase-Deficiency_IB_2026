@@ -69,7 +69,8 @@ Yes, the CDS exhibits highly conserved regions across the three species. It exhi
 
 Q13: Are there any sequence positions with variants across the three species, either substitutions or gaps in the CDS sequences? 
 Yes, there are multiple sequence positions with variants across the three species, including nucleotide substitutions and gaps in the CDS.
-
+![Image 4](lab_images/gaps.png)
+This image is one of the gaps in the CDS (along the substitutions that are presented in the variants)
 
 Q14: Are there any highly conserved regions across the three species in the protein  
 sequences?  
