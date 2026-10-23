@@ -1,3 +1,0 @@
-  - blast=2.17.0=h81fc81c_1
-  - clustalo=1.2.4=haef7865_10
-  - emboss=6.6.0=h842aaed_14
