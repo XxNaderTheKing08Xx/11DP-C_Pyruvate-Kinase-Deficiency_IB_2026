@@ -95,7 +95,7 @@ The project runs from 17 September 2026, when it was presented in class and our 
 
 - **9 October:** submission of this plan;
 - **22 October:** discussion of our Project Status document in class;
-- **28 October, 18:00:** delivery of the final report on GitHub;
+- **26 October:** delivery of the final report on GitHub;
 - **5 November:** oral defence.
 
 ### Risks
