@@ -1,0 +1,2 @@
+biopython 1.88 matplotlib 3.11.2
+Python 3.15.0
