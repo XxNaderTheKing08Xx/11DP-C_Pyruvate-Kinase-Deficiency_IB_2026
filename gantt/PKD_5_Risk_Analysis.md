@@ -14,7 +14,7 @@ This section only lists **external risks**, that is, events outside our control 
 
 ### Risk register
 
-| ID | External risk | L | I | Score | Level | Owner | Status on 8 Oct | Source |
+| ID | External risk | L | I | Score | Level | Owner | Status on 18 Oct | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R1 | GitHub unavailable or access problems near a deadline | 2 | 3 | **6** | High | Ettore | Open | Overview, Timelines |
 | R2 | Public databases (UniProt, PDB, NCBI) unavailable, or their records updated or superseded during the project | 2 | 3 | **6** | High | Bruno | Open | Overview, Content Integration |
@@ -30,10 +30,10 @@ This section only lists **external risks**, that is, events outside our control 
 
 **High risks**
 
-- **R1 (6).** Our identified risk is *GitHub being unavailable or inaccessible near a deadline*, we have realized because the whole project is developed and assessed in GitHub, content committed after the deadline is discarded, and the Gantt chart must be delivered on 9 October at 18:00 and the project closed on 26 October at 22:00; our contingency plan consists of finishing each delivery at least one day before its deadline, keeping a local clone of the repository on every member's computer, committing at the end of every work session so that little work is ever pending, and contacting the instructors immediately with the evidence of the outage if it affects a deadline.
+- **R1 (6).** Our identified risk is *GitHub being unavailable or inaccessible near a deadline*, we have realized because the whole project is developed and assessed in GitHub, content committed after the deadline is discarded, the plan was delivered on 9 October, and the final report must be submitted by 26 October; our contingency plan consists of finishing each delivery at least one day before its deadline, keeping a local clone of the repository on every member's computer, committing at the end of every work session so that little work is ever pending, and contacting the instructors immediately with the evidence of the outage if it affects a deadline.
 - **R2 (6).** Our identified risk is *the public databases being unavailable, or their records being updated or superseded while we work*, we have realized because our analysis depends on UniProt, the PDB and genomic databases, whose entries and PDB codes are revised over time, and some codes printed in the literature have already been superseded; our contingency plan consists of recording every accession number with its access date, downloading and archiving in the repository the sequences and structure files we use, checking the current record before citing it, and using an alternative database or mirror if one is unavailable.
 - **R3 (6).** Our identified risk is *a member becoming unavailable because of illness or unforeseen personal circumstances*, we have realized because the project lasts several weeks, is developed by five members and requires every member to defend their own part; our contingency plan consists of assigning to every task a second member who knows its status, documenting each task in the Project Status document so that others can continue it, redistributing the pending tasks in the next weekly meeting, and updating the Gantt chart with the new dates.
-- **R4 (6).** Our identified risk is *exams and deadlines from other courses overlapping with the project*, we have realized because the project runs through October with fixed deliveries (9, 22 and 26 October) and all members have other academic obligations; our contingency plan consists of collecting each member's known exam and delivery dates at the first meeting, scheduling the heaviest tasks away from those dates, leaving a margin of at least two days before each delivery, and rebalancing tasks between members when a conflict appears.
+- **R4 (6).** Our identified risk is *exams and deadlines from other courses overlapping with the project*, we have realized because the project runs through October with fixed dates (the plan on 9 October, the discussion of the Project Status on 22 October, and the final report on 26 October) and all members have other academic obligations; our contingency plan consists of collecting each member's known exam and delivery dates at the first meeting, scheduling the heaviest tasks away from those dates, leaving a margin of at least two days before each delivery, and rebalancing tasks between members when a conflict appears.
 
 **Medium risks**
 
@@ -64,4 +64,4 @@ Risk monitoring is documented in this register, which is copied into the Project
 
 ---
 
-[← 2. Gantt chart: task details](PKD_4_Task_Details.md) · [Index](README.md) · [References →](PKD_6_References.md)
+[← 2. Gantt chart: task details](PKD_4_Task_Details.md) · [Index](README.md) · [References →](../references/PKD_6_References.md)
