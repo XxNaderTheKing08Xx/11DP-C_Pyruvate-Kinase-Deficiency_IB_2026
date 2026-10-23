@@ -1,0 +1,83 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Oct 2026 17:52:48
+# Commandline: needle
+#    -asequence results/needle/seqs/Human_P30613.fasta
+#    -bsequence results/needle/seqs/Rat_P12928.fasta
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile results/needle/needle_protein_Human_vs_Rat.needle
+#    -auto
+# Align_format: srspair
+# Report_file: results/needle/needle_protein_Human_vs_Rat.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Human_P30613
+# 2: Rat_P12928
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 574
+# Identity:     523/574 (91.1%)
+# Similarity:   546/574 (95.1%)
+# Gaps:           0/574 ( 0.0%)
+# Score: 2647.0
+# 
+#
+#=======================================
+
+Human_P30613       1 MSIQENISSLQLRSWVSKSQRDLAKSILIGAPGGPAGYLRRASVAQLTQE     50
+                     ||:|||....||..|:.:||:|||||.|.|||||||||||||||||||||
+Rat_P12928         1 MSVQENTLPQQLWPWIFRSQKDLAKSALSGAPGGPAGYLRRASVAQLTQE     50
+
+Human_P30613      51 LGTAFFQQQQLPAAMADTFLEHLCLLDIDSEPVAARSTSIIATIGPASRS    100
+                     ||||||||||||||||||||||||||||||:|||||||||||||||||||
+Rat_P12928        51 LGTAFFQQQQLPAAMADTFLEHLCLLDIDSQPVAARSTSIIATIGPASRS    100
+
+Human_P30613     101 VERLKEMIKAGMNIARLNFSHGSHEYHAESIANVREAVESFAGSPLSYRP    150
+                     |:|||||||||||||||||||||||||||||||:|||.||||.|||||||
+Rat_P12928       101 VDRLKEMIKAGMNIARLNFSHGSHEYHAESIANIREATESFATSPLSYRP    150
+
+Human_P30613     151 VAIALDTKGPEIRTGILQGGPESEVELVKGSQVLVTVDPAFRTRGNANTV    200
+                     |||||||||||||||:||||||||||:||||||||||||.|:|||:|.||
+Rat_P12928       151 VAIALDTKGPEIRTGVLQGGPESEVEIVKGSQVLVTVDPKFQTRGDAKTV    200
+
+Human_P30613     201 WVDYPNIVRVVPVGGRIYIDDGLISLVVQKIGPEGLVTQVENGGVLGSRK    250
+                     ||||.||.|||.||||||||||||||||||||||||||:||:||:|||||
+Rat_P12928       201 WVDYHNITRVVAVGGRIYIDDGLISLVVQKIGPEGLVTEVEHGGILGSRK    250
+
+Human_P30613     251 GVNLPGAQVDLPGLSEQDVRDLRFGVEHGVDIVFASFVRKASDVAAVRAA    300
+                     |||||..:||||||||||:.||||||:|.|||:|||||||||||.|||.|
+Rat_P12928       251 GVNLPNTEVDLPGLSEQDLLDLRFGVQHNVDIIFASFVRKASDVLAVRDA    300
+
+Human_P30613     301 LGPEGHGIKIISKIENHEGVKRFDEILEVSDGIMVARGDLGIEIPAEKVF    350
+                     |||||..||||||||||||||:||||||||||||||||||||||||||||
+Rat_P12928       301 LGPEGQNIKIISKIENHEGVKKFDEILEVSDGIMVARGDLGIEIPAEKVF    350
+
+Human_P30613     351 LAQKMMIGRCNLAGKPVVCATQMLESMITKPRPTRAETSDVANAVLDGAD    400
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+Rat_P12928       351 LAQKMMIGRCNLAGKPVVCATQMLESMITKARPTRAETSDVANAVLDGAD    400
+
+Human_P30613     401 CIMLSGETAKGNFPVEAVKMQHAIAREAEAAVYHRQLFEELRRAAPLSRD    450
+                     |||||||||||:||||||.|||||||||||||||||||||||||||||||
+Rat_P12928       401 CIMLSGETAKGSFPVEAVMMQHAIAREAEAAVYHRQLFEELRRAAPLSRD    450
+
+Human_P30613     451 PTEVTAIGAVEAAFKCCAAAIIVLTTTGRSAQLLSRYRPRAAVIAVTRSA    500
+                     ||||||||||||:||||||||||||.|||||||||:||||||||||||||
+Rat_P12928       451 PTEVTAIGAVEASFKCCAAAIIVLTKTGRSAQLLSQYRPRAAVIAVTRSA    500
+
+Human_P30613     501 QAARQVHLCRGVFPLLYREPPEAIWADDVDRRVQFGIESGKLRGFLRVGD    550
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+Rat_P12928       501 QAARQVHLSRGVFPLLYREPPEAIWADDVDRRVQFGIESGKLRGFLRVGD    550
+
+Human_P30613     551 LVIVVTGWRPGSGYTNIMRVLSIS    574
+                     ||||||||||||||||||||||:|
+Rat_P12928       551 LVIVVTGWRPGSGYTNIMRVLSVS    574
+
+
+#---------------------------------------
+#---------------------------------------

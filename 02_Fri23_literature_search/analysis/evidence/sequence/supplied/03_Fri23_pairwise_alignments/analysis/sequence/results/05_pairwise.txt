@@ -1,0 +1,27 @@
+== CDS translation checks (standard code)
+Human NM_000298.6: 1725 nt; translation 574 aa; equals Human P30613: True; differences (translation vs Swiss-Prot): []
+Rat XM_006232593.5: 1725 nt; translation 574 aa; equals Rat P12928: True; differences (translation vs Swiss-Prot): []
+Mouse NM_013631.2: 1725 nt; translation 574 aa; equals Mouse P53657: False; differences (translation vs Swiss-Prot): [(279, 'N', 'Y'), (335, 'V', 'M')]
+Dog NM_001256262.2: 1725 nt; translation 574 aa; equals Dog Q29536: True; differences (translation vs Swiss-Prot): []
+
+== Pairwise global alignments (Biopython PairwiseAligner, Needle-equivalent)
+protein Human P30613 vs Rat P12928: length 574, identity 523/574 (91.1%), similarity 546/574 (95.1%), gaps 0/574 (0.0%), score 2647.0
+CDS Human NM_000298.6 vs Rat XM_006232593.5: length 1726, identity 1493/1726 (86.5%), gaps 2/1726 (0.1%), score 6521.0
+protein Human P30613 vs Mouse P53657: length 574, identity 526/574 (91.6%), similarity 548/574 (95.5%), gaps 0/574 (0.0%), score 2655.0
+CDS Human NM_000298.6 vs Mouse NM_013631.2: length 1729, identity 1496/1729 (86.5%), gaps 8/1729 (0.5%), score 6519.0
+protein Human P30613 vs Dog Q29536: length 574, identity 531/574 (92.5%), similarity 549/574 (95.6%), gaps 0/574 (0.0%), score 2663.0
+CDS Human NM_000298.6 vs Dog NM_001256262.2: length 1727, identity 1546/1727 (89.5%), gaps 4/1727 (0.2%), score 7001.0
+
+== Other protein pairs
+Rat P12928 vs Mouse P53657: identity 96.3%, similarity 98.8%, gaps 0
+Rat P12928 vs Dog Q29536: identity 89.4%, similarity 93.6%, gaps 0
+Mouse P53657 vs Dog Q29536: identity 90.1%, similarity 93.6%, gaps 0
+
+== EMBOSS needle 6.6.0 (gapopen 10, gapextend 0.5; protein EBLOSUM62, DNA EDNAFULL; endweight false)
+protein Human P30613 vs Rat P12928: needle length 574, identity 523 (91.1%), similarity 546 (95.1%), gaps 0, score 2647.0; Biopython identity 523, gaps 0, score 2647.0 -> agree: True
+cds Human NM_000298.6 vs Rat XM_006232593.5: needle length 1726, identity 1493 (86.5%), similarity 1493 (86.5%), gaps 2, score 6521.0; Biopython identity 1493, gaps 2, score 6521.0 -> agree: True
+protein Human P30613 vs Mouse P53657: needle length 574, identity 526 (91.6%), similarity 548 (95.5%), gaps 0, score 2655.0; Biopython identity 526, gaps 0, score 2655.0 -> agree: True
+cds Human NM_000298.6 vs Mouse NM_013631.2: needle length 1729, identity 1496 (86.5%), similarity 1496 (86.5%), gaps 8, score 6519.0; Biopython identity 1496, gaps 8, score 6519.0 -> agree: True
+protein Human P30613 vs Dog Q29536: needle length 574, identity 531 (92.5%), similarity 549 (95.6%), gaps 0, score 2663.0; Biopython identity 531, gaps 0, score 2663.0 -> agree: True
+cds Human NM_000298.6 vs Dog NM_001256262.2: needle length 1727, identity 1546 (89.5%), similarity 1546 (89.5%), gaps 4, score 7001.0; Biopython identity 1546, gaps 4, score 7001.0 -> agree: True
+All needle vs Biopython counts agree: True

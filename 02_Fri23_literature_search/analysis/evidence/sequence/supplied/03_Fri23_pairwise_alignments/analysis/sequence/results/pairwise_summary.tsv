@@ -1,0 +1,4 @@
+pair_protein	prot_len	prot_identity	prot_pid	prot_similarity	prot_psim	prot_gaps	pair_cds	cds_len	cds_identity	cds_pid	cds_gaps
+Human P30613 vs Rat P12928	574	523	91.1	546	95.1	0	Human NM_000298.6 vs Rat XM_006232593.5	1726	1493	86.5	2
+Human P30613 vs Mouse P53657	574	526	91.6	548	95.5	0	Human NM_000298.6 vs Mouse NM_013631.2	1729	1496	86.5	8
+Human P30613 vs Dog Q29536	574	531	92.5	549	95.6	0	Human NM_000298.6 vs Dog NM_001256262.2	1727	1546	89.5	4
