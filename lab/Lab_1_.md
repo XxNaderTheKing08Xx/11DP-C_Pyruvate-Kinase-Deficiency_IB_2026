@@ -2,30 +2,38 @@ LAB\_1: Sequence Alignment
 
 Fasta file: PKD\_CDS\_WT.fasta
 
-Correspon al gen: PKLR pyruvate kinase L/R \[ *Homo sapiens* (human) \]  
+Corresponds to the gene: PKLR pyruvate kinase L/R \[ *Homo sapiens* (human) \]  
 ([**NM\_000298.6**](https://www.ncbi.nlm.nih.gov/nucleotide/NM_000298.6?report=genbank&log$=nuclalign&blast_rank=5&RID=CEN67ERK014))  
 Summary:  
 The protein encoded by this gene is a pyruvate kinase that catalyzes the transphosphorylation of phosphoenolpyruvate into pyruvate and ATP, which is the rate-limiting step of glycolysis. Defects in this enzyme, due to gene mutations or genetic variations, are the common cause of chronic hereditary nonspherocytic hemolytic anemia (CNSHA or HNSHA). Multiple transcript variants encoding different isoforms have been found for this gene. \[provided by RefSeq, Jul 2008\] 
 
-GENE WT HIT ID: 5313  
-PROT WT HIT (PubChem CID): 2244  
-OMIM: [https\://omim.org/entry/266200?search=PKLR\&highlight=pklr](https://omim.org/entry/266200?search=PKLR&highlight=pklr)
+GENE WT HIT ID: 5313 (NCBI Gene; HGNC:9020)  
+PROT WT HIT: NP\_000289.1 (RefSeq); UniProtKB [P30613](https://www.uniprot.org/uniprotkb/P30613/entry) (KPYR\_HUMAN; canonical isoform = R-type, 574 aa)  
+OMIM (gene): [609712](https://omim.org/entry/609712) (*PKLR*)  
+OMIM (phenotype): [266200](https://omim.org/entry/266200) (pyruvate kinase deficiency of red cells)
 
 In both cases the Query coverage and Identity is 100% and the E-value is 0
 
-The gene has 13 exons and its location is 1q22.  
-The tissues are expressed mainly in the intestine 15wk, 17wk and 20wk but also in the kidneys and the stomach
+The gene is located at 1q22 (HGNC). The NCBI Gene record lists 13 exons; the R-type transcript NM\_000298.6 has 11 exons, and the literature numbers the gene as 12 exons (exon 1 specific to the R-type mRNA, exon 2 specific to the L-type mRNA; Kanno *et al.* 1992).  
+NCBI Gene summarizes the RNA expression of *PKLR* as "Biased expression in liver (RPKM 34.0), kidney (RPKM 20.1) and 3 other tissues" (bone marrow, duodenum, small intestine). The R-type isoform is the isoform of red blood cells; the L-type isoform is that of the liver.
 
 Fasta file: PKD\_protein\_WT.fasta  
-Correspon al gen: PKLR pyruvate kinase L/R \[ *Homo sapiens* (human) \]  
+Corresponds to the gene: PKLR pyruvate kinase L/R \[ *Homo sapiens* (human) \]  
 ([**NP\_000289.1**](https://www.ncbi.nlm.nih.gov/protein/NP_000289.1?report=genbank&log$=protalign&blast_rank=1&RID=CENURNDS016))  
 Summary:  
 The protein encoded by this gene is a pyruvate kinase that catalyzes the transphosphorylation of phosphoenolpyruvate into pyruvate and ATP, which is the rate-limiting step of glycolysis. Defects in this enzyme, due to gene mutations or genetic variations, are the common cause of chronic hereditary nonspherocytic hemolytic anemia (CNSHA or HNSHA). Multiple transcript variants encoding different isoforms have been found for this gene. \[provided by RefSeq, Jul 2008\] 
 
-**Homolog (Rattus norvegicus) files:**
+**Orthologue (*Rattus norvegicus*, rat) files:**
 
-GENE ID:[**NM\_012624.3**](https://www.ncbi.nlm.nih.gov/nucleotide/NM_012624.3?report=genbank&log$=nuclalign&blast_rank=5&RID=CETD4MVB014)   
-PROT ID:[**NP\_036756.3**](https://www.ncbi.nlm.nih.gov/protein/NP_036756.3?report=genbank&log$=protalign&blast_rank=3&RID=CETGKGMM016) 
+GENE ID: [**NM\_012624.3**](https://www.ncbi.nlm.nih.gov/nucleotide/NM_012624.3?report=genbank&log$=nuclalign&blast_rank=5&RID=CETD4MVB014) (L-type transcript, RefSeq Select)  
+PROT ID: [**NP\_036756.3**](https://www.ncbi.nlm.nih.gov/protein/NP_036756.3?report=genbank&log$=protalign&blast_rank=3&RID=CETGKGMM016) (L-type isoform, 543 aa)  
+Numbering: L-type residue number = R-type residue number − 31, so rat L-type Gln455 = rat R-type Gln486, the position of human Arg486.  
+R-type records, used for the comparisons with the human R-type sequences: CDS XM\_006232593.5 / protein XP\_006232655.1 (RefSeq model, 574 aa; identical to UniProtKB [P12928](https://www.uniprot.org/uniprotkb/P12928/entry)).
+
+**Orthologue (*Mus musculus*, mouse) files:**
+
+GENE ID: [**NM\_013631.2**](https://www.ncbi.nlm.nih.gov/nuccore/NM_013631.2) (R-type transcript, RefSeq Select)  
+PROT ID: [**NP\_038659.2**](https://www.ncbi.nlm.nih.gov/protein/NP_038659.2) (R-type isoform, 574 aa; UniProtKB [P53657](https://www.uniprot.org/uniprotkb/P53657/entry); NP\_038659.2 differs from P53657 at residues 279 and 335, neither near residue 486)
 
 **LAB SESSION 2**
 
@@ -36,41 +44,48 @@ This mutation is a substitution variant, c.1456C \>T
 Q5: If the mutation is a nucleotide substitution, is it synonymous, missense or nonsense?   
 CGG \> TGG. CGG codes for arginine(Arg) and TGG codes for tryptophan(Trp), therefore it’s a missense type of mutation.
 
- ![Image 2](lab_images/WT-mutant_protein_alignment.png)
-
 Q6: If nucleotides have been inserted or deleted, could the change alter the reading frame (i.e. frameshift)?  
-Yes, 	it will always change the reading frame that’s after the inserted or deleted nucleotide.
+Yes, if the number of inserted or deleted nucleotides is not a multiple of three: then every codon downstream of the insertion or deletion is read in a different frame (frameshift). An insertion or deletion of a multiple of three nucleotides adds or removes whole codons without shifting the frame. The variant studied here is a substitution, so no frameshift occurs.
 
 **Wild type and mutant protein alignment**  
-**![][image3]**  
+![Image 2](lab_images/WT-mutant_protein_alignment.png)  
 The mutation is a change from arginine to tryptophan and it is located in p.Arg486Trp
 
 Q7: How do the properties of the WT and mutant amino acids differ?  
-**Arg is a basic amino acid (with a side chain containing nitrogen that can accept protons) that is hydrophilic and positively charged at physiological PH.**  
-**Trp is an aromatic protein that has a double aromatic ring. It is a hydrophobic amino acid that is neutrally charged at physiological pH.**  
+Arg is a basic amino acid whose side chain ends in a guanidino group, which is protonated (guanidinium) at physiological pH; it is hydrophilic and positively charged.  
+Trp is an aromatic amino acid whose side chain is an indole (a benzene ring fused to a pyrrole ring); it is hydrophobic and uncharged at physiological pH.  
 [https\://pmc.ncbi.nlm.nih.gov/articles/PMC11274641/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11274641/)
 
 Q8: Could the substitution change the interactions made by this position? Why?  
-**Yes, because the arginine is a positively charged, hydrophilic basic amino acid; if we change it by a neutrally charged hydrophobic amino acid such as tryptophan, which is soluble in low polarity environments and is heavier than arginine(204.23g/mol \> 174.20g/mol), it would cause a localized alteration of the molecule properties, resulting on a far less effective protein.**
+It could. Arg can form hydrogen bonds and ionic interactions through its positively charged side chain, whereas Trp is larger, uncharged, and aromatic (free amino acids: Trp 204.23 g/mol, Arg 174.20 g/mol), so the interactions made at this position could change. The crystal structures show what happens at this position (Valentini *et al.* 2002; our analysis in `analysis/structure/`). In the wild-type enzyme (PDB 2VGB) the Arg486 side chain hydrogen-bonds the main-chain carbonyl oxygen of Leu362 (2.7–2.9 Å) at the contact between the A and C domains of the same subunit, and it forms no salt bridge. In the mutant (PDB 2VGI) the indole NH of Trp486 hydrogen-bonds the carbonyl oxygens of Asn361 and Leu362, so the hydrogen bond to the 361–362 carbonyls is kept with a different donor.
 
 Q9: Could this affect how the protein folds or functions? Why?  
-Yes, because the change from arginine (polar, positive aminoacid) to tryptophan (apolar, larger, neutral amino acid) introduces a significant change in charge, size and chemical properties. Therefore, hydrogen bonding, electrostatic interactions, crucial active sites will be disrupted, which will alter how the protein folds and its functions.
+It could, because the change from arginine (polar, positively charged) to tryptophan (apolar, larger, uncharged) changes charge, size, and chemical properties. The measured data show which effect occurs. Valentini *et al.* (2002) expressed and characterized recombinant R486W:
+- Catalysis is impaired: k\_cat 195 ± 4 s⁻¹ versus 355 ± 12 s⁻¹ for the wild type; S0.5 for phosphoenolpyruvate 1.69 versus 1.10 mM; k\_cat/S0.5 116 versus 323 s⁻¹ mM⁻¹ (Table II, p. 23810).
+- Stability is not reduced: the thermostability of R486W at 53 °C is slightly higher than that of the wild type (Fig. 3B, p. 23811).
+- Allosteric activation is retained: with 1 mM fructose 1,6-bisphosphate, S0.5 for phosphoenolpyruvate falls from 1.69 to 0.40 mM (Table II).
+- In the crystal structure Trp486 is accommodated without a change of the protein backbone, and residue 486 is far from the active site (≥ 20 Å according to the paper; 24.3–24.6 Å from the bound phosphoglycolate in PDB 2VGB in our measurement).
+
+These data indicate that the substitution lowers the catalytic efficiency of the enzyme without reducing its thermostability or its activation by fructose 1,6-bisphosphate.
 
 Q10: How does the sequence variant observed at the CDS level compare with the sequence variant observed at the protein level? 
 
-The mutant variant has changed a C nucleotide by a T nucleotide, this causes a missense in the aminoacid sequence changing an Arg into a Trp ( as we only have 1 mutation which has translated into the change of an amino acid, there is no differences from the Nucleotide mutations and the mutations in the primary sequence of the protein )
+The mutant CDS has a T instead of a C at position 1456 (c.1456C>T), and the mutant protein has a Trp instead of an Arg at position 486 (p.Arg486Trp), a missense change. As there is only one nucleotide difference and it changes one codon, the two levels correspond one to one: one nucleotide substitution gives one amino-acid substitution.
 
 Q11: How does the nucleotide variant in the CDS mutant sequence produce the observed  
 variant in the amino-acid mutant sequence?  
-The mutated nucleotide alters the amino acid identified with its respective codon, therefore, the translated peptide chain. This can be seen as swapping the C nucleotide by a T nucleotide alters the codon from CGG, that codifies for Arg, to TGG ,that codifies for Trp.
+The substituted nucleotide is the first nucleotide of codon 486 (nucleotides 1456–1458). Replacing the C by a T changes the codon from CGG, which codes for Arg, to TGG, which codes for Trp, so translation places Trp instead of Arg at position 486 of the protein chain.
 
 Q12: Are there any highly conserved regions across the three species in the CDS sequences? 
-Yes, the CDS exhibits highly conserved regions across the three species. It exhibits highly conserved regions because there was an evolutionary pressure to conserve it, because the pyruvate kinase enzyme is very necessary (it’s the last catalytic step in glycolysis).
+Yes. The R-type CDSs of human (NM\_000298.6), rat (XM\_006232593.5), and mouse (NM\_013631.2) are all 1725 nt long and are 86.4% identical position by position (human–rat 1491/1725; human–mouse 1490/1725). A plausible explanation of this conservation is selection to preserve the function of the enzyme, which catalyses the last step of glycolysis. The specific conserved regions have to be read from the new CDS alignment of these three records.
 
 Q13: Are there any sequence positions with variants across the three species, either substitutions or gaps in the CDS sequences? 
-Yes, there are multiple sequence positions with variants across the three species, including nucleotide substitutions and gaps in the CDS.
-![Image 4](lab_images/gaps.png)
-This image is one of the gaps in the CDS (along the substitutions that are presented in the variants)
+Yes, there are substitutions but no true gaps.
+- Substitutions: 234 of the 1725 positions differ between human and rat, and 235 between human and mouse (position-by-position comparison of the R-type CDSs). At codon 486, human has CGG (Arg), rat CAA (Gln), and mouse CGC (Arg).
+- Gaps: all three R-type CDSs are 1725 nt long and the encoded proteins (574 aa) align without gaps. The EMBOSS Needle CDS alignments contain 2 (rat) and 8 (mouse) gap columns; these are compensating one-nucleotide gaps that replace mismatches (alignment artefacts), not insertions or deletions.
+
+![Image 3](lab_images/gaps.png)  
+Note: this screenshot shows query positions 2086–2145 and subject positions 1861–1917, which lie outside a 1725-nt CDS, so it does not come from the CDS alignment. It must be retaken from the alignment of NM\_000298.6 with XM\_006232593.5 (rat) and NM\_013631.2 (mouse).
 
 Q14: Are there any highly conserved regions across the three species in the protein  
 sequences?  
@@ -81,7 +96,9 @@ sequences?
 ![Image 5](lab_images/Rattus_norvegicus_protein_alignment.png)  
 *Query: PKD protein WT*  
 *Sbjct: NP\_445749.1 pyruvate kinase PKM \[Rattus norvegicus\]*  
-There is a highly conserved region amongst the three homologs in the position 265-366 with just 6 different amino acids in the positions 278(K→R), 286(V→A), 319(L→R), 325(V→I), 336(T→K) and 345(T→G)  
+Note: images 4 and 5 show alignments with PKM, the paralogue of PKLR (NP\_035229.2 and NP\_445749.1, 531 aa each), not with the PKLR orthologues. They must be replaced by screenshots of the alignments of the WT protein with mouse NP\_038659.2 (UniProtKB P53657) and rat XP\_006232655.1 (UniProtKB P12928, R-type).
+
+Yes. Human PKLR (P30613) is 91.1% identical (523/574) and 95.1% similar to rat P12928, and 91.6% identical (526/574) and 95.5% similar to mouse P53657, with no gaps (EMBOSS Needle; BLOSUM62, gap open 10, gap extension 0.5). Around the variant, positions 476–496 are identical in human, rat, mouse, and dog except positions 476 (Thr/Lys) and 486 (Arg/Gln) (19 of 21 positions identical).
 Q15: Are there any sequence positions with variants across the three species, either  
 substitutions or gaps in the protein sequences?
 
