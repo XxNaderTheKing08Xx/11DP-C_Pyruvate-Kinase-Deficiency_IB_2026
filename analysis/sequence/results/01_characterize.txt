@@ -1,0 +1,40 @@
+== Supplied files
+CDS WT: length 1725
+CDS mutant: length 1725
+protein WT: length 574
+protein mutant: length 574
+CDS lengths divisible by 3: True True
+start codon WT/mutant: ATG ATG | stop codon: TGA TGA
+translation WT ends with stop '*': True | internal stops: 0
+translation mutant ends with stop '*': True | internal stops: 0
+translation(CDS WT) == supplied protein WT: True
+translation(CDS mutant) == supplied protein mutant: True
+
+== WT vs mutant differences
+number of nucleotide differences: 1 [(1456, 'C', 'T')]
+number of amino-acid differences: 1 [(486, 'R', 'W')]
+c.1456C>T: codon 486, codon position 1; CGG -> TGG; R -> W
+HGVS protein: p.Arg486Trp (1-letter p.R486W)
+CDS context c.1451..c.1461: WT TGTCT[C]GGTAC  mutant TGTCT[T]GGTAC
+dinucleotide c.1456-c.1457 in WT: CG (CpG: True)
+transition (C>T/G>A/A>G/T>C): True
+
+== Comparison with reference records (identity over full length)
+supplied CDS WT vs RefSeq NM_000298.6 CDS (44..1768): length 1725; identical: True; differences: []
+supplied CDS mutant vs RefSeq NM_000298.6 CDS (44..1768): length 1725; identical: False; differences: [(1456, 'T', 'C')]
+supplied CDS WT vs Ensembl ENST00000342741.6 CDS: length 1725; identical: True; differences: []
+supplied CDS mutant vs Ensembl ENST00000342741.6 CDS: length 1725; identical: False; differences: [(1456, 'T', 'C')]
+supplied protein WT vs RefSeq NP_000289.1: length 574; identical: True; differences: []
+supplied protein WT vs UniProt P30613 (canonical, SV=2): length 574; identical: True; differences: []
+supplied protein WT vs Ensembl ENSP00000339933.4: length 574; identical: True; differences: []
+
+== R-type vs L-type
+L-type NM_181871.4 CDS length: 1632 | NP_870986.1 length: 543
+R-type (supplied) length: 574
+length difference R - L (aa): 31
+longest common C-terminal suffix: 541 aa -> R-type 34..574 = L-type 3..543
+R-type-specific N-terminus: R 1..33 = MSIQENISSLQLRSWVSKSQRDLAKSILIGAPG
+L-type-specific N-terminus: L 1..2 = ME
+R-type residue 486 = R; L-type residue 455 = R (R486 corresponds to L455: offset 31)
+Supplied CDS equals R-type CDS: True | equals L-type CDS: False
+supplied WT protein window 476..496: TTGRSAQLLSRYRPRAAVIAV
