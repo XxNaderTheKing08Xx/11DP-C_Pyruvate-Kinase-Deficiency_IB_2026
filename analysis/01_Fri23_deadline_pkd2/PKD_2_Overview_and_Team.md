@@ -1,4 +1,4 @@
-[PKD_2_Overview_and_Team.md](https://github.com/user-attachments/files/33724968/PKD_2_Overview_and_Team.md)
+[PKD_2_Overview_and_Team.md](https://github.com/user-attachments/files/33893819/PKD_2_Overview_and_Team.md)
 ## 1. Project overview and team
 
 **Project name:** Pyruvate Kinase Deficiency: from a *PKLR* variant to haemolytic anaemia
@@ -23,9 +23,9 @@ Each specific objective corresponds to one topic of the Disease Project Overview
 | ID | Overview topic | Class sessions applied | Tasks | Output in the report |
 |---|---|---|---|---|
 | SO1 | Cause of the disease | Data sources; paper structure and citation | 2.1, 2.2, 2.3, 2.4, 2.8 | Background; Table 1 (variant and evidence) |
-| SO2 | Healthy versus disease state | Structural biology; PDB; structure superposition | 2.1, 2.6, 3.3, 3.4 | Results; Figure 2 (wild-type and mutant structures) |
-| SO3 | Impact on the patient | Integrated bioinformatics reasoning | 2.4, 3.6, 3.7 | Discussion; Figure 3 (from variant to patient) |
-| SO4 | Comparison with other species | Genomics; sequence alignment labs 1 and 2 | 2.5, 3.1, 3.2, 3.5, 3.9 | Results; Table 2 (identity) and Figure 1 (alignment) |
+| SO2 | Healthy versus disease state | Structural biology; PDB; structure superposition | 2.1, 2.6, 3.3, 3.4 | Results; Figures 2 and 3 (location of residue 486; wild-type and mutant structures) |
+| SO3 | Impact on the patient | Integrated bioinformatics reasoning | 2.4, 3.6, 3.7 | Discussion (from the variant to the patient) |
+| SO4 | Comparison with other species | Genomics; sequence alignment labs 1 and 2 | 2.5, 3.1, 3.2, 3.5, 3.9 | Results; Figure 1 (alignment) and Table 2 (species comparison) |
 
 *Planned outputs: two tables and three figures, the maximum of five outputs allowed by the template.*
 
