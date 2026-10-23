@@ -1,0 +1,83 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Oct 2026 17:52:48
+# Commandline: needle
+#    -asequence results/needle/seqs/Human_P30613.fasta
+#    -bsequence results/needle/seqs/Mouse_P53657.fasta
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile results/needle/needle_protein_Human_vs_Mouse.needle
+#    -auto
+# Align_format: srspair
+# Report_file: results/needle/needle_protein_Human_vs_Mouse.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Human_P30613
+# 2: Mouse_P53657
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 574
+# Identity:     526/574 (91.6%)
+# Similarity:   548/574 (95.5%)
+# Gaps:           0/574 ( 0.0%)
+# Score: 2655.0
+# 
+#
+#=======================================
+
+Human_P30613       1 MSIQENISSLQLRSWVSKSQRDLAKSILIGAPGGPAGYLRRASVAQLTQE     50
+                     ||:|||....||..|:.|||:|||||.|.|||||||||||||||||||||
+Mouse_P53657       1 MSVQENELPQQLWPWIFKSQKDLAKSALSGAPGGPAGYLRRASVAQLTQE     50
+
+Human_P30613      51 LGTAFFQQQQLPAAMADTFLEHLCLLDIDSEPVAARSTSIIATIGPASRS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_P53657      51 LGTAFFQQQQLPAAMADTFLEHLCLLDIDSEPVAARSTSIIATIGPASRS    100
+
+Human_P30613     101 VERLKEMIKAGMNIARLNFSHGSHEYHAESIANVREAVESFAGSPLSYRP    150
+                     |:|||||||||||||||||||||||||||||||:|||.||||.|||||||
+Mouse_P53657     101 VDRLKEMIKAGMNIARLNFSHGSHEYHAESIANIREAAESFATSPLSYRP    150
+
+Human_P30613     151 VAIALDTKGPEIRTGILQGGPESEVELVKGSQVLVTVDPAFRTRGNANTV    200
+                     |||||||||||||||:||||||||||:||||||||||||.|||||:|.||
+Mouse_P53657     151 VAIALDTKGPEIRTGVLQGGPESEVEIVKGSQVLVTVDPKFRTRGDAKTV    200
+
+Human_P30613     201 WVDYPNIVRVVPVGGRIYIDDGLISLVVQKIGPEGLVTQVENGGVLGSRK    250
+                     ||||.||.:||.||||||||||||||||:|||||||||:||:||.||:||
+Mouse_P53657     201 WVDYHNITQVVAVGGRIYIDDGLISLVVRKIGPEGLVTEVEHGGFLGNRK    250
+
+Human_P30613     251 GVNLPGAQVDLPGLSEQDVRDLRFGVEHGVDIVFASFVRKASDVAAVRAA    300
+                     |||||.|:||||||||||:.||||||||.|||:|||||||||||.|||.|
+Mouse_P53657     251 GVNLPNAEVDLPGLSEQDLLDLRFGVEHYVDIIFASFVRKASDVVAVRDA    300
+
+Human_P30613     301 LGPEGHGIKIISKIENHEGVKRFDEILEVSDGIMVARGDLGIEIPAEKVF    350
+                     |||||.|||||||||||||||:||||||||||||:|||||||||||||||
+Mouse_P53657     301 LGPEGRGIKIISKIENHEGVKKFDEILEVSDGIMMARGDLGIEIPAEKVF    350
+
+Human_P30613     351 LAQKMMIGRCNLAGKPVVCATQMLESMITKPRPTRAETSDVANAVLDGAD    400
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+Mouse_P53657     351 LAQKMMIGRCNLAGKPVVCATQMLESMITKARPTRAETSDVANAVLDGAD    400
+
+Human_P30613     401 CIMLSGETAKGNFPVEAVKMQHAIAREAEAAVYHRQLFEELRRAAPLSRD    450
+                     |||||||||||:||||||||||||||||||||||||||||||||||||||
+Mouse_P53657     401 CIMLSGETAKGSFPVEAVKMQHAIAREAEAAVYHRQLFEELRRAAPLSRD    450
+
+Human_P30613     451 PTEVTAIGAVEAAFKCCAAAIIVLTTTGRSAQLLSRYRPRAAVIAVTRSA    500
+                     ||||||||||||:||||||||||||.||||||||||||||||||||||||
+Mouse_P53657     451 PTEVTAIGAVEASFKCCAAAIIVLTKTGRSAQLLSRYRPRAAVIAVTRSA    500
+
+Human_P30613     501 QAARQVHLCRGVFPLLYREPPEAIWADDVDRRVQFGIESGKLRGFLRVGD    550
+                     ||||||||.||||||||||||||:||||||||||||||||||||||||||
+Mouse_P53657     501 QAARQVHLSRGVFPLLYREPPEAVWADDVDRRVQFGIESGKLRGFLRVGD    550
+
+Human_P30613     551 LVIVVTGWRPGSGYTNIMRVLSIS    574
+                     |||||||||||||||||||||:||
+Mouse_P53657     551 LVIVVTGWRPGSGYTNIMRVLTIS    574
+
+
+#---------------------------------------
+#---------------------------------------
