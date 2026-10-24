@@ -1,0 +1,639 @@
+{
+ "header": {
+  "type": "esummary",
+  "version": "0.3"
+ },
+ "result": {
+  "uids": [
+   "1513",
+   "626259",
+   "873616"
+  ],
+  "1513": {
+   "uid": "1513",
+   "obj_type": "single nucleotide variant",
+   "accession": "VCV000001513",
+   "accession_version": "VCV000001513.102",
+   "title": "NM_000298.6(PKLR):c.1456C>T (p.Arg486Trp)",
+   "variation_set": [
+    {
+     "measure_id": "16552",
+     "variation_xrefs": [
+      {
+       "db_source": "ClinGen",
+       "db_id": "CA215080"
+      },
+      {
+       "db_source": "UniProtKB",
+       "db_id": "P30613#VAR_004066"
+      },
+      {
+       "db_source": "OMIM",
+       "db_id": "609712.0009"
+      },
+      {
+       "db_source": "dbSNP",
+       "db_id": "116100695"
+      }
+     ],
+     "variation_name": "NM_000298.6(PKLR):c.1456C>T (p.Arg486Trp)",
+     "cdna_change": "c.1456C>T",
+     "aliases": [
+      "p.(Arg486Trp)"
+     ],
+     "variation_loc": [
+      {
+       "status": "current",
+       "assembly_name": "GRCh38",
+       "chr": "1",
+       "band": "1q22",
+       "start": "155291918",
+       "stop": "155291918",
+       "inner_start": "",
+       "inner_stop": "",
+       "outer_start": "",
+       "outer_stop": "",
+       "display_start": "155291918",
+       "display_stop": "155291918",
+       "assembly_acc_ver": "GCF_000001405.38",
+       "annotation_release": "",
+       "alt": "",
+       "ref": ""
+      },
+      {
+       "status": "previous",
+       "assembly_name": "GRCh37",
+       "chr": "1",
+       "band": "1q22",
+       "start": "155261709",
+       "stop": "155261709",
+       "inner_start": "",
+       "inner_stop": "",
+       "outer_start": "",
+       "outer_stop": "",
+       "display_start": "155261709",
+       "display_stop": "155261709",
+       "assembly_acc_ver": "GCF_000001405.25",
+       "annotation_release": "",
+       "alt": "",
+       "ref": ""
+      }
+     ],
+     "allele_freq_set": [
+      {
+       "source": "NHLBI Exome Sequencing Project (ESP) Exome Variant Server",
+       "value": "0.00208",
+       "minor_allele": ""
+      },
+      {
+       "source": "Trans-Omics for Precision Medicine (TOPMed)",
+       "value": "0.00229",
+       "minor_allele": ""
+      },
+      {
+       "source": "The Genome Aggregation Database (gnomAD)",
+       "value": "0.00270",
+       "minor_allele": ""
+      },
+      {
+       "source": "The Genome Aggregation Database (gnomAD)",
+       "value": "0.00279",
+       "minor_allele": ""
+      },
+      {
+       "source": "Exome Aggregation Consortium (ExAC)",
+       "value": "0.00285",
+       "minor_allele": ""
+      },
+      {
+       "source": "The Genome Aggregation Database (gnomAD), exomes",
+       "value": "0.00297",
+       "minor_allele": ""
+      },
+      {
+       "source": "The Genome Aggregation Database (gnomAD), exomes",
+       "value": "0.00305",
+       "minor_allele": ""
+      },
+      {
+       "source": "1000 Genomes Project",
+       "value": "0.00160",
+       "minor_allele": "A"
+      }
+     ],
+     "variant_type": "single nucleotide variant",
+     "canonical_spdi": "NC_000001.11:155291917:G:A",
+     "common_name": ""
+    }
+   ],
+   "supporting_submissions": {
+    "scv": [
+     "SCV002518869",
+     "SCV004243293",
+     "SCV000331623",
+     "SCV000893217",
+     "SCV000713497",
+     "SCV002024662",
+     "SCV007095982",
+     "SCV005415943",
+     "SCV000223943",
+     "SCV001142310",
+     "SCV001550687",
+     "SCV002523854",
+     "SCV004223638",
+     "SCV004808207",
+     "SCV005197175",
+     "SCV000021733",
+     "SCV005399102",
+     "SCV004171978",
+     "SCV005873637",
+     "SCV006324914",
+     "SCV001792018",
+     "SCV007122147",
+     "SCV001713042",
+     "SCV000885966",
+     "SCV001035168",
+     "SCV007557274",
+     "SCV007598459",
+     "SCV007600386",
+     "SCV007602635",
+     "SCV002521511",
+     "SCV001746867",
+     "SCV007762245",
+     "SCV005344843"
+    ],
+    "rcv": [
+     "RCV000001577",
+     "RCV000724015",
+     "RCV000762857",
+     "RCV000991156",
+     "RCV002251854",
+     "RCV004751189",
+     "RCV006659115"
+    ]
+   },
+   "germline_classification": {
+    "description": "Pathogenic/Likely pathogenic",
+    "last_evaluated": "2026/03/20 00:00",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "fda_recognized_database": "",
+    "trait_set": [
+     {
+      "trait_xrefs": [],
+      "trait_name": "PKLR-related disorder"
+     },
+     {
+      "trait_xrefs": [
+       {
+        "db_source": "MedGen",
+        "db_id": "C0950123"
+       },
+       {
+        "db_source": "MeSH",
+        "db_id": "D030342"
+       }
+      ],
+      "trait_name": "Inborn genetic diseases"
+     },
+     {
+      "trait_xrefs": [
+       {
+        "db_source": "MedGen",
+        "db_id": "C1863224"
+       },
+       {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0007067"
+       },
+       {
+        "db_source": "OMIM",
+        "db_id": "102900"
+       }
+      ],
+      "trait_name": "Pyruvate kinase hyperactivity"
+     },
+     {
+      "trait_xrefs": [
+       {
+        "db_source": "Orphanet",
+        "db_id": "766"
+       },
+       {
+        "db_source": "MedGen",
+        "db_id": "C0340968"
+       },
+       {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0009950"
+       },
+       {
+        "db_source": "OMIM",
+        "db_id": "266200"
+       }
+      ],
+      "trait_name": "Pyruvate kinase deficiency of red cells"
+     },
+     {
+      "trait_xrefs": [
+       {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+       }
+      ],
+      "trait_name": "not provided"
+     },
+     {
+      "trait_xrefs": [
+       {
+        "db_source": "MedGen",
+        "db_id": "C1863224"
+       },
+       {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0007067"
+       },
+       {
+        "db_source": "OMIM",
+        "db_id": "102900"
+       }
+      ],
+      "trait_name": "Pyruvate kinase hyperactivity"
+     },
+     {
+      "trait_xrefs": [
+       {
+        "db_source": "Orphanet",
+        "db_id": "766"
+       },
+       {
+        "db_source": "MedGen",
+        "db_id": "C0340968"
+       },
+       {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0009950"
+       },
+       {
+        "db_source": "OMIM",
+        "db_id": "266200"
+       }
+      ],
+      "trait_name": "Pyruvate kinase deficiency of red cells"
+     },
+     {
+      "trait_xrefs": [],
+      "trait_name": "See cases"
+     }
+    ]
+   },
+   "clinical_impact_classification": {
+    "description": "",
+    "last_evaluated": "1/01/01 00:00",
+    "review_status": "",
+    "fda_recognized_database": "",
+    "trait_set": []
+   },
+   "oncogenicity_classification": {
+    "description": "",
+    "last_evaluated": "1/01/01 00:00",
+    "review_status": "",
+    "fda_recognized_database": "",
+    "trait_set": []
+   },
+   "record_status": "",
+   "gene_sort": "PKLR",
+   "chr_sort": "01",
+   "location_sort": "00000000000155291918",
+   "variation_set_name": "",
+   "variation_set_id": "",
+   "genes": [
+    {
+     "symbol": "PKLR",
+     "geneid": "5313",
+     "strand": "-",
+     "source": "submitted"
+    }
+   ],
+   "molecular_consequence_list": [
+    "missense variant"
+   ],
+   "protein_change": "R486W, R455W",
+   "fda_recognized_database": ""
+  },
+  "626259": {
+   "uid": "626259",
+   "obj_type": "single nucleotide variant",
+   "accession": "VCV000626259",
+   "accession_version": "VCV000626259.4",
+   "title": "NM_000298.6(PKLR):c.1067T>G (p.Met356Arg)",
+   "variation_set": [
+    {
+     "measure_id": "614553",
+     "variation_xrefs": [
+      {
+       "db_source": "ClinGen",
+       "db_id": "CA342753373"
+      },
+      {
+       "db_source": "dbSNP",
+       "db_id": "752423472"
+      }
+     ],
+     "variation_name": "NM_000298.6(PKLR):c.1067T>G (p.Met356Arg)",
+     "cdna_change": "c.1067T>G",
+     "aliases": [],
+     "variation_loc": [
+      {
+       "status": "current",
+       "assembly_name": "GRCh38",
+       "chr": "1",
+       "band": "1q22",
+       "start": "155294284",
+       "stop": "155294284",
+       "inner_start": "",
+       "inner_stop": "",
+       "outer_start": "",
+       "outer_stop": "",
+       "display_start": "155294284",
+       "display_stop": "155294284",
+       "assembly_acc_ver": "GCF_000001405.38",
+       "annotation_release": "",
+       "alt": "",
+       "ref": ""
+      },
+      {
+       "status": "previous",
+       "assembly_name": "GRCh37",
+       "chr": "1",
+       "band": "1q22",
+       "start": "155264075",
+       "stop": "155264075",
+       "inner_start": "",
+       "inner_stop": "",
+       "outer_start": "",
+       "outer_stop": "",
+       "display_start": "155264075",
+       "display_stop": "155264075",
+       "assembly_acc_ver": "GCF_000001405.25",
+       "annotation_release": "",
+       "alt": "",
+       "ref": ""
+      }
+     ],
+     "allele_freq_set": [],
+     "variant_type": "single nucleotide variant",
+     "canonical_spdi": "NC_000001.11:155294283:A:C",
+     "common_name": ""
+    }
+   ],
+   "supporting_submissions": {
+    "scv": [
+     "SCV000897719"
+    ],
+    "rcv": [
+     "RCV000768418"
+    ]
+   },
+   "germline_classification": {
+    "description": "Likely pathogenic",
+    "last_evaluated": "1/01/01 00:00",
+    "review_status": "no assertion criteria provided",
+    "fda_recognized_database": "",
+    "trait_set": [
+     {
+      "trait_xrefs": [
+       {
+        "db_source": "Orphanet",
+        "db_id": "766"
+       },
+       {
+        "db_source": "MedGen",
+        "db_id": "C0340968"
+       },
+       {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0009950"
+       },
+       {
+        "db_source": "OMIM",
+        "db_id": "266200"
+       }
+      ],
+      "trait_name": "Pyruvate kinase deficiency of red cells"
+     }
+    ]
+   },
+   "clinical_impact_classification": {
+    "description": "",
+    "last_evaluated": "1/01/01 00:00",
+    "review_status": "",
+    "fda_recognized_database": "",
+    "trait_set": []
+   },
+   "oncogenicity_classification": {
+    "description": "",
+    "last_evaluated": "1/01/01 00:00",
+    "review_status": "",
+    "fda_recognized_database": "",
+    "trait_set": []
+   },
+   "record_status": "",
+   "gene_sort": "PKLR",
+   "chr_sort": "01",
+   "location_sort": "00000000000155294284",
+   "variation_set_name": "",
+   "variation_set_id": "",
+   "genes": [
+    {
+     "symbol": "PKLR",
+     "geneid": "5313",
+     "strand": "-",
+     "source": "submitted"
+    }
+   ],
+   "molecular_consequence_list": [
+    "missense variant"
+   ],
+   "protein_change": "M356R, M325R",
+   "fda_recognized_database": ""
+  },
+  "873616": {
+   "uid": "873616",
+   "obj_type": "single nucleotide variant",
+   "accession": "VCV000873616",
+   "accession_version": "VCV000873616.7",
+   "title": "NM_000298.6(PKLR):c.1457G>A (p.Arg486Gln)",
+   "variation_set": [
+    {
+     "measure_id": "862407",
+     "variation_xrefs": [
+      {
+       "db_source": "ClinGen",
+       "db_id": "CA1143991"
+      },
+      {
+       "db_source": "dbSNP",
+       "db_id": "768210809"
+      }
+     ],
+     "variation_name": "NM_000298.6(PKLR):c.1457G>A (p.Arg486Gln)",
+     "cdna_change": "c.1457G>A",
+     "aliases": [
+      "NC_000001.10:g.155261708C>T"
+     ],
+     "variation_loc": [
+      {
+       "status": "current",
+       "assembly_name": "GRCh38",
+       "chr": "1",
+       "band": "1q22",
+       "start": "155291917",
+       "stop": "155291917",
+       "inner_start": "",
+       "inner_stop": "",
+       "outer_start": "",
+       "outer_stop": "",
+       "display_start": "155291917",
+       "display_stop": "155291917",
+       "assembly_acc_ver": "GCF_000001405.38",
+       "annotation_release": "",
+       "alt": "",
+       "ref": ""
+      },
+      {
+       "status": "previous",
+       "assembly_name": "GRCh37",
+       "chr": "1",
+       "band": "1q22",
+       "start": "155261708",
+       "stop": "155261708",
+       "inner_start": "",
+       "inner_stop": "",
+       "outer_start": "",
+       "outer_stop": "",
+       "display_start": "155261708",
+       "display_stop": "155261708",
+       "assembly_acc_ver": "GCF_000001405.25",
+       "annotation_release": "",
+       "alt": "T",
+       "ref": "C"
+      }
+     ],
+     "allele_freq_set": [
+      {
+       "source": "The Genome Aggregation Database (gnomAD)",
+       "value": "0.00001",
+       "minor_allele": ""
+      },
+      {
+       "source": "Trans-Omics for Precision Medicine (TOPMed)",
+       "value": "0.00001",
+       "minor_allele": ""
+      },
+      {
+       "source": "The Genome Aggregation Database (gnomAD), exomes",
+       "value": "0.00003",
+       "minor_allele": ""
+      },
+      {
+       "source": "The Genome Aggregation Database (gnomAD), exomes",
+       "value": "0.00004",
+       "minor_allele": ""
+      },
+      {
+       "source": "Exome Aggregation Consortium (ExAC)",
+       "value": "0.00007",
+       "minor_allele": ""
+      }
+     ],
+     "variant_type": "single nucleotide variant",
+     "canonical_spdi": "NC_000001.11:155291916:C:T",
+     "common_name": ""
+    }
+   ],
+   "supporting_submissions": {
+    "scv": [
+     "SCV001252103",
+     "SCV004236096",
+     "SCV006596601"
+    ],
+    "rcv": [
+     "RCV001095924",
+     "RCV003490065",
+     "RCV005913656"
+    ]
+   },
+   "germline_classification": {
+    "description": "Uncertain significance",
+    "last_evaluated": "2023/04/04 00:00",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "fda_recognized_database": "",
+    "trait_set": [
+     {
+      "trait_xrefs": [
+       {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+       }
+      ],
+      "trait_name": "not provided"
+     },
+     {
+      "trait_xrefs": [
+       {
+        "db_source": "Orphanet",
+        "db_id": "766"
+       },
+       {
+        "db_source": "MedGen",
+        "db_id": "C0340968"
+       },
+       {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0009950"
+       },
+       {
+        "db_source": "OMIM",
+        "db_id": "266200"
+       }
+      ],
+      "trait_name": "Pyruvate kinase deficiency of red cells"
+     }
+    ]
+   },
+   "clinical_impact_classification": {
+    "description": "",
+    "last_evaluated": "1/01/01 00:00",
+    "review_status": "",
+    "fda_recognized_database": "",
+    "trait_set": []
+   },
+   "oncogenicity_classification": {
+    "description": "",
+    "last_evaluated": "1/01/01 00:00",
+    "review_status": "",
+    "fda_recognized_database": "",
+    "trait_set": []
+   },
+   "record_status": "",
+   "gene_sort": "PKLR",
+   "chr_sort": "01",
+   "location_sort": "00000000000155291917",
+   "variation_set_name": "",
+   "variation_set_id": "",
+   "genes": [
+    {
+     "symbol": "PKLR",
+     "geneid": "5313",
+     "strand": "-",
+     "source": "submitted"
+    }
+   ],
+   "molecular_consequence_list": [
+    "missense variant"
+   ],
+   "protein_change": "R486Q, R455Q",
+   "fda_recognized_database": ""
+  }
+ }
+}

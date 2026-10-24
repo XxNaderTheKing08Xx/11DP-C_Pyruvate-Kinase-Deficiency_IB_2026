@@ -1,0 +1,31 @@
+{
+ "header": {
+  "type": "esearch",
+  "version": "0.3"
+ },
+ "esearchresult": {
+  "count": "1",
+  "retmax": "1",
+  "retstart": "0",
+  "idlist": [
+   "873616"
+  ],
+  "translationset": [],
+  "translationstack": [
+   {
+    "term": "PKLR[gene]",
+    "field": "gene",
+    "count": "513",
+    "explode": "N"
+   },
+   {
+    "term": "\"p0x2eArg486Gln\"[All Fields]",
+    "field": "All Fields",
+    "count": "125",
+    "explode": "N"
+   },
+   "AND"
+  ],
+  "querytranslation": "PKLR[gene] AND \"p0x2eArg486Gln\"[All Fields]"
+ }
+}

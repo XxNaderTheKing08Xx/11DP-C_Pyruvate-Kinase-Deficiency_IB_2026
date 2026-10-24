@@ -1,0 +1,40 @@
+{
+ "header": {
+  "type": "esearch",
+  "version": "0.3"
+ },
+ "esearchresult": {
+  "count": "2",
+  "retmax": "2",
+  "retstart": "0",
+  "idlist": [
+   "873616",
+   "1513"
+  ],
+  "translationset": [],
+  "translationstack": [
+   {
+    "term": "PKLR[gene]",
+    "field": "gene",
+    "count": "513",
+    "explode": "N"
+   },
+   {
+    "term": "Arg486[All Fields]",
+    "field": "All Fields",
+    "count": "650",
+    "explode": "N"
+   },
+   {
+    "term": "R486[All Fields]",
+    "field": "All Fields",
+    "count": "573",
+    "explode": "N"
+   },
+   "OR",
+   "GROUP",
+   "AND"
+  ],
+  "querytranslation": "PKLR[gene] AND (Arg486[All Fields] OR R486[All Fields])"
+ }
+}

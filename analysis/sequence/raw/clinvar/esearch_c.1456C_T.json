@@ -1,0 +1,25 @@
+{
+ "header": {
+  "type": "esearch",
+  "version": "0.3"
+ },
+ "esearchresult": {
+  "count": "1",
+  "retmax": "1",
+  "retstart": "0",
+  "idlist": [
+   "1513"
+  ],
+  "translationset": [],
+  "translationstack": [
+   {
+    "term": "\"NM_000298.6(PKLR):c0x2e1456C0x3eT\"[All Fields]",
+    "field": "All Fields",
+    "count": "1",
+    "explode": "N"
+   },
+   "GROUP"
+  ],
+  "querytranslation": "\"NM_000298.6(PKLR):c0x2e1456C0x3eT\"[All Fields]"
+ }
+}
