@@ -1,0 +1,29 @@
+esearch [PKLR[gene] AND "p.Arg486Trp"] -> count 2, ids ['626259', '1513']
+esearch [PKLR[gene] AND "p.Arg486Gln"] -> count 1, ids ['873616']
+esearch ["NM_000298.6(PKLR):c.1456C>T"] -> count 1, ids ['1513']
+esearch ["NM_000298.6(PKLR):c.1457G>A"] -> count 1, ids ['873616']
+esearch [PKLR[gene] AND (Arg486 OR R486)] -> count 2, ids ['873616', '1513']
+---
+VariationID: 1513 | accession: VCV000001513 VCV000001513.102
+title: NM_000298.6(PKLR):c.1456C>T (p.Arg486Trp)
+protein change: R486W, R455W
+germline classification: Pathogenic/Likely pathogenic | review status: criteria provided, multiple submitters, no conflicts | last evaluated: 2026/03/20 00:00
+conditions: ['PKLR-related disorder', 'Inborn genetic diseases', 'Pyruvate kinase hyperactivity', 'Pyruvate kinase deficiency of red cells', 'not provided', 'Pyruvate kinase hyperactivity', 'Pyruvate kinase deficiency of red cells', 'See cases']
+variation: NM_000298.6(PKLR):c.1456C>T (p.Arg486Trp) | cdna: c.1456C>T | xrefs: [('ClinGen', 'CA215080'), ('UniProtKB', 'P30613#VAR_004066'), ('OMIM', '609712.0009'), ('dbSNP', '116100695')]
+GRCh38 location: 1 155291918 155291918
+---
+VariationID: 626259 | accession: VCV000626259 VCV000626259.4
+title: NM_000298.6(PKLR):c.1067T>G (p.Met356Arg)
+protein change: M356R, M325R
+germline classification: Likely pathogenic | review status: no assertion criteria provided | last evaluated: 1/01/01 00:00
+conditions: ['Pyruvate kinase deficiency of red cells']
+variation: NM_000298.6(PKLR):c.1067T>G (p.Met356Arg) | cdna: c.1067T>G | xrefs: [('ClinGen', 'CA342753373'), ('dbSNP', '752423472')]
+GRCh38 location: 1 155294284 155294284
+---
+VariationID: 873616 | accession: VCV000873616 VCV000873616.7
+title: NM_000298.6(PKLR):c.1457G>A (p.Arg486Gln)
+protein change: R486Q, R455Q
+germline classification: Uncertain significance | review status: criteria provided, multiple submitters, no conflicts | last evaluated: 2023/04/04 00:00
+conditions: ['not provided', 'Pyruvate kinase deficiency of red cells']
+variation: NM_000298.6(PKLR):c.1457G>A (p.Arg486Gln) | cdna: c.1457G>A | xrefs: [('ClinGen', 'CA1143991'), ('dbSNP', '768210809')]
+GRCh38 location: 1 155291917 155291917
