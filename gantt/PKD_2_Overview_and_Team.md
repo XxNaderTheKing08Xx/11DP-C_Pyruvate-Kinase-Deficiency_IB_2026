@@ -1,4 +1,3 @@
-[PKD_2_Overview_and_Team.md](https://github.com/user-attachments/files/33881599/PKD_2_Overview_and_Team.md)
 ## 1. Project overview and team
 
 **Project name:** Pyruvate Kinase Deficiency: from a *PKLR* variant to haemolytic anaemia
@@ -13,19 +12,19 @@ Each specific objective corresponds to one topic of the Disease Project Overview
 
 | ID | Objective | Accomplished when | Due |
 |---|---|---|---|
-| SO1 | **Identify** the cause of the disease from the *gene, protein, structure, and function perspectives*. | **The gene, isoform, and variant are identified and named in HGVS nomenclature at DNA and protein level,** and the variant's clinical classification, population frequency, and published functional effect are recorded with sources. | Fri 16 Oct |
-| SO2 | **Describe** the differences between *the wild-type and the mutant gene, protein, structure, and function*. | The substituted residue is located relative to the active site, the allosteric site, and the interfaces; **wild-type and mutant structures are superposed and their differences quantified; the functional difference is reported from the literature**. | Mon 19 Oct |
-| SO3 | **Explain** how these differences *affect the patient*. | A causal chain from the **variant to enzyme activity, red-cell ATP, haemolysis, and clinical severity is written, with each step supported by a source,** and the evidence is classified as measured, hypothetical, or unknown. | Tue 20 Oct |
-| SO4 | **Compare** the gene, protein, structure, and function of human PK *with those of its orthologs in at least two other species, including the rat*. | Human PK is aligned with the rat and mouse orthologs and with the dog ortholog as outgroup; **the residue at the substituted position is reported for every species and the lineage of each difference is stated; human and rat structures are compared around that position.** We will use the provided Wild-Type sequences to perform both **sequence and structural comparision**.  | Tue 20 Oct |
+| SO1 | **Identify** the cause of the disease from the *gene, protein, structure, and function perspectives*. | **The gene, isoform, and variant are identified and named in HGVS nomenclature at DNA and protein level,** and the variant's clinical classification, population frequency, and published functional effect are recorded with sources. | Sat 24 Oct |
+| SO2 | **Describe** the differences between *the wild-type and the mutant gene, protein, structure, and function*. | The substituted residue is located relative to the active site, the allosteric site, and the interfaces; **wild-type and mutant structures are superposed and their differences quantified; the functional difference is reported from the literature**. | Sat 24 Oct |
+| SO3 | **Explain** how these differences *affect the patient*. | A causal chain from the **variant to enzyme activity, red-cell ATP, haemolysis, and clinical severity is written, with each step supported by a source,** and the evidence is classified as measured, hypothetical, or unknown. | Sat 24 Oct |
+| SO4 | **Compare** the gene, protein, structure, and function of human PK *with those of its orthologs in at least two other species, including the rat*. | Human PK is aligned with the rat and mouse orthologs and with the dog ortholog as outgroup; **the residue at the substituted position is reported for every species and the lineage of each difference is stated; human and rat structures are compared around that position.** We will use the provided Wild-Type sequences to perform both **sequence and structural comparison**.  | Sat 24 Oct |
 
 ### How we will reach each objective
 
 | ID | Overview topic | Class sessions applied | Tasks | Output in the report |
 |---|---|---|---|---|
 | SO1 | Cause of the disease | Data sources; paper structure and citation | 2.1, 2.2, 2.3, 2.4, 2.8 | Background; Table 1 (variant and evidence) |
-| SO2 | Healthy versus disease state | Structural biology; PDB; structure superposition | 2.1, 2.6, 3.3, 3.4 | Results; Figure 2 (wild-type and mutant structures) |
-| SO3 | Impact on the patient | Integrated bioinformatics reasoning | 2.4, 3.6, 3.7 | Discussion; Figure 3 (from variant to patient) |
-| SO4 | Comparison with other species | Genomics; sequence alignment labs 1 and 2 | 2.5, 3.1, 3.2, 3.5, 3.9 | Results; Table 2 (identity) and Figure 1 (alignment) |
+| SO2 | Healthy versus disease state | Structural biology; PDB; structure superposition | 2.1, 2.6, 3.3, 3.4 | Results; Figures 2 and 3 (location of residue 486; wild-type and mutant structures) |
+| SO3 | Impact on the patient | Integrated bioinformatics reasoning | 2.4, 3.6, 3.7 | Discussion (from the variant to the patient) |
+| SO4 | Comparison with other species | Genomics; sequence alignment labs 1 and 2 | 2.5, 3.1, 3.2, 3.5, 3.9 | Results; Figure 1 (alignment) and Table 2 (species comparison) |
 
 *Planned outputs: two tables and three figures, the maximum of five outputs allowed by the template.*
 
@@ -34,12 +33,12 @@ Each specific objective corresponds to one topic of the Disease Project Overview
 | ID | Milestone | Date | Source |
 |---|---|---|---|
 | M0 | Project presented; repository created | Thu 17 Sep | Overview; commits |
-| M1 | Project plan submitted | Fri 9 Oct | Overview (18:00) |
-| M2 | Data collected (variant, sequences, structures, literature) | Mon 19 Oct | after 2.7 |
-| M3 | Data analysis completed | Wed 21 Oct | after 3.8 |
+| M1 | Project plan submitted | Fri 9 Oct | Moodle |
+| M2 | Data collected (variant, sequences, structures, literature) | Sun 25 Oct | after 2.7 |
+| M3 | Data analysis completed | Sun 25 Oct | after 3.8 |
 | M4 | Project status document discussed | Thu 22 Oct | Overview; Formal Requirements |
 | M5 | Report draft complete | Mon 26 Oct | after 4.6 |
-| M6 | Final report delivered | Wed 28 Oct | Overview (18:00) |
+| M6 | Final report delivered | Mon 26 Oct | Moodle (Project Disease Submission) |
 | M7 | Oral defence (all members) | Thu 5 Nov | Course schedule |
 
 ### Project members and roles
