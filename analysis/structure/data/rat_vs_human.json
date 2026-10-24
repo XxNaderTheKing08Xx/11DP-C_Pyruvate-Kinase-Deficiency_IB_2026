@@ -1,0 +1,352 @@
+{
+ "2VGB_A_vs_6ECH_A_CA": {
+  "n_CA": 517,
+  "identical_resnames": 479,
+  "rmsd_A": 1.877,
+  "core_N+A+C": {
+   "n": 414,
+   "rmsd_A": 0.523
+  },
+  "domain_N": {
+   "n": 28,
+   "rmsd_A": 0.309
+  },
+  "domain_A": {
+   "n": 244,
+   "rmsd_A": 0.483
+  },
+  "domain_B": {
+   "n": 103,
+   "rmsd_A": 0.732
+  },
+  "domain_C": {
+   "n": 142,
+   "rmsd_A": 0.393
+  }
+ },
+ "2VGB_A_vs_6ECH_B_CA": {
+  "n_CA": 517,
+  "identical_resnames": 479,
+  "rmsd_A": 1.882,
+  "core_N+A+C": {
+   "n": 414,
+   "rmsd_A": 0.377
+  },
+  "domain_N": {
+   "n": 28,
+   "rmsd_A": 0.27
+  },
+  "domain_A": {
+   "n": 244,
+   "rmsd_A": 0.363
+  },
+  "domain_B": {
+   "n": 103,
+   "rmsd_A": 0.706
+  },
+  "domain_C": {
+   "n": 142,
+   "rmsd_A": 0.372
+  }
+ },
+ "2VGB_A_vs_6ECH_C_CA": {
+  "n_CA": 517,
+  "identical_resnames": 479,
+  "rmsd_A": 0.984,
+  "core_N+A+C": {
+   "n": 414,
+   "rmsd_A": 0.35
+  },
+  "domain_N": {
+   "n": 28,
+   "rmsd_A": 0.261
+  },
+  "domain_A": {
+   "n": 244,
+   "rmsd_A": 0.286
+  },
+  "domain_B": {
+   "n": 103,
+   "rmsd_A": 0.743
+  },
+  "domain_C": {
+   "n": 142,
+   "rmsd_A": 0.381
+  }
+ },
+ "2VGB_A_vs_6ECH_D_CA": {
+  "n_CA": 517,
+  "identical_resnames": 479,
+  "rmsd_A": 1.949,
+  "core_N+A+C": {
+   "n": 414,
+   "rmsd_A": 0.516
+  },
+  "domain_N": {
+   "n": 28,
+   "rmsd_A": 0.325
+  },
+  "domain_A": {
+   "n": 244,
+   "rmsd_A": 0.393
+  },
+  "domain_B": {
+   "n": 103,
+   "rmsd_A": 0.685
+  },
+  "domain_C": {
+   "n": 142,
+   "rmsd_A": 0.373
+  }
+ },
+ "tetramer_best_chain_mapping": {
+  "rmsd_A": 1.727,
+  "mapping_human_to_rat": {
+   "A": "D",
+   "B": "B",
+   "C": "C",
+   "D": "A"
+  },
+  "n_CA": 2037
+ },
+ "local_sphere_486": {
+  "n_CA": 59,
+  "CA_rmsd_local_fit_A": 0.419,
+  "residue_differences_in_sphere": [
+   "A:ARG486 -> rat D:GLN455",
+   "A:CYS509 -> rat D:SER478"
+  ]
+ },
+ "key_distances": {
+  "human 2VGB A (Arg486)": {
+   "L362 O / rat L331 O": [
+    "NH2",
+    "O",
+    2.74
+   ],
+   "N361 O / rat N330 O": [
+    "NH2",
+    "O",
+    3.77
+   ],
+   "G364 N / rat G333 N": [
+    "NH1",
+    "N",
+    3.97
+   ],
+   "E453 carboxylate / rat E422": [
+    "NH1",
+    "OE1",
+    4.8
+   ],
+   "L483 O / rat L452 O": [
+    "NE",
+    "O",
+    5.51
+   ],
+   "Y487 OH / rat Y456 OH": [
+    "NE",
+    "OH",
+    4.41
+   ],
+   "CA(486/455) to FBP (same chain, min any atom)": 13.23
+  },
+  "rat 6ECH A (Gln455)": {
+   "L362 O / rat L331 O": [
+    "OE1",
+    "O",
+    5.69
+   ],
+   "N361 O / rat N330 O": [
+    "OE1",
+    "O",
+    5.89
+   ],
+   "G364 N / rat G333 N": [
+    "OE1",
+    "N",
+    4.63
+   ],
+   "E453 carboxylate / rat E422": [
+    "NE2",
+    "OE2",
+    2.99
+   ],
+   "L483 O / rat L452 O": [
+    "NE2",
+    "O",
+    3.06
+   ],
+   "Y487 OH / rat Y456 OH": [
+    "NE2",
+    "OH",
+    3.73
+   ],
+   "CA(486/455) to FBP (same chain, min any atom)": 13.72
+  },
+  "rat 6ECH B (Gln455)": {
+   "L362 O / rat L331 O": [
+    "OE1",
+    "O",
+    6.32
+   ],
+   "N361 O / rat N330 O": [
+    "OE1",
+    "O",
+    6.55
+   ],
+   "G364 N / rat G333 N": [
+    "OE1",
+    "N",
+    5.06
+   ],
+   "E453 carboxylate / rat E422": [
+    "NE2",
+    "OE2",
+    2.92
+   ],
+   "L483 O / rat L452 O": [
+    "NE2",
+    "O",
+    3.25
+   ],
+   "Y487 OH / rat Y456 OH": [
+    "NE2",
+    "OH",
+    3.64
+   ],
+   "CA(486/455) to FBP (same chain, min any atom)": 13.58
+  },
+  "rat 6ECH C (Gln455)": {
+   "L362 O / rat L331 O": [
+    "OE1",
+    "O",
+    6.44
+   ],
+   "N361 O / rat N330 O": [
+    "OE1",
+    "O",
+    6.7
+   ],
+   "G364 N / rat G333 N": [
+    "OE1",
+    "N",
+    5.1
+   ],
+   "E453 carboxylate / rat E422": [
+    "NE2",
+    "OE2",
+    3.1
+   ],
+   "L483 O / rat L452 O": [
+    "NE2",
+    "O",
+    3.02
+   ],
+   "Y487 OH / rat Y456 OH": [
+    "NE2",
+    "OH",
+    3.63
+   ],
+   "CA(486/455) to FBP (same chain, min any atom)": 13.72
+  },
+  "rat 6ECH D (Gln455)": {
+   "L362 O / rat L331 O": [
+    "OE1",
+    "O",
+    5.53
+   ],
+   "N361 O / rat N330 O": [
+    "OE1",
+    "O",
+    5.8
+   ],
+   "G364 N / rat G333 N": [
+    "OE1",
+    "N",
+    4.54
+   ],
+   "E453 carboxylate / rat E422": [
+    "NE2",
+    "OE2",
+    2.86
+   ],
+   "L483 O / rat L452 O": [
+    "NE2",
+    "O",
+    2.88
+   ],
+   "Y487 OH / rat Y456 OH": [
+    "NE2",
+    "OH",
+    3.83
+   ],
+   "CA(486/455) to FBP (same chain, min any atom)": 13.86
+  },
+  "rat chain superposed on human chain A": "D",
+  "CA displacement human486 vs rat455 after local fit": 0.69,
+  "CB displacement": 1.05,
+  "CD(Arg) vs CD(Gln) displacement": 1.07,
+  "max CA shift in sphere": [
+   "A:442",
+   0.84
+  ]
+ },
+ "6ECK_Gln455": {
+  "A": {
+   "resname": "GLN",
+   "polar_contacts_le_3.5A": [
+    [
+     "OE1",
+     "A:HOH775:O",
+     2.73
+    ],
+    [
+     "OE1",
+     "A:HOH752:O",
+     2.87
+    ],
+    [
+     "NE2",
+     "A:GLU422:OE2",
+     3.09
+    ],
+    [
+     "NE2",
+     "A:LEU452:O",
+     3.2
+    ]
+   ]
+  },
+  "B": {
+   "resname": "GLN",
+   "polar_contacts_le_3.5A": [
+    [
+     "OE1",
+     "B:HOH723:O",
+     2.55
+    ],
+    [
+     "NE2",
+     "B:GLU422:OE2",
+     2.73
+    ],
+    [
+     "OE1",
+     "B:HOH751:O",
+     3.1
+    ],
+    [
+     "NE2",
+     "B:LEU452:O",
+     3.37
+    ],
+    [
+     "NE2",
+     "B:HOH723:O",
+     3.4
+    ]
+   ]
+  }
+ }
+}

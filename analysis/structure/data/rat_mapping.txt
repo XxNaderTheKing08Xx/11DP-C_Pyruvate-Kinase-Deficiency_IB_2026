@@ -1,0 +1,12 @@
+human R-type (supplied FASTA = P30613-1) length 574; residue 486 = R; window 476-496: TTGRSAQLLSRYRPRAAVIAV
+human_L_P30613-2: length 543; aligned position of human R486 = index 455 in this sequence, residue R; identity 542/543 aligned pairs; window: TTGRSAQLLSRYRPRAAVIAV
+rat_R_P12928-1: length 574; aligned position of human R486 = index 486 in this sequence, residue Q; identity 523/574 aligned pairs; window: KTGRSAQLLSQYRPRAAVIAV
+rat_L_P12928-2: length 543; aligned position of human R486 = index 455 in this sequence, residue Q; identity 504/543 aligned pairs; window: KTGRSAQLLSQYRPRAAVIAV
+6ECH_SEQRES: length 550; aligned position of human R486 = index 456 in this sequence, residue Q; identity 503/544 aligned pairs; window: KTGRSAQLLSQYRPRAAVIAV
+   note: SEQRES index 456; author numbering = SEQRES index - 1 (from _struct_ref_seq: seq 2-544 -> auth 1-543) -> author residue 455
+6ECK_SEQRES: length 550; aligned position of human R486 = index 456 in this sequence, residue Q; identity 503/544 aligned pairs; window: KTGRSAQLLSQYRPRAAVIAV
+   note: SEQRES index 456; author numbering = SEQRES index - 1 (from _struct_ref_seq: seq 2-544 -> auth 1-543) -> author residue 455
+Alignment human R-type (top) vs rat L-type (bottom), residues around 486:
+human R 470-500: AIIVLTTTGRSAQLLSRYRPRAAVIAVTRSA
+rat   L 439-469: AIIVLTKTGRSAQLLSQYRPRAAVIAVTRSA
+differences in window human R 456-516 vs rat L 425-485 (R-type numbering): A463S, T476K, R486Q, C509S
