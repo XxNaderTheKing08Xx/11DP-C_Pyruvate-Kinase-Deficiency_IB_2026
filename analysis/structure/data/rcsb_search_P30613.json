@@ -1,0 +1,243 @@
+{
+  "query_id" : "0ba2e995-4f4a-4dbb-ad6e-900522805217",
+  "result_type" : "entry",
+  "total_count" : 79,
+  "result_set" : [ {
+    "identifier" : "14CK",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CL",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CM",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CN",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CO",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CP",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CQ",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CR",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CS",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CT",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CU",
+    "score" : 1.0
+  }, {
+    "identifier" : "14CV",
+    "score" : 1.0
+  }, {
+    "identifier" : "2VGB",
+    "score" : 1.0
+  }, {
+    "identifier" : "2VGF",
+    "score" : 1.0
+  }, {
+    "identifier" : "2VGG",
+    "score" : 1.0
+  }, {
+    "identifier" : "2VGI",
+    "score" : 1.0
+  }, {
+    "identifier" : "4IMA",
+    "score" : 1.0
+  }, {
+    "identifier" : "4IP7",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SC8",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SC9",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCA",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCB",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCC",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCD",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCE",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCF",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCG",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCH",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCI",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCJ",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCK",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SCL",
+    "score" : 1.0
+  }, {
+    "identifier" : "5SDT",
+    "score" : 1.0
+  }, {
+    "identifier" : "6NN4",
+    "score" : 1.0
+  }, {
+    "identifier" : "6NN5",
+    "score" : 1.0
+  }, {
+    "identifier" : "6NN7",
+    "score" : 1.0
+  }, {
+    "identifier" : "6NN8",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FRV",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FRW",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FRX",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FRY",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FRZ",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS0",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS1",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS2",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS3",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS4",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS5",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS6",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS7",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS8",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FS9",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FSA",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FSB",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FSC",
+    "score" : 1.0
+  }, {
+    "identifier" : "7FSD",
+    "score" : 1.0
+  }, {
+    "identifier" : "7QDN",
+    "score" : 1.0
+  }, {
+    "identifier" : "7QZU",
+    "score" : 1.0
+  }, {
+    "identifier" : "8TBS",
+    "score" : 1.0
+  }, {
+    "identifier" : "8TBT",
+    "score" : 1.0
+  }, {
+    "identifier" : "8TBU",
+    "score" : 1.0
+  }, {
+    "identifier" : "8XFD",
+    "score" : 1.0
+  }, {
+    "identifier" : "9R3H",
+    "score" : 1.0
+  }, {
+    "identifier" : "9R3I",
+    "score" : 1.0
+  }, {
+    "identifier" : "9R3L",
+    "score" : 1.0
+  }, {
+    "identifier" : "9R3M",
+    "score" : 1.0
+  }, {
+    "identifier" : "9R3O",
+    "score" : 1.0
+  }, {
+    "identifier" : "9RDF",
+    "score" : 1.0
+  }, {
+    "identifier" : "9RFQ",
+    "score" : 1.0
+  }, {
+    "identifier" : "9RFT",
+    "score" : 1.0
+  }, {
+    "identifier" : "9VXP",
+    "score" : 1.0
+  }, {
+    "identifier" : "9W4Q",
+    "score" : 1.0
+  }, {
+    "identifier" : "9W7Y",
+    "score" : 1.0
+  }, {
+    "identifier" : "9W81",
+    "score" : 1.0
+  }, {
+    "identifier" : "9WDO",
+    "score" : 1.0
+  }, {
+    "identifier" : "9WDQ",
+    "score" : 1.0
+  }, {
+    "identifier" : "9WDR",
+    "score" : 1.0
+  }, {
+    "identifier" : "9WDT",
+    "score" : 1.0
+  }, {
+    "identifier" : "9WEZ",
+    "score" : 1.0
+  } ]
+}

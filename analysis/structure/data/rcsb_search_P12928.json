@@ -1,0 +1,12 @@
+{
+  "query_id" : "66451529-b85d-41ce-a68f-1b02ee153b8c",
+  "result_type" : "entry",
+  "total_count" : 2,
+  "result_set" : [ {
+    "identifier" : "6ECH",
+    "score" : 1.0
+  }, {
+    "identifier" : "6ECK",
+    "score" : 1.0
+  } ]
+}

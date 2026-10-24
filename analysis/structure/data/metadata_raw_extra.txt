@@ -1,0 +1,76 @@
+===== 8XFD
+  _struct.title: ['Crystal structure of pyruvate kinase tetramer in complex with allosteric activator, Mitapivat (MTPV, AG-348)']
+  _exptl.method: ['X-RAY DIFFRACTION']
+  _refine.ls_d_res_high: ['2.10']
+  _refine.ls_R_factor_R_work: ['0.2317']
+  _refine.ls_R_factor_R_free: ['0.2653']
+  _pdbx_database_status.recvd_initial_deposition_date: ['2023-12-13']
+  _symmetry.space_group_name_H-M: ['P 1']
+  _citation.title: ['High Resolution Crystal Structure of the Pyruvate Kinase Tetramer in Complex with the Allosteric Activator Mitapivat/AG-348']
+  _citation.journal_abbrev: ['Crystals']
+  _citation.year: ['2024']
+  _citation.journal_volume: ['?']
+  _citation.page_first: ['?']
+  _citation.page_last: ['?']
+  _citation.pdbx_database_id_DOI: ['10.3390/cryst14050441']
+  _citation.pdbx_database_id_PubMed: ['?']
+  authors(citation): ['Han, X.', 'Sandalova, T.', 'Zhang, C.', 'Mardinoglu, A.', 'Achour, A.', 'Sun, R.']
+  entities:
+    1 polymer Isoform L-type of Pyruvate kinase PKLR n=4 mw=58564.160
+    2 non-polymer MAGNESIUM ION n=4 mw=24.305
+    3 non-polymer 1,6-di-O-phosphono-beta-D-fructofuranose n=4 mw=340.116
+    4 non-polymer mitapivat n=2 mw=450.553
+    5 water water n=886 mw=18.015
+  entity_poly strand ids: [('1', 'A,B,C,D')]
+  src organism: ['Homo sapiens'] ['PKLR, PK1, PKL'] ['Escherichia coli']
+  struct_ref: [('UNP', 'P30613', 'KPYR_HUMAN')]
+  struct_ref_seq: [('A', '1', '543', '1', '543', '-1', '541'), ('B', '1', '543', '1', '543', '-1', '541'), ('C', '1', '543', '1', '543', '-1', '541'), ('D', '1', '543', '1', '543', '-1', '541')]
+  seq_dif: []
+  assemblies: [('1', 'author_and_software_defined_assembly', 'tetrameric')]
+  assembly_gen: [('1', '1', 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R')]
+  oper: [('1', 'identity operation')]
+  chain A: 514 aa residues, first 24 last 540, gaps ['135-137']; het {'MG': 1, 'FBP': 1}; waters 256
+  chain B: 517 aa residues, first 24 last 540, gaps []; het {'MG': 1, 'FBP': 1, 'WV2': 1}; waters 213
+  chain C: 511 aa residues, first 24 last 540, gaps ['135-138', '200-201']; het {'MG': 1, 'FBP': 1}; waters 156
+  chain D: 517 aa residues, first 24 last 540, gaps []; het {'MG': 1, 'FBP': 1, 'WV2': 1}; waters 261
+===== 8TBS
+  _struct.title: ['Structure of human erythrocyte pyruvate kinase in complex with an allosteric activator AG-946']
+  _exptl.method: ['X-RAY DIFFRACTION']
+  _refine.ls_d_res_high: ['2.35']
+  _refine.ls_R_factor_R_work: ['0.1928']
+  _refine.ls_R_factor_R_free: ['0.2339']
+  _pdbx_database_status.recvd_initial_deposition_date: ['2023-06-29']
+  _symmetry.space_group_name_H-M: ['P 21 21 21']
+  _citation.title: ['Structure-Based Design of AG-946, a Pyruvate Kinase Activator.']
+  _citation.journal_abbrev: ['Chemmedchem']
+  _citation.year: ['2024']
+  _citation.journal_volume: ['19']
+  _citation.page_first: ['e202300559']
+  _citation.page_last: ['e202300559']
+  _citation.pdbx_database_id_DOI: ['10.1002/cmdc.202300559']
+  _citation.pdbx_database_id_PubMed: ['38109501']
+  authors(citation): ['Liu, T.', 'Padyana, A.K.', 'Judd, E.T.', 'Jin, L.', 'Hammoudeh, D.', 'Kung, C.', 'Dang, L.']
+  entities:
+    1 polymer Pyruvate kinase PKLR n=8 mw=58665.176
+    2 non-polymer 1,6-di-O-phosphono-beta-D-fructofuranose n=8 mw=340.116
+    3 non-polymer MANGANESE (II) ION n=8 mw=54.938
+    4 non-polymer POTASSIUM ION n=6 mw=39.098
+    5 non-polymer PYRUVIC ACID n=8 mw=88.062
+    6 non-polymer 6-[(6-aminopyridin-2-yl)methyl]-4-methyl-2-[(1H-pyrazol-3-yl)methyl]-4,6-dihydro-5H-[1,3]thiazolo[5',4':4,5]pyrrolo[2,3-d]pyridazin-5-one n=4 mw=392.438
+    7 water water n=543 mw=18.015
+  entity_poly strand ids: [('1', 'A,B,C,D,E,F,G,H')]
+  src organism: ['Homo sapiens'] ['PKLR, PK1, PKL'] ['Escherichia coli']
+  struct_ref: [('UNP', 'P30613', 'KPYR_HUMAN')]
+  struct_ref_seq: [('A', '20', '544', '50', '574', '50', '574'), ('B', '20', '544', '50', '574', '50', '574'), ('C', '20', '544', '50', '574', '50', '574'), ('D', '20', '544', '50', '574', '50', '574'), ('E', '20', '544', '50', '574', '50', '574'), ('F', '20', '544', '50', '574', '50', '574'), ('G', '20', '544', '50', '574', '50', '574'), ('H', '20', '544', '50', '574', '50', '574')]
+  seq_dif: [('A', 'MET', '31', '?', '?', 'initiating methionine'), ('A', 'GLY', '32', '?', '?', 'expression tag'), ('A', 'SER', '33', '?', '?', 'expression tag'), ('A', 'SER', '34', '?', '?', 'expression tag'), ('A', 'HIS', '35', '?', '?', 'expression tag'), ('A', 'HIS', '36', '?', '?', 'expression tag'), ('A', 'HIS', '37', '?', '?', 'expression tag'), ('A', 'HIS', '38', '?', '?', 'expression tag'), ('A', 'HIS', '39', '?', '?', 'expression tag'), ('A', 'HIS', '40', '?', '?', 'expression tag'), ('A', 'SER', '41', '?', '?', 'expression tag'), ('A', 'SER', '42', '?', '?', 'expression tag'), ('A', 'GLY', '43', '?', '?', 'expression tag'), ('A', 'LEU', '44', '?', '?', 'expression tag'), ('A', 'VAL', '45', '?', '?', 'expression tag'), ('A', 'PRO', '46', '?', '?', 'expression tag'), ('A', 'ARG', '47', '?', '?', 'expression tag'), ('A', 'GLY', '48', '?', '?', 'expression tag'), ('A', 'SER', '49', '?', '?', 'expression tag'), ('B', 'MET', '31', '?', '?', 'initiating methionine'), ('B', 'GLY', '32', '?', '?', 'expression tag'), ('B', 'SER', '33', '?', '?', 'expression tag'), ('B', 'SER', '34', '?', '?', 'expression tag'), ('B', 'HIS', '35', '?', '?', 'expression tag'), ('B', 'HIS', '36', '?', '?', 'expression tag'), ('B', 'HIS', '37', '?', '?', 'expression tag'), ('B', 'HIS', '38', '?', '?', 'expression tag'), ('B', 'HIS', '39', '?', '?', 'expression tag'), ('B', 'HIS', '40', '?', '?', 'expression tag'), ('B', 'SER', '41', '?', '?', 'expression tag'), ('B', 'SER', '42', '?', '?', 'expression tag'), ('B', 'GLY', '43', '?', '?', 'expression tag'), ('B', 'LEU', '44', '?', '?', 'expression tag'), ('B', 'VAL', '45', '?', '?', 'expression tag'), ('B', 'PRO', '46', '?', '?', 'expression tag'), ('B', 'ARG', '47', '?', '?', 'expression tag'), ('B', 'GLY', '48', '?', '?', 'expression tag'), ('B', 'SER', '49', '?', '?', 'expression tag'), ('C', 'MET', '31', '?', '?', 'initiating methionine'), ('C', 'GLY', '32', '?', '?', 'expression tag'), ('C', 'SER', '33', '?', '?', 'expression tag'), ('C', 'SER', '34', '?', '?', 'expression tag'), ('C', 'HIS', '35', '?', '?', 'expression tag'), ('C', 'HIS', '36', '?', '?', 'expression tag'), ('C', 'HIS', '37', '?', '?', 'expression tag'), ('C', 'HIS', '38', '?', '?', 'expression tag'), ('C', 'HIS', '39', '?', '?', 'expression tag'), ('C', 'HIS', '40', '?', '?', 'expression tag'), ('C', 'SER', '41', '?', '?', 'expression tag'), ('C', 'SER', '42', '?', '?', 'expression tag'), ('C', 'GLY', '43', '?', '?', 'expression tag'), ('C', 'LEU', '44', '?', '?', 'expression tag'), ('C', 'VAL', '45', '?', '?', 'expression tag'), ('C', 'PRO', '46', '?', '?', 'expression tag'), ('C', 'ARG', '47', '?', '?', 'expression tag'), ('C', 'GLY', '48', '?', '?', 'expression tag'), ('C', 'SER', '49', '?', '?', 'expression tag'), ('D', 'MET', '31', '?', '?', 'initiating methionine'), ('D', 'GLY', '32', '?', '?', 'expression tag'), ('D', 'SER', '33', '?', '?', 'expression tag'), ('D', 'SER', '34', '?', '?', 'expression tag'), ('D', 'HIS', '35', '?', '?', 'expression tag'), ('D', 'HIS', '36', '?', '?', 'expression tag'), ('D', 'HIS', '37', '?', '?', 'expression tag'), ('D', 'HIS', '38', '?', '?', 'expression tag'), ('D', 'HIS', '39', '?', '?', 'expression tag'), ('D', 'HIS', '40', '?', '?', 'expression tag'), ('D', 'SER', '41', '?', '?', 'expression tag'), ('D', 'SER', '42', '?', '?', 'expression tag'), ('D', 'GLY', '43', '?', '?', 'expression tag'), ('D', 'LEU', '44', '?', '?', 'expression tag'), ('D', 'VAL', '45', '?', '?', 'expression tag'), ('D', 'PRO', '46', '?', '?', 'expression tag'), ('D', 'ARG', '47', '?', '?', 'expression tag'), ('D', 'GLY', '48', '?', '?', 'expression tag'), ('D', 'SER', '49', '?', '?', 'expression tag'), ('E', 'MET', '31', '?', '?', 'initiating methionine'), ('E', 'GLY', '32', '?', '?', 'expression tag'), ('E', 'SER', '33', '?', '?', 'expression tag'), ('E', 'SER', '34', '?', '?', 'expression tag'), ('E', 'HIS', '35', '?', '?', 'expression tag'), ('E', 'HIS', '36', '?', '?', 'expression tag'), ('E', 'HIS', '37', '?', '?', 'expression tag'), ('E', 'HIS', '38', '?', '?', 'expression tag'), ('E', 'HIS', '39', '?', '?', 'expression tag'), ('E', 'HIS', '40', '?', '?', 'expression tag'), ('E', 'SER', '41', '?', '?', 'expression tag'), ('E', 'SER', '42', '?', '?', 'expression tag'), ('E', 'GLY', '43', '?', '?', 'expression tag'), ('E', 'LEU', '44', '?', '?', 'expression tag'), ('E', 'VAL', '45', '?', '?', 'expression tag'), ('E', 'PRO', '46', '?', '?', 'expression tag'), ('E', 'ARG', '47', '?', '?', 'expression tag'), ('E', 'GLY', '48', '?', '?', 'expression tag'), ('E', 'SER', '49', '?', '?', 'expression tag'), ('F', 'MET', '31', '?', '?', 'initiating methionine'), ('F', 'GLY', '32', '?', '?', 'expression tag'), ('F', 'SER', '33', '?', '?', 'expression tag'), ('F', 'SER', '34', '?', '?', 'expression tag'), ('F', 'HIS', '35', '?', '?', 'expression tag'), ('F', 'HIS', '36', '?', '?', 'expression tag'), ('F', 'HIS', '37', '?', '?', 'expression tag'), ('F', 'HIS', '38', '?', '?', 'expression tag'), ('F', 'HIS', '39', '?', '?', 'expression tag'), ('F', 'HIS', '40', '?', '?', 'expression tag'), ('F', 'SER', '41', '?', '?', 'expression tag'), ('F', 'SER', '42', '?', '?', 'expression tag'), ('F', 'GLY', '43', '?', '?', 'expression tag'), ('F', 'LEU', '44', '?', '?', 'expression tag'), ('F', 'VAL', '45', '?', '?', 'expression tag'), ('F', 'PRO', '46', '?', '?', 'expression tag'), ('F', 'ARG', '47', '?', '?', 'expression tag'), ('F', 'GLY', '48', '?', '?', 'expression tag'), ('F', 'SER', '49', '?', '?', 'expression tag'), ('G', 'MET', '31', '?', '?', 'initiating methionine'), ('G', 'GLY', '32', '?', '?', 'expression tag'), ('G', 'SER', '33', '?', '?', 'expression tag'), ('G', 'SER', '34', '?', '?', 'expression tag'), ('G', 'HIS', '35', '?', '?', 'expression tag'), ('G', 'HIS', '36', '?', '?', 'expression tag'), ('G', 'HIS', '37', '?', '?', 'expression tag'), ('G', 'HIS', '38', '?', '?', 'expression tag'), ('G', 'HIS', '39', '?', '?', 'expression tag'), ('G', 'HIS', '40', '?', '?', 'expression tag'), ('G', 'SER', '41', '?', '?', 'expression tag'), ('G', 'SER', '42', '?', '?', 'expression tag'), ('G', 'GLY', '43', '?', '?', 'expression tag'), ('G', 'LEU', '44', '?', '?', 'expression tag'), ('G', 'VAL', '45', '?', '?', 'expression tag'), ('G', 'PRO', '46', '?', '?', 'expression tag'), ('G', 'ARG', '47', '?', '?', 'expression tag'), ('G', 'GLY', '48', '?', '?', 'expression tag'), ('G', 'SER', '49', '?', '?', 'expression tag'), ('H', 'MET', '31', '?', '?', 'initiating methionine'), ('H', 'GLY', '32', '?', '?', 'expression tag'), ('H', 'SER', '33', '?', '?', 'expression tag'), ('H', 'SER', '34', '?', '?', 'expression tag'), ('H', 'HIS', '35', '?', '?', 'expression tag'), ('H', 'HIS', '36', '?', '?', 'expression tag'), ('H', 'HIS', '37', '?', '?', 'expression tag'), ('H', 'HIS', '38', '?', '?', 'expression tag'), ('H', 'HIS', '39', '?', '?', 'expression tag'), ('H', 'HIS', '40', '?', '?', 'expression tag'), ('H', 'SER', '41', '?', '?', 'expression tag'), ('H', 'SER', '42', '?', '?', 'expression tag'), ('H', 'GLY', '43', '?', '?', 'expression tag'), ('H', 'LEU', '44', '?', '?', 'expression tag'), ('H', 'VAL', '45', '?', '?', 'expression tag'), ('H', 'PRO', '46', '?', '?', 'expression tag'), ('H', 'ARG', '47', '?', '?', 'expression tag'), ('H', 'GLY', '48', '?', '?', 'expression tag'), ('H', 'SER', '49', '?', '?', 'expression tag')]
+  assemblies: [('1', 'author_and_software_defined_assembly', 'tetrameric'), ('2', 'author_and_software_defined_assembly', 'tetrameric')]
+  assembly_gen: [('1', '1', 'A,B,C,D,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,QA,RA,SA,TA'), ('2', '1', 'E,F,G,H,Z,AA,BA,CA,DA,EA,FA,GA,HA,IA,JA,KA,LA,MA,NA,OA,PA,UA,VA,WA,XA')]
+  oper: [('1', 'identity operation')]
+  chain A: 485 aa residues, first 57 last 573, gaps ['167-178', '192-195', '231-238', '256-263']; het {'FBP': 1, 'MN': 1, 'K': 1, 'PYR': 1}; waters 73
+  chain B: 517 aa residues, first 55 last 574, gaps ['256-258']; het {'HVI': 1, 'FBP': 1, 'MN': 1, 'K': 1, 'PYR': 1}; waters 64
+  chain C: 512 aa residues, first 51 last 573, gaps ['167-170', '191-194', '232-234']; het {'FBP': 1, 'MN': 1, 'K': 1, 'PYR': 1}; waters 62
+  chain D: 483 aa residues, first 57 last 573, gaps ['168-196', '215-215', '258-261']; het {'HVI': 1, 'FBP': 1, 'MN': 1, 'PYR': 1}; waters 55
+  chain E: 515 aa residues, first 50 last 573, gaps ['172-174', '229-234']; het {'FBP': 1, 'MN': 1, 'K': 1, 'PYR': 1}; waters 41
+  chain F: 520 aa residues, first 54 last 574, gaps ['170-170']; het {'HVI': 1, 'FBP': 1, 'MN': 1, 'K': 1, 'PYR': 1}; waters 91
+  chain G: 509 aa residues, first 50 last 573, gaps ['167-169', '183-184', '227-236']; het {'FBP': 1, 'MN': 1, 'K': 1, 'PYR': 1}; waters 48
+  chain H: 519 aa residues, first 54 last 574, gaps ['169-170']; het {'HVI': 1, 'FBP': 1, 'MN': 1, 'PYR': 1}; waters 109

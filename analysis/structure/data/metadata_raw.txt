@@ -1,0 +1,164 @@
+===== 2VGB
+  _struct.title: ['HUMAN ERYTHROCYTE PYRUVATE KINASE']
+  _exptl.method: ['X-RAY DIFFRACTION']
+  _refine.ls_d_res_high: ['2.73']
+  _refine.ls_R_factor_R_work: ['0.227']
+  _refine.ls_R_factor_R_free: ['0.271']
+  _pdbx_database_status.recvd_initial_deposition_date: ['2007-11-12']
+  _symmetry.space_group_name_H-M: ['P 1 21 1']
+  _cell.length_a: ['74.413']
+  _cell.length_b: ['172.058']
+  _cell.length_c: ['85.512']
+  _citation.title: ['Structure and Function of Human Erythrocyte Pyruvate Kinase. Molecular Basis of Nonspherocytic Hemolytic Anemia.']
+  _citation.journal_abbrev: ['J.Biol.Chem.']
+  _citation.year: ['2002']
+  _citation.journal_volume: ['277']
+  _citation.page_first: ['23807']
+  _citation.page_last: ['?']
+  _citation.pdbx_database_id_DOI: ['10.1074/JBC.M202107200']
+  _citation.pdbx_database_id_PubMed: ['11960989']
+  revisions: [('2007-11-20', '1', '0'), ('2011-07-13', '1', '1'), ('2018-05-16', '1', '2'), ('2019-05-08', '1', '3'), ('2020-07-29', '1', '4'), ('2023-12-13', '1', '5'), ('2024-05-01', '2', '0')]
+  authors(citation): ['Valentini, G.', 'Chiarelli, L.R.', 'Fortin, R.', 'Dolzan, M.', 'Galizzi, A.', 'Abraham, D.J.', 'Wang, C.', 'Bianchi, P.', 'Zanella, A.', 'Mattevi, A.']
+  entities:
+    1 polymer PYRUVATE KINASE ISOZYMES R/L n=4 mw=56974.324
+    2 non-polymer 1,6-di-O-phosphono-beta-D-fructofuranose n=4 mw=340.116
+    3 non-polymer 2-PHOSPHOGLYCOLIC ACID n=4 mw=156.031
+    4 non-polymer POTASSIUM ION n=4 mw=39.098
+    5 non-polymer MANGANESE (II) ION n=4 mw=54.938
+    6 water water n=65 mw=18.015
+  entity_poly strand ids: [('1', 'A,B,C,D')]
+  src organism: ['HOMO SAPIENS'] ['?'] ['ESCHERICHIA COLI']
+  struct_ref: [('UNP', 'P30613', 'KPYR_HUMAN')]
+  struct_ref_seq: [('A', '1', '528', '47', '574', '47', '574'), ('B', '1', '528', '47', '574', '47', '574'), ('C', '1', '528', '47', '574', '47', '574'), ('D', '1', '528', '47', '574', '47', '574')]
+  seq_dif: []
+  assemblies: [('1', 'author_and_software_defined_assembly', 'tetrameric')]
+  assembly_gen: [('1', '1', 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X')]
+  oper: [('1', 'identity operation')]
+  chain A: 517 aa residues, first 57 last 573, gaps []; het {'FBP': 1, 'PGA': 1, 'K': 1, 'MN': 1}; waters 12
+  chain B: 491 aa residues, first 57 last 573, gaps ['167-174', '187-196', '229-236']; het {'FBP': 1, 'PGA': 1, 'K': 1, 'MN': 1}; waters 16
+  chain C: 517 aa residues, first 57 last 573, gaps []; het {'FBP': 1, 'PGA': 1, 'K': 1, 'MN': 1}; waters 20
+  chain D: 512 aa residues, first 57 last 573, gaps ['167-171']; het {'FBP': 1, 'PGA': 1, 'K': 1, 'MN': 1}; waters 17
+===== 2VGI
+  _struct.title: ['HUMAN ERYTHROCYTE PYRUVATE KINASE: R486W MUTANT']
+  _exptl.method: ['X-RAY DIFFRACTION']
+  _refine.ls_d_res_high: ['2.87']
+  _refine.ls_R_factor_R_work: ['0.257']
+  _refine.ls_R_factor_R_free: ['0.311']
+  _pdbx_database_status.recvd_initial_deposition_date: ['2007-11-13']
+  _symmetry.space_group_name_H-M: ['P 1 21 1']
+  _cell.length_a: ['73.705']
+  _cell.length_b: ['171.164']
+  _cell.length_c: ['85.050']
+  _citation.title: ['Structure and Function of Human Erythrocyte Pyruvate Kinase. Molecular Basis of Nonspherocytic Hemolytic Anemia.']
+  _citation.journal_abbrev: ['J.Biol.Chem.']
+  _citation.year: ['2002']
+  _citation.journal_volume: ['277']
+  _citation.page_first: ['23807']
+  _citation.page_last: ['?']
+  _citation.pdbx_database_id_DOI: ['10.1074/JBC.M202107200']
+  _citation.pdbx_database_id_PubMed: ['11960989']
+  revisions: [('2007-11-20', '1', '0'), ('2011-07-13', '1', '1'), ('2019-11-20', '1', '2'), ('2020-07-29', '1', '3'), ('2023-12-13', '1', '4'), ('2024-05-01', '2', '0')]
+  authors(citation): ['Valentini, G.', 'Chiarelli, L.R.', 'Fortin, R.', 'Dolzan, M.', 'Galizzi, A.', 'Abraham, D.J.', 'Wang, C.', 'Bianchi, P.', 'Zanella, A.', 'Mattevi, A.']
+  entities:
+    1 polymer PYRUVATE KINASE ISOZYMES R/L n=4 mw=57003.340
+    2 non-polymer 1,6-di-O-phosphono-beta-D-fructofuranose n=4 mw=340.116
+    3 non-polymer 2-PHOSPHOGLYCOLIC ACID n=4 mw=156.031
+    4 non-polymer POTASSIUM ION n=4 mw=39.098
+    5 non-polymer MANGANESE (II) ION n=4 mw=54.938
+  entity_poly strand ids: [('1', 'A,B,C,D')]
+  src organism: ['HOMO SAPIENS'] ['?'] ['ESCHERICHIA COLI']
+  struct_ref: [('UNP', 'P30613', 'KPYR_HUMAN')]
+  struct_ref_seq: [('A', '1', '528', '47', '574', '47', '574'), ('B', '1', '528', '47', '574', '47', '574'), ('C', '1', '528', '47', '574', '47', '574'), ('D', '1', '528', '47', '574', '47', '574')]
+  seq_dif: [('A', 'TRP', '486', 'ARG', '486', 'engineered mutation'), ('B', 'TRP', '486', 'ARG', '486', 'engineered mutation'), ('C', 'TRP', '486', 'ARG', '486', 'engineered mutation'), ('D', 'TRP', '486', 'ARG', '486', 'engineered mutation')]
+  assemblies: [('1', 'author_and_software_defined_assembly', 'tetrameric')]
+  assembly_gen: [('1', '1', 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T')]
+  oper: [('1', 'identity operation')]
+  chain A: 517 aa residues, first 57 last 573, gaps []; het {'FBP': 1, 'PGA': 1, 'K': 1, 'MN': 1}; waters 0
+  chain B: 463 aa residues, first 57 last 573, gaps ['167-182', '187-196', '201-202', '209-216', '229-236', '239-239', '246-249', '256-260']; het {'FBP': 1, 'PGA': 1, 'K': 1, 'MN': 1}; waters 0
+  chain C: 515 aa residues, first 57 last 573, gaps ['258-259']; het {'FBP': 1, 'PGA': 1, 'K': 1, 'MN': 1}; waters 0
+  chain D: 513 aa residues, first 57 last 573, gaps ['168-171']; het {'FBP': 1, 'PGA': 1, 'K': 1, 'MN': 1}; waters 0
+===== 6ECH
+  _struct.title: ['Pyruvate Kinase Isoform L-type with phosphorylated Ser12 (pS12) in complex with FBP']
+  _exptl.method: ['X-RAY DIFFRACTION']
+  _refine.ls_d_res_high: ['2.1900']
+  _refine.ls_R_factor_R_work: ['0.1810']
+  _refine.ls_R_factor_R_free: ['0.2379']
+  _pdbx_database_status.recvd_initial_deposition_date: ['2018-08-07']
+  _symmetry.space_group_name_H-M: ['P 21 21 21']
+  _cell.length_a: ['86.550']
+  _cell.length_b: ['108.900']
+  _cell.length_c: ['296.840']
+  _citation.title: ['Distinct Hepatic PKA and CDK Signaling Pathways Control Activity-Independent Pyruvate Kinase Phosphorylation and Hepatic Glucose Production.']
+  _citation.journal_abbrev: ['Cell Rep']
+  _citation.year: ['2019']
+  _citation.journal_volume: ['29']
+  _citation.page_first: ['3394']
+  _citation.page_last: ['3404.e9']
+  _citation.pdbx_database_id_DOI: ['10.1016/j.celrep.2019.11.009']
+  _citation.pdbx_database_id_PubMed: ['31825824']
+  revisions: [('2019-12-04', '1', '0'), ('2019-12-25', '1', '1'), ('2020-07-29', '1', '2'), ('2023-10-11', '1', '3'), ('2024-10-09', '1', '4')]
+  authors(citation): ['Gassaway, B.M.', 'Cardone, R.L.', 'Padyana, A.K.', 'Petersen, M.C.', 'Judd, E.T.', 'Hayes, S.', 'Tong, S.', 'Barber, K.W.', 'Apostolidi, M.', 'Abulizi, A.', 'Sheetz, J.B.', 'Aerni, H.R.', 'Gross, S.', 'Kung, C.', 'Samuel, V.T.', 'Shulman, G.I.', 'Kibbey, R.G.', 'Rinehart, J.']
+  entities:
+    1 polymer Pyruvate kinase PKLR n=4 mw=59910.461
+    2 non-polymer 1,6-di-O-phosphono-beta-D-fructofuranose n=4 mw=340.116
+    3 non-polymer MAGNESIUM ION n=13 mw=24.305
+    4 non-polymer ADENOSINE-5'-TRIPHOSPHATE n=3 mw=507.181
+    5 non-polymer OXALATE ION n=4 mw=88.019
+    6 non-polymer 1,2-ETHANEDIOL n=33 mw=62.068
+    7 non-polymer DI(HYDROXYETHYL)ETHER n=2 mw=106.120
+    8 non-polymer TETRAETHYLENE GLYCOL n=1 mw=194.226
+    9 non-polymer TRIETHYLENE GLYCOL n=1 mw=150.173
+    10 non-polymer CHLORIDE ION n=1 mw=35.453
+    11 water water n=1201 mw=18.015
+  entity_poly strand ids: [('1', 'A,B,C,D')]
+  src organism: ['Rattus norvegicus'] ['Pklr'] ['Escherichia coli']
+  struct_ref: [('UNP', 'P12928', 'KPYR_RAT')]
+  struct_ref_seq: [('A', '2', '544', '1', '543', '1', '543'), ('B', '2', '544', '1', '543', '1', '543'), ('C', '2', '544', '1', '543', '1', '543'), ('D', '2', '544', '1', '543', '1', '543')]
+  seq_dif: [('A', 'HIS', '0', '?', '?', 'expression tag'), ('A', 'HIS', '544', '?', '?', 'expression tag'), ('A', 'HIS', '545', '?', '?', 'expression tag'), ('A', 'HIS', '546', '?', '?', 'expression tag'), ('A', 'HIS', '547', '?', '?', 'expression tag'), ('A', 'HIS', '548', '?', '?', 'expression tag'), ('A', 'HIS', '549', '?', '?', 'expression tag'), ('B', 'HIS', '0', '?', '?', 'expression tag'), ('B', 'HIS', '544', '?', '?', 'expression tag'), ('B', 'HIS', '545', '?', '?', 'expression tag'), ('B', 'HIS', '546', '?', '?', 'expression tag'), ('B', 'HIS', '547', '?', '?', 'expression tag'), ('B', 'HIS', '548', '?', '?', 'expression tag'), ('B', 'HIS', '549', '?', '?', 'expression tag'), ('C', 'HIS', '0', '?', '?', 'expression tag'), ('C', 'HIS', '544', '?', '?', 'expression tag'), ('C', 'HIS', '545', '?', '?', 'expression tag'), ('C', 'HIS', '546', '?', '?', 'expression tag'), ('C', 'HIS', '547', '?', '?', 'expression tag'), ('C', 'HIS', '548', '?', '?', 'expression tag'), ('C', 'HIS', '549', '?', '?', 'expression tag'), ('D', 'HIS', '0', '?', '?', 'expression tag'), ('D', 'HIS', '544', '?', '?', 'expression tag'), ('D', 'HIS', '545', '?', '?', 'expression tag'), ('D', 'HIS', '546', '?', '?', 'expression tag'), ('D', 'HIS', '547', '?', '?', 'expression tag'), ('D', 'HIS', '548', '?', '?', 'expression tag'), ('D', 'HIS', '549', '?', '?', 'expression tag')]
+  assemblies: [('1', 'author_and_software_defined_assembly', 'tetrameric')]
+  assembly_gen: [('1', '1', 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,AA,BA,CA,DA,EA,FA,GA,HA,IA,JA,KA,LA,MA,NA,OA,PA,QA,RA,SA,TA,UA,VA,WA,XA,YA,ZA,AB,BB,CB,DB,EB,FB,GB,HB,IB,JB,KB,LB,MB,NB,OB,PB,QB,RB')]
+  oper: [('1', 'identity operation')]
+  chain A: 528 aa residues, first 18 last 545, gaps []; het {'FBP': 1, 'MG': 4, 'ATP': 1, 'OXL': 1, 'EDO': 7, 'PEG': 1, 'PG4': 1}; waters 320
+  chain B: 525 aa residues, first 20 last 544, gaps []; het {'FBP': 1, 'MG': 4, 'ATP': 1, 'OXL': 1, 'PGE': 1, 'EDO': 9}; waters 281
+  chain C: 528 aa residues, first 22 last 549, gaps []; het {'FBP': 1, 'MG': 2, 'OXL': 1, 'EDO': 9}; waters 306
+  chain D: 527 aa residues, first 18 last 544, gaps []; het {'FBP': 1, 'MG': 3, 'ATP': 1, 'OXL': 1, 'EDO': 8, 'PEG': 1, 'CL': 1}; waters 294
+===== 6ECK
+  _struct.title: ['Pyruvate Kinase Isoform L-type with phosphorylated Ser113 (pS113) in complex with FBP']
+  _exptl.method: ['X-RAY DIFFRACTION']
+  _refine.ls_d_res_high: ['2.3600']
+  _refine.ls_R_factor_R_work: ['0.2035']
+  _refine.ls_R_factor_R_free: ['0.2750']
+  _pdbx_database_status.recvd_initial_deposition_date: ['2018-08-08']
+  _symmetry.space_group_name_H-M: ['P 21 21 2']
+  _cell.length_a: ['97.774']
+  _cell.length_b: ['111.843']
+  _cell.length_c: ['127.507']
+  _citation.title: ['Distinct Hepatic PKA and CDK Signaling Pathways Control Activity-Independent Pyruvate Kinase Phosphorylation and Hepatic Glucose Production.']
+  _citation.journal_abbrev: ['Cell Rep']
+  _citation.year: ['2019']
+  _citation.journal_volume: ['29']
+  _citation.page_first: ['3394']
+  _citation.page_last: ['3404.e9']
+  _citation.pdbx_database_id_DOI: ['10.1016/j.celrep.2019.11.009']
+  _citation.pdbx_database_id_PubMed: ['31825824']
+  revisions: [('2019-12-04', '1', '0'), ('2019-12-25', '1', '1'), ('2020-07-29', '1', '2'), ('2023-10-11', '1', '3'), ('2024-10-23', '1', '4')]
+  authors(citation): ['Gassaway, B.M.', 'Cardone, R.L.', 'Padyana, A.K.', 'Petersen, M.C.', 'Judd, E.T.', 'Hayes, S.', 'Tong, S.', 'Barber, K.W.', 'Apostolidi, M.', 'Abulizi, A.', 'Sheetz, J.B.', 'Aerni, H.R.', 'Gross, S.', 'Kung, C.', 'Samuel, V.T.', 'Shulman, G.I.', 'Kibbey, R.G.', 'Rinehart, J.']
+  entities:
+    1 polymer Pyruvate kinase PKLR n=2 mw=59910.461
+    2 non-polymer 1,6-di-O-phosphono-beta-D-fructofuranose n=2 mw=340.116
+    3 non-polymer GLYCEROL n=3 mw=92.094
+    4 non-polymer DI(HYDROXYETHYL)ETHER n=2 mw=106.120
+    5 non-polymer 1,2-ETHANEDIOL n=3 mw=62.068
+    6 non-polymer CITRATE ANION n=1 mw=189.100
+    7 non-polymer TRIETHYLENE GLYCOL n=1 mw=150.173
+    8 water water n=387 mw=18.015
+  entity_poly strand ids: [('1', 'A,B')]
+  src organism: ['Rattus norvegicus'] ['Pklr'] ['Escherichia coli']
+  struct_ref: [('UNP', 'P12928', 'KPYR_RAT')]
+  struct_ref_seq: [('A', '2', '544', '1', '543', '1', '543'), ('B', '2', '544', '1', '543', '1', '543')]
+  seq_dif: [('A', 'HIS', '0', '?', '?', 'expression tag'), ('A', 'HIS', '544', '?', '?', 'expression tag'), ('A', 'HIS', '546', '?', '?', 'expression tag'), ('A', 'HIS', '547', '?', '?', 'expression tag'), ('A', 'HIS', '548', '?', '?', 'expression tag'), ('A', 'HIS', '549', '?', '?', 'expression tag'), ('A', 'HIS', '550', '?', '?', 'expression tag'), ('B', 'HIS', '0', '?', '?', 'expression tag'), ('B', 'HIS', '544', '?', '?', 'expression tag'), ('B', 'HIS', '545', '?', '?', 'expression tag'), ('B', 'HIS', '546', '?', '?', 'expression tag'), ('B', 'HIS', '547', '?', '?', 'expression tag'), ('B', 'HIS', '548', '?', '?', 'expression tag'), ('B', 'HIS', '549', '?', '?', 'expression tag')]
+  assemblies: [('1', 'author_and_software_defined_assembly', 'tetrameric')]
+  assembly_gen: [('1', '1,2', 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P')]
+  oper: [('1', 'identity operation'), ('2', 'crystal symmetry operation')]
+  chain A: 529 aa residues, first 13 last 550, gaps ['137-140', '545-549']; het {'FBP': 1, 'GOL': 2, 'PEG': 1, 'EDO': 3}; waters 229
+  chain B: 532 aa residues, first 14 last 545, gaps []; het {'FBP': 1, 'GOL': 1, 'FLC': 1, 'PEG': 1, 'PGE': 1}; waters 158

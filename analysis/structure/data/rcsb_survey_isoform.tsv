@@ -1,0 +1,82 @@
+pdb	entity_description	seq_length	seq_start	isoform_evidence	method	resolution_A	title
+14CK	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.954	Structure of liver pyruvate kinase in complex with mitapivat
+14CL	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.129	Structure of liver pyruvate kinase in complex with TEPP-46
+14CM	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.986	Structure of liver pyruvate kinase in complex with allosteric site fragment S3
+14CN	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.926	Structure of liver pyruvate kinase in complex with allosteric site fragment S4
+14CO	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.887	Structure of liver pyruvate kinase in complex with allosteric activator 8a
+14CP	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.806	Structure of liver pyruvate kinase in complex with allosteric activator 8b
+14CQ	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.184	Structure of liver pyruvate kinase in complex with allosteric activator 8c
+14CR	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.55	Structure of liver pyruvate kinase in complex with allosteric activator 8d
+14CS	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.129	Structure of liver pyruvate kinase in complex with allosteric activator 8e
+14CT	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.484	Structure of liver pyruvate kinase in complex with allosteric activator 8f
+14CU	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.387	Structure of liver pyruvate kinase in complex with allosteric site binder 8g
+14CV	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	3.074	Structure of liver pyruvate kinase in complex with allosteric site binder 8h
+2VGB	PYRUVATE KINASE ISOZYMES R/L	528	LTQELGTAFFQQQQLPAAMA	shared region only (construct lacks isoform-specific N-terminus)	X-RAY DIFFRACTION	2.73	HUMAN ERYTHROCYTE PYRUVATE KINASE
+2VGF	PYRUVATE KINASE ISOZYMES R/L	528	LTQELGTAFFQQQQLPAAMA	shared region only (construct lacks isoform-specific N-terminus)	X-RAY DIFFRACTION	2.75	HUMAN ERYTHROCYTE PYRUVATE KINASE: T384M mutant
+2VGG	PYRUVATE KINASE ISOZYMES R/L	528	LTQELGTAFFQQQQLPAAMA	shared region only (construct lacks isoform-specific N-terminus)	X-RAY DIFFRACTION	2.74	HUMAN ERYTHROCYTE PYRUVATE KINASE: R479H MUTANT
+2VGI	PYRUVATE KINASE ISOZYMES R/L	528	LTQELGTAFFQQQQLPAAMA	shared region only (construct lacks isoform-specific N-terminus)	X-RAY DIFFRACTION	2.87	HUMAN ERYTHROCYTE PYRUVATE KINASE: R486W MUTANT
+4IMA	Pyruvate kinase	543	MEGPAGYLRRASVAQLTQEL	L-type N-terminus present	X-RAY DIFFRACTION	1.954	The structure of C436M-hLPYK in complex with Citrate/Mn/ATP/Fru-1,6-BP
+4IP7	Pyruvate kinase isozymes L	543	MEGPAGYLRRADVAQLTQEL	L-type N-terminus present	X-RAY DIFFRACTION	1.8	Structure of the S12D variant of human liver pyruvate kinase in complex with citrate and FBP.
+5SC8	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.77	Structure of liver pyruvate kinase in complex with anthraquinone derivative 17
+5SC9	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.685	Structure of liver pyruvate kinase in complex with anthraquinone derivative 29
+5SCA	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.918	Structure of liver pyruvate kinase in complex with anthraquinone derivative 36
+5SCB	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.8	Structure of liver pyruvate kinase in complex with anthraquinone derivative 28
+5SCC	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.885	Structure of liver pyruvate kinase in complex with anthraquinone derivative 57
+5SCD	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.041	Structure of liver pyruvate kinase in complex with anthraquinone derivative 58
+5SCE	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.147	Structure of liver pyruvate kinase in complex with anthraquinone derivative 55
+5SCF	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.185	Structure of liver pyruvate kinase in complex with anthraquinone derivative 99
+5SCG	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.937	Structure of liver pyruvate kinase in complex with anthraquinone derivative 101
+5SCH	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.089	Structure of liver pyruvate kinase in complex with anthraquinone derivative 100
+5SCI	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.155	Structure of liver pyruvate kinase in complex with anthraquinone derivative 105
+5SCJ	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.354	Structure of liver pyruvate kinase in complex with anthraquinone derivative 106
+5SCK	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.717	Structure of liver pyruvate kinase in complex with anthraquinone derivative 42
+5SCL	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.134	Structure of liver pyruvate kinase in complex with anthraquinone derivative 1
+5SDT	Pyruvate kinase	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.944	Structure of liver pyruvate kinase in complex with anthraquinone derivative 15
+6ECH	Pyruvate kinase PKLR	550	HMEGPAGYLRRASVAQLTQE	L-type N-terminus present	X-RAY DIFFRACTION	2.19	Pyruvate Kinase Isoform L-type with phosphorylated Ser12 (pS12) in complex with FBP
+6ECK	Pyruvate kinase PKLR	550	HMEGPAGYLRRASVAQLTQE	L-type N-terminus present	X-RAY DIFFRACTION	2.36	Pyruvate Kinase Isoform L-type with phosphorylated Ser113 (pS113) in complex with FBP
+6NN4	Pyruvate kinase PKLR	543	MEGPAGYLRRASVAQLTQEL	L-type N-terminus present	X-RAY DIFFRACTION	2.15	The structure of human liver pyruvate kinase, hLPYK-D499N, in complex with Fru-1,6-BP
+6NN5	Pyruvate kinase PKLR	543	MEGPAGYLRRASVAQLTQEL	L-type N-terminus present	X-RAY DIFFRACTION	2.256	The structure of human liver pyruvate kinase, hLPYK-W527H
+6NN7	Pyruvate kinase PKLR	542	MEGPAGYLRRASVAQLTQEL	L-type N-terminus present	X-RAY DIFFRACTION	2.32	The structure of human liver pyruvate kinase, hLPYK-GGG
+6NN8	Pyruvate kinase PKLR	543	MEGPAGYLRRASVAQLTQEL	L-type N-terminus present	X-RAY DIFFRACTION	2.416	The structure of human liver pyruvate kinase, hLPYK-S531E
+7FRV	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.004	Structure of liver pyruvate kinase in complex with allosteric modulator 3
+7FRW	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.737	Structure of liver pyruvate kinase in complex with allosteric modulator 4
+7FRX	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.847	Structure of liver pyruvate kinase in complex with allosteric modulator 5
+7FRY	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.958	Structure of liver pyruvate kinase in complex with allosteric modulator 6
+7FRZ	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.085	Structure of liver pyruvate kinase in complex with allosteric modulator 7
+7FS0	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.412	Structure of liver pyruvate kinase in complex with allosteric modulator 8
+7FS1	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.863	Structure of liver pyruvate kinase in complex with allosteric modulator 11
+7FS2	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.374	Structure of liver pyruvate kinase in complex with allosteric modulator 13
+7FS3	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.655	Structure of liver pyruvate kinase in complex with allosteric modulator 15
+7FS4	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.19	Structure of liver pyruvate kinase in complex with allosteric modulator 16
+7FS5	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.182	Structure of liver pyruvate kinase in complex with allosteric modulator 17
+7FS6	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.241	Structure of liver pyruvate kinase in complex with allosteric modulator 18
+7FS7	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.774	Structure of liver pyruvate kinase in complex with allosteric modulator 20
+7FS8	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.098	Structure of liver pyruvate kinase in complex with allosteric modulator 21
+7FS9	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.721	Structure of liver pyruvate kinase in complex with allosteric modulator 22
+7FSA	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.909	Structure of liver pyruvate kinase in complex with allosteric modulator 24
+7FSB	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.495	Structure of liver pyruvate kinase in complex with allosteric modulator 41
+7FSC	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.855	Structure of liver pyruvate kinase in complex with allosteric modulator 42
+7FSD	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.769	Structure of liver pyruvate kinase in complex with allosteric modulator 44
+7QDN	Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.695	Structure of human liver pyruvate kinase from which the B domain has been deleted
+7QZU	PKL	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.964	Structure of liver pyruvate kinase in complex with anthraquinone derivative 47
+8TBS	Pyruvate kinase PKLR	544	MGSSHHHHHHSSGLVPRGSE	shared region only (construct lacks isoform-specific N-terminus)	X-RAY DIFFRACTION	2.35	Structure of human erythrocyte pyruvate kinase in complex with an allosteric activator AG-946
+8TBT	Pyruvate kinase PKLR	544	MGSSHHHHHHSSGLVPRGSE	shared region only (construct lacks isoform-specific N-terminus)	X-RAY DIFFRACTION	2.34	Structure of human erythrocyte pyruvate kinase in complex with an allosteric activator Compound 2
+8TBU	Pyruvate kinase PKLR	544	MGSSHHHHHHSSGLVPRGSE	shared region only (construct lacks isoform-specific N-terminus)	X-RAY DIFFRACTION	2.35	Structure of human erythrocyte pyruvate kinase in complex with an allosteric activator Compound 12
+8XFD	Isoform L-type of Pyruvate kinase PKLR	543	MEGPAGYLRRASVAQLTQEL	L-type N-terminus present	X-RAY DIFFRACTION	2.1	Crystal structure of pyruvate kinase tetramer in complex with allosteric activator, Mitapivat (MTPV, AG-348)
+9R3H	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.1	Structure of liver pyruvate kinase in complex with fluorescent probe 4b
+9R3I	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.579	Structure of liver pyruvate kinase in complex with fluorescent probe 4c
+9R3L	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.158	Structure of liver pyruvate kinase in complex with fluorescent probe 4d
+9R3M	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.062	Structure of liver pyruvate kinase in complex with fluorescent probe 8a
+9R3O	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.045	Structure of liver pyruvate kinase in complex with fluorescent probe 4a
+9RDF	Isoform L-type of Pyruvate kinase PKLR	545	GSMEGPAGYLRRASVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	1.62	Liver Pyruvate kinase in complex with a phthalazine-based fluorescent probe IV
+9RFQ	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.385	Structure of liver pyruvate kinase in complex with Liver pyruvate kinase in complex with fluorescent probe I
+9RFT	Isoform L-type of Pyruvate kinase PKLR	447	GSMEGPAGYLRRADVAQLTQ	L-type N-terminus present	X-RAY DIFFRACTION	2.274	Structure of liver pyruvate kinase in complex with Liver pyruvate kinase in complex with fluorescent probe II
+9VXP	Pyruvate kinase PKLR	507	TFLEHLCLLDIDSEPVAARS	shared region only (construct lacks isoform-specific N-terminus)	ELECTRON MICROSCOPY	2.48	Cryo-EM structure of human Pyruvate kinase R (PK-R)
+9W4Q	Pyruvate kinase PKLR	574	MSIQENISSLQLRSWVSKSQ	R-type N-terminus present	ELECTRON MICROSCOPY	2.77	Cryo-EM structure of human pyruvate kinase R (PKR) in complex with an allosteric activator SNH-119014
+9W7Y	Pyruvate kinase PKLR	574	MSIQENISSLQLRSWVSKSQ	R-type N-terminus present	ELECTRON MICROSCOPY	2.87	Cryo-EM structure of human pyruvate kinase R (PKR) in complex with an allosteric activator BT-119106
+9W81	Pyruvate kinase PKLR	574	MSIQENISSLQLRSWVSKSQ	R-type N-terminus present	ELECTRON MICROSCOPY	2.81	Cryo-EM structure of human pyruvate kinase R (PKR) in complex with an allosteric activator FT-4202
+9WDO	Pyruvate kinase PKLR	574	MSIQENISSLQLRSWVSKSQ	R-type N-terminus present	ELECTRON MICROSCOPY	2.57	Cryo-EM structure of the human PKR tetramer with mitapivat (C2 symmetric, dual-bound state)
+9WDQ	Pyruvate kinase PKLR	574	MSIQENISSLQLRSWVSKSQ	R-type N-terminus present	ELECTRON MICROSCOPY	2.93	Cryo-EM structure of the human PKR dimer with mitapivat (focused refinement, asymmetric single-bound state A)
+9WDR	Pyruvate kinase PKLR	574	MSIQENISSLQLRSWVSKSQ	R-type N-terminus present	ELECTRON MICROSCOPY	2.92	Cryo-EM structure of the human PKR dimer with mitapivat (focused refinement, asymmetric single-bound state B)
+9WDT	Pyruvate kinase PKLR	574	MSIQENISSLQLRSWVSKSQ	R-type N-terminus present	ELECTRON MICROSCOPY	2.93	Cryo-EM structure of the human PKR dimer with mitapivat (focused refinement, asymmetric dual-bound state)
+9WEZ	Pyruvate kinase PKLR	574	MSIQENISSLQLRSWVSKSQ	R-type N-terminus present	ELECTRON MICROSCOPY	2.64	Cryo-EM structure of human pyruvate kinase R (PKR) in complex with FBP
