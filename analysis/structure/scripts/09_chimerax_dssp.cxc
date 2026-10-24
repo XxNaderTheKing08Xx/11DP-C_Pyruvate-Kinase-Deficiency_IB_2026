@@ -1,0 +1,6 @@
+# ChimeraX: DSSP (Kabsch-Sander) secondary structure for residues 476-490 of 2VGB chain A
+# Run from the analysis/structure folder: ChimeraX --nogui --exit --script scripts/09_chimerax_dssp.cxc  (UCSF ChimeraX 1.10.1)
+open raw/2VGB.cif
+dssp #1 report true
+info residues #1/A:476-490 attribute ss_type
+info residues #1/A:476-490 attribute ss_id
