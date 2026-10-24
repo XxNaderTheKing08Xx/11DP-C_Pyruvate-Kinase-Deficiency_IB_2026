@@ -1,0 +1,433 @@
+ID   KPYR_RAT                Reviewed;         574 AA.
+AC   P12928; P04763; Q64618;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 2.
+DT   02-SEP-2026, entry version 209.
+DE   RecName: Full=Pyruvate kinase PKLR;
+DE            EC=2.7.1.40 {ECO:0000250|UniProtKB:P30613};
+DE   AltName: Full=L-PK;
+DE   AltName: Full=Pyruvate kinase isozymes L/R;
+GN   Name=Pklr;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3654663; DOI=10.1016/s0021-9258(18)47947-1;
+RA   Noguchi T., Yamada K., Inoue H., Matsuda T., Tanaka T.;
+RT   "The L- and R-type isozymes of rat pyruvate kinase are produced from a
+RT   single gene by use of different promoters.";
+RL   J. Biol. Chem. 262:14366-14371(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3002799; DOI=10.1111/j.1432-1033.1986.tb09420.x;
+RA   Inoue H., Noguchi T., Tanaka T.;
+RT   "Complete amino acid sequence of rat L-type pyruvate kinase deduced from
+RT   the cDNA sequence.";
+RL   Eur. J. Biochem. 154:465-469(1986).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3080337; DOI=10.1016/0014-5793(86)80138-7;
+RA   Lone Y.-C., Simon M.-P., Kahn A., Marie J.;
+RT   "Complete nucleotide and deduced amino acid sequences of rat L-type
+RT   pyruvate kinase.";
+RL   FEBS Lett. 195:97-100(1986).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3309348; DOI=10.1016/0022-2836(87)90507-9;
+RA   Cognet M., Lone Y.C., Vaulont S., Kahn A., Marie J.;
+RT   "Structure of the rat L-type pyruvate kinase gene.";
+RL   J. Mol. Biol. 196:11-25(1987).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Pyruvate kinase that catalyzes the conversion of
+CC       phosphoenolpyruvate to pyruvate with the synthesis of ATP, and which
+CC       plays a key role in glycolysis. Also produces the side product 2-
+CC       phospholactate which can inhibit fructose-2,6-bisphosphate production.
+CC       2-phospholactate can be dephosphorylated by PGP which prevents the
+CC       inhibition of fructose-2,6-bisphosphate production and allows
+CC       glycolysis to occur. {ECO:0000250|UniProtKB:P30613}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pyruvate + ATP = phosphoenolpyruvate + ADP + H(+);
+CC         Xref=Rhea:RHEA:18157, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58702, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.40; Evidence={ECO:0000250|UniProtKB:P30613};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:18159;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-lactate + ATP = (2S)-2-phospholactate + ADP + H(+);
+CC         Xref=Rhea:RHEA:86567, ChEBI:CHEBI:15378, ChEBI:CHEBI:16651,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:59906, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by fructose 1,6-
+CC       bisphosphate. {ECO:0000250|UniProtKB:P30613}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 5/5. {ECO:0000250|UniProtKB:P30613}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P30613}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=R-type; Synonyms=PKR;
+CC         IsoId=P12928-1; Sequence=Displayed;
+CC       Name=L-type; Synonyms=PKL;
+CC         IsoId=P12928-2; Sequence=VSP_002884;
+CC   -!- MISCELLANEOUS: There are 4 isozymes of pyruvate kinase in mammals: L,
+CC       R, M1 and M2. L type is major isozyme in the liver, R is found in red
+CC       cells, M1 is the main form in muscle, heart and brain, and M2 is found
+CC       in early fetal tissues. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the pyruvate kinase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M17091; AAA41882.1; -; Genomic_DNA.
+DR   EMBL; M17088; AAA41882.1; JOINED; Genomic_DNA.
+DR   EMBL; M17089; AAA41882.1; JOINED; Genomic_DNA.
+DR   EMBL; M17090; AAA41882.1; JOINED; Genomic_DNA.
+DR   EMBL; M17091; AAA41883.1; -; Genomic_DNA.
+DR   EMBL; M17088; AAA41883.1; JOINED; Genomic_DNA.
+DR   EMBL; M17089; AAA41883.1; JOINED; Genomic_DNA.
+DR   EMBL; M17090; AAA41883.1; JOINED; Genomic_DNA.
+DR   EMBL; M17685; AAA41881.1; -; mRNA.
+DR   EMBL; X05684; CAA29169.1; -; Genomic_DNA.
+DR   EMBL; M11709; AAA41880.1; -; mRNA.
+DR   PIR; A27427; KIRTPR.
+DR   PIR; A92940; KIRTPL.
+DR   RefSeq; NP_036756.3; NM_012624.3. [P12928-2]
+DR   RefSeq; XP_006232655.1; XM_006232593.5. [P12928-1]
+DR   PDB; 6ECH; X-ray; 2.19 A; A/B/C/D=34-574.
+DR   PDB; 6ECK; X-ray; 2.36 A; A/B=34-574.
+DR   AlphaFoldDB; P12928; -.
+DR   SMR; P12928; -.
+DR   BioGRID; 246786; 1.
+DR   FunCoup; P12928; 317.
+DR   IntAct; P12928; 1.
+DR   MINT; P12928; -.
+DR   STRING; 10116.ENSRNOP00000027700; -.
+DR   BindingDB; P12928; -.
+DR   ChEMBL; CHEMBL3089; -.
+DR   GlyGen; P12928; 1 site.
+DR   iPTMnet; P12928; -.
+DR   PhosphoSitePlus; P12928; -.
+DR   jPOST; P12928; -.
+DR   PaxDb; 10116-ENSRNOP00000027700; -.
+DR   Ensembl; ENSRNOT00000027700.8; ENSRNOP00000027700.3; ENSRNOG00000020420.8. [P12928-1]
+DR   Ensembl; ENSRNOT00000103387.2; ENSRNOP00000093132.1; ENSRNOG00000020420.8. [P12928-2]
+DR   Ensembl; ENSRNOT00065042893; ENSRNOP00065035101; ENSRNOG00065024916. [P12928-1]
+DR   GeneID; 24651; -.
+DR   KEGG; rno:24651; -.
+DR   UCSC; RGD:3336; rat. [P12928-1]
+DR   AGR; RGD:3336; -.
+DR   CTD; 5313; -.
+DR   RGD; 3336; Pklr.
+DR   eggNOG; KOG2323; Eukaryota.
+DR   GeneTree; ENSGT00390000008859; -.
+DR   HOGENOM; CLU_015439_0_1_1; -.
+DR   InParanoid; P12928; -.
+DR   OMA; HQGRYDR; -.
+DR   OrthoDB; 44365at9989; -.
+DR   PhylomeDB; P12928; -.
+DR   Reactome; R-RNO-70171; Glycolysis.
+DR   Reactome; R-RNO-70268; Pyruvate metabolism.
+DR   SABIO-RK; P12928; -.
+DR   UniPathway; UPA00109; UER00188.
+DR   PRO; PR:P12928; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000020420; Expressed in duodenum and 14 other cell types or tissues.
+DR   ExpressionAtlas; P12928; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0048029; F:monosaccharide binding; IPI:RGD.
+DR   GO; GO:0030955; F:potassium ion binding; IEA:InterPro.
+DR   GO; GO:0004743; F:pyruvate kinase activity; IDA:RGD.
+DR   GO; GO:0071872; P:cellular response to epinephrine stimulus; IEP:RGD.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IDA:RGD.
+DR   GO; GO:0006096; P:glycolytic process; IDA:RGD.
+DR   GO; GO:0042866; P:pyruvate biosynthetic process; IDA:RGD.
+DR   GO; GO:0033198; P:response to ATP; IDA:RGD.
+DR   GO; GO:0051591; P:response to cAMP; IDA:RGD.
+DR   GO; GO:0009749; P:response to glucose; IEP:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0010038; P:response to metal ion; IEP:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0051707; P:response to other organism; ISO:RGD.
+DR   CDD; cd00288; Pyruvate_Kinase; 1.
+DR   FunFam; 2.40.33.10:FF:000001; Pyruvate kinase; 1.
+DR   FunFam; 3.20.20.60:FF:000025; Pyruvate kinase; 1.
+DR   FunFam; 3.40.1380.20:FF:000001; Pyruvate kinase; 1.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   Gene3D; 2.40.33.10; PK beta-barrel domain-like; 1.
+DR   Gene3D; 3.40.1380.20; Pyruvate kinase, C-terminal domain; 1.
+DR   InterPro; IPR001697; Pyr_Knase.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_kinase-like_dom_sf.
+DR   InterPro; IPR011037; Pyrv_Knase-like_insert_dom_sf.
+DR   InterPro; IPR018209; Pyrv_Knase_AS.
+DR   InterPro; IPR015793; Pyrv_Knase_brl.
+DR   InterPro; IPR015795; Pyrv_Knase_C.
+DR   InterPro; IPR036918; Pyrv_Knase_C_sf.
+DR   InterPro; IPR015806; Pyrv_Knase_insert_dom_sf.
+DR   NCBIfam; NF004491; PRK05826.1; 1.
+DR   NCBIfam; NF004978; PRK06354.1; 1.
+DR   NCBIfam; TIGR01064; pyruv_kin; 1.
+DR   PANTHER; PTHR11817; PYRUVATE KINASE; 1.
+DR   Pfam; PF00224; PK; 1.
+DR   Pfam; PF02887; PK_C; 1.
+DR   PRINTS; PR01050; PYRUVTKNASE.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+DR   SUPFAM; SSF50800; PK beta-barrel domain-like; 1.
+DR   SUPFAM; SSF52935; PK C-terminal domain-like; 1.
+DR   PROSITE; PS00110; PYRUVATE_KINASE; 1.
+DR   PDBsum; 6ECH; -.
+DR   PDBsum; 6ECK; -.
+PE   1: Evidence at protein level;
+KW   3D-structure; Allosteric enzyme; Alternative splicing; ATP-binding;
+KW   Glycolysis; Kinase; Magnesium; Manganese; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Potassium; Pyruvate;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..574
+FT                   /note="Pyruvate kinase PKLR"
+FT                   /id="PRO_0000112096"
+FT   BINDING         116
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         118..121
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         118
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         120
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         156
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         157
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         163
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         250
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         313
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         315
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         338
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         339
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         339
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         371
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         475..480
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         525
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         532
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         559..564
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   SITE            313
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P00549"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   MOD_RES         19
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   MOD_RES         26
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   MOD_RES         43
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   MOD_RES         292
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   VAR_SEQ         1..33
+FT                   /note="MSVQENTLPQQLWPWIFRSQKDLAKSALSGAPG -> ME (in isoform
+FT                   L-type)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_002884"
+FT   CONFLICT        130
+FT                   /note="S -> Y (in Ref. 1; AAA41882/AAA41883)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        322
+FT                   /note="K -> R (in Ref. 1; AAA41882/AAA41883)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        498
+FT                   /note="R -> G (in Ref. 3; AAA41880)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        501
+FT                   /note="Q -> K (in Ref. 3; AAA41880)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           47..50
+FT                   /evidence="ECO:0007829|PDB:6ECK"
+FT   HELIX           54..57
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           61..64
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           69..75
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          88..93
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           96..98
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           101..110
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          112..118
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           124..139
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   TURN            140..143
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   TURN            145..147
+FT                   /evidence="ECO:0007829|PDB:6ECK"
+FT   STRAND          152..156
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          162..164
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          175..177
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          182..186
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           189..191
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          197..203
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           207..210
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          216..219
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   TURN            220..223
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          224..232
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          235..242
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          244..246
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          251..253
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           266..277
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          281..285
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           291..301
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           303..305
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          308..314
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           317..321
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           323..329
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          330..336
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           337..343
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           346..348
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           349..363
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          367..372
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           375..378
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           385..397
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          400..405
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           406..409
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           414..431
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           434..444
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           451..465
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          469..474
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          476..478
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           479..485
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          490..498
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           500..505
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           506..508
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          512..516
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   HELIX           520..522
+FT                   /evidence="ECO:0007829|PDB:6ECK"
+FT   HELIX           525..542
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          551..561
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+FT   STRAND          565..572
+FT                   /evidence="ECO:0007829|PDB:6ECH"
+SQ   SEQUENCE   574 AA;  62200 MW;  6BBC544653C51380 CRC64;
+     MSVQENTLPQ QLWPWIFRSQ KDLAKSALSG APGGPAGYLR RASVAQLTQE LGTAFFQQQQ
+     LPAAMADTFL EHLCLLDIDS QPVAARSTSI IATIGPASRS VDRLKEMIKA GMNIARLNFS
+     HGSHEYHAES IANIREATES FATSPLSYRP VAIALDTKGP EIRTGVLQGG PESEVEIVKG
+     SQVLVTVDPK FQTRGDAKTV WVDYHNITRV VAVGGRIYID DGLISLVVQK IGPEGLVTEV
+     EHGGILGSRK GVNLPNTEVD LPGLSEQDLL DLRFGVQHNV DIIFASFVRK ASDVLAVRDA
+     LGPEGQNIKI ISKIENHEGV KKFDEILEVS DGIMVARGDL GIEIPAEKVF LAQKMMIGRC
+     NLAGKPVVCA TQMLESMITK ARPTRAETSD VANAVLDGAD CIMLSGETAK GSFPVEAVMM
+     QHAIAREAEA AVYHRQLFEE LRRAAPLSRD PTEVTAIGAV EASFKCCAAA IIVLTKTGRS
+     AQLLSQYRPR AAVIAVTRSA QAARQVHLSR GVFPLLYREP PEAIWADDVD RRVQFGIESG
+     KLRGFLRVGD LVIVVTGWRP GSGYTNIMRV LSVS
+//

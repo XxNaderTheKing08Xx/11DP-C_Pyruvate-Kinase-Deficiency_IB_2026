@@ -1,0 +1,5 @@
+Entry	Entry Name	Organism	Organism (ID)	Length	Sequence version	Protein names	Gene Names
+P30613	KPYR_HUMAN	Homo sapiens (Human)	9606	574	2	Pyruvate kinase PKLR (EC 2.7.1.40) (Pyruvate kinase 1) (Pyruvate kinase isozymes L/R) (R-type/L-type pyruvate kinase) (Red cell/liver pyruvate kinase)	PKLR PK1 PKL
+P12928	KPYR_RAT	Rattus norvegicus (Rat)	10116	574	2	Pyruvate kinase PKLR (EC 2.7.1.40) (L-PK) (Pyruvate kinase isozymes L/R)	Pklr
+P53657	KPYR_MOUSE	Mus musculus (Mouse)	10090	574	1	Pyruvate kinase PKLR (EC 2.7.1.40) (L-PK) (Pyruvate kinase isozymes L/R)	Pklr
+Q29536	KPYR_CANLF	Canis lupus familiaris (Dog) (Canis familiaris)	9615	574	2	Pyruvate kinase PKLR (EC 2.7.1.40) (Pyruvate kinase isozymes L/R)	PKLR

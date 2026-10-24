@@ -1,0 +1,308 @@
+ID   KPYR_CANLF              Reviewed;         574 AA.
+AC   Q29536; F1P923; F1PXP8; F1PY57;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   21-MAR-2012, sequence version 2.
+DT   02-SEP-2026, entry version 160.
+DE   RecName: Full=Pyruvate kinase PKLR;
+DE            EC=2.7.1.40 {ECO:0000250|UniProtKB:P30613};
+DE   AltName: Full=Pyruvate kinase isozymes L/R;
+GN   Name=PKLR;
+OS   Canis lupus familiaris (Dog) (Canis familiaris).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis.
+OX   NCBI_TaxID=9615;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Boxer;
+RX   PubMed=16341006; DOI=10.1038/nature04338;
+RA   Lindblad-Toh K., Wade C.M., Mikkelsen T.S., Karlsson E.K., Jaffe D.B.,
+RA   Kamal M., Clamp M., Chang J.L., Kulbokas E.J. III, Zody M.C., Mauceli E.,
+RA   Xie X., Breen M., Wayne R.K., Ostrander E.A., Ponting C.P., Galibert F.,
+RA   Smith D.R., deJong P.J., Kirkness E.F., Alvarez P., Biagi T., Brockman W.,
+RA   Butler J., Chin C.-W., Cook A., Cuff J., Daly M.J., DeCaprio D., Gnerre S.,
+RA   Grabherr M., Kellis M., Kleber M., Bardeleben C., Goodstadt L., Heger A.,
+RA   Hitte C., Kim L., Koepfli K.-P., Parker H.G., Pollinger J.P.,
+RA   Searle S.M.J., Sutter N.B., Thomas R., Webber C., Baldwin J., Abebe A.,
+RA   Abouelleil A., Aftuck L., Ait-Zahra M., Aldredge T., Allen N., An P.,
+RA   Anderson S., Antoine C., Arachchi H., Aslam A., Ayotte L., Bachantsang P.,
+RA   Barry A., Bayul T., Benamara M., Berlin A., Bessette D., Blitshteyn B.,
+RA   Bloom T., Blye J., Boguslavskiy L., Bonnet C., Boukhgalter B., Brown A.,
+RA   Cahill P., Calixte N., Camarata J., Cheshatsang Y., Chu J., Citroen M.,
+RA   Collymore A., Cooke P., Dawoe T., Daza R., Decktor K., DeGray S.,
+RA   Dhargay N., Dooley K., Dooley K., Dorje P., Dorjee K., Dorris L.,
+RA   Duffey N., Dupes A., Egbiremolen O., Elong R., Falk J., Farina A., Faro S.,
+RA   Ferguson D., Ferreira P., Fisher S., FitzGerald M., Foley K., Foley C.,
+RA   Franke A., Friedrich D., Gage D., Garber M., Gearin G., Giannoukos G.,
+RA   Goode T., Goyette A., Graham J., Grandbois E., Gyaltsen K., Hafez N.,
+RA   Hagopian D., Hagos B., Hall J., Healy C., Hegarty R., Honan T., Horn A.,
+RA   Houde N., Hughes L., Hunnicutt L., Husby M., Jester B., Jones C., Kamat A.,
+RA   Kanga B., Kells C., Khazanovich D., Kieu A.C., Kisner P., Kumar M.,
+RA   Lance K., Landers T., Lara M., Lee W., Leger J.-P., Lennon N., Leuper L.,
+RA   LeVine S., Liu J., Liu X., Lokyitsang Y., Lokyitsang T., Lui A.,
+RA   Macdonald J., Major J., Marabella R., Maru K., Matthews C., McDonough S.,
+RA   Mehta T., Meldrim J., Melnikov A., Meneus L., Mihalev A., Mihova T.,
+RA   Miller K., Mittelman R., Mlenga V., Mulrain L., Munson G., Navidi A.,
+RA   Naylor J., Nguyen T., Nguyen N., Nguyen C., Nguyen T., Nicol R., Norbu N.,
+RA   Norbu C., Novod N., Nyima T., Olandt P., O'Neill B., O'Neill K., Osman S.,
+RA   Oyono L., Patti C., Perrin D., Phunkhang P., Pierre F., Priest M.,
+RA   Rachupka A., Raghuraman S., Rameau R., Ray V., Raymond C., Rege F.,
+RA   Rise C., Rogers J., Rogov P., Sahalie J., Settipalli S., Sharpe T.,
+RA   Shea T., Sheehan M., Sherpa N., Shi J., Shih D., Sloan J., Smith C.,
+RA   Sparrow T., Stalker J., Stange-Thomann N., Stavropoulos S., Stone C.,
+RA   Stone S., Sykes S., Tchuinga P., Tenzing P., Tesfaye S., Thoulutsang D.,
+RA   Thoulutsang Y., Topham K., Topping I., Tsamla T., Vassiliev H.,
+RA   Venkataraman V., Vo A., Wangchuk T., Wangdi T., Weiand M., Wilkinson J.,
+RA   Wilson A., Yadav S., Yang S., Yang X., Young G., Yu Q., Zainoun J.,
+RA   Zembek L., Zimmer A., Lander E.S.;
+RT   "Genome sequence, comparative analysis and haplotype structure of the
+RT   domestic dog.";
+RL   Nature 438:803-819(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 56-574.
+RC   TISSUE=Reticulocyte;
+RX   PubMed=7520391;
+RA   Whitney K.M., Goodman S.A., Bailey E.M., Lothrop C.D. Jr.;
+RT   "The molecular basis of canine pyruvate kinase deficiency.";
+RL   Exp. Hematol. 22:866-874(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-134 (ISOFORM L-TYPE).
+RC   TISSUE=Liver;
+RA   Staten N.R.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Pyruvate kinase that catalyzes the conversion of
+CC       phosphoenolpyruvate to pyruvate with the synthesis of ATP, and which
+CC       plays a key role in glycolysis. Also produces the side product 2-
+CC       phospholactate which can inhibit fructose-2,6-bisphosphate production.
+CC       2-phospholactate can be dephosphorylated by PGP which prevents the
+CC       inhibition of fructose-2,6-bisphosphate production and allows
+CC       glycolysis to occur. {ECO:0000250|UniProtKB:P30613}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pyruvate + ATP = phosphoenolpyruvate + ADP + H(+);
+CC         Xref=Rhea:RHEA:18157, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58702, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.40; Evidence={ECO:0000250|UniProtKB:P30613};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:18159;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-lactate + ATP = (2S)-2-phospholactate + ADP + H(+);
+CC         Xref=Rhea:RHEA:86567, ChEBI:CHEBI:15378, ChEBI:CHEBI:16651,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:59906, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000250|UniProtKB:P30613};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by fructose 1,6-
+CC       bisphosphate. {ECO:0000250|UniProtKB:P30613}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 5/5. {ECO:0000250|UniProtKB:P30613}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P30613}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=R-type; Synonyms=PKR;
+CC         IsoId=Q29536-1; Sequence=Displayed;
+CC       Name=L-type; Synonyms=PKL;
+CC         IsoId=Q29536-2; Sequence=VSP_042444;
+CC   -!- DISEASE: Note=Defects in PKLR are a cause of inherited hemolytic
+CC       anemia, an autosomal recessive disease of the Basenji dog that closely
+CC       resembles human pyruvate kinase deficiency.
+CC       {ECO:0000269|PubMed:7520391}.
+CC   -!- MISCELLANEOUS: There are 4 isozymes of pyruvate kinase in mammals: L,
+CC       R, M1 and M2. L type is major isozyme in the liver, R is found in red
+CC       cells, M1 is the main form in muscle, heart and brain, and M2 is found
+CC       in early fetal tissues. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the pyruvate kinase family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=DN338485; Type=Miscellaneous discrepancy; Note=Derived from EST data.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAEX03005338; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AH004600; AAB31627.2; -; mRNA.
+DR   EMBL; DN338485; -; NOT_ANNOTATED_CDS; mRNA.
+DR   RefSeq; NP_001242947.1; NM_001256018.1.
+DR   RefSeq; NP_001243191.1; NM_001256262.2. [Q29536-1]
+DR   AlphaFoldDB; Q29536; -.
+DR   SMR; Q29536; -.
+DR   FunCoup; Q29536; 295.
+DR   STRING; 9615.ENSCAFP00000061352; -.
+DR   PaxDb; 9615-ENSCAFP00000061352; -.
+DR   Ensembl; ENSCAFT00000026853; ENSCAFP00000024956; ENSCAFG00000016959. [Q29536-2]
+DR   Ensembl; ENSCAFT00000035475; ENSCAFP00000030738; ENSCAFG00000016959. [Q29536-1]
+DR   Ensembl; ENSCAFT00030047792; ENSCAFP00030041802; ENSCAFG00030025851. [Q29536-1]
+DR   Ensembl; ENSCAFT00030047805; ENSCAFP00030041815; ENSCAFG00030025851. [Q29536-2]
+DR   Ensembl; ENSCAFT00040001436; ENSCAFP00040001228; ENSCAFG00040000772. [Q29536-1]
+DR   Ensembl; ENSCAFT00040001457; ENSCAFP00040001246; ENSCAFG00040000772. [Q29536-2]
+DR   Ensembl; ENSCAFT00805006609; ENSCAFP00805005114; ENSCAFG00805003554. [Q29536-1]
+DR   Ensembl; ENSCAFT00845021649.1; ENSCAFP00845017017.1; ENSCAFG00845012059.1. [Q29536-1]
+DR   Ensembl; ENSCAFT00845021714.1; ENSCAFP00845017074.1; ENSCAFG00845012059.1. [Q29536-2]
+DR   GeneID; 490425; -.
+DR   KEGG; cfa:490425; -.
+DR   CTD; 5313; -.
+DR   VEuPathDB; HostDB:ENSCAFG00845012059; -.
+DR   VGNC; VGNC:44609; PKLR.
+DR   eggNOG; KOG2323; Eukaryota.
+DR   GeneTree; ENSGT00390000008859; -.
+DR   InParanoid; Q29536; -.
+DR   OrthoDB; 108365at2759; -.
+DR   Reactome; R-CFA-70171; Glycolysis.
+DR   Reactome; R-CFA-70268; Pyruvate metabolism.
+DR   UniPathway; UPA00109; UER00188.
+DR   Proteomes; UP000805418; Chromosome 7.
+DR   Bgee; ENSCAFG00000016959; Expressed in liver and 31 other cell types or tissues.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0030955; F:potassium ion binding; IEA:InterPro.
+DR   GO; GO:0004743; F:pyruvate kinase activity; ISS:UniProtKB.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IBA:GO_Central.
+DR   GO; GO:0006096; P:glycolytic process; IBA:GO_Central.
+DR   CDD; cd00288; Pyruvate_Kinase; 1.
+DR   FunFam; 2.40.33.10:FF:000001; Pyruvate kinase; 1.
+DR   FunFam; 3.20.20.60:FF:000025; Pyruvate kinase; 1.
+DR   FunFam; 3.40.1380.20:FF:000001; Pyruvate kinase; 1.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   Gene3D; 2.40.33.10; PK beta-barrel domain-like; 1.
+DR   Gene3D; 3.40.1380.20; Pyruvate kinase, C-terminal domain; 1.
+DR   InterPro; IPR001697; Pyr_Knase.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_kinase-like_dom_sf.
+DR   InterPro; IPR011037; Pyrv_Knase-like_insert_dom_sf.
+DR   InterPro; IPR018209; Pyrv_Knase_AS.
+DR   InterPro; IPR015793; Pyrv_Knase_brl.
+DR   InterPro; IPR015795; Pyrv_Knase_C.
+DR   InterPro; IPR036918; Pyrv_Knase_C_sf.
+DR   InterPro; IPR015806; Pyrv_Knase_insert_dom_sf.
+DR   NCBIfam; NF004491; PRK05826.1; 1.
+DR   NCBIfam; NF004978; PRK06354.1; 1.
+DR   NCBIfam; TIGR01064; pyruv_kin; 1.
+DR   PANTHER; PTHR11817; PYRUVATE KINASE; 1.
+DR   Pfam; PF00224; PK; 1.
+DR   Pfam; PF02887; PK_C; 1.
+DR   PRINTS; PR01050; PYRUVTKNASE.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+DR   SUPFAM; SSF50800; PK beta-barrel domain-like; 1.
+DR   SUPFAM; SSF52935; PK C-terminal domain-like; 1.
+DR   PROSITE; PS00110; PYRUVATE_KINASE; 1.
+PE   2: Evidence at transcript level;
+KW   Allosteric enzyme; Alternative splicing; ATP-binding; Glycolysis; Kinase;
+KW   Magnesium; Manganese; Metal-binding; Nucleotide-binding; Phosphoprotein;
+KW   Potassium; Pyruvate; Reference proteome; Transferase.
+FT   CHAIN           1..574
+FT                   /note="Pyruvate kinase PKLR"
+FT                   /id="PRO_0000112093"
+FT   BINDING         116
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         118..121
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         118
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         120
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         156
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         157
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         163
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         250
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         313
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         315
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         338
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         339
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         339
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         371
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         475..480
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         525
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         532
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         559..564
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   SITE            313
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P00549"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   MOD_RES         19
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   MOD_RES         26
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   MOD_RES         43
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   MOD_RES         292
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   VAR_SEQ         1..33
+FT                   /note="MSSQENIQPQELWSRISKSQRDLAKSILIGAPG -> ME (in isoform
+FT                   L-type)"
+FT                   /evidence="ECO:0000303|Ref.3"
+FT                   /id="VSP_042444"
+FT   CONFLICT        423
+FT                   /note="A -> R (in Ref. 2; AAB31627)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        458..459
+FT                   /note="GA -> AT (in Ref. 2; AAB31627)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   574 AA;  62048 MW;  F18E28450B1C7F30 CRC64;
+     MSSQENIQPQ ELWSRISKSQ RDLAKSILIG APGGPAGYLR RASVAQLTLE LGTAFFQQQQ
+     LSAAMADTFL EHLCLLDIDS EPVAARSTSI IATIGPASHS VERLKEMIKA GMNIARLNFS
+     HGSHEYHAQS IANIREAVES FATSPLGYRP VAIALDTKGP EIRTGVLKGG PETEVELVKG
+     SWVLVTVDPA FRTLGDAHTV WVDYPNIVKV VPVGGRIFID DGLISLQVKK IDRKGLETQV
+     ENGGLLGSRK GVNLPGAEVD LPGLSEQDAQ DLRFGVEHNV DIVFASFVRK ASDVAAIRAA
+     LGPEGRTIKI ISKIENHEGV KKFDEILEVS DGIMVARGDL GIEIPAEKVF LAQKMMIGRC
+     NLAGKPVVCA TQMLESMITK PRPTRAETSD VANAVLDGAD CIMLSGETAK GKFPVEAVKM
+     QHAIAREAEA AVYHRQLFEE LRRAAPLSRD PTEVTAIGAV EAAFKCCAAA IIVLTKTGRS
+     AQLLSRYRPR AAVIAVTRSA QAARQAHLCR GVFPLLYSEP PEAIWADDVD RRVQFGIESG
+     KLRGFLRVGD LVIVVTGWRP GSGYTNIMRV LSIS
+//

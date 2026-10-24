@@ -1,0 +1,211 @@
+ID   KPYM_CHICK              Reviewed;         530 AA.
+AC   P00548;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   02-SEP-2026, entry version 165.
+DE   RecName: Full=Pyruvate kinase PKM;
+DE            EC=2.7.1.40 {ECO:0000250|UniProtKB:P14618};
+GN   Name=PKM;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=6574503; DOI=10.1073/pnas.80.12.3661;
+RA   Lonberg N., Gilbert W.;
+RT   "Primary structure of chicken muscle pyruvate kinase mRNA.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 80:3661-3665(1983).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2981634; DOI=10.1016/0092-8674(85)90311-3;
+RA   Lonberg N., Gilbert W.;
+RT   "Intron/exon structure of the chicken pyruvate kinase gene.";
+RL   Cell 40:81-90(1985).
+CC   -!- FUNCTION: Glycolytic enzyme that catalyzes the transfer of a phosphoryl
+CC       group from phosphoenolpyruvate (PEP) to ADP, generating ATP.
+CC       {ECO:0000250|UniProtKB:P14618}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pyruvate + ATP = phosphoenolpyruvate + ADP + H(+);
+CC         Xref=Rhea:RHEA:18157, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58702, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.40; Evidence={ECO:0000250|UniProtKB:P14618};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P14618};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000250|UniProtKB:P14618};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by fructose 1,6-
+CC       bisphosphate. {ECO:0000250|UniProtKB:P14618}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 5/5.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P14618}.
+CC   -!- MISCELLANEOUS: This activity is regulated by glucose levels.
+CC   -!- SIMILARITY: Belongs to the pyruvate kinase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J00903; AAA49021.1; -; mRNA.
+DR   EMBL; M18793; AAA49020.1; -; Genomic_DNA.
+DR   EMBL; M10619; AAA49020.1; JOINED; Genomic_DNA.
+DR   EMBL; M18788; AAA49020.1; JOINED; Genomic_DNA.
+DR   EMBL; M18789; AAA49020.1; JOINED; Genomic_DNA.
+DR   EMBL; M18790; AAA49020.1; JOINED; Genomic_DNA.
+DR   EMBL; M18791; AAA49020.1; JOINED; Genomic_DNA.
+DR   EMBL; M18792; AAA49020.1; JOINED; Genomic_DNA.
+DR   PIR; I50408; KICHPM.
+DR   RefSeq; NP_990800.1; NM_205469.2.
+DR   AlphaFoldDB; P00548; -.
+DR   SMR; P00548; -.
+DR   BioGRID; 676705; 2.
+DR   FunCoup; P00548; 1802.
+DR   IntAct; P00548; 1.
+DR   STRING; 9031.ENSGALP00000049508; -.
+DR   PaxDb; 9031-ENSGALP00000049508; -.
+DR   GeneID; 396456; -.
+DR   KEGG; gga:396456; -.
+DR   CTD; 5313; -.
+DR   VEuPathDB; HostDB:geneid_396456; -.
+DR   eggNOG; KOG2323; Eukaryota.
+DR   InParanoid; P00548; -.
+DR   OMA; RVHHIGE; -.
+DR   OrthoDB; 108365at2759; -.
+DR   PhylomeDB; P00548; -.
+DR   Reactome; R-GGA-352882; Glycolysis.
+DR   UniPathway; UPA00109; UER00188.
+DR   PRO; PR:P00548; -.
+DR   Proteomes; UP000000539; Chromosome 10.
+DR   Bgee; ENSGALG00000001992; Expressed in muscle tissue and 13 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0030955; F:potassium ion binding; IEA:InterPro.
+DR   GO; GO:0004743; F:pyruvate kinase activity; ISS:UniProtKB.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IBA:GO_Central.
+DR   GO; GO:0006096; P:glycolytic process; IBA:GO_Central.
+DR   CDD; cd00288; Pyruvate_Kinase; 1.
+DR   FunFam; 3.20.20.60:FF:000025; Pyruvate kinase; 1.
+DR   FunFam; 3.40.1380.20:FF:000001; Pyruvate kinase; 1.
+DR   FunFam; 3.40.1380.20:FF:000002; Pyruvate kinase; 1.
+DR   FunFam; 2.40.33.10:FF:000023; Pyruvate kinase PKM; 1.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   Gene3D; 2.40.33.10; PK beta-barrel domain-like; 1.
+DR   Gene3D; 3.40.1380.20; Pyruvate kinase, C-terminal domain; 2.
+DR   InterPro; IPR001697; Pyr_Knase.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_kinase-like_dom_sf.
+DR   InterPro; IPR011037; Pyrv_Knase-like_insert_dom_sf.
+DR   InterPro; IPR018209; Pyrv_Knase_AS.
+DR   InterPro; IPR015793; Pyrv_Knase_brl.
+DR   InterPro; IPR015795; Pyrv_Knase_C.
+DR   InterPro; IPR036918; Pyrv_Knase_C_sf.
+DR   InterPro; IPR015806; Pyrv_Knase_insert_dom_sf.
+DR   NCBIfam; NF004491; PRK05826.1; 1.
+DR   NCBIfam; NF004978; PRK06354.1; 1.
+DR   NCBIfam; TIGR01064; pyruv_kin; 1.
+DR   PANTHER; PTHR11817; PYRUVATE KINASE; 1.
+DR   Pfam; PF00224; PK; 1.
+DR   Pfam; PF02887; PK_C; 1.
+DR   PRINTS; PR01050; PYRUVTKNASE.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+DR   SUPFAM; SSF50800; PK beta-barrel domain-like; 1.
+DR   SUPFAM; SSF52935; PK C-terminal domain-like; 1.
+DR   PROSITE; PS00110; PYRUVATE_KINASE; 1.
+PE   2: Evidence at transcript level;
+KW   Allosteric enzyme; ATP-binding; Glycolysis; Kinase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Phosphoprotein; Potassium; Pyruvate;
+KW   Reference proteome; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P11979"
+FT   CHAIN           2..530
+FT                   /note="Pyruvate kinase PKM"
+FT                   /id="PRO_0000112097"
+FT   BINDING         72
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         74..77
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         74
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         76
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         112
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         113
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         119
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         206
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         269
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         271
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         294
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         295
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         295
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         327
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         431..436
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         481
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         488
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         515..520
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   SITE            269
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P00549"
+SQ   SEQUENCE   530 AA;  58015 MW;  8B0DF09FD82EB72F CRC64;
+     MSKHHDAGTA FIQTQQLHAA MADTFLEHMC RLDIDSEPTI ARNTGIICTI GPASRSVDKL
+     KEMIKSGMNV ARLNFSHGTH EYHEGTIKNV REATESFASD PITYRPVAIA LDTKGPEIRT
+     GLIKGSGTAE VELKKGAALK VTLDNAFMEN CDENVLWVDY KNLIKVIDVG SKIYVDDGLI
+     SLLVKEKGKD FVMTEVENGG MLGSKKGVNL PGAAVDLPAV SEKDIQDLKF GVEQNVDMVF
+     ASFIRKAADV HAVRKVLGEK GKHIKIISKI ENHEGVRRFD EIMEASDGIM VARGDLGIEI
+     PAEKVFLAQK MMIGRCNRAG KPIICATQML ESMIKKPRPT RAEGSDVANA VLDGADCIML
+     SGETAKGDYP LEAVRMQHAI AREAEAAMFH RQQFEEILRH SVHHREPADA MAAGAVEASF
+     KCLAAALIVM TESGRSAHLV SRYRPRAPII AVTRNDQTAR QAHLYRGVFP VLCKQPAHDA
+     WAEDVDLRVN LGMNVGKARG FFKTGDLVIV LTGWRPGSGY TNTMRVVPVP
+//
