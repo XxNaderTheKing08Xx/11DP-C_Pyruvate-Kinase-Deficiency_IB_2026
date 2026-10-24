@@ -1,0 +1,3 @@
+XM_001112902.5 (XP_001112902.2): 574 aa; residue aligned to human 486 = Q486; codon CAG; window TTGRSAQLLSQYRPRAAVIAV
+XM_003735138.5 (XP_003735186.4): 615 aa; residue aligned to human 486 = Q527; codon CAA; window TTGRSAQLLSQYRPRAAVIAV
+XM_008984562.5 (XP_008982810.2): 543 aa; residue aligned to human 486 = Q455; codon CAA; window TTGRSAQLLSQYRPRAAVIAV
