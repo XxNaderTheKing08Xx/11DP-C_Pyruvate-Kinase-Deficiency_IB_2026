@@ -1,0 +1,2570 @@
+{
+ "pdb": "8TBS",
+ "position_author": 486,
+ "rtype_offset": 0,
+ "sequence_check": {
+  "A": {
+   "n_compared": 485,
+   "differences_vs_supplied_WT": []
+  },
+  "B": {
+   "n_compared": 517,
+   "differences_vs_supplied_WT": []
+  },
+  "C": {
+   "n_compared": 512,
+   "differences_vs_supplied_WT": []
+  },
+  "D": {
+   "n_compared": 483,
+   "differences_vs_supplied_WT": []
+  },
+  "E": {
+   "n_compared": 515,
+   "differences_vs_supplied_WT": []
+  },
+  "F": {
+   "n_compared": 520,
+   "differences_vs_supplied_WT": []
+  },
+  "G": {
+   "n_compared": 509,
+   "differences_vs_supplied_WT": []
+  },
+  "H": {
+   "n_compared": 519,
+   "differences_vs_supplied_WT": []
+  }
+ },
+ "supplied_WT_486": "R",
+ "supplied_mut_486": "W",
+ "deposited_secondary_structure_covering_pos": [
+  "A:HELX_P HELX_P20 478-486",
+  "B:HELX_P HELX_P43 478-486",
+  "C:HELX_P HELX_P68 478-486",
+  "D:HELX_P HELX_P92 478-486",
+  "E:HELX_P HELX_P118 478-486",
+  "F:HELX_P HELX_P144 478-486",
+  "G:HELX_P HELX_P171 478-486",
+  "H:HELX_P HELX_P195 478-486"
+ ],
+ "deposited_ss_elements_near_pos_chainA": [
+  "HELX_P HELX_P20 478-486",
+  "HELX_P HELX_P21 499-506"
+ ],
+ "sasa": {
+  "A": {
+   "resname": "ARG",
+   "monomer_total_A2": 38.2,
+   "monomer_rel_total": 0.16,
+   "monomer_rel_sidechain": 0.156,
+   "tetramer_total_A2": 38.2,
+   "tetramer_rel_total": 0.16,
+   "tetramer_rel_sidechain": 0.156,
+   "buried_by_other_chains_A2": 0.0
+  },
+  "B": {
+   "resname": "ARG",
+   "monomer_total_A2": 28.4,
+   "monomer_rel_total": 0.119,
+   "monomer_rel_sidechain": 0.112,
+   "tetramer_total_A2": 28.4,
+   "tetramer_rel_total": 0.119,
+   "tetramer_rel_sidechain": 0.112,
+   "buried_by_other_chains_A2": 0.0
+  },
+  "C": {
+   "resname": "ARG",
+   "monomer_total_A2": 27.3,
+   "monomer_rel_total": 0.114,
+   "monomer_rel_sidechain": 0.095,
+   "tetramer_total_A2": 27.3,
+   "tetramer_rel_total": 0.114,
+   "tetramer_rel_sidechain": 0.095,
+   "buried_by_other_chains_A2": 0.0
+  },
+  "D": {
+   "resname": "ARG",
+   "monomer_total_A2": 28.4,
+   "monomer_rel_total": 0.119,
+   "monomer_rel_sidechain": 0.116,
+   "tetramer_total_A2": 28.4,
+   "tetramer_rel_total": 0.119,
+   "tetramer_rel_sidechain": 0.116,
+   "buried_by_other_chains_A2": 0.0
+  },
+  "E": {
+   "resname": "ARG",
+   "monomer_total_A2": 41.9,
+   "monomer_rel_total": 0.176,
+   "monomer_rel_sidechain": 0.189,
+   "tetramer_total_A2": 41.9,
+   "tetramer_rel_total": 0.176,
+   "tetramer_rel_sidechain": 0.189,
+   "buried_by_other_chains_A2": 0.0
+  },
+  "F": {
+   "resname": "ARG",
+   "monomer_total_A2": 27.5,
+   "monomer_rel_total": 0.115,
+   "monomer_rel_sidechain": 0.109,
+   "tetramer_total_A2": 27.5,
+   "tetramer_rel_total": 0.115,
+   "tetramer_rel_sidechain": 0.109,
+   "buried_by_other_chains_A2": 0.0
+  },
+  "G": {
+   "resname": "ARG",
+   "monomer_total_A2": 45.0,
+   "monomer_rel_total": 0.189,
+   "monomer_rel_sidechain": 0.208,
+   "tetramer_total_A2": 45.0,
+   "tetramer_rel_total": 0.189,
+   "tetramer_rel_sidechain": 0.208,
+   "buried_by_other_chains_A2": 0.0
+  },
+  "H": {
+   "resname": "ARG",
+   "monomer_total_A2": 30.5,
+   "monomer_rel_total": 0.128,
+   "monomer_rel_sidechain": 0.124,
+   "tetramer_total_A2": 30.5,
+   "tetramer_rel_total": 0.128,
+   "tetramer_rel_sidechain": 0.124,
+   "buried_by_other_chains_A2": 0.0
+  }
+ },
+ "interactions": {
+  "A": {
+   "resname": "ARG",
+   "polar_contacts_le_3.5A": [
+    [
+     "NH2",
+     "A:LEU362:O",
+     3.03
+    ],
+    [
+     "NH1",
+     "A:GLU453:OE2",
+     3.09
+    ]
+   ],
+   "polar_contacts_3.5_4.0A": [],
+   "salt_bridges_le_4.0A": [
+    [
+     "NH1",
+     "A:GLU453:OE2",
+     3.09
+    ]
+   ],
+   "cation_pi_le_6.0A": [],
+   "all_contacts_le_4.0A": {
+    "A:TYR487": [
+     1.33,
+     "C",
+     "N"
+    ],
+    "A:SER485": [
+     1.34,
+     "N",
+     "C"
+    ],
+    "A:GLN482": [
+     3.02,
+     "N",
+     "O"
+    ],
+    "A:LEU362": [
+     3.03,
+     "NH2",
+     "O"
+    ],
+    "A:GLU453": [
+     3.09,
+     "NH1",
+     "OE2"
+    ],
+    "A:LEU484": [
+     3.11,
+     "N",
+     "C"
+    ],
+    "A:ARG488": [
+     3.23,
+     "C",
+     "N"
+    ],
+    "A:LEU441": [
+     3.67,
+     "O",
+     "CD1"
+    ],
+    "A:LEU483": [
+     3.7,
+     "CB",
+     "O"
+    ],
+    "A:ALA445": [
+     3.89,
+     "NH2",
+     "CB"
+    ]
+   },
+   "sidechain_contacts_le_4.0A": {
+    "A:LEU362": [
+     3.03,
+     "NH2",
+     "O"
+    ],
+    "A:GLU453": [
+     3.09,
+     "NH1",
+     "OE2"
+    ],
+    "A:TYR487": [
+     3.21,
+     "CB",
+     "N"
+    ],
+    "A:GLN482": [
+     3.61,
+     "CB",
+     "O"
+    ],
+    "A:LEU483": [
+     3.7,
+     "CB",
+     "O"
+    ],
+    "A:SER485": [
+     3.71,
+     "CB",
+     "C"
+    ],
+    "A:ALA445": [
+     3.89,
+     "NH2",
+     "CB"
+    ]
+   },
+   "B_factors": {
+    "N": 44.4,
+    "CA": 41.0,
+    "C": 48.0,
+    "O": 51.8,
+    "CB": 49.3,
+    "CG": 54.9,
+    "CD": 51.6,
+    "NE": 61.8,
+    "CZ": 75.1,
+    "NH1": 81.1,
+    "NH2": 74.6
+   },
+   "occupancy_min": 1.0,
+   "atoms": [
+    "N",
+    "CA",
+    "C",
+    "O",
+    "CB",
+    "CG",
+    "CD",
+    "NE",
+    "CZ",
+    "NH1",
+    "NH2"
+   ]
+  },
+  "B": {
+   "resname": "ARG",
+   "polar_contacts_le_3.5A": [
+    [
+     "NH2",
+     "B:LEU362:O",
+     2.91
+    ],
+    [
+     "NH2",
+     "B:ASN361:O",
+     3.22
+    ],
+    [
+     "NH1",
+     "B:LEU362:O",
+     3.29
+    ]
+   ],
+   "polar_contacts_3.5_4.0A": [
+    [
+     "NH1",
+     "B:GLY364:N",
+     3.74
+    ],
+    [
+     "NH1",
+     "B:ALA363:O",
+     3.89
+    ]
+   ],
+   "salt_bridges_le_4.0A": [],
+   "cation_pi_le_6.0A": [
+    [
+     "B:TYR487",
+     5.22
+    ]
+   ],
+   "all_contacts_le_4.0A": {
+    "B:TYR487": [
+     1.33,
+     "C",
+     "N"
+    ],
+    "B:SER485": [
+     1.34,
+     "N",
+     "C"
+    ],
+    "B:LEU362": [
+     2.91,
+     "NH2",
+     "O"
+    ],
+    "B:GLN482": [
+     2.94,
+     "N",
+     "O"
+    ],
+    "B:ASN361": [
+     3.22,
+     "NH2",
+     "O"
+    ],
+    "B:LEU483": [
+     3.26,
+     "CG",
+     "O"
+    ],
+    "B:LEU484": [
+     3.27,
+     "N",
+     "C"
+    ],
+    "B:ARG488": [
+     3.36,
+     "C",
+     "N"
+    ],
+    "B:LEU441": [
+     3.66,
+     "O",
+     "CD1"
+    ],
+    "B:GLY364": [
+     3.74,
+     "NH1",
+     "N"
+    ],
+    "B:HOH761": [
+     3.8,
+     "CD",
+     "O"
+    ],
+    "B:ALA363": [
+     3.83,
+     "NH1",
+     "C"
+    ]
+   },
+   "sidechain_contacts_le_4.0A": {
+    "B:LEU362": [
+     2.91,
+     "NH2",
+     "O"
+    ],
+    "B:ASN361": [
+     3.22,
+     "NH2",
+     "O"
+    ],
+    "B:LEU483": [
+     3.26,
+     "CG",
+     "O"
+    ],
+    "B:TYR487": [
+     3.4,
+     "CG",
+     "N"
+    ],
+    "B:GLN482": [
+     3.58,
+     "CB",
+     "O"
+    ],
+    "B:SER485": [
+     3.71,
+     "CB",
+     "C"
+    ],
+    "B:GLY364": [
+     3.74,
+     "NH1",
+     "N"
+    ],
+    "B:HOH761": [
+     3.8,
+     "CD",
+     "O"
+    ],
+    "B:LEU441": [
+     3.82,
+     "NH2",
+     "CD2"
+    ],
+    "B:ALA363": [
+     3.83,
+     "NH1",
+     "C"
+    ]
+   },
+   "B_factors": {
+    "N": 43.6,
+    "CA": 44.0,
+    "C": 46.4,
+    "O": 50.2,
+    "CB": 46.4,
+    "CG": 45.6,
+    "CD": 55.8,
+    "NE": 62.8,
+    "CZ": 66.2,
+    "NH1": 55.6,
+    "NH2": 76.1
+   },
+   "occupancy_min": 1.0,
+   "atoms": [
+    "N",
+    "CA",
+    "C",
+    "O",
+    "CB",
+    "CG",
+    "CD",
+    "NE",
+    "CZ",
+    "NH1",
+    "NH2"
+   ]
+  },
+  "C": {
+   "resname": "ARG",
+   "polar_contacts_le_3.5A": [
+    [
+     "NH1",
+     "C:LEU362:O",
+     2.68
+    ],
+    [
+     "NH1",
+     "C:GLY364:N",
+     3.23
+    ]
+   ],
+   "polar_contacts_3.5_4.0A": [
+    [
+     "NH2",
+     "C:LEU362:O",
+     3.71
+    ],
+    [
+     "NH2",
+     "C:LEU441:O",
+     3.72
+    ],
+    [
+     "NH1",
+     "C:ASN361:O",
+     3.79
+    ],
+    [
+     "NH2",
+     "C:ASN361:O",
+     3.83
+    ],
+    [
+     "NH1",
+     "C:ALA363:O",
+     3.98
+    ]
+   ],
+   "salt_bridges_le_4.0A": [],
+   "cation_pi_le_6.0A": [
+    [
+     "C:TYR487",
+     5.11
+    ]
+   ],
+   "all_contacts_le_4.0A": {
+    "C:TYR487": [
+     1.33,
+     "C",
+     "N"
+    ],
+    "C:SER485": [
+     1.33,
+     "N",
+     "C"
+    ],
+    "C:LEU362": [
+     2.68,
+     "NH1",
+     "O"
+    ],
+    "C:GLN482": [
+     2.76,
+     "N",
+     "O"
+    ],
+    "C:LEU484": [
+     3.1,
+     "N",
+     "C"
+    ],
+    "C:GLY364": [
+     3.23,
+     "NH1",
+     "N"
+    ],
+    "C:LEU483": [
+     3.29,
+     "CB",
+     "O"
+    ],
+    "C:ARG488": [
+     3.36,
+     "C",
+     "N"
+    ],
+    "C:HOH751": [
+     3.57,
+     "CG",
+     "O"
+    ],
+    "C:ALA363": [
+     3.57,
+     "NH1",
+     "C"
+    ],
+    "C:LEU441": [
+     3.64,
+     "NH2",
+     "CD2"
+    ],
+    "C:ASN361": [
+     3.79,
+     "NH1",
+     "O"
+    ],
+    "C:ALA445": [
+     3.94,
+     "NH2",
+     "CB"
+    ]
+   },
+   "sidechain_contacts_le_4.0A": {
+    "C:LEU362": [
+     2.68,
+     "NH1",
+     "O"
+    ],
+    "C:TYR487": [
+     3.23,
+     "CB",
+     "N"
+    ],
+    "C:GLY364": [
+     3.23,
+     "NH1",
+     "N"
+    ],
+    "C:LEU483": [
+     3.29,
+     "CB",
+     "O"
+    ],
+    "C:GLN482": [
+     3.46,
+     "CB",
+     "O"
+    ],
+    "C:HOH751": [
+     3.57,
+     "CG",
+     "O"
+    ],
+    "C:ALA363": [
+     3.57,
+     "NH1",
+     "C"
+    ],
+    "C:LEU441": [
+     3.64,
+     "NH2",
+     "CD2"
+    ],
+    "C:SER485": [
+     3.71,
+     "CB",
+     "C"
+    ],
+    "C:ASN361": [
+     3.79,
+     "NH1",
+     "O"
+    ],
+    "C:ALA445": [
+     3.94,
+     "NH2",
+     "CB"
+    ]
+   },
+   "B_factors": {
+    "N": 46.3,
+    "CA": 46.1,
+    "C": 48.5,
+    "O": 40.4,
+    "CB": 56.1,
+    "CG": 62.3,
+    "CD": 60.1,
+    "NE": 64.2,
+    "CZ": 70.2,
+    "NH1": 58.1,
+    "NH2": 77.0
+   },
+   "occupancy_min": 1.0,
+   "atoms": [
+    "N",
+    "CA",
+    "C",
+    "O",
+    "CB",
+    "CG",
+    "CD",
+    "NE",
+    "CZ",
+    "NH1",
+    "NH2"
+   ]
+  },
+  "D": {
+   "resname": "ARG",
+   "polar_contacts_le_3.5A": [
+    [
+     "NH2",
+     "D:LEU362:O",
+     2.47
+    ]
+   ],
+   "polar_contacts_3.5_4.0A": [
+    [
+     "NH2",
+     "D:GLY364:N",
+     3.68
+    ],
+    [
+     "NH1",
+     "D:GLU453:OE2",
+     3.76
+    ],
+    [
+     "NH2",
+     "D:ASN361:O",
+     3.92
+    ]
+   ],
+   "salt_bridges_le_4.0A": [
+    [
+     "NH1",
+     "D:GLU453:OE2",
+     3.76
+    ]
+   ],
+   "cation_pi_le_6.0A": [
+    [
+     "D:TYR487",
+     5.72
+    ]
+   ],
+   "all_contacts_le_4.0A": {
+    "D:TYR487": [
+     1.33,
+     "C",
+     "N"
+    ],
+    "D:SER485": [
+     1.34,
+     "N",
+     "C"
+    ],
+    "D:LEU362": [
+     2.47,
+     "NH2",
+     "O"
+    ],
+    "D:GLN482": [
+     2.95,
+     "N",
+     "O"
+    ],
+    "D:LEU483": [
+     3.19,
+     "CG",
+     "O"
+    ],
+    "D:LEU484": [
+     3.2,
+     "N",
+     "C"
+    ],
+    "D:ARG488": [
+     3.21,
+     "C",
+     "N"
+    ],
+    "D:HOH743": [
+     3.3,
+     "O",
+     "O"
+    ],
+    "D:LEU441": [
+     3.43,
+     "O",
+     "CD1"
+    ],
+    "D:GLY364": [
+     3.68,
+     "NH2",
+     "N"
+    ],
+    "D:GLU453": [
+     3.76,
+     "NH1",
+     "OE2"
+    ],
+    "D:ALA363": [
+     3.86,
+     "NH2",
+     "C"
+    ],
+    "D:ASN361": [
+     3.92,
+     "NH2",
+     "O"
+    ]
+   },
+   "sidechain_contacts_le_4.0A": {
+    "D:LEU362": [
+     2.47,
+     "NH2",
+     "O"
+    ],
+    "D:LEU483": [
+     3.19,
+     "CG",
+     "O"
+    ],
+    "D:TYR487": [
+     3.21,
+     "CG",
+     "N"
+    ],
+    "D:GLN482": [
+     3.65,
+     "CB",
+     "O"
+    ],
+    "D:GLY364": [
+     3.68,
+     "NH2",
+     "N"
+    ],
+    "D:SER485": [
+     3.72,
+     "CB",
+     "C"
+    ],
+    "D:GLU453": [
+     3.76,
+     "NH1",
+     "OE2"
+    ],
+    "D:ALA363": [
+     3.86,
+     "NH2",
+     "C"
+    ],
+    "D:ASN361": [
+     3.92,
+     "NH2",
+     "O"
+    ],
+    "D:HOH743": [
+     3.95,
+     "CB",
+     "O"
+    ]
+   },
+   "B_factors": {
+    "N": 46.4,
+    "CA": 42.5,
+    "C": 52.9,
+    "O": 46.9,
+    "CB": 42.9,
+    "CG": 47.9,
+    "CD": 55.8,
+    "NE": 63.2,
+    "CZ": 65.7,
+    "NH1": 71.7,
+    "NH2": 71.4
+   },
+   "occupancy_min": 1.0,
+   "atoms": [
+    "N",
+    "CA",
+    "C",
+    "O",
+    "CB",
+    "CG",
+    "CD",
+    "NE",
+    "CZ",
+    "NH1",
+    "NH2"
+   ]
+  },
+  "E": {
+   "resname": "ARG",
+   "polar_contacts_le_3.5A": [
+    [
+     "NH1",
+     "E:LEU362:O",
+     2.89
+    ],
+    [
+     "NH1",
+     "E:ASN361:O",
+     3.41
+    ],
+    [
+     "NH2",
+     "E:LEU362:O",
+     3.45
+    ]
+   ],
+   "polar_contacts_3.5_4.0A": [
+    [
+     "NH1",
+     "E:GLY364:N",
+     3.62
+    ]
+   ],
+   "salt_bridges_le_4.0A": [],
+   "cation_pi_le_6.0A": [],
+   "all_contacts_le_4.0A": {
+    "E:SER485": [
+     1.33,
+     "N",
+     "C"
+    ],
+    "E:TYR487": [
+     1.33,
+     "C",
+     "N"
+    ],
+    "E:LEU362": [
+     2.89,
+     "NH1",
+     "O"
+    ],
+    "E:GLN482": [
+     3.02,
+     "N",
+     "O"
+    ],
+    "E:LEU484": [
+     3.09,
+     "N",
+     "C"
+    ],
+    "E:ARG488": [
+     3.32,
+     "C",
+     "N"
+    ],
+    "E:ASN361": [
+     3.41,
+     "NH1",
+     "O"
+    ],
+    "E:GLY364": [
+     3.6,
+     "CG",
+     "CA"
+    ],
+    "E:LEU483": [
+     3.7,
+     "CB",
+     "O"
+    ],
+    "E:LEU441": [
+     3.83,
+     "O",
+     "CD1"
+    ]
+   },
+   "sidechain_contacts_le_4.0A": {
+    "E:LEU362": [
+     2.89,
+     "NH1",
+     "O"
+    ],
+    "E:TYR487": [
+     3.38,
+     "CB",
+     "N"
+    ],
+    "E:ASN361": [
+     3.41,
+     "NH1",
+     "O"
+    ],
+    "E:GLN482": [
+     3.46,
+     "CB",
+     "O"
+    ],
+    "E:GLY364": [
+     3.6,
+     "CG",
+     "CA"
+    ],
+    "E:SER485": [
+     3.7,
+     "CB",
+     "C"
+    ],
+    "E:LEU483": [
+     3.7,
+     "CB",
+     "O"
+    ]
+   },
+   "B_factors": {
+    "N": 43.2,
+    "CA": 44.3,
+    "C": 48.7,
+    "O": 46.5,
+    "CB": 50.6,
+    "CG": 65.7,
+    "CD": 62.6,
+    "NE": 74.2,
+    "CZ": 73.5,
+    "NH1": 65.6,
+    "NH2": 72.3
+   },
+   "occupancy_min": 1.0,
+   "atoms": [
+    "N",
+    "CA",
+    "C",
+    "O",
+    "CB",
+    "CG",
+    "CD",
+    "NE",
+    "CZ",
+    "NH1",
+    "NH2"
+   ]
+  },
+  "F": {
+   "resname": "ARG",
+   "polar_contacts_le_3.5A": [
+    [
+     "NH1",
+     "F:HOH701:O",
+     2.11
+    ],
+    [
+     "NH2",
+     "F:LEU362:O",
+     2.65
+    ],
+    [
+     "NH1",
+     "F:LEU362:O",
+     3.01
+    ],
+    [
+     "NH1",
+     "F:ASN361:O",
+     3.39
+    ]
+   ],
+   "polar_contacts_3.5_4.0A": [
+    [
+     "NH1",
+     "F:GLY364:N",
+     3.79
+    ],
+    [
+     "NH2",
+     "F:ALA363:O",
+     3.85
+    ],
+    [
+     "NE",
+     "F:HOH701:O",
+     3.87
+    ]
+   ],
+   "salt_bridges_le_4.0A": [],
+   "cation_pi_le_6.0A": [
+    [
+     "F:TYR487",
+     5.9
+    ]
+   ],
+   "all_contacts_le_4.0A": {
+    "F:SER485": [
+     1.33,
+     "N",
+     "C"
+    ],
+    "F:TYR487": [
+     1.33,
+     "C",
+     "N"
+    ],
+    "F:HOH701": [
+     2.11,
+     "NH1",
+     "O"
+    ],
+    "F:LEU362": [
+     2.65,
+     "NH2",
+     "O"
+    ],
+    "F:HOH744": [
+     2.84,
+     "O",
+     "O"
+    ],
+    "F:GLN482": [
+     2.91,
+     "N",
+     "O"
+    ],
+    "F:LEU484": [
+     3.06,
+     "N",
+     "C"
+    ],
+    "F:ARG488": [
+     3.26,
+     "C",
+     "N"
+    ],
+    "F:ASN361": [
+     3.39,
+     "NH1",
+     "O"
+    ],
+    "F:LEU483": [
+     3.46,
+     "CB",
+     "O"
+    ],
+    "F:GLY364": [
+     3.57,
+     "CG",
+     "CA"
+    ],
+    "F:LEU441": [
+     3.58,
+     "O",
+     "CD1"
+    ],
+    "F:ALA363": [
+     3.75,
+     "NH2",
+     "C"
+    ]
+   },
+   "sidechain_contacts_le_4.0A": {
+    "F:HOH701": [
+     2.11,
+     "NH1",
+     "O"
+    ],
+    "F:LEU362": [
+     2.65,
+     "NH2",
+     "O"
+    ],
+    "F:TYR487": [
+     3.22,
+     "CB",
+     "N"
+    ],
+    "F:ASN361": [
+     3.39,
+     "NH1",
+     "O"
+    ],
+    "F:GLN482": [
+     3.44,
+     "CB",
+     "O"
+    ],
+    "F:LEU483": [
+     3.46,
+     "CB",
+     "O"
+    ],
+    "F:GLY364": [
+     3.57,
+     "CG",
+     "CA"
+    ],
+    "F:SER485": [
+     3.7,
+     "CB",
+     "C"
+    ],
+    "F:ALA363": [
+     3.75,
+     "NH2",
+     "C"
+    ]
+   },
+   "B_factors": {
+    "N": 37.3,
+    "CA": 39.3,
+    "C": 38.4,
+    "O": 31.6,
+    "CB": 37.4,
+    "CG": 53.2,
+    "CD": 45.0,
+    "NE": 54.8,
+    "CZ": 66.8,
+    "NH1": 47.1,
+    "NH2": 57.8
+   },
+   "occupancy_min": 1.0,
+   "atoms": [
+    "N",
+    "CA",
+    "C",
+    "O",
+    "CB",
+    "CG",
+    "CD",
+    "NE",
+    "CZ",
+    "NH1",
+    "NH2"
+   ]
+  },
+  "G": {
+   "resname": "ARG",
+   "polar_contacts_le_3.5A": [
+    [
+     "NH2",
+     "G:LEU362:O",
+     3.0
+    ]
+   ],
+   "polar_contacts_3.5_4.0A": [
+    [
+     "NH2",
+     "G:ALA363:O",
+     3.89
+    ],
+    [
+     "NH1",
+     "G:ALA363:O",
+     3.98
+    ]
+   ],
+   "salt_bridges_le_4.0A": [],
+   "cation_pi_le_6.0A": [],
+   "all_contacts_le_4.0A": {
+    "G:TYR487": [
+     1.33,
+     "C",
+     "N"
+    ],
+    "G:SER485": [
+     1.34,
+     "N",
+     "C"
+    ],
+    "G:GLN482": [
+     2.97,
+     "N",
+     "O"
+    ],
+    "G:LEU362": [
+     3.0,
+     "NH2",
+     "O"
+    ],
+    "G:LEU484": [
+     3.15,
+     "N",
+     "C"
+    ],
+    "G:ARG488": [
+     3.38,
+     "C",
+     "N"
+    ],
+    "G:GLY364": [
+     3.58,
+     "CG",
+     "CA"
+    ],
+    "G:LEU483": [
+     3.59,
+     "CB",
+     "O"
+    ],
+    "G:LEU441": [
+     3.69,
+     "O",
+     "CD1"
+    ],
+    "G:ALA363": [
+     3.8,
+     "NH2",
+     "C"
+    ]
+   },
+   "sidechain_contacts_le_4.0A": {
+    "G:LEU362": [
+     3.0,
+     "NH2",
+     "O"
+    ],
+    "G:TYR487": [
+     3.35,
+     "CB",
+     "N"
+    ],
+    "G:GLN482": [
+     3.57,
+     "CB",
+     "O"
+    ],
+    "G:GLY364": [
+     3.58,
+     "CG",
+     "CA"
+    ],
+    "G:LEU483": [
+     3.59,
+     "CB",
+     "O"
+    ],
+    "G:SER485": [
+     3.71,
+     "CB",
+     "C"
+    ],
+    "G:ALA363": [
+     3.8,
+     "NH2",
+     "C"
+    ]
+   },
+   "B_factors": {
+    "N": 42.7,
+    "CA": 42.8,
+    "C": 48.3,
+    "O": 40.4,
+    "CB": 45.0,
+    "CG": 61.1,
+    "CD": 68.0,
+    "NE": 80.3,
+    "CZ": 83.9,
+    "NH1": 87.4,
+    "NH2": 75.2
+   },
+   "occupancy_min": 1.0,
+   "atoms": [
+    "N",
+    "CA",
+    "C",
+    "O",
+    "CB",
+    "CG",
+    "CD",
+    "NE",
+    "CZ",
+    "NH1",
+    "NH2"
+   ]
+  },
+  "H": {
+   "resname": "ARG",
+   "polar_contacts_le_3.5A": [
+    [
+     "NH1",
+     "H:GLU453:OE2",
+     2.55
+    ]
+   ],
+   "polar_contacts_3.5_4.0A": [
+    [
+     "NH1",
+     "H:GLU453:OE1",
+     3.71
+    ],
+    [
+     "NH2",
+     "H:ALA363:O",
+     3.86
+    ]
+   ],
+   "salt_bridges_le_4.0A": [
+    [
+     "NH1",
+     "H:GLU453:OE2",
+     2.55
+    ],
+    [
+     "NH1",
+     "H:GLU453:OE1",
+     3.71
+    ]
+   ],
+   "cation_pi_le_6.0A": [
+    [
+     "H:TYR487",
+     5.3
+    ]
+   ],
+   "all_contacts_le_4.0A": {
+    "H:TYR487": [
+     1.33,
+     "C",
+     "N"
+    ],
+    "H:SER485": [
+     1.34,
+     "N",
+     "C"
+    ],
+    "H:GLU453": [
+     2.55,
+     "NH1",
+     "OE2"
+    ],
+    "H:HOH764": [
+     2.93,
+     "O",
+     "O"
+    ],
+    "H:GLN482": [
+     3.0,
+     "N",
+     "O"
+    ],
+    "H:LEU484": [
+     3.12,
+     "N",
+     "O"
+    ],
+    "H:LEU483": [
+     3.16,
+     "CG",
+     "O"
+    ],
+    "H:ARG488": [
+     3.27,
+     "C",
+     "N"
+    ],
+    "H:LEU441": [
+     3.5,
+     "O",
+     "CD1"
+    ],
+    "H:HOH788": [
+     3.8,
+     "CA",
+     "O"
+    ],
+    "H:ALA363": [
+     3.86,
+     "NH2",
+     "O"
+    ],
+    "H:GLY364": [
+     3.93,
+     "CB",
+     "CA"
+    ]
+   },
+   "sidechain_contacts_le_4.0A": {
+    "H:GLU453": [
+     2.55,
+     "NH1",
+     "OE2"
+    ],
+    "H:LEU483": [
+     3.16,
+     "CG",
+     "O"
+    ],
+    "H:TYR487": [
+     3.34,
+     "CG",
+     "N"
+    ],
+    "H:GLN482": [
+     3.61,
+     "CB",
+     "O"
+    ],
+    "H:SER485": [
+     3.71,
+     "CB",
+     "C"
+    ],
+    "H:ALA363": [
+     3.86,
+     "NH2",
+     "O"
+    ],
+    "H:GLY364": [
+     3.93,
+     "CB",
+     "CA"
+    ]
+   },
+   "B_factors": {
+    "N": 33.7,
+    "CA": 35.1,
+    "C": 35.7,
+    "O": 29.8,
+    "CB": 37.2,
+    "CG": 36.1,
+    "CD": 53.9,
+    "NE": 52.3,
+    "CZ": 74.3,
+    "NH1": 72.1,
+    "NH2": 67.8
+   },
+   "occupancy_min": 1.0,
+   "atoms": [
+    "N",
+    "CA",
+    "C",
+    "O",
+    "CB",
+    "CG",
+    "CD",
+    "NE",
+    "CZ",
+    "NH1",
+    "NH2"
+   ]
+  }
+ },
+ "chain_pair_interfaces": {
+  "A-B": {
+   "n_interface_residues_in_A": 51,
+   "domains": {
+    "N": 11,
+    "B": 2,
+    "A": 36,
+    "C": 2
+   }
+  },
+  "A-C": {
+   "n_interface_residues_in_A": 29,
+   "domains": {
+    "C": 29
+   }
+  },
+  "A-D": {
+   "n_interface_residues_in_A": 0,
+   "domains": {}
+  },
+  "A-E": {
+   "n_interface_residues_in_A": 0,
+   "domains": {}
+  },
+  "A-F": {
+   "n_interface_residues_in_A": 0,
+   "domains": {}
+  },
+  "A-G": {
+   "n_interface_residues_in_A": 0,
+   "domains": {}
+  },
+  "A-H": {
+   "n_interface_residues_in_A": 0,
+   "domains": {}
+  },
+  "B-C": {
+   "n_interface_residues_in_B": 1,
+   "domains": {
+    "N": 1
+   }
+  },
+  "B-D": {
+   "n_interface_residues_in_B": 30,
+   "domains": {
+    "outside": 1,
+    "N": 1,
+    "C": 28
+   }
+  },
+  "B-E": {
+   "n_interface_residues_in_B": 0,
+   "domains": {}
+  },
+  "B-F": {
+   "n_interface_residues_in_B": 0,
+   "domains": {}
+  },
+  "B-G": {
+   "n_interface_residues_in_B": 10,
+   "domains": {
+    "A": 9,
+    "C": 1
+   }
+  },
+  "B-H": {
+   "n_interface_residues_in_B": 0,
+   "domains": {}
+  },
+  "C-D": {
+   "n_interface_residues_in_C": 54,
+   "domains": {
+    "N": 11,
+    "B": 3,
+    "A": 37,
+    "C": 3
+   }
+  },
+  "C-E": {
+   "n_interface_residues_in_C": 0,
+   "domains": {}
+  },
+  "C-F": {
+   "n_interface_residues_in_C": 0,
+   "domains": {}
+  },
+  "C-G": {
+   "n_interface_residues_in_C": 0,
+   "domains": {}
+  },
+  "C-H": {
+   "n_interface_residues_in_C": 0,
+   "domains": {}
+  },
+  "D-E": {
+   "n_interface_residues_in_D": 0,
+   "domains": {}
+  },
+  "D-F": {
+   "n_interface_residues_in_D": 0,
+   "domains": {}
+  },
+  "D-G": {
+   "n_interface_residues_in_D": 0,
+   "domains": {}
+  },
+  "D-H": {
+   "n_interface_residues_in_D": 0,
+   "domains": {}
+  },
+  "E-F": {
+   "n_interface_residues_in_E": 53,
+   "domains": {
+    "N": 11,
+    "B": 2,
+    "A": 36,
+    "C": 4
+   }
+  },
+  "E-G": {
+   "n_interface_residues_in_E": 1,
+   "domains": {
+    "N": 1
+   }
+  },
+  "E-H": {
+   "n_interface_residues_in_E": 33,
+   "domains": {
+    "outside": 2,
+    "N": 2,
+    "C": 29
+   }
+  },
+  "F-G": {
+   "n_interface_residues_in_F": 30,
+   "domains": {
+    "outside": 1,
+    "C": 29
+   }
+  },
+  "F-H": {
+   "n_interface_residues_in_F": 0,
+   "domains": {}
+  },
+  "G-H": {
+   "n_interface_residues_in_G": 50,
+   "domains": {
+    "N": 11,
+    "B": 1,
+    "A": 35,
+    "C": 3
+   }
+  }
+ },
+ "chain_pair_type": {
+  "A-B": "A/A' (large interface, A domains)",
+  "A-C": "C/C' (large interface, C domains)",
+  "A-D": "none",
+  "A-E": "none",
+  "A-F": "none",
+  "A-G": "none",
+  "A-H": "none",
+  "B-C": "minor contact ({'N': 1})",
+  "B-D": "C/C' (large interface, C domains)",
+  "B-E": "none",
+  "B-F": "none",
+  "B-G": "A/A' (large interface, A domains)",
+  "B-H": "none",
+  "C-D": "A/A' (large interface, A domains)",
+  "C-E": "none",
+  "C-F": "none",
+  "C-G": "none",
+  "C-H": "none",
+  "D-E": "none",
+  "D-F": "none",
+  "D-G": "none",
+  "D-H": "none",
+  "E-F": "A/A' (large interface, A domains)",
+  "E-G": "minor contact ({'N': 1})",
+  "E-H": "C/C' (large interface, C domains)",
+  "F-G": "C/C' (large interface, C domains)",
+  "F-H": "none",
+  "G-H": "A/A' (large interface, A domains)"
+ },
+ "distances": {
+  "A": {
+   "min_to_chain_B": [
+    7.96,
+    "A:ARG486:O",
+    "B:LEU70:CD2"
+   ],
+   "min_to_interface_residue_facing_B": [
+    3.03,
+    "LEU362"
+   ],
+   "min_to_chain_C": [
+    5.83,
+    "A:ARG486:CZ",
+    "C:LYS465:NZ"
+   ],
+   "min_to_interface_residue_facing_C": [
+    1.33,
+    "TYR487"
+   ],
+   "min_to_chain_D": [
+    19.91,
+    "A:ARG486:NH2",
+    "D:ARG443:NH2"
+   ],
+   "min_to_chain_E": [
+    97.61,
+    "A:ARG486:NH2",
+    "E:ARG449:NH2"
+   ],
+   "min_to_chain_F": [
+    112.18,
+    "A:ARG486:NH2",
+    "F:ASP67:OD2"
+   ],
+   "min_to_chain_G": [
+    52.33,
+    "A:ARG486:O",
+    "G:PRO171:CG"
+   ],
+   "min_to_chain_H": [
+    61.44,
+    "A:ARG486:NH2",
+    "H:GLU102:CG"
+   ],
+   "min_to_MN_same_chain": [
+    27.11,
+    "A:MN602"
+   ],
+   "min_to_MN_any_chain": [
+    27.11,
+    "A:MN602"
+   ],
+   "CA_to_nearest_MN_atom_same_chain": 27.11,
+   "min_to_K_same_chain": [
+    28.03,
+    "A:K603"
+   ],
+   "min_to_K_any_chain": [
+    28.03,
+    "A:K603"
+   ],
+   "CA_to_nearest_K_atom_same_chain": 28.03,
+   "min_to_FBP_same_chain": [
+    12.48,
+    "A:FBP601"
+   ],
+   "min_to_FBP_any_chain": [
+    12.48,
+    "A:FBP601"
+   ],
+   "CA_to_nearest_FBP_atom_same_chain": 13.46,
+   "min_to_PYR_same_chain": [
+    24.32,
+    "A:PYR604"
+   ],
+   "min_to_PYR_any_chain": [
+    24.32,
+    "A:PYR604"
+   ],
+   "CA_to_nearest_PYR_atom_same_chain": 24.32,
+   "min_to_ARG116": 23.05,
+   "min_to_ASN118": 27.81,
+   "min_to_SER120": 30.7,
+   "min_to_ASP156": 23.73,
+   "min_to_THR157": 26.1,
+   "min_to_LYS313": 20.27,
+   "min_to_GLU315": 23.41,
+   "min_to_GLY338": 25.56,
+   "min_to_ASP339": 27.45,
+   "min_to_THR371": 22.86
+  },
+  "B": {
+   "min_to_chain_A": [
+    6.46,
+    "B:ARG486:NH2",
+    "A:LEU70:CD2"
+   ],
+   "min_to_interface_residue_facing_A": [
+    2.91,
+    "LEU362"
+   ],
+   "min_to_chain_C": [
+    23.82,
+    "B:ARG486:NH2",
+    "C:ARG443:NH1"
+   ],
+   "min_to_interface_residue_facing_C": [
+    20.16,
+    "ASP67"
+   ],
+   "min_to_chain_D": [
+    7.05,
+    "B:ARG486:CD",
+    "D:LYS465:NZ"
+   ],
+   "min_to_interface_residue_facing_D": [
+    1.33,
+    "TYR487"
+   ],
+   "min_to_chain_E": [
+    88.19,
+    "B:ARG486:N",
+    "E:ARG449:NH2"
+   ],
+   "min_to_chain_F": [
+    92.72,
+    "B:ARG486:N",
+    "F:LYS465:NZ"
+   ],
+   "min_to_chain_G": [
+    28.87,
+    "B:ARG486:N",
+    "G:PRO171:CG"
+   ],
+   "min_to_interface_residue_facing_G": [
+    22.97,
+    "GLU538"
+   ],
+   "min_to_chain_H": [
+    51.79,
+    "B:ARG486:N",
+    "H:PHE413:CZ"
+   ],
+   "min_to_MN_same_chain": [
+    27.06,
+    "B:MN603"
+   ],
+   "min_to_MN_any_chain": [
+    27.06,
+    "B:MN603"
+   ],
+   "CA_to_nearest_MN_atom_same_chain": 27.06,
+   "min_to_K_same_chain": [
+    27.68,
+    "B:K604"
+   ],
+   "min_to_K_any_chain": [
+    27.68,
+    "B:K604"
+   ],
+   "CA_to_nearest_K_atom_same_chain": 27.68,
+   "min_to_FBP_same_chain": [
+    12.44,
+    "B:FBP602"
+   ],
+   "min_to_FBP_any_chain": [
+    12.44,
+    "B:FBP602"
+   ],
+   "CA_to_nearest_FBP_atom_same_chain": 13.48,
+   "min_to_PYR_same_chain": [
+    23.94,
+    "B:PYR605"
+   ],
+   "min_to_PYR_any_chain": [
+    23.94,
+    "B:PYR605"
+   ],
+   "CA_to_nearest_PYR_atom_same_chain": 23.94,
+   "min_to_ARG116": 22.86,
+   "min_to_ASN118": 27.71,
+   "min_to_SER120": 30.48,
+   "min_to_ASP156": 23.92,
+   "min_to_THR157": 25.79,
+   "min_to_LYS313": 19.72,
+   "min_to_GLU315": 22.91,
+   "min_to_GLY338": 25.46,
+   "min_to_ASP339": 27.33,
+   "min_to_THR371": 22.8
+  },
+  "C": {
+   "min_to_chain_A": [
+    6.52,
+    "C:ARG486:NE",
+    "A:LYS465:NZ"
+   ],
+   "min_to_interface_residue_facing_A": [
+    1.33,
+    "TYR487"
+   ],
+   "min_to_chain_B": [
+    22.6,
+    "C:ARG486:NH2",
+    "B:ARG443:NH2"
+   ],
+   "min_to_interface_residue_facing_B": [
+    20.37,
+    "ASP67"
+   ],
+   "min_to_chain_D": [
+    6.24,
+    "C:ARG486:NH2",
+    "D:LEU70:CD2"
+   ],
+   "min_to_interface_residue_facing_D": [
+    2.68,
+    "LEU362"
+   ],
+   "min_to_chain_E": [
+    117.76,
+    "C:ARG486:NH2",
+    "E:ARG449:NH2"
+   ],
+   "min_to_chain_F": [
+    129.26,
+    "C:ARG486:NH2",
+    "F:ASP67:OD2"
+   ],
+   "min_to_chain_G": [
+    65.17,
+    "C:ARG486:NH2",
+    "G:PRO171:CG"
+   ],
+   "min_to_chain_H": [
+    82.58,
+    "C:ARG486:NH2",
+    "H:ASN412:OD1"
+   ],
+   "min_to_MN_same_chain": [
+    27.11,
+    "C:MN602"
+   ],
+   "min_to_MN_any_chain": [
+    27.11,
+    "C:MN602"
+   ],
+   "CA_to_nearest_MN_atom_same_chain": 27.35,
+   "min_to_K_same_chain": [
+    27.84,
+    "C:K603"
+   ],
+   "min_to_K_any_chain": [
+    27.84,
+    "C:K603"
+   ],
+   "CA_to_nearest_K_atom_same_chain": 27.91,
+   "min_to_FBP_same_chain": [
+    12.36,
+    "C:FBP601"
+   ],
+   "min_to_FBP_any_chain": [
+    12.36,
+    "C:FBP601"
+   ],
+   "CA_to_nearest_FBP_atom_same_chain": 13.27,
+   "min_to_PYR_same_chain": [
+    24.34,
+    "C:PYR604"
+   ],
+   "min_to_PYR_any_chain": [
+    24.34,
+    "C:PYR604"
+   ],
+   "CA_to_nearest_PYR_atom_same_chain": 24.34,
+   "min_to_ARG116": 23.18,
+   "min_to_ASN118": 27.88,
+   "min_to_SER120": 30.74,
+   "min_to_ASP156": 23.97,
+   "min_to_THR157": 25.54,
+   "min_to_LYS313": 19.55,
+   "min_to_GLU315": 22.39,
+   "min_to_GLY338": 25.8,
+   "min_to_ASP339": 27.16,
+   "min_to_THR371": 23.24
+  },
+  "D": {
+   "min_to_chain_A": [
+    20.17,
+    "D:ARG486:NH2",
+    "A:ARG443:NH2"
+   ],
+   "min_to_chain_B": [
+    6.33,
+    "D:ARG486:NH1",
+    "B:LYS465:NZ"
+   ],
+   "min_to_interface_residue_facing_B": [
+    1.33,
+    "TYR487"
+   ],
+   "min_to_chain_C": [
+    7.23,
+    "D:ARG486:NH2",
+    "C:LEU70:CD2"
+   ],
+   "min_to_interface_residue_facing_C": [
+    2.47,
+    "LEU362"
+   ],
+   "min_to_chain_E": [
+    89.27,
+    "D:ARG486:NH1",
+    "E:ARG449:NH2"
+   ],
+   "min_to_chain_F": [
+    101.74,
+    "D:ARG486:NH1",
+    "F:ASP67:OD2"
+   ],
+   "min_to_chain_G": [
+    38.06,
+    "D:ARG486:CD",
+    "G:ARG194:NH1"
+   ],
+   "min_to_chain_H": [
+    62.32,
+    "D:ARG486:NH1",
+    "H:PHE413:CE1"
+   ],
+   "min_to_MN_same_chain": [
+    26.98,
+    "D:MN603"
+   ],
+   "min_to_MN_any_chain": [
+    26.98,
+    "D:MN603"
+   ],
+   "CA_to_nearest_MN_atom_same_chain": 26.98,
+   "min_to_K_any_chain": [
+    44.69,
+    "C:K603"
+   ],
+   "CA_to_nearest_K_atom_same_chain": null,
+   "min_to_FBP_same_chain": [
+    12.53,
+    "D:FBP602"
+   ],
+   "min_to_FBP_any_chain": [
+    12.53,
+    "D:FBP602"
+   ],
+   "CA_to_nearest_FBP_atom_same_chain": 13.56,
+   "min_to_PYR_same_chain": [
+    24.31,
+    "D:PYR604"
+   ],
+   "min_to_PYR_any_chain": [
+    24.31,
+    "D:PYR604"
+   ],
+   "CA_to_nearest_PYR_atom_same_chain": 24.31,
+   "min_to_ARG116": 22.95,
+   "min_to_ASN118": 27.75,
+   "min_to_SER120": 30.56,
+   "min_to_ASP156": 23.68,
+   "min_to_THR157": 25.93,
+   "min_to_LYS313": 19.91,
+   "min_to_GLU315": 22.69,
+   "min_to_GLY338": 25.53,
+   "min_to_ASP339": 27.28,
+   "min_to_THR371": 22.84
+  },
+  "E": {
+   "min_to_chain_A": [
+    69.09,
+    "E:ARG486:NE",
+    "A:LYS230:C"
+   ],
+   "min_to_chain_B": [
+    73.45,
+    "E:ARG486:NH2",
+    "B:SER144:OG"
+   ],
+   "min_to_chain_C": [
+    111.96,
+    "E:ARG486:NH2",
+    "C:ASP67:OD2"
+   ],
+   "min_to_chain_D": [
+    87.95,
+    "E:ARG486:NH2",
+    "D:ARG449:NH2"
+   ],
+   "min_to_chain_F": [
+    7.14,
+    "E:ARG486:NH1",
+    "F:LEU70:CD2"
+   ],
+   "min_to_interface_residue_facing_F": [
+    3.83,
+    "LEU441"
+   ],
+   "min_to_chain_G": [
+    21.1,
+    "E:ARG486:NH1",
+    "G:ARG443:NH2"
+   ],
+   "min_to_interface_residue_facing_G": [
+    20.33,
+    "ASP67"
+   ],
+   "min_to_chain_H": [
+    6.73,
+    "E:ARG486:NE",
+    "H:LYS465:NZ"
+   ],
+   "min_to_interface_residue_facing_H": [
+    1.33,
+    "TYR487"
+   ],
+   "min_to_MN_same_chain": [
+    27.25,
+    "E:MN602"
+   ],
+   "min_to_MN_any_chain": [
+    27.25,
+    "E:MN602"
+   ],
+   "CA_to_nearest_MN_atom_same_chain": 27.26,
+   "min_to_K_same_chain": [
+    28.18,
+    "E:K603"
+   ],
+   "min_to_K_any_chain": [
+    28.18,
+    "E:K603"
+   ],
+   "CA_to_nearest_K_atom_same_chain": 28.18,
+   "min_to_FBP_same_chain": [
+    12.42,
+    "E:FBP601"
+   ],
+   "min_to_FBP_any_chain": [
+    12.42,
+    "E:FBP601"
+   ],
+   "CA_to_nearest_FBP_atom_same_chain": 13.38,
+   "min_to_PYR_same_chain": [
+    24.07,
+    "E:PYR604"
+   ],
+   "min_to_PYR_any_chain": [
+    24.07,
+    "E:PYR604"
+   ],
+   "CA_to_nearest_PYR_atom_same_chain": 24.07,
+   "min_to_ARG116": 23.28,
+   "min_to_ASN118": 27.97,
+   "min_to_SER120": 30.85,
+   "min_to_ASP156": 23.89,
+   "min_to_THR157": 25.94,
+   "min_to_LYS313": 19.9,
+   "min_to_GLU315": 22.58,
+   "min_to_GLY338": 25.8,
+   "min_to_ASP339": 27.42,
+   "min_to_THR371": 23.16
+  },
+  "F": {
+   "min_to_chain_A": [
+    75.42,
+    "F:ARG486:NH2",
+    "A:GLN182:CB"
+   ],
+   "min_to_chain_B": [
+    74.96,
+    "F:ARG486:NH2",
+    "B:GLU102:OE1"
+   ],
+   "min_to_chain_C": [
+    125.43,
+    "F:ARG486:NH1",
+    "C:ASP67:OD2"
+   ],
+   "min_to_chain_D": [
+    102.43,
+    "F:ARG486:O",
+    "D:ARG449:NH2"
+   ],
+   "min_to_chain_E": [
+    6.89,
+    "F:ARG486:NH1",
+    "E:LEU70:CD2"
+   ],
+   "min_to_interface_residue_facing_E": [
+    2.65,
+    "LEU362"
+   ],
+   "min_to_chain_G": [
+    6.32,
+    "F:ARG486:NE",
+    "G:LYS465:NZ"
+   ],
+   "min_to_interface_residue_facing_G": [
+    1.33,
+    "TYR487"
+   ],
+   "min_to_chain_H": [
+    19.52,
+    "F:ARG486:NH1",
+    "H:ARG443:NH2"
+   ],
+   "min_to_MN_same_chain": [
+    26.86,
+    "F:MN603"
+   ],
+   "min_to_MN_any_chain": [
+    26.86,
+    "F:MN603"
+   ],
+   "CA_to_nearest_MN_atom_same_chain": 26.86,
+   "min_to_K_same_chain": [
+    27.94,
+    "F:K604"
+   ],
+   "min_to_K_any_chain": [
+    27.94,
+    "F:K604"
+   ],
+   "CA_to_nearest_K_atom_same_chain": 27.96,
+   "min_to_FBP_same_chain": [
+    12.53,
+    "F:FBP602"
+   ],
+   "min_to_FBP_any_chain": [
+    12.53,
+    "F:FBP602"
+   ],
+   "CA_to_nearest_FBP_atom_same_chain": 13.42,
+   "min_to_PYR_same_chain": [
+    28.73,
+    "F:PYR605"
+   ],
+   "min_to_PYR_any_chain": [
+    28.73,
+    "F:PYR605"
+   ],
+   "CA_to_nearest_PYR_atom_same_chain": 28.73,
+   "min_to_ARG116": 23.14,
+   "min_to_ASN118": 27.94,
+   "min_to_SER120": 30.9,
+   "min_to_ASP156": 23.66,
+   "min_to_THR157": 26.12,
+   "min_to_LYS313": 20.02,
+   "min_to_GLU315": 22.78,
+   "min_to_GLY338": 25.59,
+   "min_to_ASP339": 27.38,
+   "min_to_THR371": 23.09
+  },
+  "G": {
+   "min_to_chain_A": [
+    59.26,
+    "G:ARG486:O",
+    "A:SER181:CB"
+   ],
+   "min_to_chain_B": [
+    53.13,
+    "G:ARG486:N",
+    "B:LYS105:NZ"
+   ],
+   "min_to_interface_residue_facing_B": [
+    48.84,
+    "ILE166"
+   ],
+   "min_to_chain_C": [
+    103.42,
+    "G:ARG486:NH2",
+    "C:ASP67:OD2"
+   ],
+   "min_to_chain_D": [
+    76.7,
+    "G:ARG486:NH2",
+    "D:TRP558:CZ3"
+   ],
+   "min_to_chain_E": [
+    21.76,
+    "G:ARG486:NH2",
+    "E:ARG443:NH2"
+   ],
+   "min_to_interface_residue_facing_E": [
+    20.36,
+    "ASP67"
+   ],
+   "min_to_chain_F": [
+    6.68,
+    "G:ARG486:NE",
+    "F:LYS465:NZ"
+   ],
+   "min_to_interface_residue_facing_F": [
+    1.33,
+    "TYR487"
+   ],
+   "min_to_chain_H": [
+    8.31,
+    "G:ARG486:O",
+    "H:LEU70:CD2"
+   ],
+   "min_to_interface_residue_facing_H": [
+    3.69,
+    "LEU441"
+   ],
+   "min_to_MN_same_chain": [
+    27.73,
+    "G:MN602"
+   ],
+   "min_to_MN_any_chain": [
+    27.73,
+    "G:MN602"
+   ],
+   "CA_to_nearest_MN_atom_same_chain": 27.73,
+   "min_to_K_same_chain": [
+    28.42,
+    "G:K603"
+   ],
+   "min_to_K_any_chain": [
+    28.42,
+    "G:K603"
+   ],
+   "CA_to_nearest_K_atom_same_chain": 28.42,
+   "min_to_FBP_same_chain": [
+    12.36,
+    "G:FBP601"
+   ],
+   "min_to_FBP_any_chain": [
+    12.36,
+    "G:FBP601"
+   ],
+   "CA_to_nearest_FBP_atom_same_chain": 13.3,
+   "min_to_PYR_same_chain": [
+    24.5,
+    "G:PYR604"
+   ],
+   "min_to_PYR_any_chain": [
+    24.5,
+    "G:PYR604"
+   ],
+   "CA_to_nearest_PYR_atom_same_chain": 24.5,
+   "min_to_ARG116": 23.2,
+   "min_to_ASN118": 27.94,
+   "min_to_SER120": 31.21,
+   "min_to_ASP156": 23.57,
+   "min_to_THR157": 25.99,
+   "min_to_LYS313": 20.06,
+   "min_to_GLU315": 22.89,
+   "min_to_GLY338": 25.95,
+   "min_to_ASP339": 27.87,
+   "min_to_THR371": 23.28
+  },
+  "H": {
+   "min_to_chain_A": [
+    46.11,
+    "H:ARG486:N",
+    "A:GLN182:NE2"
+   ],
+   "min_to_chain_B": [
+    57.01,
+    "H:ARG486:CA",
+    "B:GLU102:OE1"
+   ],
+   "min_to_chain_C": [
+    97.46,
+    "H:ARG486:N",
+    "C:ASP67:OD2"
+   ],
+   "min_to_chain_D": [
+    77.85,
+    "H:ARG486:N",
+    "D:ARG449:NH2"
+   ],
+   "min_to_chain_E": [
+    5.62,
+    "H:ARG486:NH1",
+    "E:LYS465:NZ"
+   ],
+   "min_to_interface_residue_facing_E": [
+    1.33,
+    "TYR487"
+   ],
+   "min_to_chain_F": [
+    20.58,
+    "H:ARG486:O",
+    "F:ARG443:NH2"
+   ],
+   "min_to_chain_G": [
+    8.07,
+    "H:ARG486:O",
+    "G:LEU70:CD2"
+   ],
+   "min_to_interface_residue_facing_G": [
+    3.5,
+    "LEU441"
+   ],
+   "min_to_MN_same_chain": [
+    26.35,
+    "H:MN603"
+   ],
+   "min_to_MN_any_chain": [
+    26.35,
+    "H:MN603"
+   ],
+   "CA_to_nearest_MN_atom_same_chain": 26.35,
+   "min_to_K_any_chain": [
+    44.25,
+    "G:K603"
+   ],
+   "CA_to_nearest_K_atom_same_chain": null,
+   "min_to_FBP_same_chain": [
+    12.59,
+    "H:FBP602"
+   ],
+   "min_to_FBP_any_chain": [
+    12.59,
+    "H:FBP602"
+   ],
+   "CA_to_nearest_FBP_atom_same_chain": 13.63,
+   "min_to_PYR_same_chain": [
+    28.68,
+    "H:PYR604"
+   ],
+   "min_to_PYR_any_chain": [
+    28.68,
+    "H:PYR604"
+   ],
+   "CA_to_nearest_PYR_atom_same_chain": 28.69,
+   "min_to_ARG116": 23.14,
+   "min_to_ASN118": 27.91,
+   "min_to_SER120": 30.76,
+   "min_to_ASP156": 23.84,
+   "min_to_THR157": 25.94,
+   "min_to_LYS313": 19.87,
+   "min_to_GLU315": 23.32,
+   "min_to_GLY338": 25.53,
+   "min_to_ASP339": 27.23,
+   "min_to_THR371": 22.87
+  }
+ },
+ "contacts_by_domain_4A": {
+  "A": {
+   "C": [
+    "TYR487",
+    "SER485",
+    "GLN482",
+    "GLU453",
+    "LEU484",
+    "ARG488",
+    "LEU441",
+    "LEU483",
+    "ALA445"
+   ],
+   "A": [
+    "LEU362"
+   ]
+  },
+  "B": {
+   "C": [
+    "TYR487",
+    "SER485",
+    "GLN482",
+    "LEU483",
+    "LEU484",
+    "ARG488",
+    "LEU441"
+   ],
+   "A": [
+    "LEU362",
+    "ASN361",
+    "GLY364",
+    "ALA363"
+   ],
+   "water": [
+    "HOH761"
+   ]
+  },
+  "C": {
+   "C": [
+    "TYR487",
+    "SER485",
+    "GLN482",
+    "LEU484",
+    "LEU483",
+    "ARG488",
+    "LEU441",
+    "ALA445"
+   ],
+   "A": [
+    "LEU362",
+    "GLY364",
+    "ALA363",
+    "ASN361"
+   ],
+   "water": [
+    "HOH751"
+   ]
+  },
+  "D": {
+   "C": [
+    "TYR487",
+    "SER485",
+    "GLN482",
+    "LEU483",
+    "LEU484",
+    "ARG488",
+    "LEU441",
+    "GLU453"
+   ],
+   "A": [
+    "LEU362",
+    "GLY364",
+    "ALA363",
+    "ASN361"
+   ],
+   "water": [
+    "HOH743"
+   ]
+  },
+  "E": {
+   "C": [
+    "SER485",
+    "TYR487",
+    "GLN482",
+    "LEU484",
+    "ARG488",
+    "LEU483",
+    "LEU441"
+   ],
+   "A": [
+    "LEU362",
+    "ASN361",
+    "GLY364"
+   ]
+  },
+  "F": {
+   "C": [
+    "SER485",
+    "TYR487",
+    "GLN482",
+    "LEU484",
+    "ARG488",
+    "LEU483",
+    "LEU441"
+   ],
+   "water": [
+    "HOH701",
+    "HOH744"
+   ],
+   "A": [
+    "LEU362",
+    "ASN361",
+    "GLY364",
+    "ALA363"
+   ]
+  },
+  "G": {
+   "C": [
+    "TYR487",
+    "SER485",
+    "GLN482",
+    "LEU484",
+    "ARG488",
+    "LEU483",
+    "LEU441"
+   ],
+   "A": [
+    "LEU362",
+    "GLY364",
+    "ALA363"
+   ]
+  },
+  "H": {
+   "C": [
+    "TYR487",
+    "SER485",
+    "GLU453",
+    "GLN482",
+    "LEU484",
+    "LEU483",
+    "ARG488",
+    "LEU441"
+   ],
+   "water": [
+    "HOH764",
+    "HOH788"
+   ],
+   "A": [
+    "ALA363",
+    "GLY364"
+   ]
+  }
+ },
+ "domain_of_pos": "C"
+}
