@@ -1,0 +1,2 @@
+6ECH 6ECH_1|Chains A, B, C, D|Pyruvate kinase PKLR|Rattus norvegicus (10116) 550 residue aligned to rat R-type 486 = Q (entity position 456 ) window KTGRSAQLLSQYRPRAAVIAV
+6ECK 6ECK_1|Chains A, B|Pyruvate kinase PKLR|Rattus norvegicus (10116) 550 residue aligned to rat R-type 486 = Q (entity position 456 ) window KTGRSAQLLSQYRPRAAVIAV

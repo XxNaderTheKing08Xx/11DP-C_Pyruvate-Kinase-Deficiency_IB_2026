@@ -1,0 +1,71 @@
+
+== core_panel: core_panel.clustalo.aln; 4 sequences; alignment length 574; human 486 at column 486
+Human           P30613               residue R at own position 486; window (human 476-496 columns) TTGRSAQLLSRYRPRAAVIAV
+Rat             P12928               residue Q at own position 486; window (human 476-496 columns) KTGRSAQLLSQYRPRAAVIAV
+Mouse           P53657               residue R at own position 486; window (human 476-496 columns) KTGRSAQLLSRYRPRAAVIAV
+Dog             Q29536               residue R at own position 486; window (human 476-496 columns) KTGRSAQLLSRYRPRAAVIAV
+column conservation in window (human numbering: residue counts):
+  476:KT(3/4)  477:T(4/4)  478:G(4/4)  479:R(4/4)  480:S(4/4)  481:A(4/4)  482:Q(4/4)  483:L(4/4)  484:L(4/4)  485:S(4/4)  486:RQ(3/4)  487:Y(4/4)  488:R(4/4)  489:P(4/4)  490:R(4/4)  491:A(4/4)  492:A(4/4)  493:V(4/4)  494:I(4/4)  495:A(4/4)  496:V(4/4)
+fully identical columns in window: 19/21
+
+== broad_panel: broad_panel.clustalo.aln; 21 sequences; alignment length 640; human 486 at column 545
+Human           P30613               residue R at own position 486; window (human 476-496 columns) TTGRSAQLLSRYRPRAAVIAV
+Rat             P12928               residue Q at own position 486; window (human 476-496 columns) KTGRSAQLLSQYRPRAAVIAV
+Mouse           P53657               residue R at own position 486; window (human 476-496 columns) KTGRSAQLLSRYRPRAAVIAV
+Dog             Q29536               residue R at own position 486; window (human 476-496 columns) KTGRSAQLLSRYRPRAAVIAV
+Chimpanzee      ENSPTRP00000056053   residue R at own position 486; window (human 476-496 columns) TTGRSAQLLSRYRPRAAVIAV
+Macaque         ENSMMUP00000080590   residue Q at own position 486; window (human 476-496 columns) TTGRSAQLLSQYRPRAAVIAV
+Marmoset        ENSCJAP00000048105   residue Q at own position 486; window (human 476-496 columns) TTGRSAQLLSQYRPRAAVIAV
+Guinea pig      ENSCPOP00000010073   residue R at own position 455; window (human 476-496 columns) TTGRSAQLLSRYRPRAAVIAV
+Rabbit          ENSOCUP00000012868   residue R at own position 486; window (human 476-496 columns) TTGRSAQLLSRYRPRAAVIAV
+Cat             ENSFCTP00005015218   residue R at own position 490; window (human 476-496 columns) KSGRSAQLLSRYRPRAMVIAV
+Cow             ENSBTAP00000083211   residue R at own position 486; window (human 476-496 columns) TTGRSAQLLSRYRPRATVIAV
+Pig             ENSSSCP00000036804   residue R at own position 455; window (human 476-496 columns) KTGRSAQLLSRYRPRAAVIAV
+Horse           ENSECAP00000011863   residue R at own position 486; window (human 476-496 columns) TTGRSAQLLSRYRPRAAVIAV
+Opossum         ENSMODP00000021277   residue R at own position 481; window (human 476-496 columns) TTGRSAQLISRYRPRAVVIAV
+Platypus        ENSOANP00000047030   residue R at own position 480; window (human 476-496 columns) TSGRSAQLLSRYRPRAPILAV
+Painted turtle  ENSCPBP00000037058   residue R at own position 525; window (human 476-496 columns) TSGRSAQLISRYRPRALIIAV
+Wall lizard     ENSPMRP00000026033   residue R at own position 454; window (human 476-496 columns) TSGRSAQLLSRYRPRALIIAV
+Xenopus         ENSXETP00000103107   residue R at own position 495; window (human 476-496 columns) TSGRSAQHLSRYRPRAPIIAV
+Coelacanth      ENSLACP00000023591   residue R at own position 442; window (human 476-496 columns) ITGRSAQLLSRYRPRAPILAV
+Zebrafish       ENSDARP00000069759   residue R at own position 450; window (human 476-496 columns) TSGRSAQLLSRYRPRCPIIAV
+Medaka          ENSORLP00000045107   residue R at own position 455; window (human 476-496 columns) SSGRSSHLLSRYRPRCPIIAV
+column conservation in window (human numbering: residue counts):
+  476:TKIS(14/21)  477:TS(14/21)  478:G(21/21)  479:R(21/21)  480:S(21/21)  481:AS(20/21)  482:QH(20/21)  483:LH(20/21)  484:LI(19/21)  485:S(21/21)  486:RQ(18/21)  487:Y(21/21)  488:R(21/21)  489:P(21/21)  490:R(21/21)  491:AC(19/21)  492:APLMTV(11/21)  493:VI(14/21)  494:IL(19/21)  495:A(21/21)  496:V(21/21)
+fully identical columns in window: 10/21
+
+== Method B (pairwise to human P30613), broad panel
+Human           pairwise: R486   MSA: R486   agree: True
+Rat             pairwise: Q486   MSA: Q486   agree: True
+Mouse           pairwise: R486   MSA: R486   agree: True
+Dog             pairwise: R486   MSA: R486   agree: True
+Chimpanzee      pairwise: R486   MSA: R486   agree: True
+Macaque         pairwise: Q486   MSA: Q486   agree: True
+Marmoset        pairwise: Q486   MSA: Q486   agree: True
+Guinea pig      pairwise: R455   MSA: R455   agree: True
+Rabbit          pairwise: R486   MSA: R486   agree: True
+Cat             pairwise: R490   MSA: R490   agree: True
+Cow             pairwise: R486   MSA: R486   agree: True
+Pig             pairwise: R455   MSA: R455   agree: True
+Horse           pairwise: R486   MSA: R486   agree: True
+Opossum         pairwise: R481   MSA: R481   agree: True
+Platypus        pairwise: R480   MSA: R480   agree: True
+Painted turtle  pairwise: R525   MSA: R525   agree: True
+Wall lizard     pairwise: R454   MSA: R454   agree: True
+Xenopus         pairwise: R495   MSA: R495   agree: True
+Coelacanth      pairwise: R442   MSA: R442   agree: True
+Zebrafish       pairwise: R450   MSA: R450   agree: True
+Medaka          pairwise: R455   MSA: R455   agree: True
+Method A and B agree for all broad-panel sequences: True
+
+== Paralog context (not part of the panels)
+human PKM isoform M2 (P14618): residue aligned to PKLR Arg486 = R443
+human PKM isoform M1 (P14618-2): residue aligned to PKLR Arg486 = R443
+
+== Codon at the position equivalent to human c.1456-1458 (R-type CDSs; all 1725 nt, 574 codons, no indels)
+Human NM_000298.6: codon 486 = CGG (R); context codons 484-488: CTG TCT CGG TAC CGA
+Rat XM_006232593.5: codon 486 = CAA (Q); context codons 484-488: CTA TCT CAA TAC CGA
+Mouse NM_013631.2: codon 486 = CGC (R); context codons 484-488: CTG TCT CGC TAC CGA
+Dog NM_001256262.2: codon 486 = CGG (R); context codons 484-488: CTA TCT CGG TAC CGG
+L-type numbering: human R-type 486 = L-type 455 (NP_870986.1); rat R-type 486 = L-type 455 (NP_036756.3)
+check: NP_870986.1 residue 455 = R; NP_036756.3 residue 455 = Q

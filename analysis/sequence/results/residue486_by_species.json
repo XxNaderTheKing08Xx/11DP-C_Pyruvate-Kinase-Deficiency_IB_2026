@@ -1,0 +1,181 @@
+{
+ "core_panel": [
+  {
+   "id": "Human_P30613",
+   "label": "Human",
+   "aa": "R",
+   "own": 486,
+   "win": "TTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Rat_P12928",
+   "label": "Rat",
+   "aa": "Q",
+   "own": 486,
+   "win": "KTGRSAQLLSQYRPRAAVIAV"
+  },
+  {
+   "id": "Mouse_P53657",
+   "label": "Mouse",
+   "aa": "R",
+   "own": 486,
+   "win": "KTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Dog_Q29536",
+   "label": "Dog",
+   "aa": "R",
+   "own": 486,
+   "win": "KTGRSAQLLSRYRPRAAVIAV"
+  }
+ ],
+ "broad_panel": [
+  {
+   "id": "Human_P30613",
+   "label": "Human",
+   "aa": "R",
+   "own": 486,
+   "win": "TTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Rat_P12928",
+   "label": "Rat",
+   "aa": "Q",
+   "own": 486,
+   "win": "KTGRSAQLLSQYRPRAAVIAV"
+  },
+  {
+   "id": "Mouse_P53657",
+   "label": "Mouse",
+   "aa": "R",
+   "own": 486,
+   "win": "KTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Dog_Q29536",
+   "label": "Dog",
+   "aa": "R",
+   "own": 486,
+   "win": "KTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Chimpanzee_ENSPTRP00000056053",
+   "label": "Chimpanzee",
+   "aa": "R",
+   "own": 486,
+   "win": "TTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Macaque_ENSMMUP00000080590",
+   "label": "Macaque",
+   "aa": "Q",
+   "own": 486,
+   "win": "TTGRSAQLLSQYRPRAAVIAV"
+  },
+  {
+   "id": "Marmoset_ENSCJAP00000048105",
+   "label": "Marmoset",
+   "aa": "Q",
+   "own": 486,
+   "win": "TTGRSAQLLSQYRPRAAVIAV"
+  },
+  {
+   "id": "Guinea_pig_ENSCPOP00000010073",
+   "label": "Guinea pig",
+   "aa": "R",
+   "own": 455,
+   "win": "TTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Rabbit_ENSOCUP00000012868",
+   "label": "Rabbit",
+   "aa": "R",
+   "own": 486,
+   "win": "TTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Cat_ENSFCTP00005015218",
+   "label": "Cat",
+   "aa": "R",
+   "own": 490,
+   "win": "KSGRSAQLLSRYRPRAMVIAV"
+  },
+  {
+   "id": "Cow_ENSBTAP00000083211",
+   "label": "Cow",
+   "aa": "R",
+   "own": 486,
+   "win": "TTGRSAQLLSRYRPRATVIAV"
+  },
+  {
+   "id": "Pig_ENSSSCP00000036804",
+   "label": "Pig",
+   "aa": "R",
+   "own": 455,
+   "win": "KTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Horse_ENSECAP00000011863",
+   "label": "Horse",
+   "aa": "R",
+   "own": 486,
+   "win": "TTGRSAQLLSRYRPRAAVIAV"
+  },
+  {
+   "id": "Opossum_ENSMODP00000021277",
+   "label": "Opossum",
+   "aa": "R",
+   "own": 481,
+   "win": "TTGRSAQLISRYRPRAVVIAV"
+  },
+  {
+   "id": "Platypus_ENSOANP00000047030",
+   "label": "Platypus",
+   "aa": "R",
+   "own": 480,
+   "win": "TSGRSAQLLSRYRPRAPILAV"
+  },
+  {
+   "id": "Painted_turtle_ENSCPBP00000037058",
+   "label": "Painted turtle",
+   "aa": "R",
+   "own": 525,
+   "win": "TSGRSAQLISRYRPRALIIAV"
+  },
+  {
+   "id": "Wall_lizard_ENSPMRP00000026033",
+   "label": "Wall lizard",
+   "aa": "R",
+   "own": 454,
+   "win": "TSGRSAQLLSRYRPRALIIAV"
+  },
+  {
+   "id": "Xenopus_ENSXETP00000103107",
+   "label": "Xenopus",
+   "aa": "R",
+   "own": 495,
+   "win": "TSGRSAQHLSRYRPRAPIIAV"
+  },
+  {
+   "id": "Coelacanth_ENSLACP00000023591",
+   "label": "Coelacanth",
+   "aa": "R",
+   "own": 442,
+   "win": "ITGRSAQLLSRYRPRAPILAV"
+  },
+  {
+   "id": "Zebrafish_ENSDARP00000069759",
+   "label": "Zebrafish",
+   "aa": "R",
+   "own": 450,
+   "win": "TSGRSAQLLSRYRPRCPIIAV"
+  },
+  {
+   "id": "Medaka_ENSORLP00000045107",
+   "label": "Medaka",
+   "aa": "R",
+   "own": 455,
+   "win": "SSGRSSHLLSRYRPRCPIIAV"
+  }
+ ]
+}
