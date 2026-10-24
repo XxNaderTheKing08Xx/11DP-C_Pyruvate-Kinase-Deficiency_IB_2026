@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="873616" VariationName="NM_000298.6(PKLR):c.1457G&gt;A (p.Arg486Gln)" VariationType="single nucleotide variant" Accession="VCV000873616" Version="7" RecordType="classified" NumberOfSubmissions="3" NumberOfSubmitters="3" DateLastUpdated="2026-04-13" DateCreated="2020-05-31" MostRecentSubmission="2025-11-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="862407" VariationID="873616">
+      <GeneList>
+        <Gene Symbol="PKLR" FullName="pyruvate kinase L/R" GeneID="5313" HGNC_ID="HGNC:9020" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="155289293" stop="155308654" display_start="155289293" display_stop="155308654" Strand="-"/>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NW_003315906.1" start="94316" stop="106461" display_start="94316" display_stop="106461" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="155259083" stop="155271224" display_start="155259083" display_stop="155271224" Strand="-"/>
+          </Location>
+          <OMIM>609712</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000298.6(PKLR):c.1457G&gt;A (p.Arg486Gln)</Name>
+      <CanonicalSPDI>NC_000001.11:155291916:C:T</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>1q22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="155291917" stop="155291917" display_start="155291917" display_stop="155291917" variantLength="1" positionVCF="155291917" referenceAlleleVCF="C" alternateAlleleVCF="T"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="155261708" stop="155261708" display_start="155261708" display_stop="155261708" variantLength="1" referenceAllele="C" alternateAllele="T" positionVCF="155261708" referenceAlleleVCF="C" alternateAlleleVCF="T"/>
+      </Location>
+      <OtherNameList>
+        <Name>NC_000001.10:g.155261708C&gt;T</Name>
+      </OtherNameList>
+      <ProteinChange>R486Q</ProteinChange>
+      <ProteinChange>R455Q</ProteinChange>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1136" sequenceAccession="LRG_1136">
+            <Expression>LRG_1136:g.14518G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1136t1" sequenceAccession="LRG_1136t1">
+            <Expression>LRG_1136t1:c.1457G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="LRG_1136p1" sequenceAccession="LRG_1136p1" change="p.Arg486Gln">
+            <Expression>LRG_1136p1:p.Arg486Gln</Expression>
+          </ProteinExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.155261708C&gt;T" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.155261708C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.155291917C&gt;T" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.155291917C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_011677.1" sequenceAccession="NG_011677" sequenceVersion="1" change="g.14518G&gt;A">
+            <Expression>NG_011677.1:g.14518G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000298.6" sequenceAccession="NM_000298" sequenceVersion="6" change="c.1457G&gt;A" MANESelect="true">
+            <Expression>NM_000298.6:c.1457G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000289.1" sequenceAccession="NP_000289" sequenceVersion="1" change="p.Arg486Gln" singleLetterProteinChange="R486Q">
+            <Expression>NP_000289.1:p.Arg486Gln</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_181871.4" sequenceAccession="NM_181871" sequenceVersion="4" change="c.1364G&gt;A">
+            <Expression>NM_181871.4:c.1364G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_870986.1" sequenceAccession="NP_870986" sequenceVersion="1" change="p.Arg455Gln" singleLetterProteinChange="R455Q">
+            <Expression>NP_870986.1:p.Arg455Gln</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA1143991" DB="ClinGen"/>
+        <XRef Type="rs" ID="768210809" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00001" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00001" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.00003" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00004" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00007" Source="Exome Aggregation Consortium (ExAC)"/>
+      </AlleleFrequencyList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1457G&gt;A (p.Arg486Gln) AND Pyruvate kinase deficiency of red cells" Accession="RCV001095924" Version="4">
+        <ClassifiedConditionList TraitSetID="393">
+          <ClassifiedCondition DB="MedGen" ID="C0340968">Pyruvate kinase deficiency of red cells</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-04-27" SubmissionCount="1">Uncertain significance</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1457G&gt;A (p.Arg486Gln) AND not provided" Accession="RCV003490065" Version="3">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-04" SubmissionCount="1">Uncertain significance</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1457G&gt;A (p.Arg486Gln) AND Glioma susceptibility 1" Accession="RCV005913656" Version="1">
+        <ClassifiedConditionList TraitSetID="2222">
+          <ClassifiedCondition DB="MedGen" ID="C2750850">Glioma susceptibility 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <NoClassification>
+            <ReviewStatus>no classification provided</ReviewStatus>
+            <Description SubmissionCount="1">evidence_only</Description>
+          </NoClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-04" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2020-05-31" MostRecentSubmission="2025-09-06">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Uncertain significance</Description>
+        <Explanation DataSource="ClinVar" Type="public">Uncertain significance (2)</Explanation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="393" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3588" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">PK DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PYRUVATE KINASE DEFICIENCY OF ERYTHROCYTE</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Pyruvate kinase deficiency of red cells</ElementValue>
+                <XRef ID="MONDO:0009950" DB="MONDO"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pyruvate kinase deficiency, Amish type</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CNSHA2</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7514"/>
+                <XRef ID="7514" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="766" DB="Orphanet"/>
+              <XRef ID="C0340968" DB="MedGen"/>
+              <XRef ID="MONDO:0009950" DB="MONDO"/>
+              <XRef Type="MIM" ID="266200" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2477747" SubmissionDate="2020-02-20" ContributesToAggregateClassification="true" DateLastUpdated="2020-05-31" DateCreated="2020-05-31">
+        <ClinVarSubmissionID localKey="697918|OMIM:266200" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001252103" DateUpdated="2020-05-31" DateCreated="2020-05-31" Type="SCV" Version="1" SubmitterName="Illumina Laboratory Services, Illumina" OrgID="504895" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-04-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+          <Comment>This variant was observed as part of a predisposition screen in an ostensibly healthy population. A literature search was performed for the gene, cDNA change, and amino acid change (where applicable). No publications were found based on this search. Allele frequency data from public databases did not allow this variant to be ruled in or out of causing disease. Therefore, this variant is classified as a variant of unknown significance.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ICSL Variant Classification Criteria 13 December 2019</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/r0x0xrmc/icsl_variant_classification_criteria_13_december_2019.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" alternateAllele="T" referenceAllele="C" start="155261708" stop="155261708" variantLength="1"/>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.5:c.1457G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6641900</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="7912904" SubmissionDate="2025-08-19" ContributesToAggregateClassification="true" DateLastUpdated="2025-09-06" DateCreated="2024-02-04">
+        <ClinVarSubmissionID localKey="3d15c2781d169aab24c94ddd3e93b2cfbc271edfea7968bec2567f7c973e27cc|not provided" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV004236096" DateUpdated="2025-09-06" DateCreated="2024-02-04" Type="SCV" Version="2" SubmitterName="Revvity Omics, Revvity" OrgID="167595" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1457G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14173319</SubmissionName>
+          <SubmissionName>SUB15540076</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="12685378" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_327921|OMIM:137800|NoClassification|RNAseq|6C52A0DF8BD466205CE6AD3F9BC5DE37" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006596601" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Brain Lower Grade Glioma (LGG)</Tissue>
+              <CellLine>TCGA-FG-7636</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-FG-7636), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>389</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic acceptor site at NC_000001.10:g.155261707 from -13.04 to 1.68 bits. Significant p-values: read abundance - intron inclusion (4 reads, p=0.0112). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>read abundance - intron inclusion (p=0.0112)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000001.10:g.155261708C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1457G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="137800" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2477747" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7912904" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="12685378" TraitType="Disease" MappingType="XRef" MappingValue="137800" MappingRef="OMIM">
+        <MedGen CUI="C2750850" Name="Glioma susceptibility 1"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

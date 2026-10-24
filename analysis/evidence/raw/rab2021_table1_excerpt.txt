@@ -1,0 +1,32 @@
+Source: Rab MAE et al. Haematologica 2021;106:238-49 (doi:10.3324/haematol.2019.238865), PDF galley https://haematologica.org/article/download/9628/70505, Table 1 (journal p. 241), extracted with PyMuPDF on 22 October 2026. Rows carrying c.1456C>T marked by grep; header and control rows included.
+haematologica | 2021; 106(1)
+241
+Table 1. Genotypes, amino acid change, splenectomy status and laboratory parameters are shown for all 15 pyruvate kinase (PK)-deficient
+patients included in this study. 
+N.      Sex                     PKLR                                    Amino acid                   Genotype   Splenectomy        Hb         Ret.        PK         HK      PK/HK 
+                                   mutation                                    change                                                                 (g/dL)      (%)    (U/gHb)(U/gHb)   ratio
+                                          
+P1          F             c.1121T>C/c.1456C>T            p.(Leu374Pro)/p.(Arg486Trp)          M/M                  Yes                   9.7           10.0          9.0           5.0            1.8
+P2         M             c.331G>A/c.1456C>T             p.(Gly111Arg)/p.(Arg486Trp)           M/M                  No                  11.2           7.0           3.1           1.7            1.8
+P3         M            c.1178A>G/c.1456C>T            p.(Asn393Ser)/p.(Arg486Trp)           M/M                  Yes                   9.4          >35.0        16.9          6.2            2.7
+P8          F             c.331G>A/c.1456C>T              p.(Gly111Arg/p.(Arg486Trp)            M/M                  No                  11.9           5.0           2.2           1.4            1.6
+                                                                                                                                                                                                        (1.3)        (0.3)       (2.3)       (0.2)       (2.1)
+                                                                                    Reference range values:                                                   M: 13.8-17.2 1.0-2.0    9.2-16.9   0.9-1.4   9.0-16.6
+                                                                                                                                                                                                  F: 11.9-15.5       
+Enzyme activity of PK was decreased or normal. Hexokinase (HK) activity was almost always increased due to reticulocytosis. PK/HK ratio was strongly decreased in all cases,
+indicative of PK deficiency. Mean values (standard deviation) of 15 healthy controls are shown. Reference range values of the UMC Utrecht population are also included. M:
+male; F: female; Hb: hemoglobin; Ret.: reticulocytes; PK: pyruvate kinase; U: units; H:, hexokinase; M/M: missense/missense; M/NM: missense/nonmissense.
+
+Metabolomics sentence (journal p. 240):
+glycolytic intermediates levels that are consistent with
+decreased pyruvate kinase activity
+Metabolic profiling of PKD patients was performed by
+liquid chromatography-mass spectrometry (LC-MS/MS)
+on whole blood. Consistent with a decrease in PK activity
+at the final step of glycolysis, levels of PEP were signifi-
+cantly increased (P<0.0001) whereas levels of pyruvate
+and ATP were significantly decreased (both P<0.0001)
+(Figure 2). In addition, dihydroxyacetone phosphate
+(DHAP) and 2,3-DPG levels were increased (P<0.001 and
+
+Control row (as printed in Table 1; mean (SD) of 15 healthy controls): Contr. Splenectomy No; Hb 14.1 (1.3); Ret. 1.18 (0.3); PK 12.7 (2.3) U/gHb; HK 1.1 (0.2) U/gHb; PK/HK 11.9 (2.1)

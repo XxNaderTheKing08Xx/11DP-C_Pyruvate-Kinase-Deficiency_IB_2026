@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="626259" VariationName="NM_000298.6(PKLR):c.1067T&gt;G (p.Met356Arg)" VariationType="single nucleotide variant" Accession="VCV000626259" Version="4" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2026-04-13" DateCreated="2019-04-29" MostRecentSubmission="2025-08-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="614553" VariationID="626259">
+      <GeneList>
+        <Gene Symbol="PKLR" FullName="pyruvate kinase L/R" GeneID="5313" HGNC_ID="HGNC:9020" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="155289293" stop="155308654" display_start="155289293" display_stop="155308654" Strand="-"/>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NW_003315906.1" start="94316" stop="106461" display_start="94316" display_stop="106461" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="155259083" stop="155271224" display_start="155259083" display_stop="155271224" Strand="-"/>
+          </Location>
+          <OMIM>609712</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000298.6(PKLR):c.1067T&gt;G (p.Met356Arg)</Name>
+      <CanonicalSPDI>NC_000001.11:155294283:A:C</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>1q22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="155294284" stop="155294284" display_start="155294284" display_stop="155294284" variantLength="1" positionVCF="155294284" referenceAlleleVCF="A" alternateAlleleVCF="C"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="155264075" stop="155264075" display_start="155264075" display_stop="155264075" variantLength="1" positionVCF="155264075" referenceAlleleVCF="A" alternateAlleleVCF="C"/>
+      </Location>
+      <ProteinChange>M356R</ProteinChange>
+      <ProteinChange>M325R</ProteinChange>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1136" sequenceAccession="LRG_1136" change="g.12151T&gt;G">
+            <Expression>LRG_1136:g.12151T&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1136t1" sequenceAccession="LRG_1136t1" change="c.1067T&gt;G">
+            <Expression>LRG_1136t1:c.1067T&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="LRG_1136p1" sequenceAccession="LRG_1136p1" change="p.Met356Arg">
+            <Expression>LRG_1136p1:p.Met356Arg</Expression>
+          </ProteinExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.155264075A&gt;C" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.155264075A&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.155294284A&gt;C" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.155294284A&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_011677.1" sequenceAccession="NG_011677" sequenceVersion="1" change="g.12151T&gt;G">
+            <Expression>NG_011677.1:g.12151T&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000298.6" sequenceAccession="NM_000298" sequenceVersion="6" change="c.1067T&gt;G" MANESelect="true">
+            <Expression>NM_000298.6:c.1067T&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000289.1" sequenceAccession="NP_000289" sequenceVersion="1" change="p.Met356Arg" singleLetterProteinChange="M356R">
+            <Expression>NP_000289.1:p.Met356Arg</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_181871.4" sequenceAccession="NM_181871" sequenceVersion="4" change="c.974T&gt;G">
+            <Expression>NM_181871.4:c.974T&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_870986.1" sequenceAccession="NP_870986" sequenceVersion="1" change="p.Met325Arg" singleLetterProteinChange="M325R">
+            <Expression>NP_870986.1:p.Met325Arg</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA342753373" DB="ClinGen"/>
+        <XRef Type="rs" ID="752423472" DB="dbSNP"/>
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1067T&gt;G (p.Met356Arg) AND Pyruvate kinase deficiency of red cells" Accession="RCV000768418" Version="4">
+        <ClassifiedConditionList TraitSetID="393">
+          <ClassifiedCondition DB="MedGen" ID="C0340968">Pyruvate kinase deficiency of red cells</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Likely pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-29" MostRecentSubmission="2025-08-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Likely pathogenic</Description>
+        <Explanation DataSource="ClinVar" Type="public">Likely pathogenic (1)</Explanation>
+        <ConditionList>
+          <TraitSet ID="393" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3588" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Pyruvate kinase deficiency of red cells</ElementValue>
+                <XRef ID="MONDO:0009950" DB="MONDO"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PK DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PYRUVATE KINASE DEFICIENCY OF ERYTHROCYTE</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pyruvate kinase deficiency, Amish type</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CNSHA2</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7514"/>
+                <XRef ID="7514" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="766" DB="Orphanet"/>
+              <XRef ID="C0340968" DB="MedGen"/>
+              <XRef ID="MONDO:0009950" DB="MONDO"/>
+              <XRef Type="MIM" ID="266200" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1764230" SubmissionDate="2019-04-25" ContributesToAggregateClassification="true" DateLastUpdated="2025-08-03" DateCreated="2019-04-29">
+        <ClinVarSubmissionID localKey="SUB5442569" submittedAssembly="GRCh38" title="SUB5442569"/>
+        <ClinVarAccession Accession="SCV000897719" DateUpdated="2025-08-03" DateCreated="2019-04-29" Type="SCV" Version="3" SubmitterName="UOSD Diagnostica Molecolare E Genomica, Irccs Policlinico Agostino Gemelli" OrgID="506963" OrganizationCategory="laboratory" OrgAbbreviation="UCSC"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Likely pathogenic</GermlineClassification>
+          <Comment Type="public">The c.1067T&gt;G variant causing the replacement of the apolar Methionin (M) to the basic polar Arginine (R) at aa position 356 (p.Met356Arg). We found this variant in 1 Turkish patient and his father, segregated with chronic non-spherocytic hemolytic anemia and was absent from 200 alleles studied. Additionally, computational variant analysis (CVA) of the mutant enzyme demonstrated a deleterious effect associated to p.(Met356Arg) variant. The Met356 is buried in a hydrophobic environment provided by the residues Phe323, Ile314, Ala352 and Val335. When the interaction between Met356 and Ala352 is destroyed from replacement by Arg356 and a novel hydrogen bond involving the NH2 nitrogen atom of Arg356 and backbone oxygen atom of Ile314 is established, the network of residues, mainly van der Waals interactions, is partially abolished. These changes and the altered pattern of interactions that the p.(Met356Arg) replacement brings about, might affect the catalytic Glu315 orientation. In summary, the Met356Arg variant meets our criteria to be classified as likely pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Ethnicity>Turkish</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Sex>male</Sex>
+            </Sample>
+            <Method>
+              <NamePlatform>3500 Genetic Analyzer Applied Biosystem</NamePlatform>
+              <TypePlatform>Sanger sequencing</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="TestName">Direct sequencing</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1"/>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0004870"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0008176"/>
+              </Trait>
+            </TraitSet>
+            <Comment Type="public">The variant works with c.1486C&gt;T (p.Arg486Trp), rs116100695</Comment>
+            <Comment Type="public">"effect on protein activity" was previously submitted as the functional consequence for NM_000298.6:c.1067T&gt;G, but without providing the result of a functional assay.</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR">
+              <Name>pyruvate kinase L/R</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1067T&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5442569</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1764230" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004870" MappingRef="HP">
+        <MedGen CUI="C1387532" Name="Chronic hemolytic anemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1764230" TraitType="Finding" MappingType="XRef" MappingValue="HP:0008176" MappingRef="HP">
+        <MedGen CUI="C0559506" Name="Neonatal unconjugated hyperbilirubinemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1764230" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

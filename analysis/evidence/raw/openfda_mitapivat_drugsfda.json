@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-10-21",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 1
+    }
+  },
+  "results": [
+    {
+      "submissions": [
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "3",
+          "submission_status": "AP",
+          "submission_status_date": "20251223",
+          "review_priority": "STANDARD",
+          "submission_class_code": "EFFICACY",
+          "submission_class_code_description": "Efficacy",
+          "submission_property_type": [
+            {
+              "code": "Orphan"
+            }
+          ],
+          "application_docs": [
+            {
+              "id": "84592",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216196Orig1s003lbl.pdf",
+              "date": "20260623",
+              "type": "Label"
+            },
+            {
+              "id": "84628",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/216196s003lbl.pdf#page=20",
+              "date": "20260102",
+              "type": "Medication Guide"
+            },
+            {
+              "id": "84839",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/216196Orig1s003ltr.pdf",
+              "date": "20260623",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "6",
+          "submission_status": "AP",
+          "submission_status_date": "20260408",
+          "review_priority": "N/A",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)",
+          "application_docs": [
+            {
+              "id": "86828",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216196Orig1s006lbl.pdf",
+              "date": "20260807",
+              "type": "Label"
+            },
+            {
+              "id": "86847",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/216196Orig1s006ltr.pdf",
+              "date": "20260811",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "4",
+          "submission_status": "AP",
+          "submission_status_date": "20250103",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "submission_property_type": [
+            {
+              "code": "Orphan"
+            }
+          ],
+          "application_docs": [
+            {
+              "id": "80817",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/216196Orig1s004ltr.pdf",
+              "date": "20250106",
+              "type": "Letter"
+            },
+            {
+              "id": "80819",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2025/216196s004lbl.pdf",
+              "date": "20250107",
+              "type": "Label"
+            }
+          ]
+        },
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20220217",
+          "review_priority": "PRIORITY",
+          "submission_class_code": "TYPE 1",
+          "submission_class_code_description": "Type 1 - New Molecular Entity",
+          "submission_property_type": [
+            {
+              "code": "Orphan"
+            }
+          ],
+          "application_docs": [
+            {
+              "id": "70184",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/216196s000lbl.pdf",
+              "date": "20220217",
+              "type": "Label"
+            },
+            {
+              "id": "70194",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/216196Orig1s000ltr.pdf",
+              "date": "20220218",
+              "type": "Letter"
+            },
+            {
+              "id": "70547",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/216196Orig1s000TOC.html",
+              "date": "20220317",
+              "type": "Review"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "7",
+          "submission_status": "AP",
+          "submission_status_date": "20260928",
+          "review_priority": "N/A",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)",
+          "application_docs": [
+            {
+              "id": "87297",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216196Orig1s007lbl.pdf",
+              "date": "20260928",
+              "type": "Label"
+            },
+            {
+              "id": "87298",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/216196Orig1s007ltr.pdf",
+              "date": "20260928",
+              "type": "Letter"
+            }
+          ]
+        }
+      ],
+      "application_number": "NDA216196",
+      "sponsor_name": "AGIOS PHARMS INC",
+      "openfda": {
+        "application_number": [
+          "NDA216196"
+        ],
+        "brand_name": [
+          "AQVESME",
+          "PYRUKYND"
+        ],
+        "generic_name": [
+          "MITAPIVAT"
+        ],
+        "manufacturer_name": [
+          "Agios Pharmaceuticals, Inc."
+        ],
+        "product_ndc": [
+          "71334-235",
+          "71334-205",
+          "71334-210",
+          "71334-215",
+          "71334-220",
+          "71334-225",
+          "71334-230"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "MITAPIVAT"
+        ],
+        "rxcui": [
+          "2730660",
+          "2730666",
+          "2594473",
+          "2594479",
+          "2594496",
+          "2594498",
+          "2594501",
+          "2594503",
+          "2594741",
+          "2594742",
+          "2594743",
+          "2594744",
+          "2594745",
+          "2594746",
+          "2594747",
+          "2594748",
+          "2594749",
+          "2594750",
+          "2594794",
+          "2594795"
+        ],
+        "spl_id": [
+          "5a0c9383-d37f-9838-e063-6294a90ac7b5",
+          "557b465d-234d-75a2-e063-6394a90a070a"
+        ],
+        "spl_set_id": [
+          "1d4e2654-1636-0d01-e063-6394a90af303",
+          "4ccee896-e313-4c6c-9674-b4746ada0a90"
+        ],
+        "package_ndc": [
+          "71334-235-14",
+          "71334-235-00",
+          "71334-205-14",
+          "71334-205-05",
+          "71334-210-14",
+          "71334-210-20",
+          "71334-215-14",
+          "71334-215-50",
+          "71334-220-11",
+          "71334-225-12",
+          "71334-210-07",
+          "71334-205-07",
+          "71334-230-13",
+          "71334-215-07"
+        ],
+        "nui": [
+          "N0000194008",
+          "N0000194009",
+          "N0000190118",
+          "N0000187064",
+          "N0000187063",
+          "N0000185507",
+          "N0000185607",
+          "N0000194036",
+          "N0000185503"
+        ],
+        "pharm_class_epc": [
+          "Pyruvate Kinase Activator [EPC]"
+        ],
+        "pharm_class_moa": [
+          "Pyruvate Kinase Activators [MoA]",
+          "Cytochrome P450 3A Inducers [MoA]",
+          "Cytochrome P450 2B6 Inducers [MoA]",
+          "Cytochrome P450 2C8 Inducers [MoA]",
+          "Cytochrome P450 2C9 Inducers [MoA]",
+          "Cytochrome P450 2C19 Inducers [MoA]",
+          "UGT1A1 Inducers [MoA]",
+          "P-Glycoprotein Inhibitors [MoA]"
+        ],
+        "unii": [
+          "2WTV10SIKH"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "002",
+          "reference_drug": "Yes",
+          "brand_name": "PYRUKYND",
+          "active_ingredients": [
+            {
+              "name": "MITAPIVAT SULFATE",
+              "strength": "EQ 20MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "003",
+          "reference_drug": "Yes",
+          "brand_name": "PYRUKYND",
+          "active_ingredients": [
+            {
+              "name": "MITAPIVAT SULFATE",
+              "strength": "EQ 50MG BASE"
+            }
+          ],
+          "reference_standard": "Yes",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "Yes",
+          "brand_name": "PYRUKYND",
+          "active_ingredients": [
+            {
+              "name": "MITAPIVAT SULFATE",
+              "strength": "EQ 5MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "004",
+          "reference_drug": "Yes",
+          "brand_name": "AQVESME",
+          "active_ingredients": [
+            {
+              "name": "MITAPIVAT SULFATE",
+              "strength": "EQ 100MG BASE"
+            }
+          ],
+          "reference_standard": "Yes",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        }
+      ]
+    }
+  ]
+}

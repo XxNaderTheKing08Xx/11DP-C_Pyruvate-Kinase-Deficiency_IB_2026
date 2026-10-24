@@ -1,0 +1,2623 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="1513" VariationName="NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp)" VariationType="single nucleotide variant" Accession="VCV000001513" Version="102" RecordType="classified" NumberOfSubmissions="33" NumberOfSubmitters="33" DateLastUpdated="2026-10-04" DateCreated="2016-10-14" MostRecentSubmission="2026-10-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="16552" VariationID="1513">
+      <GeneList>
+        <Gene Symbol="PKLR" FullName="pyruvate kinase L/R" GeneID="5313" HGNC_ID="HGNC:9020" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="155289293" stop="155308654" display_start="155289293" display_stop="155308654" Strand="-"/>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NW_003315906.1" start="94316" stop="106461" display_start="94316" display_stop="106461" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="155259083" stop="155271224" display_start="155259083" display_stop="155271224" Strand="-"/>
+          </Location>
+          <OMIM>609712</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp)</Name>
+      <CanonicalSPDI>NC_000001.11:155291917:G:A</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>1q22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="155291918" stop="155291918" display_start="155291918" display_stop="155291918" variantLength="1" positionVCF="155291918" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="155261709" stop="155261709" display_start="155261709" display_stop="155261709" variantLength="1" positionVCF="155261709" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+      </Location>
+      <OtherNameList>
+        <Name>p.(Arg486Trp)</Name>
+      </OtherNameList>
+      <ProteinChange>R486W</ProteinChange>
+      <ProteinChange>R455W</ProteinChange>
+      <HGVSlist>
+        <HGVS Type="protein">
+          <ProteinExpression sequenceAccessionVersion="P30613" sequenceAccession="P30613" change="p.Arg486Trp">
+            <Expression>P30613:p.Arg486Trp</Expression>
+          </ProteinExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.155261709G&gt;A" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.155261709G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.155291918G&gt;A" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.155291918G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_011677.1" sequenceAccession="NG_011677" sequenceVersion="1" change="g.14517C&gt;T">
+            <Expression>NG_011677.1:g.14517C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000298.6" sequenceAccession="NM_000298" sequenceVersion="6" change="c.1456C&gt;T" MANESelect="true">
+            <Expression>NM_000298.6:c.1456C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000289.1" sequenceAccession="NP_000289" sequenceVersion="1" change="p.Arg486Trp" singleLetterProteinChange="R486W">
+            <Expression>NP_000289.1:p.Arg486Trp</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_181871.4" sequenceAccession="NM_181871" sequenceVersion="4" change="c.1363C&gt;T">
+            <Expression>NM_181871.4:c.1363C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_870986.1" sequenceAccession="NP_870986" sequenceVersion="1" change="p.Arg455Trp" singleLetterProteinChange="R455W">
+            <Expression>NP_870986.1:p.Arg455Trp</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1136" sequenceAccession="LRG_1136">
+            <Expression>LRG_1136:g.14517C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1136t1" sequenceAccession="LRG_1136t1">
+            <Expression>LRG_1136t1:c.1456C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="LRG_1136p1" sequenceAccession="LRG_1136p1" change="p.Arg486Trp">
+            <Expression>LRG_1136p1:p.Arg486Trp</Expression>
+          </ProteinExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA215080" DB="ClinGen"/>
+        <XRef ID="P30613#VAR_004066" DB="UniProtKB"/>
+        <XRef Type="Allelic variant" ID="609712.0009" DB="OMIM"/>
+        <XRef Type="rs" ID="116100695" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00160" Source="1000 Genomes Project"/>
+        <AlleleFrequency Value="0.00172" Source="1000 Genomes Project 30x"/>
+        <AlleleFrequency Value="0.00208" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+        <AlleleFrequency Value="0.00229" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.00270" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00279" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00285" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.00297" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00305" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.00160" Source="1000 Genomes Project" MinorAllele="A"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp) AND Pyruvate kinase deficiency of red cells" Accession="RCV000001577" Version="50">
+        <ClassifiedConditionList TraitSetID="393">
+          <ClassifiedCondition DB="MedGen" ID="C0340968">Pyruvate kinase deficiency of red cells</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2025-12-11" SubmissionCount="15">Pathogenic/Likely pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp) AND not provided" Accession="RCV000724015" Version="82">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2026-02-19" SubmissionCount="11">Pathogenic/Likely pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp) AND multiple conditions" Accession="RCV000762857" Version="11">
+        <ClassifiedConditionList TraitSetID="10517">
+          <ClassifiedCondition DB="MedGen" ID="C0340968">Pyruvate kinase deficiency of red cells</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C1863224">Pyruvate kinase hyperactivity</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-05-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp) AND Pyruvate kinase hyperactivity" Accession="RCV000991156" Version="10">
+        <ClassifiedConditionList TraitSetID="395">
+          <ClassifiedCondition DB="MedGen" ID="C1863224">Pyruvate kinase hyperactivity</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-05-04" SubmissionCount="2">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp) AND See cases" Accession="RCV002251854" Version="9">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-11-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp) AND PKLR-related disorder" Accession="RCV004751189" Version="3">
+        <ClassifiedConditionList TraitSetID="90122">
+          <ClassifiedCondition>PKLR-related disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2026-03-20" SubmissionCount="2">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp) AND Inborn genetic diseases" Accession="RCV006659115" Version="1">
+        <ClassifiedConditionList TraitSetID="25797">
+          <ClassifiedCondition DB="MedGen" ID="C0950123">Inborn genetic diseases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2026-02-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2026-03-20" NumberOfSubmissions="33" NumberOfSubmitters="33" DateCreated="2016-10-14" MostRecentSubmission="2026-10-03">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Pathogenic/Likely pathogenic</Description>
+        <Explanation DataSource="ClinVar" Type="public">Pathogenic (26); Likely pathogenic (4)</Explanation>
+        <Citation Type="general">
+          <ID Source="PubMed">11054094</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">11960989</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">16704447</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">17574881</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">1196098</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27346685</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">26728349</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27871768</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31980526</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">10354117</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28133914</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32036089</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">29396846</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30609409</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">34093240</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">11328279</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">17360088</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">8483951</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">9057665</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32974842</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">18759866</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">9482576</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">29519373</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">33631127</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">29555771</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">9160692</ID>
+        </Citation>
+        <Citation Type="general">
+          <URL>http://www.egl-eurofins.com/emvclass/emvclass.php?approved_symbol=PKLR</URL>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">9657767</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">9827908</ID>
+        </Citation>
+        <DescriptionHistory Dated="2025-01-25">
+          <Description>Conflicting classifications of pathogenicity</Description>
+        </DescriptionHistory>
+        <DescriptionHistory Dated="2024-10-17">
+          <Description>Pathogenic/Likely pathogenic</Description>
+        </DescriptionHistory>
+        <DescriptionHistory Dated="2022-05-15">
+          <Description>Conflicting classifications of pathogenicity</Description>
+        </DescriptionHistory>
+        <DescriptionHistory Dated="2019-12-15">
+          <Description>Pathogenic/Likely pathogenic</Description>
+        </DescriptionHistory>
+        <DescriptionHistory Dated="2019-02-17">
+          <Description>Likely pathogenic</Description>
+        </DescriptionHistory>
+        <DescriptionHistory Dated="2018-05-29">
+          <Description>Pathogenic/Likely pathogenic</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="90122" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="71146" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">PKLR-related condition</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">PKLR-related disorder</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="25797" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32761" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Inborn genetic diseases</ElementValue>
+              </Name>
+              <Citation Type="general" Abbrev="Langer et al., 2012">
+                <ID Source="PubMed">22947299</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="SACHDNC, 2013">
+                <ID Source="PubMed">23037933</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EASAC/FEAM, 2013">
+                <ID Source="PubMed">23169492</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ESHG/P3G/HUGO/PHGF, 2015">
+                <ID Source="PubMed">25626707</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Alpha-1 Foundation, 2014">
+                <ID Source="PubMed">24121147</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NBSTRN, 2015">
+                <ID Source="PubMed">24394680</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EUNENBS, 2014">
+                <ID Source="PubMed">23652378</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NSGC, 2014">
+                <ID Source="PubMed">23881473</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG/ACOG/NSGC/PQF/SMFM, 2015">
+                <ID Source="PubMed">25730230</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Skirton et al., 2014">
+                <ID Source="PubMed">24022298</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2013">
+                <ID Source="PubMed">23619275</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACOG, 2019">
+                <ID Source="PubMed">31022120</ID>
+              </Citation>
+              <XRef ID="C0950123" DB="MedGen"/>
+              <XRef ID="D030342" DB="MeSH"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="10517" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="181" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Pyruvate kinase hyperactivity</ElementValue>
+                <XRef ID="MONDO:0007067" DB="MONDO"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="24521"/>
+                <XRef ID="24521" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="C1863224" DB="MedGen"/>
+              <XRef ID="MONDO:0007067" DB="MONDO"/>
+              <XRef Type="MIM" ID="102900" DB="OMIM"/>
+            </Trait>
+            <Trait ID="3588" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">PK DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PYRUVATE KINASE DEFICIENCY OF ERYTHROCYTE</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pyruvate kinase deficiency, Amish type</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Pyruvate kinase deficiency of red cells</ElementValue>
+                <XRef ID="MONDO:0009950" DB="MONDO"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CNSHA2</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7514"/>
+                <XRef ID="7514" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="766" DB="Orphanet"/>
+              <XRef ID="C0340968" DB="MedGen"/>
+              <XRef ID="MONDO:0009950" DB="MONDO"/>
+              <XRef Type="MIM" ID="266200" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="395" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="181" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Pyruvate kinase hyperactivity</ElementValue>
+                <XRef ID="MONDO:0007067" DB="MONDO"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="24521"/>
+                <XRef ID="24521" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="C1863224" DB="MedGen"/>
+              <XRef ID="MONDO:0007067" DB="MONDO"/>
+              <XRef Type="MIM" ID="102900" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="393" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3588" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">PK DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PYRUVATE KINASE DEFICIENCY OF ERYTHROCYTE</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pyruvate kinase deficiency, Amish type</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Pyruvate kinase deficiency of red cells</ElementValue>
+                <XRef ID="MONDO:0009950" DB="MONDO"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CNSHA2</ElementValue>
+                <XRef Type="MIM" ID="266200" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7514"/>
+                <XRef ID="7514" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="766" DB="Orphanet"/>
+              <XRef ID="C0340968" DB="MedGen"/>
+              <XRef ID="MONDO:0009950" DB="MONDO"/>
+              <XRef Type="MIM" ID="266200" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4933752" SubmissionDate="2022-05-21" ContributesToAggregateClassification="true" DateLastUpdated="2022-05-28" DateCreated="2022-05-28">
+        <ClinVarSubmissionID localKey="NC_000001.11:g.155291918G&gt;A|OMIM:102900" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV002518869" DateUpdated="2022-05-28" DateCreated="2022-05-28" Type="SCV" Version="1" SubmitterName="Mendelics" OrgID="500035" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-05-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Mendelics Assertion Criteria 2019</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/fxi2k7be/mendelics_assertion_criteria_2019.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.11:g.155291918G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="102900" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>MENDELICS_CLINVAR_033</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="7927576" SubmissionDate="2025-03-04" ContributesToAggregateClassification="true" DateLastUpdated="2025-03-11" DateCreated="2024-02-14">
+        <ClinVarSubmissionID localKey="NM_000298.6:c.1456C&gt;T|not provided"/>
+        <ClinVarAccession Accession="SCV004243293" DateUpdated="2025-03-11" DateCreated="2024-02-14" Type="SCV" Version="3" SubmitterName="Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital" OrgID="505691" OrganizationCategory="laboratory" OrgAbbreviation="GM4113, RH"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-03-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">17360088</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11960989</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14210317</SubmissionName>
+          <SubmissionName>SUB14635469</SubmissionName>
+          <SubmissionName>SUB15152323</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="645080" SubmissionDate="2018-09-19" ContributesToAggregateClassification="true" DateLastUpdated="2025-04-13" DateCreated="2016-12-06">
+        <ClinVarSubmissionID localKey="20096_000000" localKeyIsSubmitted="1" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000331623" DateUpdated="2025-04-13" DateCreated="2016-12-06" Type="SCV" Version="5" SubmitterName="Eurofins Ntd Llc (ga)" OrgID="500060" OrganizationCategory="laboratory" OrgAbbreviation="EGL"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-04-14">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">EGL Classification Definitions 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/ahdynye1/egl_classification_definitions_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+              <Sex>mixed</Sex>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="8"/>
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="8"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>single nucleotide variant</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" alternateAllele="A" referenceAllele="G" start="155261709" stop="155261709" variantLength="1"/>
+            <GeneLocation>NM_000298.5:Ex10</GeneLocation>
+          </Location>
+          <XRefList>
+            <XRef DB="HGMD" ID="CM950958"/>
+            <XRef DB="dbSNP" ID="116100695" Type="rsNumber"/>
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation>
+          <URL>http://www.egl-eurofins.com/emvclass/emvclass.php?approved_symbol=PKLR</URL>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB4534263</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="1749656" SubmissionDate="2022-12-13" ContributesToAggregateClassification="true" DateLastUpdated="2022-12-31" DateCreated="2019-03-31">
+        <ClinVarSubmissionID localKey="NM_000298.6:c.1456C&gt;T|OMIM:102900;266200" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000893217" DateUpdated="2022-12-31" DateCreated="2019-03-31" Type="SCV" Version="2" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-05-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="TraitChoice">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="102900" Type="MIM"/>
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <Citation Abbrev="ACMG, 2015" Type="practice guideline">
+          <ID Source="PubMed">25741868</ID>
+          <ID Source="pmc">4544753</ID>
+          <ID Source="DOI">10.1038/gim.2015.30</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB12390657</SubmissionName>
+          <SubmissionName>SUB4786688</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="1394616" SubmissionDate="2024-04-19" ContributesToAggregateClassification="true" DateLastUpdated="2024-04-20" DateCreated="2018-04-09">
+        <ClinVarSubmissionID localKey="77844010|Orphanet:ORPHA766" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV000713497" DateUpdated="2024-04-20" DateCreated="2018-04-09" Type="SCV" Version="4" SubmitterName="Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine" OrgID="21766" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-12-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">27346685</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">26728349</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11960989</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9827908</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18759866</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">28133914</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27871768</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11054094</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11328279</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">8483951</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">32974842</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">31980526</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">30609409</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">33631127</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">29555771</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">32036089</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">29396846</ID>
+          </Citation>
+          <Comment>The p.Arg486Trp variant in PKLR has been reported in &gt;30 compound heterozygous individuals with pyruvate kinase deficiency and segregated in 1 affected relative (PKD; Baronciani 1993 PMID:8483951, Zarza 1998 PMID:9827908, Manco 2000 PMID:11054094, Zanella 2001 PMID:11328279, Kedar 2009 PMID:18759866, Kager 2016 PMID:26728349, Jaouani 2017 PMID:28133914, Canu 2020 PMID:32974842, Milanesio 2021, Jamwal 2020 PMIDL32036089). It has also been identified in 0.812% (204/25114) of Finnish (unknown frequency of PKD) and 0.29% (375/128890) of European chromosomes (1:20,000 frequency of PKD) by gnomAD (http://gnomad.broadinstitute.org). This variant has been reported in ClinVar (Variation ID 1513). Enzymatic studies suggest that the p.Arg486Trp variant may be a mild mutation with reduced activity (Zarza 1998 PMID:9827908, Zanella 2001 PMID:11328279, Valentini 2002 PMID:11960989, and Kedar 2009 PMID:18759866). In summary, although additional studies are required to fully establish its clinical significance, the p.Arg486Trp variant meets criteria to be classified as likely pathogenic for autosomal recessive pyruvate kinase deficiency. ACMG/AMP Criteria applied: PM3_VeryStrong, PS3_Moderate.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_000298.6:exon 10</GeneLocation>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.11:g.155291918G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA766"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14389831</SubmissionName>
+          <SubmissionName>SUB7546315</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3960756" SubmissionDate="2025-08-19" ContributesToAggregateClassification="true" DateLastUpdated="2025-09-06" DateCreated="2021-11-29">
+        <ClinVarSubmissionID localKey="be54ed67de3280ab626c0ceeb8c4f5a033cbdbcf87e0eb63fd9c7d27a7eddab9|not provided" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV002024662" DateUpdated="2025-09-06" DateCreated="2021-11-29" Type="SCV" Version="4" SubmitterName="Revvity Omics, Revvity" OrgID="167595" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-12-30">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10694847</SubmissionName>
+          <SubmissionName>SUB12926214</SubmissionName>
+          <SubmissionName>SUB14173319</SubmissionName>
+          <SubmissionName>SUB15540076</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13548919" SubmissionDate="2025-10-06" ContributesToAggregateClassification="true" DateLastUpdated="2025-11-08" DateCreated="2025-11-08">
+        <ClinVarSubmissionID localKey="NM_000298.6:c.1456C&gt;T|OMIM:266200" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV007095982" DateUpdated="2025-11-08" DateCreated="2025-11-08" Type="SCV" Version="1" SubmitterName="First Genomix Gene Laboratory, Genetic Diagnostics Department" OrgID="509094" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-04-14">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">As part of Carrier Screening testing performed at First Genomix, this variant was identified in a heterozygous state in a patient who is not affected with this condition.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>no</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1"/>
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">yes</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15686669</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="10407321" SubmissionDate="2026-02-25" ContributesToAggregateClassification="true" DateLastUpdated="2026-03-01" DateCreated="2024-11-30">
+        <ClinVarSubmissionID localKey="NM_000298.6:c.1456C&gt;T|OMIM:266200" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV005415943" DateUpdated="2026-03-01" DateCreated="2024-11-30" Type="SCV" Version="3" SubmitterName="Juno Genomics, Hangzhou Juno Genomics, Inc" OrgID="506213" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">For recessive disorders, detected in trans with a pathogenic variant.;Co-segregation with disease in multiple affected family members in a gene definitively known to cause the disease.;Well-established in vitro or in vivo functional studies supportive of a damaging effect on the gene or gene product.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14897235</SubmissionName>
+          <SubmissionName>SUB15673088</SubmissionName>
+          <SubmissionName>SUB16023996</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="461254" SubmissionDate="2016-08-10" ContributesToAggregateClassification="true" DateLastUpdated="2017-04-20" DateCreated="2015-10-05">
+        <ClinVarSubmissionID localKey="2016_51|OMIM:266200" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000223943" DateUpdated="2017-04-20" DateCreated="2015-10-05" Type="SCV" Version="2" SubmitterName="Knight Diagnostic Laboratories, Oregon Health and Sciences University" OrgID="505542" OrganizationCategory="laboratory" OrgAbbreviation="KDL-OHSU"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-01-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely pathogenic</GermlineClassification>
+          <Comment>The c.1456C&gt;T (p.Arg486Trp) (NM_ 000298.5) missense variant has been reported in several unrelated individuals diagnosed with PK deficiency. These families have a well-documented clinical history of anemia (Zarza et al. 1998). Case-control studies have reported this variant as a common disease causing variant accounting for 9%-32% of diagnosed cases (Zarza et al., 1998; Zanella et al., 2001; Kedar et al., 2009). This variant has often been reported in trans with several pathogenic variants, and functional studies have shown that patients harboring this variant, in a compound heterozygous state, have reduced PK activity relative to normal controls (Zarza et al., 1998; Zanella et al., 2001; Valentini et al. 2002; Kedar et al., 2009). This c.1456C&gt;T variant is reported at low frequency in the population databases (ESP = 0.291%; 1000 Genomes = 1%; ExAC = 0.298%), and multiple in silico algorithms predict this variant to have a deleterious effect (GERP = 4.85; CADD = 18.75; PolyPhen = 1; SIFT = 0). Therefore, this collective evidence supports the classification of the c.1456C&gt;T (p.Arg486Trp) variant as a recessive Likely Pathogenic variant for PK deficiency.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>no</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.5:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <StudyName>CSER-NextGen</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>CSER-NextGen-1</SubmissionName>
+          <SubmissionName>NextGen Project</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="2253748" SubmissionDate="2020-01-06" ContributesToAggregateClassification="false" DateLastUpdated="2020-01-12" DateCreated="2020-01-12">
+        <ClinVarSubmissionID localKey="NM_000298.5:c.1456C&gt;T|Adenosine triphosphate, elevated, of erythrocytes" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001142310" DateUpdated="2020-01-12" DateCreated="2020-01-12" Type="SCV" Version="1" SubmitterName="Reproductive Health Research and Development, BGI Genomics" OrgID="507058" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-01-06">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>NM_000298.5:c.1456C&gt;T in the PKLR gene has an allele frequency of 0.008 in European (Finnish) subpopulation in the gnomAD database. This variant has been reported in multiple individuals with Pyruvate kinase deficiency, in a compound heterozygous state: 1190A&gt;T/1456C&gt;T, 1042-1044del/1456C&gt;T, 992A&gt;G/1456C&gt;T, 1436G&gt;A/1456C&gt;T (PMID: 18759866); 1456C&gt;T/1675C&gt;T, 1456C&gt;T/1010G&gt;A, 1456C&gt;T/1223C&gt;T, 1456C&gt;T/1070T&gt;C, 1456C&gt;T/721G&gt;T(PMID: 9827908). Functional studies suggest that the p.Arg486Trp variant may be a mild mutation with reduced enzyme activity (PMID: 11960989).Taken together, we interprete this variant as Pathogenic/Likely pathogenic variant. ACMG/AMP Criteria applied: PM3_VeryStrong, PS3, PP4.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.5:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Adenosine triphosphate, elevated, of erythrocytes</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6087587</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3051546" SubmissionDate="2021-03-31" ContributesToAggregateClassification="false" DateLastUpdated="2021-04-13" DateCreated="2021-04-13">
+        <ClinVarSubmissionID localKey="chr1:155261708-155261709:1d909d722c2f594054aa9df6b5d07fbf" localKeyIsSubmitted="1" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001550687" DateUpdated="2021-04-13" DateCreated="2021-04-13" Type="SCV" Version="1" SubmitterName="Department of Pathology and Laboratory Medicine, Sinai Health System" OrgID="506152" OrganizationCategory="laboratory" OrgAbbreviation="PLM-SHS"/>
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="506759" SubmitterName="Franklin by Genoox" Type="secondary" OrganizationCategory="other"/>
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The PKLR p.R486W variant was identified in over 30 individuals with pyruvate kinase deficiency and haemolytic anemia as a compound heterozygous variant; phenotypes ranged from mild to severe (Russo_2018_PMID:29396846; Jaouani_2017_PMID:28133914; Montllor_2016_PMID:27871768; Kedar_2009_PMID:18759866; Zanella_2001_PMID:11328279; Manco_2000_PMID:11054094; Zarza_1998_PMID:9827908; Baronciani_1993_PMID:8483951; Marcello_2008_PMID:18708292). The variant was identified in dbSNP (ID: rs116100695) and ClinVar (classified as pathogenic by Fulgent Genetics, ARUP Laboratories and Reproductive Health Research and Development, BGI Genomics, as likely pathogenic by Laboratory of Molecular Medicine, EGL Genetics and Knight Diagnostic Laboratories, Oregon Health and Services University, and as likely benign by Invitae). The variant was identified in control databases in 833 of 282498 chromosomes (2 homozygous) at a frequency of 0.002949 (Genome Aggregation Database March 6, 2019, v2.1.1). The variant was observed in the following populations: European (Finnish) in 204 of 25114 chromosomes (freq: 0.008123), South Asian in 113 of 30616 chromosomes (freq: 0.003691), European (non-Finnish) in 375 of 128890 chromosomes (freq: 0.002909), Other in 20 of 7218 chromosomes (freq: 0.002771), Ashkenazi Jewish in 28 of 10360 chromosomes (freq: 0.002703), Latino in 80 of 35424 chromosomes (freq: 0.002258) and African in 13 of 24926 chromosomes (freq: 0.000522), but was not observed in the East Asian population. Although the p.R486 residue is not conserved in mammals and other organisms, computational analyses (PolyPhen-2, SIFT, AlignGVGD, BLOSUM, MutationTaster) suggest that the variant may impact the protein. The variant occurs outside of the splicing consensus sequence and 1 of 4 in silico or computational prediction software programs (SpliceSiteFinder, MaxEntScan, NNSPLICE, GeneSplicer) predict a greater than 10% difference in splicing; this is not very predictive of pathogenicity. Functional data suggests that this variant results in decreased catalytic efficiency (Valentini_2002_PMID:11960989). In summary, based on the above information this variant meets our laboratoryâ€šÃ„Ã´s criteria to be classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" alternateAllele="A" referenceAllele="G" start="155261709" stop="155261709" variantLength="1"/>
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <StudyName>The Canadian Open Genetics Repository (COGR)</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>SUB9371647</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="4944166" SubmissionDate="2022-05-25" ContributesToAggregateClassification="true" DateLastUpdated="2022-06-11" DateCreated="2022-06-11">
+        <ClinVarSubmissionID localKey="NM_000298.6:c.1456C&gt;T|See cases" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV002523854" DateUpdated="2022-06-11" DateCreated="2022-06-11" Type="SCV" Version="1" SubmitterName="Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein" OrgID="508506" OrganizationCategory="laboratory" OrgAbbreviation="LABO-HIAE"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-11-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>ACMG classification criteria: PS3, PS4, PM3, PP1, PP3, PP4, BS2</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <GeographicOrigin>Brazil</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000007"/>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <XRefList>
+            <XRef DB="dbSNP" ID="116100695" Type="rsNumber"/>
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11518643</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="7893017" SubmissionDate="2023-12-26" ContributesToAggregateClassification="true" DateLastUpdated="2024-01-06" DateCreated="2024-01-06">
+        <ClinVarSubmissionID localKey="NM_000298.6:c.1456C&gt;T|MedGen:C0340968" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV004223638" DateUpdated="2024-01-06" DateCreated="2024-01-06" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-11-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">9482576</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">16704447</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11960989</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9160692</ID>
+          </Citation>
+          <Comment>Variant summary: PKLR c.1456C&gt;T (p.Arg486Trp) results in a non-conservative amino acid change located in the Pyruvate Kinase C terminal domain (IPR015795) of the encoded protein sequence. Five of five in-silico tools predict a damaging effect of the variant on protein function. The variant allele was found at a frequency of 0.003 in 251132 control chromosomes in the gnomAD database, including 2 homozygotes. c.1456C&gt;T has been reported in the literature in multiple homozygous and compound heterozygous individuals affected with moderate to severe Pyruvate Kinase Deficiency Of Red Cells (examples: Zanella_1997, Pastore_1998, Pissard_2006 ). These data indicate that the variant is very likely to be associated with disease. One publication reports experimental evidence that this variant moderately affects PKLR function (example: Valentini_2002). Fifteen submitters have cited clinical-significance assessments for this variant to ClinVar after 2014. All submitters classified the variant as pathogenic/likely pathogenic. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0340968" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14114877</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="8988557" SubmissionDate="2024-03-29" ContributesToAggregateClassification="true" DateLastUpdated="2024-04-06" DateCreated="2024-04-06">
+        <ClinVarSubmissionID localKey="NM_000298.6:c.1456C&gt;T|OMIM:266200" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV004808207" DateUpdated="2024-04-06" DateCreated="2024-04-06" Type="SCV" Version="1" SubmitterName="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre" OrgID="500184" OrganizationCategory="laboratory" OrgAbbreviation="DGU-KFSHRC"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-03-29">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14345716</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="10088910" SubmissionDate="2024-08-15" ContributesToAggregateClassification="true" DateLastUpdated="2024-08-25" DateCreated="2024-08-25">
+        <ClinVarSubmissionID localKey="LCV02342|not provided" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV005197175" DateUpdated="2024-08-25" DateCreated="2024-08-25" Type="SCV" Version="1" SubmitterName="Clinical Genetics Laboratory, Skane University Hospital Lund" OrgID="507353" OrganizationCategory="laboratory" OrgAbbreviation="Clinical_Genetics"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-07-05">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14667061</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="21733" SubmissionDate="2016-10-11" ContributesToAggregateClassification="false" DateLastUpdated="2024-10-20" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="609712.0009_ANEMIA, CONGENITAL, NONSPHEROCYTIC HEMOLYTIC, 2" title="PKLR, ARG486TRP_ANEMIA, CONGENITAL, NONSPHEROCYTIC HEMOLYTIC, 2"/>
+        <ClinVarAccession Accession="SCV000021733" DateUpdated="2024-10-20" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2009-02-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">Zarza et al. (1998) found that the most frequent mutation of the PKLR gene causing pyruvate kinase deficiency and hereditary nonspherocytic hemolytic anemia (CNSHA2; 266200) in Spain is a 1456C-T transition, resulting in an arg486-to-trp (R486W) substitution. The mutation was identified in approximately one-third of mutant alleles (7 of 22).</Attribute>
+              <Citation>
+                <ID Source="PubMed">9827908</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="266200" Type="MIM"/>
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">Zanella et al. (2001) found that the R486W mutation appeared to be the most frequent mutation causing hemolytic anemia associated with PK deficiency in Italy.</Attribute>
+              <Citation>
+                <ID Source="PubMed">11328279</ID>
+              </Citation>
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">Kedar et al. (2009) identified the R486W mutation in 6 (16.7%) of 36 alleles in 18 Indian patients with PK deficiency.</Attribute>
+              <Citation>
+                <ID Source="PubMed">18759866</ID>
+              </Citation>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <Name>PKLR, ARG486TRP</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">ARG486TRP</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="609712.0009" Type="Allelic variant"/>
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">ANEMIA, CONGENITAL, NONSPHEROCYTIC HEMOLYTIC, 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="10380711" SubmissionDate="2024-11-19" ContributesToAggregateClassification="true" DateLastUpdated="2024-11-24" DateCreated="2024-11-24">
+        <ClinVarSubmissionID localKey="vcgs/unit_1/hg38_NM_000298_6_PKLR_c_1456C_T" localKeyIsSubmitted="1"/>
+        <ClinVarAccession Accession="SCV005399102" DateUpdated="2024-11-24" DateCreated="2024-11-24" Type="SCV" Version="1" SubmitterName="Victorian Clinical Genetics Services, Murdoch Childrens Research Institute" OrgID="500104" OrganizationCategory="laboratory" OrgAbbreviation="VCGS"/>
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="508197" SubmitterName="Shariant Australia, Australian Genomics" Type="behalf" OrganizationCategory="consortium"/>
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-03-31">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">16704447</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">32036089</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">34093240</ID>
+          </Citation>
+          <Comment>Based on the classification scheme VCGS_Germline_v1.3.4, this variant is classified as pathogenic. The following criteria are met: 0102 - Loss of function is a known mechanism of disease in this gene and is associated with pyruvate kinase deficiency (MIM#266200). (I) 0108 - This gene is associated with both recessive and dominant disease. Both dominant elevated adenosine triphosphate of erythrocytes (MIM#102900) and recessive pyruvate kinase deficiency (MIM#266200) have been associated with PKLR. However, most of the literature reports associate with the recessive condition. (I) 0200 - Variant is predicted to result in a missense amino acid change from arginine to tryptophan. (I) 0251 - This variant is heterozygous. (I) 0304 - Variant is present in gnomAD (v2) &lt;0.01 for a recessive condition (829 heterozygotes, 2 homozygotes). (SP) 0309 - An alternative amino acid change at the same position has been observed in gnomAD (v2) (10 heterozygotes, 0 homozygotes). (I) 0501 - Missense variant consistently predicted to be damaging by multiple in silico tools and poorly conserved with a major amino acid change. (SP) 0600 - Variant is located in the annotated pyruvate kinase C-terminal domain (DECIPHER). (I) 0801 - This variant has strong previous evidence of pathogenicity in unrelated individuals. This variant is one of the most common variants reported in individuals with pyruvate kinase deficiency (ClinVar, PMIDs: 16704447, 32036089, 34093240). (SP) Legend: (SP) - Supporting pathogenic, (I) - Information, (SB) - Supporting benign</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">ALLELE_13746</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>submission_48</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="7807650" SubmissionDate="2025-01-20" ContributesToAggregateClassification="true" DateLastUpdated="2025-01-25" DateCreated="2023-12-09">
+        <ClinVarSubmissionID localKey="30506300678" localKeyIsSubmitted="1" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV004171978" DateUpdated="2025-01-25" DateCreated="2023-12-09" Type="SCV" Version="5" SubmitterName="Neuberg Centre For Genomic Medicine, NCGM" OrgID="508108" OrganizationCategory="laboratory" OrgAbbreviation="NCGM"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-05-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The observed missense c.1456C&gt;T(p.Arg486Trp) variant in PKLR gene has been reported previously in homozygous or compound heterozygous state in individual(s) affected with Pyruvate kinase deficiency (PKD) (Dongerdiye et al., 2023). Experimental studies have shown that this variant moderately affects PKLR function (Valentini et al., 2002). This variant is reported with the allele frequency of 0.3% in the gnomAD Exomes. This variant has been reported to the ClinVar database as Likely Pathogenic / Pathogenic (multiple submitters). The amino acid Arg at position 486 is changed to a Trp changing protein sequence and it might alter its composition and physico-chemical properties. The amino acid change p.Arg486Trp in PKLR is predicted as conserved by GERP++ and PhyloP across 100 vertebrates. Multiple lines of computational evidence (Polyphen - Possibly Damaging, SIFT - Damaging, and MutationTaster - Disease causing automatic) predict a damaging effect on protein structure and function for this variant. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet DateLastEvaluated="2023-05-20" Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001871"/>
+              </Trait>
+              <Comment>Consanguinity: Present Investigations: HbH 16.8% increased Possible clinical diagnosis: Monocytic hypochromic hemolytic anemia, alpha thalassemia</Comment>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14008998</SubmissionName>
+          <SubmissionName>SUB14697086</SubmissionName>
+          <SubmissionName>SUB14782972</SubmissionName>
+          <SubmissionName>SUB14871800</SubmissionName>
+          <SubmissionName>SUB15020255</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="11301359" SubmissionDate="2025-02-05" ContributesToAggregateClassification="true" DateLastUpdated="2025-04-13" DateCreated="2025-03-11">
+        <ClinVarSubmissionID localKey="chr1:155291918-155291918" localKeyIsSubmitted="1" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV005873637" DateUpdated="2025-04-13" DateCreated="2025-03-11" Type="SCV" Version="2" SubmitterName="Genetics and Genomic Medicine Centre, NeuroGen Healthcare, NeuroGen Healthcare" OrgID="506799" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-01-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Submitter's publication</Attribute>
+          <Citation>
+            <ID Source="DOI">https</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Ethnicity>South East Asian</Ethnicity>
+              <GeographicOrigin>Bangladesh</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>no</AffectedStatus>
+              <Sex>male</Sex>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">yes</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000750"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001263"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000708"/>
+              </Trait>
+              <Comment Type="public">Neurodevelopmental disorder</Comment>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_181871.4:c.1363C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15064746</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="12165261" SubmissionDate="2025-08-08" ContributesToAggregateClassification="true" DateLastUpdated="2025-09-22" DateCreated="2025-09-22">
+        <ClinVarSubmissionID localKey="4158113_NM_000298.6:c.1456C&gt;T|OMIM:266200" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV006324914" DateUpdated="2025-09-22" DateCreated="2025-09-22" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, University of Leipzig Medical Center" OrgID="506086" OrganizationCategory="clinic" OrgAbbreviation="UKL"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-07-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>pathogenic</GermlineClassification>
+          <Comment Type="public">Criteria applied: PS4,PM3,PS3_SUP,PM1_SUP,PM5_SUP,PP3</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Sex>male</Sex>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0012378"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001433"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0004445"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0005525"/>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0025109"/>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15526925</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3516372" SubmissionDate="2025-09-17" ContributesToAggregateClassification="true" DateLastUpdated="2025-09-22" DateCreated="2021-08-18">
+        <ClinVarSubmissionID localKey="GDXSV:611414" localKeyIsSubmitted="1"/>
+        <ClinVarAccession Accession="SCV001792018" DateUpdated="2025-09-22" DateCreated="2021-08-18" Type="SCV" Version="5" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-09-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely pathogenic</GermlineClassification>
+          <Comment Type="public">In silico analysis supports that this missense variant has a deleterious effect on protein structure/function; This variant is associated with the following publications: (PMID: 30681718, 29555771, 32279356, 37895316, 31980526, 29549173, 32165483, 11960989, 20981092, 8483951, 11054094, 24533562, 29349879, 29519373, 29519369, 9827908, 18759866, 27346685, 29396846, 30358897, 28133914, 32543069, 32043619, 30609409, 31974203, 32974842, 26728349, 33054133, 33054047, 23770304, 33054048, 34426522, 34662886, 11328279, 18708292, 32036089, 27871768, 9482576, 33631127, 37188156, 36892591, 38581917, 36825813, 35989577, 38434380, 37671043, 38811201)</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification Process June 2021</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/fc81e176/genedx_variant_classification_process_june_2021.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">GDX:751985</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.5:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not Provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>GeneDX_Clinvar_Submission_190_20230510054202</SubmissionName>
+          <SubmissionName>GeneDX_Clinvar_Submission_24_20210817091645</SubmissionName>
+          <SubmissionName>GeneDX_Clinvar_Submission_340_20240918054205</SubmissionName>
+          <SubmissionName>GeneDX_Clinvar_Submission_388_20250205054204</SubmissionName>
+          <SubmissionName>GeneDX_Clinvar_Submission_435_20250917054204</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13599304" SubmissionDate="2025-12-11" ContributesToAggregateClassification="true" DateLastUpdated="2025-12-14" DateCreated="2025-12-14">
+        <ClinVarSubmissionID localKey="SUB15830166" submittedAssembly="GRCh38" title="SUB15830166"/>
+        <ClinVarAccession Accession="SCV007122147" DateUpdated="2025-12-14" DateCreated="2025-12-14" Type="SCV" Version="1" SubmitterName="Department of Molecular Genetics, Istishari Arab Hospital" OrgID="509930" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-12-11">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">11054094</ID>
+          </Citation>
+          <Citation Type="general">
+            <ID Source="PubMed">8483951</ID>
+          </Citation>
+          <Citation Type="general">
+            <ID Source="PubMed">11960989</ID>
+          </Citation>
+          <Comment Type="public">The PKLR variant c.1456C&gt;T p.(Arg486Trp) causes an amino acid change from Arg to Trp at position 486. According to HGMD Professional 2022.1, this variant has previously been described as disease-causing for Pyruvate kinase deficiency by Baronciani et al., 1993 (PMID: 8483951), Manco et al., 2000 (PMID: 11054094), Valentini et al., 2002 (PMID: 11960989). Additionally, this variant was previously reported in our lab in a case with abnormality of the upper limb, brain atrophy, generalized hypotonia, microcephaly, persistent head lag, and polycystic kidney dysplasia. It is classified as pathogenic (class 1) according to the recommendations of ACMG.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR">
+              <Name>pyruvate kinase L/R</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>p.Arg486Trp</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="dbSNP" ID="rs766783227"/>
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15830166</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3373475" SubmissionDate="2025-12-18" ContributesToAggregateClassification="true" DateLastUpdated="2026-01-11" DateCreated="2021-06-15">
+        <ClinVarSubmissionID localKey="354977|Not provided" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001713042" DateUpdated="2026-01-11" DateCreated="2021-06-15" Type="SCV" Version="5" SubmitterName="Mayo Clinic Laboratories, Mayo Clinic" OrgID="500068" OrganizationCategory="laboratory" OrgAbbreviation="MCL"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-09-05">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">PP3_moderate, PP4, PM1, PM3, PS4</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="22"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_000298.6:exon 10</GeneLocation>
+          </Location>
+          <OtherNameList>
+            <Name>p.Arg486Trp</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13399149</SubmissionName>
+          <SubmissionName>SUB14491975</SubmissionName>
+          <SubmissionName>SUB14936928</SubmissionName>
+          <SubmissionName>SUB15865752</SubmissionName>
+          <SubmissionName>SUB9741791</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="1732605" SubmissionDate="2026-01-09" ContributesToAggregateClassification="true" DateLastUpdated="2026-01-24" DateCreated="2018-12-15">
+        <ClinVarSubmissionID localKey="162861|MedGen:C3661900" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000885966" DateUpdated="2026-01-24" DateCreated="2018-12-15" Type="SCV" Version="9" SubmitterName="ARUP Laboratories, Molecular Genetics and Genomics, ARUP Laboratories" OrgID="25969" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-03-06">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">The PKLR c.1456C&gt;T; p.Arg486Trp variant (rs116100695, ClinVar Variation ID: 1513) is commonly reported in the literature as compound heterozygous variant in individuals with pyruvate kinase deficiency (Baronciani 1993, Baronciani 1995, Canu 2020, Jamwal 2020, Kedar 2009, Lenzner 1997, Manco 2000, Zanella 2001, Zarza 1998). This variant is found in the general population with an overall allele frequency of 0.3% (833/282,498 alleles, including two homozygotes) in the Genome Aggregation Database (v2.1.1.). Structural and functional analysis of the variant protein show a moderate decrease in the catalytic efficiency (Valentini 2002). Computational analyses predict that this variant is deleterious (REVEL 0.914). Based on available information, this variant is considered to be pathogenic. References: Baronciani L et al. Analysis of pyruvate kinase-deficiency mutations that produce nonspherocytic hemolytic anemia. Proc Natl Acad Sci U S A. 1993 May 1. PMID: 8483951. Baronciani L et al. Molecular study of pyruvate kinase deficient patients with hereditary nonspherocytic hemolytic anemia. J Clin Invest. 1995 Apr. PMID: 7706479. Canu G et al. Identification and in silico characterization of a novel PKLR genotype in a Turkish newborn. Mol Biol Rep. 2020 Oct. PMID: 32974842. Jamwal M et al. Next-Generation Sequencing-Based Diagnosis of Unexplained Inherited Hemolytic Anemias Reveals Wide Genetic and Phenotypic Heterogeneity. J Mol Diagn. 2020 Apr. PMID: 32036089. Kedar P et al. Spectrum of novel mutations in the human PKLR gene in pyruvate kinase-deficient Indian patients with heterogeneous clinical phenotypes. Clin Genet. 2009 Feb. PMID: 18759866. Lenzner C et al. Molecular analysis of 29 pyruvate kinase-deficient patients from central Europe with hereditary hemolytic anemia. Blood. 1997 Mar 1. PMID: 9057665. Milanesio B et al. Six novel variants in the PKLR gene associated with pyruvate kinase deficiency in Argentinian patients. Clin Biochem. 2021 May. PMID: 33631127. Valentini G et al. Structure and function of human erythrocyte pyruvate kinase. Molecular basis of nonspherocytic hemolytic anemia. J Biol Chem. 2002 Jun 28. PMID: 11960989. Zanella A et al. Molecular characterization of the PK-LR gene in sixteen pyruvate kinase-deficient patients. Br J Haematol. 2001 Apr. PMID: 11328279. Zarza R et al. Molecular characterization of the PK-LR gene in pyruvate kinase deficient Spanish patients. Red Cell Pathology Group of the Spanish Society of Haematology (AEHH). Br J Haematol. 1998 Nov. PMID: 9827908.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ARUP Molecular Germline Variant Investigation Process 2024</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/xwiqgyug/arup_molecular_germline_variant_investigation_process_arup-info-0022_2024.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.155261709G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3661900" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2020 ARUP</SubmissionName>
+          <SubmissionName>2022 ARUP ClinVar submission</SubmissionName>
+          <SubmissionName>2023 ARUP ClinVar submission</SubmissionName>
+          <SubmissionName>2024 ARUP ClinVar Submission</SubmissionName>
+          <SubmissionName>ARUP Molecular 2021</SubmissionName>
+          <SubmissionName>Aug 2019 ARUP</SubmissionName>
+          <SubmissionName>SUB15923449</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="2003031" SubmissionDate="2026-02-06" ContributesToAggregateClassification="true" DateLastUpdated="2026-03-07" DateCreated="2019-12-17">
+        <ClinVarSubmissionID localKey="2236616|MedGen:CN517202" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001035168" DateUpdated="2026-03-07" DateCreated="2019-12-17" Type="SCV" Version="7" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2026-01-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">9057665</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9657767</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9827908</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11054094</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">17574881</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27871768</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">32974842</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">17360088</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9482576</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11328279</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">10354117</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11960989</ID>
+          </Citation>
+          <Comment Type="public">This sequence change replaces arginine, which is basic and polar, with tryptophan, which is neutral and slightly polar, at codon 486 of the PKLR protein (p.Arg486Trp). This variant is present in population databases (rs116100695, gnomAD 0.8%), and has an allele count higher than expected for a pathogenic variant. This missense change has been observed in individual(s) with pyruvate kinase deficiency (PMID: 9057665, 9657767, 9827908, 11054094, 17574881, 27871768, 32974842). In at least one individual the data is consistent with the variant being in trans (on the opposite chromosome) from a pathogenic variant. This variant is commonly associated with mild to asymptomatic disease when observed in the homozygous state. However, this variant in conjunction with another pathogenic variant is a common cause of mild chronic hemolytic anemia, particularly in populations of southern Europe. Instances of moderate to severe disease in association with this variant have also been reported (PMID: 17360088, 9482576, 11328279, 10354117). ClinVar contains an entry for this variant (Variation ID: 1513). Invitae Evidence Modeling of protein sequence and biophysical properties (such as structural, functional, and spatial information, amino acid conservation, physicochemical variation, residue mobility, and thermodynamic stability) indicates that this missense variant is not expected to disrupt PKLR protein function with a negative predictive value of 80%. Experimental studies have shown that this variant moderately affects PKLR function (PMID: 11960989). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.155261709G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB14200279</SubmissionName>
+          <SubmissionName>SUB15075391</SubmissionName>
+          <SubmissionName>SUB15990429</SubmissionName>
+          <SubmissionName>SUB6897608</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="14424630" SubmissionDate="2026-03-31" ContributesToAggregateClassification="true" DateLastUpdated="2026-04-25" DateCreated="2026-04-25">
+        <ClinVarSubmissionID localKey="a80420|MedGen:C0950123" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV007557274" DateUpdated="2026-04-25" DateCreated="2026-04-25" Type="SCV" Version="1" SubmitterName="Ambry Genetics" OrgID="61756" OrganizationCategory="laboratory" OrgAbbreviation="Ambry"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2026-02-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">9827908</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11328279</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11960989</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18759866</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">28133914</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">29519373</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">32036089</ID>
+          </Citation>
+          <Comment Type="public">The c.1456C&gt;T (p.R486W) alteration is located in exon 10 (coding exon 10) of the PKLR gene. This alteration results from a C to T substitution at nucleotide position 1456, causing the arginine (R) at amino acid position 486 to be replaced by a tryptophan (W). Based on data from gnomAD, the T allele has an overall frequency of 0.295% (833/282498) total alleles studied. The highest observed frequency was 0.812% (204/25114) of European (Finnish) alleles. This variant has been identified in the homozygous state and/or in conjunction with other PKLR variant(s) in individual(s) with features consistent with PKLR-related pyruvate kinase deficiency; in at least one instance, the variants were identified in trans (Zanella, 2001; Kedar, 2009; Jaouani, 2017; Svidnicki, 2018; Jamwal, 2020). This amino acid position is not well conserved in available vertebrate species. This alteration is predicted to be deleterious by in silico analysis. Based on the available evidence, this alteration is classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Ambry Variant Classification Scheme 2023</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/i9igeqse/ambry_variant_classification_scheme_2023.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.5:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0950123" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>FinalClinVarSubmissionFile_20251215to20260315</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="14508740" SubmissionDate="2026-05-14" ContributesToAggregateClassification="true" DateLastUpdated="2026-05-30" DateCreated="2026-05-30">
+        <ClinVarSubmissionID localKey="ClinDasa-0510|MedGen:C3661900" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV007598459" DateUpdated="2026-05-30" DateCreated="2026-05-30" Type="SCV" Version="1" SubmitterName="Dasa" OrgID="508087" OrganizationCategory="laboratory" OrgAbbreviation="DASA"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2026-02-19">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">11960989</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9057665</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9657767</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9827908</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11054094</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">17574881</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27871768</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">32974842</ID>
+          </Citation>
+          <Comment Type="public">NM_000298.6(PKLR):c.1456C&gt;T (p.Arg486Trp) is a missense variant that results in the substitution of arginine with tryptophan. This variant has been observed in affected individuals with related phenotype in a genotype context consistent with recessive disease (PMID: 11960989; PMID: 9057665; PMID: 9657767; PMID: 9827908; PMID: 11054094). Functional evidence supports a deleterious effect on the gene or gene product (PMID: 11960989; PMID: 9057665; PMID: 9657767; PMID: 9827908; PMID: 11054094). This variant has been recurrently observed in individuals with related phenotype (PMID: 11960989; PMID: 9057665; PMID: 9657767; PMID: 9827908; PMID: 11054094). Multiple computational predictions support a deleterious effect on the gene or gene product. The variant is present at low frequency in population datasets. Based on the available data, this variant is classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">DASA Assertion Criteria</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/qhkwunxtamw8cdqx/dasa_genomica_assertion_criteria.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3661900" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB16188739</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="14511877" SubmissionDate="2026-05-21" ContributesToAggregateClassification="true" DateLastUpdated="2026-06-06" DateCreated="2026-06-06">
+        <ClinVarSubmissionID localKey="NM_000298.6:c.1456C&gt;T|OMIM:266200" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV007600386" DateUpdated="2026-06-06" DateCreated="2026-06-06" Type="SCV" Version="1" SubmitterName="Variantyx, Inc." OrgID="506526" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-10-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">9827908</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18759866</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11328279</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">28133914</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">1196098</ID>
+          </Citation>
+          <Comment Type="public">This is a nonsynonymous variant in the PKLR gene (OMIM: 609712). Pathogenic variants in this gene have been associated with autosomal recessive pyruvate kinase deficiency. This variant has been reported in many unrelated affected individuals (PMID: 9827908, 18759866, 11328279, 28133914) (PS4_Very_Strong). Functional studies have shown that this variant alters PKLR protein function (PMID: 11960989) (PS3_Supporting), and multiple computational algorithms predict a deleterious effect for this variant (REVEL score: 0.914) (PP3_Moderate). This variant has a 0.4553% maximum allele frequency in non-founder control populations (https://gnomad.broadinstitute.org/). Based on the current evidence, this variant is classified as pathogenic for autosomal recessive pyruvate kinase deficiency.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Variantyx Assertion Criteria 2022</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/2zdwovk5/variantyx_assertion_criteria_2022.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>no</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB16201438</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="14515691" SubmissionDate="2026-06-03" ContributesToAggregateClassification="true" DateLastUpdated="2026-06-14" DateCreated="2026-06-14">
+        <ClinVarSubmissionID localKey="NIHA_05|OMIM:266200" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV007602635" DateUpdated="2026-06-14" DateCreated="2026-06-14" Type="SCV" Version="1" SubmitterName="Department of Pediatrics, Duzce University" OrgID="510601" OrganizationCategory="clinic"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-02-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">32974842</ID>
+          </Citation>
+          <Comment Type="public">Well-characterised missense variant p.(Arg486Trp) (R486W), one of the most common pathogenic PKLR alleles in pyruvate kinase deficiency, described as a known pathogenic variant with published computational and functional support for reduced pyruvate kinase activity (Canu et al., Mol Biol Rep 2020; DOI 10.1007/s11033-020-05836-2) (PS3). Recurrently identified in affected individuals (PS4); rare in population databases (PM2_supporting); deleterious in silico predictions (PP3). Applied ACMG/AMP criteria: PS3, PS4, PM2_supporting, PP3. Classification: Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>p.(Arg486Trp)</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB16230552</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="4940605" SubmissionDate="2026-06-02" ContributesToAggregateClassification="true" DateLastUpdated="2026-06-20" DateCreated="2022-06-05">
+        <ClinVarSubmissionID localKey="1-155291918-G-A|OMIM:266200" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV002521511" DateUpdated="2026-06-20" DateCreated="2022-06-05" Type="SCV" Version="2" SubmitterName="3billion" OrgID="507830" OrganizationCategory="other" OrgAbbreviation="3billion"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-12-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">8483951</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">16704447</ID>
+          </Citation>
+          <Comment Type="public">The variant is observed at an extremely low frequency in the gnomAD v4.1.0 dataset (total allele frequency: 0.295%). Predicted Consequence/Location: Missense variant In silico tool predictions suggest damaging effect of the variant on gene or gene product [REVEL: 0.91 (&gt;=0.6, sensitivity 0.68 and specificity 0.92); 3Cnet: 0.98 (&gt; 0.75, sensitivity 0.96 and precision 0.92)]. The same nucleotide change resulting in the same amino acid change has been previously reported as pathogenic/likely pathogenic with strong evidence (ClinVar ID: VCV000001513 /PMID: 8483951 /3billion dataset). The variant has been reported to be in trans with a pathogenic variant as either compound heterozygous or homozygous in at least one similarly affected unrelated individual (PMID: 16704447). A different missense change at the same codon (p.Arg486Leu) has been reported to be associated with PKLR-related disorder (PMID: 16704447). Therefore, this variant is classified as Pathogenic according to the recommendation of ACMG/AMP guideline.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <TypePlatform>exome sequencing</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.6:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266200" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11507599</SubmissionName>
+          <SubmissionName>SUB16220023</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3437612" SubmissionDate="2026-07-04" ContributesToAggregateClassification="true" DateLastUpdated="2026-07-27" DateCreated="2021-07-10">
+        <ClinVarSubmissionID localKey="108107|MedGen:CN517202" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001746867" DateUpdated="2026-07-27" DateCreated="2021-07-10" Type="SCV" Version="33" SubmitterName="CeGaT Center for Human Genetics Tuebingen" OrgID="505870" OrganizationCategory="laboratory" OrgAbbreviation="CHGT"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-12-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">PKLR: PM3:Very Strong, PM5, PP4:Moderate, PM2:Supporting, PS3:Supporting</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">CeGaT Center For Human Genetics Tuebingen Variant Classification Criteria Version 2</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/0ynenhfo/cegat_center_for_human_genetics_tuebingen_-_variant_classification_criteria_-_version_2.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="8"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" alternateAllele="A" referenceAllele="G" start="155261709" stop="155261709" variantLength="1"/>
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2021-07</SubmissionName>
+          <SubmissionName>2022-01-corrected</SubmissionName>
+          <SubmissionName>2022-04</SubmissionName>
+          <SubmissionName>2022-07</SubmissionName>
+          <SubmissionName>2022-08</SubmissionName>
+          <SubmissionName>2022-10.3</SubmissionName>
+          <SubmissionName>2023-01</SubmissionName>
+          <SubmissionName>2023-04</SubmissionName>
+          <SubmissionName>2023-09-add-ACMG-details</SubmissionName>
+          <SubmissionName>2023-10</SubmissionName>
+          <SubmissionName>2024-04</SubmissionName>
+          <SubmissionName>SUB13641132</SubmissionName>
+          <SubmissionName>SUB13985080</SubmissionName>
+          <SubmissionName>SUB14102099</SubmissionName>
+          <SubmissionName>SUB14290090</SubmissionName>
+          <SubmissionName>SUB14426581</SubmissionName>
+          <SubmissionName>SUB14513473</SubmissionName>
+          <SubmissionName>SUB14584463</SubmissionName>
+          <SubmissionName>SUB14636274</SubmissionName>
+          <SubmissionName>SUB14721088</SubmissionName>
+          <SubmissionName>SUB14783021</SubmissionName>
+          <SubmissionName>SUB14928462</SubmissionName>
+          <SubmissionName>SUB15149282</SubmissionName>
+          <SubmissionName>SUB15237316</SubmissionName>
+          <SubmissionName>SUB15302933</SubmissionName>
+          <SubmissionName>SUB15380712</SubmissionName>
+          <SubmissionName>SUB15436669</SubmissionName>
+          <SubmissionName>SUB15585849</SubmissionName>
+          <SubmissionName>SUB15682521</SubmissionName>
+          <SubmissionName>SUB15821677</SubmissionName>
+          <SubmissionName>SUB15914871</SubmissionName>
+          <SubmissionName>SUB16104672</SubmissionName>
+          <SubmissionName>SUB16224911</SubmissionName>
+          <SubmissionName>SUB16307954</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="14743068" SubmissionDate="2026-08-20" ContributesToAggregateClassification="true" DateLastUpdated="2026-09-22" DateCreated="2026-09-22">
+        <ClinVarSubmissionID localKey=":Chr.1_155261709_G_A|PKLR-related disorders" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV007762245" DateUpdated="2026-09-22" DateCreated="2026-09-22" Type="SCV" Version="1" SubmitterName="Blueprint Genetics" OrgID="500188" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-11-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="TestName">Exome, Hematology, Multisystem Disorders, Single gene tests</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="5"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" alternateAllele="A" referenceAllele="G" start="155261709" stop="155261709" variantLength="1"/>
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PKLR-related disorders</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB16423224</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="10271880" SubmissionDate="2026-09-29" ContributesToAggregateClassification="true" DateLastUpdated="2026-10-03" DateCreated="2024-10-08">
+        <ClinVarSubmissionID localKey="1130998|PKLR-related condition" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV005344843" DateUpdated="2026-10-03" DateCreated="2024-10-08" Type="SCV" Version="2" SubmitterName="PreventionGenetics, part of Exact Sciences" OrgID="239772" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2026-03-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">The PKLR c.1456C&gt;T variant is predicted to result in the amino acid substitution p.Arg486Trp. This variant is one of the most common disease causing PKLR variants and has been reported in the homozygous and compound heterozygous states in many individuals with pyruvate kinase deficiency (OMIM #266200; Baronciani et al. 1993. PubMed ID: 8483951; Zarza et al. 1998. PubMed ID: 9827908; Valentini et al. 2002. PubMed ID: 11960989; Kedar et al. 2008. PubMed ID: 18759866). Functional studies indicate this variant disrupts protein function (Valentini et al. 2002. PubMed ID: 11960989). This variant is reported in 0.81% of alleles in individuals of European (Finnish) descent in gnomAD. This variant is interpreted as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKLR"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">1130998</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000298.5:c.1456C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PKLR-related condition</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14767634</SubmissionName>
+          <SubmissionName>SUB16522191</SubmissionName>
+          <SubmissionName>SUB16522199</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4933752" TraitType="Disease" MappingType="XRef" MappingValue="102900" MappingRef="OMIM">
+        <MedGen CUI="C1863224" Name="Pyruvate kinase hyperactivity"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7927576" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="645080" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1749656" TraitType="Disease" MappingType="XRef" MappingValue="102900" MappingRef="OMIM">
+        <MedGen CUI="C1863224" Name="Pyruvate kinase hyperactivity"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1749656" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1394616" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA766" MappingRef="Orphanet">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3960756" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13548919" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="10407321" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="461254" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2253748" TraitType="Disease" MappingType="Name" MappingValue="Adenosine triphosphate, elevated, of erythrocytes" MappingRef="Preferred">
+        <MedGen CUI="C1863224" Name="Pyruvate kinase hyperactivity"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3051546" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4944166" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000007" MappingRef="HP">
+        <MedGen CUI="C0441748" Name="Autosomal recessive inheritance"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4944166" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7893017" TraitType="Disease" MappingType="XRef" MappingValue="C0340968" MappingRef="MedGen">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8988557" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="10088910" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="21733" TraitType="Disease" MappingType="Name" MappingValue="ANEMIA, CONGENITAL, NONSPHEROCYTIC HEMOLYTIC, 2" MappingRef="Preferred">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="10380711" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7807650" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001871" MappingRef="HP">
+        <MedGen CUI="C0850715" Name="Abnormality of blood and blood-forming tissues"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7807650" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="11301359" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000750" MappingRef="HP">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="11301359" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="11301359" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000708" MappingRef="HP">
+        <MedGen CUI="C0004941" Name="Atypical behavior"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="11301359" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="12165261" TraitType="Finding" MappingType="XRef" MappingValue="HP:0012378" MappingRef="HP">
+        <MedGen CUI="C0015672" Name="Fatigue"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="12165261" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001433" MappingRef="HP">
+        <MedGen CUI="C0019214" Name="Hepatosplenomegaly"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="12165261" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004445" MappingRef="HP">
+        <MedGen CUI="C0427480" Name="Elliptocytosis"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="12165261" TraitType="Finding" MappingType="XRef" MappingValue="HP:0005525" MappingRef="HP">
+        <MedGen CUI="C4025184" Name="Spontaneous hemolytic crises"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="12165261" TraitType="Finding" MappingType="XRef" MappingValue="HP:0025109" MappingRef="HP">
+        <MedGen CUI="C4476595" Name="Reduced red cell pyruvate kinase level"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="12165261" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3516372" TraitType="Disease" MappingType="Name" MappingValue="Not Provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13599304" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3373475" TraitType="Disease" MappingType="Name" MappingValue="Not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1732605" TraitType="Disease" MappingType="XRef" MappingValue="C3661900" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2003031" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="14424630" TraitType="Disease" MappingType="XRef" MappingValue="C0950123" MappingRef="MedGen">
+        <MedGen CUI="C0950123" Name="Inborn genetic diseases"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="14508740" TraitType="Disease" MappingType="XRef" MappingValue="C3661900" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="14511877" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="14515691" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4940605" TraitType="Disease" MappingType="XRef" MappingValue="266200" MappingRef="OMIM">
+        <MedGen CUI="C0340968" Name="Pyruvate kinase deficiency of red cells"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3437612" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="14743068" TraitType="Disease" MappingType="Name" MappingValue="PKLR-related disorders" MappingRef="Preferred">
+        <MedGen CUI="None" Name="PKLR-related disorder"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="10271880" TraitType="Disease" MappingType="Name" MappingValue="PKLR-related condition" MappingRef="Preferred">
+        <MedGen CUI="None" Name="PKLR-related disorder"/>
+      </TraitMapping>
+    </TraitMappingList>
+    <DeletedSCVList>
+      <SCV>
+        <Accession Version="2" DateDeleted="2026-09-21">SCV002757812</Accession>
+        <Description>not specified</Description>
+      </SCV>
+    </DeletedSCVList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

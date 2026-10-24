@@ -1,0 +1,29 @@
+VCV VCV000873616 version 7 | name: NM_000298.6(PKLR):c.1457G>A (p.Arg486Gln)
+NumberOfSubmissions 3 NumberOfSubmitters 3 DateLastUpdated 2026-04-13 DateCreated 2020-05-31
+Location GRCh38 NC_000001.11 155291917 C > T
+Location GRCh37 NC_000001.10 155261708 C > T
+SPDI NC_000001.11:155291916:C:T
+XRef ClinGen CA1143991 
+XRef dbSNP 768210809 rs
+AlleleFrequency {'Value': '0.00001', 'Source': 'The Genome Aggregation Database (gnomAD)'}
+AlleleFrequency {'Value': '0.00001', 'Source': 'Trans-Omics for Precision Medicine (TOPMed)'}
+AlleleFrequency {'Value': '0.00003', 'Source': 'The Genome Aggregation Database (gnomAD), exomes'}
+AlleleFrequency {'Value': '0.00004', 'Source': 'The Genome Aggregation Database (gnomAD), exomes'}
+AlleleFrequency {'Value': '0.00007', 'Source': 'Exome Aggregation Consortium (ExAC)'}
+
+== Aggregate germline classification ==
+Attributes: {'DateLastEvaluated': '2023-04-04', 'NumberOfSubmissions': '2', 'NumberOfSubmitters': '2', 'DateCreated': '2020-05-31', 'MostRecentSubmission': '2025-09-06'}
+Review status: criteria provided, multiple submitters, no conflicts | Description: Uncertain significance | Explanation: Uncertain significance (2)
+Aggregate citations (PubMed): []
+
+== RCV records ==
+RCV001095924 v4 | Pyruvate kinase deficiency of red cells | Uncertain significance | criteria provided, single submitter | submissions: 1
+RCV003490065 v3 | not provided | Uncertain significance | criteria provided, single submitter | submissions: 1
+RCV005913656 v1 | Glioma susceptibility 1 | evidence_only | no classification provided | submissions: 1
+
+== Submitted records (SCV) ==
+SCV001252103 v1 | Illumina Laboratory Services, Illumina | Uncertain significance | criteria provided, single submitter | 2017-04-27 |  | clinical testing | germline
+SCV004236096 v2 | Revvity Omics, Revvity | Uncertain significance | criteria provided, single submitter | 2023-04-04 | not provided | clinical testing | germline
+SCV006596601 v1 | Dr. Peter K. Rogan Lab, Western University | None | no classification provided | None |  | in vitro | not applicable
+
+Classification counts across SCVs: {'Uncertain significance': 2, None: 1}

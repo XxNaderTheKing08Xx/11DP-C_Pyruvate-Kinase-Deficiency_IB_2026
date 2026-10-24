@@ -1,0 +1,12 @@
+Assumptions: Hardy-Weinberg equilibrium; individuals = AN/2 (autosomal locus).
+
+exome: AC=4345 AN=1461136 q=0.00297 (=0.297%); individuals~730568; expected homozygotes n*q^2=6.46; observed=7; carrier frequency 2pq=0.0059 (1 in 169); q^2 per million=8.8
+genome: AC=421 AN=152304 q=0.00276 (=0.276%); individuals~76152; expected homozygotes n*q^2=0.58; observed=1; carrier frequency 2pq=0.0055 (1 in 181); q^2 per million=7.6
+joint: AC=4766 AN=1613440 q=0.00295 (=0.295%); individuals~806720; expected homozygotes n*q^2=7.04; observed=8; carrier frequency 2pq=0.0059 (1 in 170); q^2 per million=8.7
+
+Comparison with disease prevalence (Secrest et al. 2020: diagnosed 3.2-8.5 per million; diagnosed + undiagnosed up to 51 per million) and with the share of R486W among mutated alleles in the PKD Natural History Study (Bianchi et al. 2020: 31/354 = 8.8%).
+  prevalence  3.2/million -> total pathogenic allele freq 0.00179; expected R486W freq if it contributes 8.8% of alleles = 0.00016; observed/expected = 18.9
+  prevalence  8.5/million -> total pathogenic allele freq 0.00292; expected R486W freq if it contributes 8.8% of alleles = 0.00026; observed/expected = 11.6
+  prevalence 51.0/million -> total pathogenic allele freq 0.00714; expected R486W freq if it contributes 8.8% of alleles = 0.00063; observed/expected = 4.7
+
+Expected frequency of R486W homozygotes in the population (q^2): 8.7 per million (compare with diagnosed PKD prevalence of all genotypes, 3.2-8.5 per million).

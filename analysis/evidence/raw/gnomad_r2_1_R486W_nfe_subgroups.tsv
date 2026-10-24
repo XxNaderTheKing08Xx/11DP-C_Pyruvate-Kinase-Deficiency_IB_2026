@@ -1,0 +1,11 @@
+gnomAD v2.1.1 (GRCh37, 1-155261709-G-A) non-Finnish European subgroups; AF = AC/AN
+exome	nfe_bgr	AC=6	AN=2658	AF=0.00226	hom=0
+exome	nfe_est	AC=0	AN=236	AF=0.00000	hom=0
+exome	nfe_nwe	AC=95	AN=42074	AF=0.00226	hom=0
+exome	nfe_onf	AC=108	AN=30902	AF=0.00349	hom=1
+exome	nfe_seu	AC=60	AN=11494	AF=0.00522	hom=0
+exome	nfe_swe	AC=67	AN=26114	AF=0.00257	hom=0
+genome	nfe_est	AC=5	AN=4574	AF=0.00109	hom=0
+genome	nfe_nwe	AC=22	AN=8598	AF=0.00256	hom=0
+genome	nfe_onf	AC=11	AN=2134	AF=0.00515	hom=0
+genome	nfe_seu	AC=1	AN=106	AF=0.00943	hom=0

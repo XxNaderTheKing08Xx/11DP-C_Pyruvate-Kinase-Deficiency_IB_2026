@@ -1,0 +1,69 @@
+VCV VCV000001513 version 102 | name: NM_000298.6(PKLR):c.1456C>T (p.Arg486Trp)
+NumberOfSubmissions 33 NumberOfSubmitters 33 DateLastUpdated 2026-10-04 DateCreated 2016-10-14
+Location GRCh38 NC_000001.11 155291918 G > A
+Location GRCh37 NC_000001.10 155261709 G > A
+SPDI NC_000001.11:155291917:G:A
+XRef ClinGen CA215080 
+XRef UniProtKB P30613#VAR_004066 
+XRef OMIM 609712.0009 Allelic variant
+XRef dbSNP 116100695 rs
+AlleleFrequency {'Value': '0.00160', 'Source': '1000 Genomes Project'}
+AlleleFrequency {'Value': '0.00172', 'Source': '1000 Genomes Project 30x'}
+AlleleFrequency {'Value': '0.00208', 'Source': 'NHLBI Exome Sequencing Project (ESP) Exome Variant Server'}
+AlleleFrequency {'Value': '0.00229', 'Source': 'Trans-Omics for Precision Medicine (TOPMed)'}
+AlleleFrequency {'Value': '0.00270', 'Source': 'The Genome Aggregation Database (gnomAD)'}
+AlleleFrequency {'Value': '0.00279', 'Source': 'The Genome Aggregation Database (gnomAD)'}
+AlleleFrequency {'Value': '0.00285', 'Source': 'Exome Aggregation Consortium (ExAC)'}
+AlleleFrequency {'Value': '0.00297', 'Source': 'The Genome Aggregation Database (gnomAD), exomes'}
+AlleleFrequency {'Value': '0.00305', 'Source': 'The Genome Aggregation Database (gnomAD), exomes'}
+
+== Aggregate germline classification ==
+Attributes: {'DateLastEvaluated': '2026-03-20', 'NumberOfSubmissions': '33', 'NumberOfSubmitters': '33', 'DateCreated': '2016-10-14', 'MostRecentSubmission': '2026-10-03'}
+Review status: criteria provided, multiple submitters, no conflicts | Description: Pathogenic/Likely pathogenic | Explanation: Pathogenic (26); Likely pathogenic (4)
+Aggregate citations (PubMed): ['11054094', '11960989', '16704447', '17574881', '1196098', '27346685', '26728349', '27871768', '31980526', '10354117', '28133914', '32036089', '29396846', '30609409', '34093240', '11328279', '17360088', '8483951', '9057665', '32974842', '18759866', '9482576', '29519373', '33631127', '29555771', '9160692', '9657767', '9827908']
+
+== RCV records ==
+RCV000001577 v50 | Pyruvate kinase deficiency of red cells | Pathogenic/Likely pathogenic | criteria provided, multiple submitters, no conflicts | submissions: 15
+RCV000724015 v82 | not provided | Pathogenic/Likely pathogenic | criteria provided, multiple submitters, no conflicts | submissions: 11
+RCV000762857 v11 | Pyruvate kinase deficiency of red cells; Pyruvate kinase hyperactivity | Pathogenic | criteria provided, single submitter | submissions: 1
+RCV000991156 v10 | Pyruvate kinase hyperactivity | Pathogenic | criteria provided, single submitter | submissions: 2
+RCV002251854 v9 | See cases | Pathogenic | criteria provided, single submitter | submissions: 1
+RCV004751189 v3 | PKLR-related disorder | Pathogenic | criteria provided, multiple submitters, no conflicts | submissions: 2
+RCV006659115 v1 | Inborn genetic diseases | Pathogenic | criteria provided, single submitter | submissions: 1
+
+== Submitted records (SCV) ==
+SCV002518869 v1 | Mendelics | Pathogenic | criteria provided, single submitter | 2022-05-04 |  | clinical testing | germline
+SCV004243293 v3 | Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital | Pathogenic | criteria provided, single submitter | 2025-03-04 | not provided | clinical testing | germline
+SCV000331623 v5 | Eurofins Ntd Llc (ga) | Likely pathogenic | criteria provided, single submitter | 2017-04-14 | not provided | clinical testing | germline
+SCV000893217 v2 | Fulgent Genetics, Fulgent Genetics | Pathogenic | criteria provided, single submitter | 2022-05-28 |  | clinical testing | unknown
+SCV000713497 v4 | Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine | Likely Pathogenic | criteria provided, single submitter | 2021-12-23 |  | clinical testing | germline
+SCV002024662 v4 | Revvity Omics, Revvity | Pathogenic | criteria provided, single submitter | 2024-12-30 | not provided | clinical testing | germline
+SCV007095982 v1 | First Genomix Gene Laboratory, Genetic Diagnostics Department | Pathogenic | criteria provided, single submitter | 2025-04-14 |  | clinical testing | germline
+SCV005415943 v3 | Juno Genomics, Hangzhou Juno Genomics, Inc | Pathogenic | criteria provided, single submitter | None |  | clinical testing | germline
+SCV000223943 v2 | Knight Diagnostic Laboratories, Oregon Health and Sciences University | Likely pathogenic | criteria provided, single submitter | 2016-01-27 |  | clinical testing | germline
+SCV001142310 v1 | Reproductive Health Research and Development, BGI Genomics | Pathogenic | no assertion criteria provided | 2020-01-06 | Adenosine triphosphate, elevated, of erythrocytes | curation | germline
+SCV001550687 v1 | Department of Pathology and Laboratory Medicine, Sinai Health System | Pathogenic | no assertion criteria provided | None | not provided | clinical testing | unknown
+SCV002523854 v1 | Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein | Pathogenic | criteria provided, single submitter | 2020-11-13 | See cases | clinical testing | germline
+SCV004223638 v1 | Women's Health and Genetics/Laboratory Corporation of America, LabCorp | Pathogenic | criteria provided, single submitter | 2023-11-10 |  | clinical testing | germline
+SCV004808207 v1 | Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre | Pathogenic | criteria provided, single submitter | 2024-03-29 |  | clinical testing | germline
+SCV005197175 v1 | Clinical Genetics Laboratory, Skane University Hospital Lund | Pathogenic | criteria provided, single submitter | 2022-07-05 | not provided | clinical testing | germline
+SCV000021733 v3 | OMIM | Pathogenic | no assertion criteria provided | 2009-02-01 | ANEMIA, CONGENITAL, NONSPHEROCYTIC HEMOLYTIC, 2 | literature only | germline
+SCV005399102 v1 | Victorian Clinical Genetics Services, Murdoch Childrens Research Institute | Pathogenic | criteria provided, single submitter | 2022-03-31 |  | clinical testing | germline
+SCV004171978 v5 | Neuberg Centre For Genomic Medicine, NCGM | Pathogenic | criteria provided, single submitter | 2023-05-20 |  | clinical testing | germline
+SCV005873637 v2 | Genetics and Genomic Medicine Centre, NeuroGen Healthcare, NeuroGen Healthcare | Pathogenic | criteria provided, single submitter | 2020-01-17 |  | clinical testing | unknown
+SCV006324914 v1 | Institute of Human Genetics, University of Leipzig Medical Center | pathogenic | criteria provided, single submitter | 2025-07-07 |  | clinical testing | unknown
+SCV001792018 v5 | GeneDx | Likely pathogenic | criteria provided, single submitter | 2025-09-10 | Not Provided | clinical testing | germline
+SCV007122147 v1 | Department of Molecular Genetics, Istishari Arab Hospital | Pathogenic | criteria provided, single submitter | 2025-12-11 |  | clinical testing | germline
+SCV001713042 v5 | Mayo Clinic Laboratories, Mayo Clinic | Pathogenic | criteria provided, single submitter | 2025-09-05 | Not provided | clinical testing | germline
+SCV000885966 v9 | ARUP Laboratories, Molecular Genetics and Genomics, ARUP Laboratories | Pathogenic | criteria provided, single submitter | 2025-03-06 |  | clinical testing | germline
+SCV001035168 v7 | Labcorp Genetics (formerly Invitae), Labcorp | Pathogenic | criteria provided, single submitter | 2026-01-24 |  | clinical testing | germline
+SCV007557274 v1 | Ambry Genetics | Pathogenic | criteria provided, single submitter | 2026-02-23 |  | clinical testing | germline
+SCV007598459 v1 | Dasa | Pathogenic | criteria provided, single submitter | 2026-02-19 |  | clinical testing | germline
+SCV007600386 v1 | Variantyx, Inc. | Pathogenic | criteria provided, single submitter | 2025-10-16 |  | clinical testing | germline
+SCV007602635 v1 | Department of Pediatrics, Duzce University | Pathogenic | criteria provided, single submitter | 2024-02-12 |  | research | germline
+SCV002521511 v2 | 3billion | Pathogenic | criteria provided, single submitter | 2025-12-02 |  | clinical testing | germline
+SCV001746867 v33 | CeGaT Center for Human Genetics Tuebingen | Pathogenic | criteria provided, single submitter | 2025-12-01 |  | clinical testing | germline
+SCV007762245 v1 | Blueprint Genetics | Pathogenic | criteria provided, single submitter | 2024-11-25 | PKLR-related disorders | clinical testing | germline
+SCV005344843 v2 | PreventionGenetics, part of Exact Sciences | Pathogenic | criteria provided, single submitter | 2026-03-20 | PKLR-related condition | clinical testing | germline
+
+Classification counts across SCVs: {'Pathogenic': 28, 'Likely pathogenic': 3, 'Likely Pathogenic': 1, 'pathogenic': 1}
