@@ -1,0 +1,1316 @@
+{
+ "per_chain_CA": {
+  "A": {
+   "n_CA": 517,
+   "rmsd_A": 0.587,
+   "domain_N": {
+    "n_CA": 28,
+    "rmsd_A": 0.215
+   },
+   "domain_A": {
+    "n_CA": 244,
+    "rmsd_A": 0.243
+   },
+   "domain_B": {
+    "n_CA": 103,
+    "rmsd_A": 0.533
+   },
+   "domain_C": {
+    "n_CA": 142,
+    "rmsd_A": 0.24
+   },
+   "all_heavy_common_atoms": {
+    "n": 3906,
+    "rmsd_A": 0.68
+   }
+  },
+  "B": {
+   "n_CA": 463,
+   "rmsd_A": 0.594,
+   "domain_N": {
+    "n_CA": 28,
+    "rmsd_A": 0.214
+   },
+   "domain_A": {
+    "n_CA": 244,
+    "rmsd_A": 0.232
+   },
+   "domain_B": {
+    "n_CA": 49,
+    "rmsd_A": 0.663
+   },
+   "domain_C": {
+    "n_CA": 142,
+    "rmsd_A": 0.238
+   },
+   "all_heavy_common_atoms": {
+    "n": 3504,
+    "rmsd_A": 0.676
+   }
+  },
+  "C": {
+   "n_CA": 515,
+   "rmsd_A": 0.523,
+   "domain_N": {
+    "n_CA": 28,
+    "rmsd_A": 0.222
+   },
+   "domain_A": {
+    "n_CA": 244,
+    "rmsd_A": 0.238
+   },
+   "domain_B": {
+    "n_CA": 101,
+    "rmsd_A": 0.45
+   },
+   "domain_C": {
+    "n_CA": 142,
+    "rmsd_A": 0.244
+   },
+   "all_heavy_common_atoms": {
+    "n": 3890,
+    "rmsd_A": 0.611
+   }
+  },
+  "D": {
+   "n_CA": 512,
+   "rmsd_A": 0.401,
+   "domain_N": {
+    "n_CA": 28,
+    "rmsd_A": 0.222
+   },
+   "domain_A": {
+    "n_CA": 244,
+    "rmsd_A": 0.24
+   },
+   "domain_B": {
+    "n_CA": 98,
+    "rmsd_A": 0.417
+   },
+   "domain_C": {
+    "n_CA": 142,
+    "rmsd_A": 0.242
+   },
+   "all_heavy_common_atoms": {
+    "n": 3874,
+    "rmsd_A": 0.511
+   }
+  }
+ },
+ "tetramer_CA": {
+  "n_CA": 2007,
+  "rmsd_A": 0.765
+ },
+ "local_486": {
+  "A": {
+   "n_residues_within_10A": 59,
+   "chains_in_sphere": [
+    "A",
+    "B",
+    "C"
+   ],
+   "n_CA": 59,
+   "n_heavy": 449,
+   "CA_rmsd_after_tetramer_fit": 0.411,
+   "heavy_rmsd_after_tetramer_fit": 0.528,
+   "CA_rmsd_local_fit": 0.326,
+   "heavy_rmsd_after_local_CA_fit": 0.452,
+   "max_atom_shift_local_fit": 1.56,
+   "residue_486_backbone_CB_shift": {
+    "max_shift_A": 0.56,
+    "atom": "N"
+   },
+   "residues_with_atom_shift_gt_0.5A": {
+    "A:GLU453": {
+     "max_shift_A": 1.56,
+     "atom": "OE2"
+    },
+    "A:LEU441": {
+     "max_shift_A": 1.38,
+     "atom": "CD2"
+    },
+    "A:ARG443": {
+     "max_shift_A": 1.31,
+     "atom": "NH1"
+    },
+    "A:GLU439": {
+     "max_shift_A": 1.3,
+     "atom": "OE1"
+    },
+    "A:VAL506": {
+     "max_shift_A": 1.24,
+     "atom": "CG1"
+    },
+    "A:ARG510": {
+     "max_shift_A": 1.19,
+     "atom": "NH2"
+    },
+    "A:LEU437": {
+     "max_shift_A": 1.06,
+     "atom": "CD1"
+    },
+    "A:LEU447": {
+     "max_shift_A": 1.06,
+     "atom": "CD1"
+    },
+    "A:TYR487": {
+     "max_shift_A": 0.96,
+     "atom": "OH"
+    },
+    "A:ALA445": {
+     "max_shift_A": 0.93,
+     "atom": "CB"
+    },
+    "A:ARG488": {
+     "max_shift_A": 0.92,
+     "atom": "NH2"
+    },
+    "A:SER480": {
+     "max_shift_A": 0.88,
+     "atom": "OG"
+    },
+    "A:SER485": {
+     "max_shift_A": 0.87,
+     "atom": "OG"
+    },
+    "A:ASN361": {
+     "max_shift_A": 0.86,
+     "atom": "O"
+    },
+    "A:LYS365": {
+     "max_shift_A": 0.86,
+     "atom": "NZ"
+    },
+    "A:ARG359": {
+     "max_shift_A": 0.84,
+     "atom": "NH1"
+    },
+    "A:HIS434": {
+     "max_shift_A": 0.81,
+     "atom": "NE2"
+    },
+    "A:ARG442": {
+     "max_shift_A": 0.8,
+     "atom": "O"
+    },
+    "A:LEU362": {
+     "max_shift_A": 0.76,
+     "atom": "CD2"
+    },
+    "A:PRO489": {
+     "max_shift_A": 0.73,
+     "atom": "O"
+    },
+    "A:ARG490": {
+     "max_shift_A": 0.72,
+     "atom": "NH2"
+    },
+    "A:LEU484": {
+     "max_shift_A": 0.71,
+     "atom": "O"
+    },
+    "C:CYS74": {
+     "max_shift_A": 0.69,
+     "atom": "SG"
+    },
+    "A:GLU440": {
+     "max_shift_A": 0.68,
+     "atom": "OE1"
+    },
+    "A:ILE471": {
+     "max_shift_A": 0.68,
+     "atom": "CG2"
+    },
+    "A:LEU483": {
+     "max_shift_A": 0.68,
+     "atom": "CD2"
+    },
+    "C:LEU70": {
+     "max_shift_A": 0.68,
+     "atom": "N"
+    },
+    "A:GLY511": {
+     "max_shift_A": 0.67,
+     "atom": "CA"
+    },
+    "A:GLN482": {
+     "max_shift_A": 0.66,
+     "atom": "OE1"
+    },
+    "A:ILE457": {
+     "max_shift_A": 0.65,
+     "atom": "CG1"
+    },
+    "A:ARG479": {
+     "max_shift_A": 0.65,
+     "atom": "O"
+    },
+    "A:ILE357": {
+     "max_shift_A": 0.64,
+     "atom": "CG2"
+    },
+    "A:LEU327": {
+     "max_shift_A": 0.62,
+     "atom": "CD1"
+    },
+    "A:PHE464": {
+     "max_shift_A": 0.62,
+     "atom": "O"
+    },
+    "A:LEU508": {
+     "max_shift_A": 0.61,
+     "atom": "CD1"
+    },
+    "A:CYS509": {
+     "max_shift_A": 0.61,
+     "atom": "O"
+    },
+    "A:CYS360": {
+     "max_shift_A": 0.6,
+     "atom": "CB"
+    },
+    "A:PRO366": {
+     "max_shift_A": 0.57,
+     "atom": "CB"
+    },
+    "A:GLY398": {
+     "max_shift_A": 0.56,
+     "atom": "O"
+    },
+    "A:ARG486": {
+     "max_shift_A": 0.56,
+     "atom": "N"
+    },
+    "B:LYS465": {
+     "max_shift_A": 0.55,
+     "atom": "NZ"
+    },
+    "A:ASP450": {
+     "max_shift_A": 0.54,
+     "atom": "OD2"
+    },
+    "A:VAL460": {
+     "max_shift_A": 0.53,
+     "atom": "CG1"
+    },
+    "A:ASP400": {
+     "max_shift_A": 0.52,
+     "atom": "CB"
+    }
+   },
+   "n_atoms_shift_gt_0.25A": 348,
+   "n_atoms_shift_gt_0.5A": 107
+  },
+  "B": {
+   "n_residues_within_10A": 59,
+   "chains_in_sphere": [
+    "A",
+    "B",
+    "D"
+   ],
+   "n_CA": 59,
+   "n_heavy": 449,
+   "CA_rmsd_after_tetramer_fit": 0.546,
+   "heavy_rmsd_after_tetramer_fit": 0.631,
+   "CA_rmsd_local_fit": 0.361,
+   "heavy_rmsd_after_local_CA_fit": 0.48,
+   "max_atom_shift_local_fit": 1.7,
+   "residue_486_backbone_CB_shift": {
+    "max_shift_A": 0.48,
+    "atom": "CB"
+   },
+   "residues_with_atom_shift_gt_0.5A": {
+    "B:GLU453": {
+     "max_shift_A": 1.7,
+     "atom": "OE2"
+    },
+    "B:LEU441": {
+     "max_shift_A": 1.47,
+     "atom": "CD2"
+    },
+    "B:ARG443": {
+     "max_shift_A": 1.46,
+     "atom": "NH1"
+    },
+    "B:VAL506": {
+     "max_shift_A": 1.32,
+     "atom": "CG1"
+    },
+    "B:ARG510": {
+     "max_shift_A": 1.28,
+     "atom": "CD"
+    },
+    "B:LEU447": {
+     "max_shift_A": 1.14,
+     "atom": "CD1"
+    },
+    "B:ARG359": {
+     "max_shift_A": 1.1,
+     "atom": "NH1"
+    },
+    "B:LEU437": {
+     "max_shift_A": 1.09,
+     "atom": "CD1"
+    },
+    "B:LYS365": {
+     "max_shift_A": 0.97,
+     "atom": "NZ"
+    },
+    "B:LEU327": {
+     "max_shift_A": 0.94,
+     "atom": "N"
+    },
+    "B:GLN482": {
+     "max_shift_A": 0.93,
+     "atom": "OE1"
+    },
+    "B:SER485": {
+     "max_shift_A": 0.93,
+     "atom": "OG"
+    },
+    "B:GLU439": {
+     "max_shift_A": 0.9,
+     "atom": "OE1"
+    },
+    "B:TYR487": {
+     "max_shift_A": 0.87,
+     "atom": "CE2"
+    },
+    "B:ARG488": {
+     "max_shift_A": 0.87,
+     "atom": "NH2"
+    },
+    "B:SER480": {
+     "max_shift_A": 0.85,
+     "atom": "OG"
+    },
+    "B:HIS434": {
+     "max_shift_A": 0.83,
+     "atom": "CE1"
+    },
+    "B:ARG479": {
+     "max_shift_A": 0.83,
+     "atom": "NH1"
+    },
+    "B:CYS360": {
+     "max_shift_A": 0.82,
+     "atom": "CB"
+    },
+    "B:ALA363": {
+     "max_shift_A": 0.8,
+     "atom": "O"
+    },
+    "B:ALA445": {
+     "max_shift_A": 0.78,
+     "atom": "CB"
+    },
+    "D:CYS74": {
+     "max_shift_A": 0.78,
+     "atom": "SG"
+    },
+    "B:LEU483": {
+     "max_shift_A": 0.76,
+     "atom": "O"
+    },
+    "B:PRO366": {
+     "max_shift_A": 0.73,
+     "atom": "O"
+    },
+    "B:ILE457": {
+     "max_shift_A": 0.73,
+     "atom": "CG1"
+    },
+    "B:GLY398": {
+     "max_shift_A": 0.7,
+     "atom": "O"
+    },
+    "B:ARG490": {
+     "max_shift_A": 0.69,
+     "atom": "NH1"
+    },
+    "B:ASN361": {
+     "max_shift_A": 0.68,
+     "atom": "N"
+    },
+    "B:LEU362": {
+     "max_shift_A": 0.62,
+     "atom": "CD1"
+    },
+    "B:ARG442": {
+     "max_shift_A": 0.62,
+     "atom": "O"
+    },
+    "B:ASP450": {
+     "max_shift_A": 0.61,
+     "atom": "CB"
+    },
+    "B:ILE357": {
+     "max_shift_A": 0.6,
+     "atom": "N"
+    },
+    "B:GLY511": {
+     "max_shift_A": 0.58,
+     "atom": "CA"
+    },
+    "B:ALA456": {
+     "max_shift_A": 0.57,
+     "atom": "CB"
+    },
+    "B:LEU508": {
+     "max_shift_A": 0.57,
+     "atom": "O"
+    },
+    "B:GLY364": {
+     "max_shift_A": 0.55,
+     "atom": "O"
+    },
+    "B:GLY478": {
+     "max_shift_A": 0.55,
+     "atom": "CA"
+    },
+    "B:PRO489": {
+     "max_shift_A": 0.55,
+     "atom": "O"
+    },
+    "B:LEU484": {
+     "max_shift_A": 0.54,
+     "atom": "O"
+    },
+    "B:ILE471": {
+     "max_shift_A": 0.53,
+     "atom": "CG2"
+    },
+    "B:CYS509": {
+     "max_shift_A": 0.53,
+     "atom": "SG"
+    },
+    "B:GLU440": {
+     "max_shift_A": 0.51,
+     "atom": "O"
+    },
+    "D:LEU70": {
+     "max_shift_A": 0.51,
+     "atom": "O"
+    }
+   },
+   "n_atoms_shift_gt_0.25A": 317,
+   "n_atoms_shift_gt_0.5A": 124
+  },
+  "C": {
+   "n_residues_within_10A": 58,
+   "chains_in_sphere": [
+    "A",
+    "C",
+    "D"
+   ],
+   "n_CA": 58,
+   "n_heavy": 439,
+   "CA_rmsd_after_tetramer_fit": 0.406,
+   "heavy_rmsd_after_tetramer_fit": 0.505,
+   "CA_rmsd_local_fit": 0.309,
+   "heavy_rmsd_after_local_CA_fit": 0.436,
+   "max_atom_shift_local_fit": 1.75,
+   "residue_486_backbone_CB_shift": {
+    "max_shift_A": 0.53,
+    "atom": "N"
+   },
+   "residues_with_atom_shift_gt_0.5A": {
+    "C:GLU453": {
+     "max_shift_A": 1.75,
+     "atom": "OE2"
+    },
+    "C:LEU441": {
+     "max_shift_A": 1.42,
+     "atom": "CD2"
+    },
+    "C:ARG443": {
+     "max_shift_A": 1.39,
+     "atom": "NH1"
+    },
+    "C:ARG510": {
+     "max_shift_A": 1.36,
+     "atom": "NH2"
+    },
+    "C:LEU447": {
+     "max_shift_A": 1.11,
+     "atom": "CD1"
+    },
+    "C:VAL506": {
+     "max_shift_A": 1.09,
+     "atom": "CG1"
+    },
+    "C:GLU439": {
+     "max_shift_A": 0.97,
+     "atom": "OE1"
+    },
+    "C:GLN482": {
+     "max_shift_A": 0.91,
+     "atom": "OE1"
+    },
+    "C:SER485": {
+     "max_shift_A": 0.9,
+     "atom": "OG"
+    },
+    "C:LEU483": {
+     "max_shift_A": 0.89,
+     "atom": "O"
+    },
+    "C:ARG479": {
+     "max_shift_A": 0.86,
+     "atom": "NH1"
+    },
+    "C:ARG488": {
+     "max_shift_A": 0.84,
+     "atom": "NH2"
+    },
+    "C:ASN361": {
+     "max_shift_A": 0.83,
+     "atom": "OD1"
+    },
+    "C:LEU327": {
+     "max_shift_A": 0.82,
+     "atom": "O"
+    },
+    "C:ALA481": {
+     "max_shift_A": 0.82,
+     "atom": "O"
+    },
+    "C:ALA445": {
+     "max_shift_A": 0.81,
+     "atom": "CB"
+    },
+    "C:LEU437": {
+     "max_shift_A": 0.8,
+     "atom": "CD1"
+    },
+    "C:GLY398": {
+     "max_shift_A": 0.79,
+     "atom": "O"
+    },
+    "C:TYR487": {
+     "max_shift_A": 0.79,
+     "atom": "O"
+    },
+    "C:SER480": {
+     "max_shift_A": 0.78,
+     "atom": "OG"
+    },
+    "C:ARG359": {
+     "max_shift_A": 0.72,
+     "atom": "NH1"
+    },
+    "C:CYS360": {
+     "max_shift_A": 0.71,
+     "atom": "CB"
+    },
+    "C:LEU362": {
+     "max_shift_A": 0.68,
+     "atom": "CD1"
+    },
+    "C:ASP400": {
+     "max_shift_A": 0.62,
+     "atom": "OD2"
+    },
+    "D:LYS465": {
+     "max_shift_A": 0.62,
+     "atom": "NZ"
+    },
+    "C:ILE457": {
+     "max_shift_A": 0.61,
+     "atom": "CG1"
+    },
+    "C:GLY511": {
+     "max_shift_A": 0.61,
+     "atom": "CA"
+    },
+    "C:ILE471": {
+     "max_shift_A": 0.6,
+     "atom": "CD1"
+    },
+    "A:LEU70": {
+     "max_shift_A": 0.59,
+     "atom": "CD1"
+    },
+    "C:ARG442": {
+     "max_shift_A": 0.57,
+     "atom": "NH2"
+    },
+    "C:SER448": {
+     "max_shift_A": 0.56,
+     "atom": "OG"
+    },
+    "C:LYS365": {
+     "max_shift_A": 0.55,
+     "atom": "NZ"
+    },
+    "C:ASP450": {
+     "max_shift_A": 0.55,
+     "atom": "OD2"
+    },
+    "C:GLY478": {
+     "max_shift_A": 0.55,
+     "atom": "CA"
+    },
+    "C:PRO366": {
+     "max_shift_A": 0.53,
+     "atom": "CB"
+    },
+    "C:ALA456": {
+     "max_shift_A": 0.53,
+     "atom": "CB"
+    },
+    "C:ARG486": {
+     "max_shift_A": 0.53,
+     "atom": "N"
+    },
+    "A:CYS74": {
+     "max_shift_A": 0.51,
+     "atom": "O"
+    },
+    "C:CYS509": {
+     "max_shift_A": 0.51,
+     "atom": "O"
+    }
+   },
+   "n_atoms_shift_gt_0.25A": 276,
+   "n_atoms_shift_gt_0.5A": 95
+  },
+  "D": {
+   "n_residues_within_10A": 60,
+   "chains_in_sphere": [
+    "B",
+    "C",
+    "D"
+   ],
+   "n_CA": 60,
+   "n_heavy": 456,
+   "CA_rmsd_after_tetramer_fit": 0.475,
+   "heavy_rmsd_after_tetramer_fit": 0.567,
+   "CA_rmsd_local_fit": 0.302,
+   "heavy_rmsd_after_local_CA_fit": 0.431,
+   "max_atom_shift_local_fit": 1.63,
+   "residue_486_backbone_CB_shift": {
+    "max_shift_A": 0.52,
+    "atom": "CB"
+   },
+   "residues_with_atom_shift_gt_0.5A": {
+    "D:GLU453": {
+     "max_shift_A": 1.63,
+     "atom": "OE2"
+    },
+    "D:LEU441": {
+     "max_shift_A": 1.35,
+     "atom": "CD2"
+    },
+    "D:ARG510": {
+     "max_shift_A": 1.31,
+     "atom": "NH2"
+    },
+    "D:VAL506": {
+     "max_shift_A": 1.27,
+     "atom": "CG1"
+    },
+    "D:GLU439": {
+     "max_shift_A": 1.19,
+     "atom": "OE1"
+    },
+    "D:ARG488": {
+     "max_shift_A": 1.0,
+     "atom": "NH2"
+    },
+    "D:LEU362": {
+     "max_shift_A": 0.99,
+     "atom": "CD2"
+    },
+    "D:ARG443": {
+     "max_shift_A": 0.99,
+     "atom": "NH1"
+    },
+    "D:LEU447": {
+     "max_shift_A": 0.97,
+     "atom": "CD1"
+    },
+    "D:LEU437": {
+     "max_shift_A": 0.9,
+     "atom": "CD1"
+    },
+    "D:GLN482": {
+     "max_shift_A": 0.89,
+     "atom": "OE1"
+    },
+    "D:LYS365": {
+     "max_shift_A": 0.88,
+     "atom": "NZ"
+    },
+    "D:ILE457": {
+     "max_shift_A": 0.87,
+     "atom": "CG1"
+    },
+    "D:ARG479": {
+     "max_shift_A": 0.86,
+     "atom": "NH1"
+    },
+    "D:ARG359": {
+     "max_shift_A": 0.82,
+     "atom": "NH1"
+    },
+    "D:ALA445": {
+     "max_shift_A": 0.81,
+     "atom": "O"
+    },
+    "D:SER480": {
+     "max_shift_A": 0.76,
+     "atom": "OG"
+    },
+    "D:LEU483": {
+     "max_shift_A": 0.76,
+     "atom": "CD2"
+    },
+    "D:SER485": {
+     "max_shift_A": 0.76,
+     "atom": "OG"
+    },
+    "B:CYS74": {
+     "max_shift_A": 0.71,
+     "atom": "SG"
+    },
+    "D:TYR487": {
+     "max_shift_A": 0.71,
+     "atom": "CE2"
+    },
+    "D:GLY511": {
+     "max_shift_A": 0.69,
+     "atom": "CA"
+    },
+    "D:GLU440": {
+     "max_shift_A": 0.68,
+     "atom": "OE2"
+    },
+    "D:LEU484": {
+     "max_shift_A": 0.67,
+     "atom": "CD1"
+    },
+    "D:PRO366": {
+     "max_shift_A": 0.66,
+     "atom": "O"
+    },
+    "D:PRO489": {
+     "max_shift_A": 0.66,
+     "atom": "O"
+    },
+    "D:LEU327": {
+     "max_shift_A": 0.65,
+     "atom": "CD1"
+    },
+    "D:SER448": {
+     "max_shift_A": 0.65,
+     "atom": "CB"
+    },
+    "D:ASN361": {
+     "max_shift_A": 0.64,
+     "atom": "OD1"
+    },
+    "D:HIS434": {
+     "max_shift_A": 0.63,
+     "atom": "CE1"
+    },
+    "D:CYS360": {
+     "max_shift_A": 0.62,
+     "atom": "CB"
+    },
+    "D:CYS509": {
+     "max_shift_A": 0.62,
+     "atom": "O"
+    },
+    "D:ARG442": {
+     "max_shift_A": 0.59,
+     "atom": "O"
+    },
+    "D:ASP400": {
+     "max_shift_A": 0.57,
+     "atom": "OD1"
+    },
+    "D:ILE471": {
+     "max_shift_A": 0.56,
+     "atom": "CG2"
+    },
+    "D:GLY398": {
+     "max_shift_A": 0.54,
+     "atom": "O"
+    },
+    "D:PRO446": {
+     "max_shift_A": 0.54,
+     "atom": "CG"
+    },
+    "D:ARG490": {
+     "max_shift_A": 0.53,
+     "atom": "NH1"
+    },
+    "D:ARG486": {
+     "max_shift_A": 0.52,
+     "atom": "CB"
+    },
+    "C:LYS465": {
+     "max_shift_A": 0.51,
+     "atom": "O"
+    }
+   },
+   "n_atoms_shift_gt_0.25A": 309,
+   "n_atoms_shift_gt_0.5A": 90
+  }
+ },
+ "chi1": {
+  "A": {
+   "361": {
+    "WT": [
+     "ASN",
+     -76.2
+    ],
+    "MUT": [
+     "ASN",
+     -90.3
+    ]
+   },
+   "362": {
+    "WT": [
+     "LEU",
+     -150.7
+    ],
+    "MUT": [
+     "LEU",
+     -131.0
+    ]
+   },
+   "441": {
+    "WT": [
+     "LEU",
+     -64.9
+    ],
+    "MUT": [
+     "LEU",
+     -73.8
+    ]
+   },
+   "453": {
+    "WT": [
+     "GLU",
+     -89.5
+    ],
+    "MUT": [
+     "GLU",
+     -78.6
+    ]
+   },
+   "482": {
+    "WT": [
+     "GLN",
+     175.5
+    ],
+    "MUT": [
+     "GLN",
+     -168.5
+    ]
+   },
+   "483": {
+    "WT": [
+     "LEU",
+     -61.6
+    ],
+    "MUT": [
+     "LEU",
+     -62.4
+    ]
+   },
+   "486": {
+    "WT": [
+     "ARG",
+     -151.4
+    ],
+    "MUT": [
+     "TRP",
+     -173.7
+    ]
+   },
+   "487": {
+    "WT": [
+     "TYR",
+     -69.3
+    ],
+    "MUT": [
+     "TYR",
+     -65.7
+    ]
+   },
+   "488": {
+    "WT": [
+     "ARG",
+     -62.0
+    ],
+    "MUT": [
+     "ARG",
+     -64.8
+    ]
+   }
+  },
+  "B": {
+   "361": {
+    "WT": [
+     "ASN",
+     -79.2
+    ],
+    "MUT": [
+     "ASN",
+     -94.0
+    ]
+   },
+   "362": {
+    "WT": [
+     "LEU",
+     -148.8
+    ],
+    "MUT": [
+     "LEU",
+     -141.0
+    ]
+   },
+   "441": {
+    "WT": [
+     "LEU",
+     -64.1
+    ],
+    "MUT": [
+     "LEU",
+     -74.7
+    ]
+   },
+   "453": {
+    "WT": [
+     "GLU",
+     -91.0
+    ],
+    "MUT": [
+     "GLU",
+     -78.3
+    ]
+   },
+   "482": {
+    "WT": [
+     "GLN",
+     176.6
+    ],
+    "MUT": [
+     "GLN",
+     -172.2
+    ]
+   },
+   "483": {
+    "WT": [
+     "LEU",
+     -64.8
+    ],
+    "MUT": [
+     "LEU",
+     -63.3
+    ]
+   },
+   "486": {
+    "WT": [
+     "ARG",
+     -151.9
+    ],
+    "MUT": [
+     "TRP",
+     -169.1
+    ]
+   },
+   "487": {
+    "WT": [
+     "TYR",
+     -66.5
+    ],
+    "MUT": [
+     "TYR",
+     -68.1
+    ]
+   },
+   "488": {
+    "WT": [
+     "ARG",
+     -57.7
+    ],
+    "MUT": [
+     "ARG",
+     -63.4
+    ]
+   }
+  },
+  "C": {
+   "361": {
+    "WT": [
+     "ASN",
+     -76.2
+    ],
+    "MUT": [
+     "ASN",
+     -94.4
+    ]
+   },
+   "362": {
+    "WT": [
+     "LEU",
+     -147.7
+    ],
+    "MUT": [
+     "LEU",
+     -139.7
+    ]
+   },
+   "441": {
+    "WT": [
+     "LEU",
+     -62.2
+    ],
+    "MUT": [
+     "LEU",
+     -76.5
+    ]
+   },
+   "453": {
+    "WT": [
+     "GLU",
+     -85.9
+    ],
+    "MUT": [
+     "GLU",
+     -74.7
+    ]
+   },
+   "482": {
+    "WT": [
+     "GLN",
+     171.1
+    ],
+    "MUT": [
+     "GLN",
+     -175.5
+    ]
+   },
+   "483": {
+    "WT": [
+     "LEU",
+     -63.1
+    ],
+    "MUT": [
+     "LEU",
+     -67.5
+    ]
+   },
+   "486": {
+    "WT": [
+     "ARG",
+     -146.6
+    ],
+    "MUT": [
+     "TRP",
+     -171.7
+    ]
+   },
+   "487": {
+    "WT": [
+     "TYR",
+     -69.8
+    ],
+    "MUT": [
+     "TYR",
+     -69.8
+    ]
+   },
+   "488": {
+    "WT": [
+     "ARG",
+     -57.5
+    ],
+    "MUT": [
+     "ARG",
+     -60.2
+    ]
+   }
+  },
+  "D": {
+   "361": {
+    "WT": [
+     "ASN",
+     -77.8
+    ],
+    "MUT": [
+     "ASN",
+     -88.3
+    ]
+   },
+   "362": {
+    "WT": [
+     "LEU",
+     -149.4
+    ],
+    "MUT": [
+     "LEU",
+     -137.1
+    ]
+   },
+   "441": {
+    "WT": [
+     "LEU",
+     -64.4
+    ],
+    "MUT": [
+     "LEU",
+     -77.1
+    ]
+   },
+   "453": {
+    "WT": [
+     "GLU",
+     -84.8
+    ],
+    "MUT": [
+     "GLU",
+     -74.5
+    ]
+   },
+   "482": {
+    "WT": [
+     "GLN",
+     178.4
+    ],
+    "MUT": [
+     "GLN",
+     -165.9
+    ]
+   },
+   "483": {
+    "WT": [
+     "LEU",
+     -65.0
+    ],
+    "MUT": [
+     "LEU",
+     -60.9
+    ]
+   },
+   "486": {
+    "WT": [
+     "ARG",
+     -143.1
+    ],
+    "MUT": [
+     "TRP",
+     -172.4
+    ]
+   },
+   "487": {
+    "WT": [
+     "TYR",
+     -68.3
+    ],
+    "MUT": [
+     "TYR",
+     -67.3
+    ]
+   },
+   "488": {
+    "WT": [
+     "ARG",
+     -62.0
+    ],
+    "MUT": [
+     "ARG",
+     -58.8
+    ]
+   }
+  }
+ },
+ "phi_psi_486": {
+  "A": {
+   "WT": [
+    -33.7,
+    -38.0
+   ],
+   "MUT": [
+    -60.8,
+    -34.0
+   ]
+  },
+  "B": {
+   "WT": [
+    -39.1,
+    -37.4
+   ],
+   "MUT": [
+    -52.5,
+    -35.0
+   ]
+  },
+  "C": {
+   "WT": [
+    -40.6,
+    -34.0
+   ],
+   "MUT": [
+    -64.5,
+    -28.3
+   ]
+  },
+  "D": {
+   "WT": [
+    -33.9,
+    -41.3
+   ],
+   "MUT": [
+    -61.5,
+    -30.6
+   ]
+  }
+ },
+ "phi_psi_364": {
+  "A": {
+   "WT": [
+    80.5,
+    25.1
+   ],
+   "MUT": [
+    88.8,
+    17.7
+   ]
+  },
+  "B": {
+   "WT": [
+    81.8,
+    24.3
+   ],
+   "MUT": [
+    74.9,
+    26.2
+   ]
+  },
+  "C": {
+   "WT": [
+    73.7,
+    32.5
+   ],
+   "MUT": [
+    83.1,
+    24.0
+   ]
+  },
+  "D": {
+   "WT": [
+    80.4,
+    26.1
+   ],
+   "MUT": [
+    77.7,
+    21.0
+   ]
+  }
+ }
+}

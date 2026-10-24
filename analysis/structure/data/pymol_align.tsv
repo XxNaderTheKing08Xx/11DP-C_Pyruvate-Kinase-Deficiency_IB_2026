@@ -1,0 +1,23 @@
+scope	method	cycles	rmsd_after_refinement_A	n_atoms_after	rmsd_before_refinement_A	n_atoms_before
+chain A	align	0	0.587	517	0.587	517
+chain A	align	5	0.367	437	0.587	517
+chain A	super	0	0.587	517	0.587	517
+chain A	super	5	0.367	437	0.587	517
+chain B	align	0	0.594	463	0.594	463
+chain B	align	5	0.395	416	0.594	463
+chain B	super	0	0.528	439	0.528	439
+chain B	super	5	0.39	407	0.528	439
+chain C	align	0	0.523	515	0.523	515
+chain C	align	5	0.378	448	0.523	515
+chain C	super	0	0.615	514	0.615	514
+chain C	super	5	0.375	446	0.615	514
+chain D	align	0	0.401	512	0.401	512
+chain D	align	5	0.35	483	0.401	512
+chain D	super	0	0.401	512	0.401	512
+chain D	super	5	0.35	483	0.401	512
+tetramer	align	0	0.765	2007	0.765	2007
+tetramer	align	5	0.516	1758	0.765	2007
+tetramer	super	0	0.779	1982	0.779	1982
+tetramer	super	5	0.512	1741	0.779	1982
+local 10 A sphere around A486 (CA)	align	0	0.321	57	0.321	57
+local 10 A sphere around A486 (CA)	super	0	0.321	57	0.321	57
