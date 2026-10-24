@@ -1,0 +1,66 @@
+Compara Rat: ortholog_one2one gene ENSRNOG00000020420 protein ENSRNOP00000027700 length 574
+Compara Mouse: ortholog_one2one gene ENSMUSG00000041237 protein ENSMUSP00000103106 length 543
+Compara Dog: ortholog_one2one gene ENSCAFG00845012059 protein ENSCAFP00845017017 length 574
+
+== Orthology check: identity to human PKLR vs human PKM (Needle-equivalent global alignment)
+label	length	%id_vs_PKLR(P30613)	%id_vs_PKM2(P14618)	%id_vs_PKM1(P14618-2)	closer_to
+Human	574	100.0	65.5	64.3	PKLR
+Rat	574	91.1	64.5	63.1	PKLR
+Mouse	574	91.6	64.1	62.7	PKLR
+Dog	574	92.5	65.3	63.9	PKLR
+Chimpanzee	574	99.7	65.2	63.9	PKLR
+Macaque	579	90.2	60.2	59.2	PKLR
+Marmoset	574	97.6	64.8	63.6	PKLR
+Guinea pig	543	88.5	67.8	66.5	PKLR
+Rabbit	574	94.4	65.2	63.9	PKLR
+Cat	578	83.7	65.1	63.4	PKLR
+Cow	574	90.2	64.1	62.5	PKLR
+Pig	543	88.9	69.1	67.6	PKLR
+Horse	574	90.8	64.3	63.2	PKLR
+Opossum	569	83.5	65.9	65.2	PKLR
+Platypus	568	79.4	65.5	63.7	PKLR
+Painted turtle	613	65.6	63.3	61.8	PKLR
+Wall lizard	542	73.0	72.1	70.7	PKLR
+Xenopus	583	70.0	70.0	67.8	PKLR
+Coelacanth	530	70.6	77.0	74.8	PKM
+Zebrafish	538	63.8	66.5	64.8	PKM
+Medaka	543	62.6	65.0	63.0	PKM
+
+== Control: records that are NOT PKLR orthologs
+rat Pkm NP_445749.1	length 531	vs PKLR 64.1	vs PKM2 93.8	vs PKM1 96.6	-> closer to PKM
+mouse Pkm (M2) NP_035229.2	length 531	vs PKLR 65.0	vs PKM2 97.7	vs PKM1 93.8	-> closer to PKM
+chicken PKM P00548 (NCBI Gene 396456 symbol 'PKLR')	length 530	vs PKLR 64.3	vs PKM2 86.4	vs PKM1 87.8	-> closer to PKM
+
+== UniProt vs RefSeq/Ensembl sequences of the core orthologs
+Rat P12928 (R-type, canonical) (574 aa) vs XP_006232655.1 (RefSeq model, isoform X1) (574 aa): identical True; differences []
+Rat P12928 (R-type) residues 32-574 vs NP_036756.3 (L-type) residues 1-543: rat R-type length 574, L-type length 543; R[34:] == L[3:]: True; L-type N-terminus ME
+Mouse P53657 (574 aa) vs NP_038659.2 (isoform 1) (574 aa): identical False; differences [(279, 'Y', 'N'), (335, 'M', 'V')]
+Dog Q29536 (574 aa) vs NP_001243191.1 (isoform 1) (574 aa): identical True; differences []
+Rat: Ensembl ENSRNOP00000027700 (574 aa) identical to UniProt: True; is C-terminal suffix of UniProt: True
+Mouse: Ensembl ENSMUSP00000103106 (543 aa) identical to UniProt: False; is C-terminal suffix of UniProt: False
+Dog: Ensembl ENSCAFP00845017017 (574 aa) identical to UniProt: True; is C-terminal suffix of UniProt: True
+
+== Panel metadata
+label	species	clade	source	accession	gene_id	ens_symbol	ens_description	compara_type	length	id_pklr	id_pkm2	id_pkm1	closer
+Human	Homo sapiens	Primates	UniProtKB/Swiss-Prot	P30613		PKLR (human ENSG00000143627)	pyruvate kinase L/R	(core; see UniProt/RefSeq)	574	100.0	65.5	64.3	PKLR
+Rat	Rattus norvegicus	Rodentia	UniProtKB/Swiss-Prot	P12928	ENSRNOG00000020420	Pklr	pyruvate kinase L/R	ortholog_one2one	574	91.1	64.5	63.1	PKLR
+Mouse	Mus musculus	Rodentia	UniProtKB/Swiss-Prot	P53657	ENSMUSG00000041237	Pklr	pyruvate kinase liver and red blood cell	ortholog_one2one	574	91.6	64.1	62.7	PKLR
+Dog	Canis lupus familiaris	Carnivora	UniProtKB/Swiss-Prot	Q29536	ENSCAFG00845012059	PKLR	pyruvate kinase L/R	ortholog_one2one	574	92.5	65.3	63.9	PKLR
+Chimpanzee	Pan troglodytes	Primates	Ensembl 116 Compara	ENSPTRP00000056053	ENSPTRG00000001421	PKLR	pyruvate kinase L/R	ortholog_one2one	574	99.7	65.2	63.9	PKLR
+Macaque	Macaca mulatta	Primates	Ensembl 116 Compara	ENSMMUP00000080590	ENSMMUG00000023143	PKLR	pyruvate kinase L/R	ortholog_one2one	579	90.2	60.2	59.2	PKLR
+Marmoset	Callithrix jacchus	Primates	Ensembl 116 Compara	ENSCJAP00000048105	ENSCJAG00000008393	PKLR	pyruvate kinase L/R	ortholog_one2one	574	97.6	64.8	63.6	PKLR
+Guinea pig	Cavia porcellus	Rodentia	Ensembl 116 Compara	ENSCPOP00000010073	ENSCPOG00000011202	PKLR	pyruvate kinase L/R	ortholog_one2one	543	88.5	67.8	66.5	PKLR
+Rabbit	Oryctolagus cuniculus	Lagomorpha	Ensembl 116 Compara	ENSOCUP00000012868	ENSOCUG00000014969	PKLR	pyruvate kinase L/R	ortholog_one2one	574	94.4	65.2	63.9	PKLR
+Cat	Felis catus	Carnivora	Ensembl 116 Compara	ENSFCTP00005015218	ENSFCTG00005008342	PKLR	pyruvate kinase L/R	ortholog_one2one	578	83.7	65.1	63.4	PKLR
+Cow	Bos taurus	Artiodactyla	Ensembl 116 Compara	ENSBTAP00000083211	ENSBTAG00000017056	PKLR	pyruvate kinase L/R	ortholog_one2one	574	90.2	64.1	62.5	PKLR
+Pig	Sus scrofa	Artiodactyla	Ensembl 116 Compara	ENSSSCP00000036804	ENSSSCG00000026149	PKLR	pyruvate kinase L/R	ortholog_one2one	543	88.9	69.1	67.6	PKLR
+Horse	Equus caballus	Perissodactyla	Ensembl 116 Compara	ENSECAP00000011863	ENSECAG00000013836	PKLR	pyruvate kinase L/R	ortholog_one2one	574	90.8	64.3	63.2	PKLR
+Opossum	Monodelphis domestica	Marsupialia	Ensembl 116 Compara	ENSMODP00000021277	ENSMODG00000017053	PKLR	pyruvate kinase L/R	ortholog_one2one	569	83.5	65.9	65.2	PKLR
+Platypus	Ornithorhynchus anatinus	Monotremata	Ensembl 116 Compara	ENSOANP00000047030	ENSOANG00000044012	PKLR	pyruvate kinase L/R	ortholog_one2one	568	79.4	65.5	63.7	PKLR
+Painted turtle	Chrysemys picta bellii	Testudines	Ensembl 116 Compara	ENSCPBP00000037058	ENSCPBG00000025695	PKLR	pyruvate kinase L/R	ortholog_one2one	613	65.6	63.3	61.8	PKLR
+Wall lizard	Podarcis muralis	Squamata	Ensembl 116 Compara	ENSPMRP00000026033	ENSPMRG00000016849	PKLR	pyruvate kinase L/R	ortholog_one2one	542	73.0	72.1	70.7	PKLR
+Xenopus	Xenopus tropicalis	Amphibia	Ensembl 116 Compara	ENSXETP00000103107	ENSXETG00000013164	pklr	pyruvate kinase L/R	ortholog_one2one	583	70.0	70.0	67.8	PKLR
+Coelacanth	Latimeria chalumnae	Actinistia	Ensembl 116 Compara	ENSLACP00000023591	ENSLACG00000011423	PKLR	pyruvate kinase L/R	ortholog_one2one	530	70.6	77.0	74.8	PKM
+Zebrafish	Danio rerio	Actinopterygii	Ensembl 116 Compara	ENSDARP00000069759	ENSDARG00000042010	pklr	pyruvate kinase L/R	ortholog_one2one	538	63.8	66.5	64.8	PKM
+Medaka	Oryzias latipes	Actinopterygii	Ensembl 116 Compara	ENSORLP00000045107	ENSORLG00000010652	pklr	pyruvate kinase L/R	ortholog_one2one	543	62.6	65.0	63.0	PKM
+
