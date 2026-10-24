@@ -1,0 +1,301 @@
+LOCUS       NM_181871               2976 bp    mRNA    linear   PRI 29-APR-2025
+DEFINITION  Homo sapiens pyruvate kinase L/R (PKLR), transcript variant 2,
+            mRNA.
+ACCESSION   NM_181871
+VERSION     NM_181871.4
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2976)
+  AUTHORS   Maciak,K., Jurkiewicz,A., Strojny,W., Adamowicz-Salach,A.,
+            Romiszewska,M., Jackowska,T., Kwiecinska,K., Poznanski,J., Gora,M.
+            and Burzynska,B.
+  TITLE     PKLR mutations in pyruvate kinase deficient Polish patients:
+            Functional characteristics of c.101-1G > A and c.1058delAAG
+            variants
+  JOURNAL   Blood Cells Mol Dis 107, 102841 (2024)
+   PUBMED   38581917
+  REMARK    GeneRIF: PKLR mutations in pyruvate kinase deficient Polish
+            patients: Functional characteristics of c.101-1G > A and
+            c.1058delAAG variants.
+REFERENCE   2  (bases 1 to 2976)
+  AUTHORS   Chen,W.Y., Thuy Dung,P.V., Yeh,H.L., Chen,W.H., Jiang,K.C.,
+            Li,H.R., Chen,Z.Q., Hsiao,M., Huang,J., Wen,Y.C. and Liu,Y.N.
+  TITLE     Targeting PKLR/MYCN/ROMO1 signaling suppresses neuroendocrine
+            differentiation of castration-resistant prostate cancer
+  JOURNAL   Redox Biol 62, 102686 (2023)
+   PUBMED   36963289
+  REMARK    GeneRIF: Targeting PKLR/MYCN/ROMO1 signaling suppresses
+            neuroendocrine differentiation of castration-resistant prostate
+            cancer.
+REFERENCE   3  (bases 1 to 2976)
+  AUTHORS   Dongerdiye,R., Bokde,M., More,T.A., Saptarshi,A., Devendra,R.,
+            Chiddarwar,A., Warang,P. and Kedar,P.
+  TITLE     Targeted next-generation sequencing identifies eighteen novel
+            mutations expanding the molecular and clinical spectrum of PKLR
+            gene disorders in the Indian population
+  JOURNAL   Ann Hematol 102 (5), 1029-1036 (2023)
+   PUBMED   36892591
+  REMARK    GeneRIF: Targeted next-generation sequencing identifies eighteen
+            novel mutations expanding the molecular and clinical spectrum of
+            PKLR gene disorders in the Indian population.
+REFERENCE   4  (bases 1 to 2976)
+  AUTHORS   Sheng,D., Chen,B., Wang,C., Xiao,X., Hu,A., Liu,W., Kuang,Y.,
+            Sample,K.M., Zacksenhaus,E., Gajendran,B., Pan,W. and Ben-David,Y.
+  TITLE     FLI1 accelerates leukemogenesis through transcriptional regulation
+            of pyruvate kinase-L/R and other glycolytic genes
+  JOURNAL   Med Oncol 40 (2), 69 (2022)
+   PUBMED   36586017
+  REMARK    GeneRIF: FLI1 accelerates leukemogenesis through transcriptional
+            regulation of pyruvate kinase-L/R and other glycolytic genes.
+REFERENCE   5  (bases 1 to 2976)
+  AUTHORS   Mungkalasut,P., Kiatamornrak,P., Jugnam-Ang,W., Krudsood,S.,
+            Cheepsunthorn,P. and Cheepsunthorn,C.L.
+  TITLE     Haematological profile of malaria patients with G6PD and PKLR
+            variants (erythrocytic enzymopathies): a cross-sectional study in
+            Thailand
+  JOURNAL   Malar J 21 (1), 250 (2022)
+   PUBMED   36038921
+  REMARK    GeneRIF: Haematological profile of malaria patients with G6PD and
+            PKLR variants (erythrocytic enzymopathies): a cross-sectional study
+            in Thailand.
+REFERENCE   6  (bases 1 to 2976)
+  AUTHORS   Zanella,A., Fermo,E., Bianchi,P., Chiarelli,L.R. and Valentini,G.
+  TITLE     Pyruvate kinase deficiency: the genotype-phenotype association
+  JOURNAL   Blood Rev 21 (4), 217-231 (2007)
+   PUBMED   17360088
+  REMARK    GeneRIF: genotype-phenotype association in pyruvate kinase
+            deficiency [review]
+            Review article
+REFERENCE   7  (bases 1 to 2976)
+  AUTHORS   Kanno,H., Fujii,H. and Miwa,S.
+  TITLE     Structural analysis of human pyruvate kinase L-gene and
+            identification of the promoter activity in erythroid cells
+  JOURNAL   Biochem Biophys Res Commun 188 (2), 516-523 (1992)
+   PUBMED   1445295
+REFERENCE   8  (bases 1 to 2976)
+  AUTHORS   Dawson,S.J. and White,L.A.
+  TITLE     Treatment of Haemophilus aphrophilus endocarditis with
+            ciprofloxacin
+  JOURNAL   J Infect 24 (3), 317-320 (1992)
+   PUBMED   1602151
+REFERENCE   9  (bases 1 to 2976)
+  AUTHORS   Kanno,H., Fujii,H., Hirono,A., Omine,M. and Miwa,S.
+  TITLE     Identical point mutations of the R-type pyruvate kinase (PK) cDNA
+            found in unrelated PK variants associated with hereditary hemolytic
+            anemia
+  JOURNAL   Blood 79 (5), 1347-1350 (1992)
+   PUBMED   1536957
+REFERENCE   10 (bases 1 to 2976)
+  AUTHORS   Kanno,H., Fujii,H., Hirono,A. and Miwa,S.
+  TITLE     cDNA cloning of human R-type pyruvate kinase and identification of
+            a single amino acid substitution (Thr384----Met) affecting
+            enzymatic stability in a pyruvate kinase variant (PK Tokyo)
+            associated with hereditary hemolytic anemia
+  JOURNAL   Proc Natl Acad Sci U S A 88 (18), 8218-8221 (1991)
+   PUBMED   1896471
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from M15465.1, AK225947.1,
+            AL713999.28 and BF110802.1.
+            
+            On May 31, 2019 this sequence version replaced NM_181871.3.
+            
+            Summary: The protein encoded by this gene is a pyruvate kinase that
+            catalyzes the transphosphorylation of phohsphoenolpyruvate into
+            pyruvate and ATP, which is the rate-limiting step of glycolysis.
+            Defects in this enzyme, due to gene mutations or genetic
+            variations, are the common cause of chronic hereditary
+            nonspherocytic hemolytic anemia (CNSHA or HNSHA). Multiple
+            transcript variants encoding different isoforms have been found for
+            this gene. [provided by RefSeq, Jul 2008].
+            
+            Transcript Variant: This variant (2) uses an alternate 5' exon, as
+            compared to variant 1. The resulting isoform (2) has a distinct and
+            shorter N-terminus, as compared to isoform 1. Isoform 2 is also
+            known as type L.
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The extent of this transcript is
+            supported by transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: M15465.1, AK225947.1 [ECO:0000332]
+            RNAseq introns              :: mixed/partial sample support
+                                           SAMEA1968968, SAMEA1970526
+                                           [ECO:0000350]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            CDS uses downstream in-frame AUG   :: experimental evidence
+                                                  (PMID:17360088)
+            gene product(s) localized to mito. :: inferred from homology
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-359               M15465.1           4-362
+            360-1989            AK225947.1         409-2038
+            1990-2970           AL713999.28        117579-118559       c
+            2971-2976           BF110802.1         11-16               c
+FEATURES             Location/Qualifiers
+     source          1..2976
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="1"
+                     /map="1q22"
+     gene            1..2976
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /note="pyruvate kinase L/R"
+                     /db_xref="GeneID:5313"
+                     /db_xref="HGNC:HGNC:9020"
+                     /db_xref="MIM:609712"
+     exon            1..72
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             66..1697
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /EC_number="2.7.1.40"
+                     /note="isoform 2 is encoded by transcript variant 2;
+                     pyruvate kinase type L; pyruvate kinase, liver and blood
+                     cell; pyruvate kinase 1; pyruvate kinase isozyme R/L;
+                     R-type/L-type pyruvate kinase; red cell/liver pyruvate
+                     kinase; pyruvate kinase isozymes R/L; pyruvate kinase
+                     isozymes L/R; pyruvate kinase PKLR; pyruvate kinase, liver
+                     and RBC"
+                     /codon_start=1
+                     /product="pyruvate kinase PKLR isoform 2"
+                     /protein_id="NP_870986.1"
+                     /db_xref="CCDS:CCDS44240.1"
+                     /db_xref="GeneID:5313"
+                     /db_xref="HGNC:HGNC:9020"
+                     /db_xref="MIM:609712"
+                     /translation="MEGPAGYLRRASVAQLTQELGTAFFQQQQLPAAMADTFLEHLCL
+                     LDIDSEPVAARSTSIIATIGPASRSVERLKEMIKAGMNIARLNFSHGSHEYHAESIAN
+                     VREAVESFAGSPLSYRPVAIALDTKGPEIRTGILQGGPESEVELVKGSQVLVTVDPAF
+                     RTRGNANTVWVDYPNIVRVVPVGGRIYIDDGLISLVVQKIGPEGLVTQVENGGVLGSR
+                     KGVNLPGAQVDLPGLSEQDVRDLRFGVEHGVDIVFASFVRKASDVAAVRAALGPEGHG
+                     IKIISKIENHEGVKRFDEILEVSDGIMVARGDLGIEIPAEKVFLAQKMMIGRCNLAGK
+                     PVVCATQMLESMITKPRPTRAETSDVANAVLDGADCIMLSGETAKGNFPVEAVKMQHA
+                     IAREAEAAVYHRQLFEELRRAAPLSRDPTEVTAIGAVEAAFKCCAAAIIVLTTTGRSA
+                     QLLSRYRPRAAVIAVTRSAQAARQVHLCRGVFPLLYREPPEAIWADDVDRRVQFGIES
+                     GKLRGFLRVGDLVIVVTGWRPGSGYTNIMRVLSIS"
+     exon            73..255
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     exon            256..347
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     exon            348..479
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     exon            480..666
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     exon            667..937
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     exon            938..1088
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1089..1241
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1242..1408
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1409..1590
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1591..2976
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /inference="alignment:Splign:2.1.0"
+     polyA_site      2016
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /note="major polyA site"
+     polyA_site      2420
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /note="major polyA site"
+     regulatory      2957..2962
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+                     /note="hexamer: AATACA"
+     polyA_site      2976
+                     /gene="PKLR"
+                     /gene_synonym="CNSHA2; PK1; PKL; PKRL; RPK"
+ORIGIN      
+        1 ctctgacaac ccaacagtgt ggagcagacc cacagagagg gagacccaga gaggtgtgca
+       61 gtggcatgga agggccagcg gggtatctgc ggcgggccag tgtggcccaa ctgacccagg
+      121 agctgggcac tgccttcttc cagcagcagc agctgccagc tgctatggca gacaccttcc
+      181 tggaacacct ctgcctactg gacattgact ccgagcccgt ggctgctcgc agtaccagca
+      241 tcattgccac catcgggcca gcatctcgct ccgtggagcg cctcaaggag atgatcaagg
+      301 ccgggatgaa cattgcgcga ctcaacttct cccacggctc ccacgagtac catgctgagt
+      361 ccatcgccaa cgtccgggag gcggtggaga gctttgcagg ttccccactc agctaccggc
+      421 ccgtggccat cgccctggac accaagggac cggagatccg cactgggatc ctgcaggggg
+      481 gtccagagtc ggaagtggag ctggtgaagg gctcccaggt gctggtgact gtggaccccg
+      541 cgttccggac gcgggggaac gcgaacaccg tgtgggtgga ctaccccaat attgtccggg
+      601 tcgtgccggt ggggggccgc atctacattg acgacgggct catctcccta gtggtccaga
+      661 aaatcggccc agagggactg gtgacccaag tggagaacgg cggcgtcctg ggcagccgga
+      721 agggcgtgaa cttgccaggg gcccaggtgg acttgcccgg gctgtccgag caggacgtcc
+      781 gagacctgcg cttcggggtg gagcatgggg tggacatcgt ctttgcctcc tttgtgcgga
+      841 aagccagcga cgtggctgcc gtcagggctg ctctgggtcc ggaaggacac ggcatcaaga
+      901 tcatcagcaa aattgagaac cacgaaggcg tgaagaggtt tgatgaaatc ctggaggtga
+      961 gcgacggcat catggtggca cggggggacc taggcatcga gatcccagca gagaaggttt
+     1021 tcctggctca gaagatgatg attgggcgct gcaacttggc gggcaagcct gttgtctgtg
+     1081 ccacacagat gctggagagc atgattacca agccccggcc aacgagggca gagacaagcg
+     1141 atgtcgccaa tgctgtgctg gatggggctg actgcatcat gctgtcaggg gagactgcca
+     1201 agggcaactt ccctgtggaa gcggtgaaga tgcagcatgc gattgcccgg gaggcagagg
+     1261 ccgcagtgta ccaccggcag ctgtttgagg agctacgtcg ggcagcgcca ctaagccgtg
+     1321 atcccactga ggtcaccgcc attggtgctg tggaggctgc cttcaagtgc tgtgctgctg
+     1381 ccatcattgt gctgaccaca actggccgct cagcccagct tctgtctcgg taccgacctc
+     1441 gggcagcagt cattgctgtc acccgctctg cccaggctgc ccgccaggtc cacttatgcc
+     1501 gaggagtctt ccccttgctt taccgtgaac ctccagaagc catctgggca gatgatgtag
+     1561 atcgccgggt gcaatttggc attgaaagtg gaaagctccg tggcttcctc cgtgttggag
+     1621 acctggtgat tgtggtgaca ggctggcgac ctggctccgg ctacaccaac atcatgcggg
+     1681 tgctaagcat atcctgagac gcccctccct cctctggccc agcctaccct tgtaccccat
+     1741 cccttcctcc ccagtctacg ttctccagcc cacacccctc caaagcccca cctttaagtc
+     1801 ctctcttctc tattcctgac cctccctacc tgaggcctat ctgagactat aactgtcatc
+     1861 tagccccttc gaggttgccc cttccccatc tccatttcac acaggtcctg aaagtctgtg
+     1921 tccaattatg cactggccac ccaacagcac caattgtaca ttccctgcat ccaatctgct
+     1981 cagcaggccc taagatgcct tgagtcttta atcccagttt ggctggttaa ttccataacc
+     2041 ccaggcatcc catcccttgg ggtgggggag aggggagaca gggcaatctt gtccacagtc
+     2101 tcccattctc atatgtagcc ctcatgataa tctgggcatc tcgtgccagg gcaggctacc
+     2161 ccttcatggt gactaacagt tacatgaaag tccacgcttt tgggaaaact gggtgggatg
+     2221 gatgctgggg agaagtgagg gctgggcagc tgattttgtc actgtcttca caacctccgt
+     2281 gctgggcttg tagaccactg tcctggctgc tctcatgcct gcctgatacc ctgcttggtc
+     2341 aaatccccgg ctgcttcctt ctgcacccag aaattccttc ccactcatgt tgttcccaca
+     2401 cacaaaccaa gagccaaaaa tgagtgtgtc tattttatat ttaaacccag ctgtttggaa
+     2461 gcaattataa aacttctccc acacaccaag aaccccagaa ctccccaccc agaaggaaag
+     2521 gagacttagg gtcctggtcc cacagtcttt aatgctgtag agtaggagag gggacaggca
+     2581 gagtgagggt ggtaaaggac tactcttgtc cctgagaagg cagaggtgct ggctggcctg
+     2641 cccttcccca ggcttggata ccttgggcct ttcccttatt cctgcaccaa cagcaaactc
+     2701 agaaggaaaa aacaaaacaa aactctaaag gtaaacgcgg tccttctccc tctctcatgt
+     2761 ggctcctcct gcccctacct gggagaaggt tcaagtattg cgctgatggg tttgggcaag
+     2821 gaccacagag gctggcatgg agaggccctg cctcctccta ctcctcctgt ctccttacct
+     2881 gaaaaggagg ggagggatgg ataaaggaat gggtaaacaa aattaattgg taacacataa
+     2941 agttagtaaa tgaataaata caattaaata aatgaa
+//
+
