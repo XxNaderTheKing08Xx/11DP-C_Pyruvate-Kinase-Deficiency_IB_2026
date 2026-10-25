@@ -75,21 +75,13 @@ In rat L-type PK (PDB 6ECH, 2.19 Å, phosphorylated at Ser12, with FBP, Mg²⁺,
 
 ### Clinical, population, and functional evidence
 
-The gnomAD v4.1 joint allele frequency of R486W, 0.295% (exomes 0.297%, genomes 0.276%; flagged 'discrepant_frequencies'), predicts under Hardy–Weinberg equilibrium 7.0 homozygotes among the 806 720 individuals represented (eight observed), a carrier frequency of one in 170, and a homozygote frequency of 8.7 per million. Patients homozygous for R486W generally have a mild anaemia (Valentini *et al.* 2002). Four patients compound heterozygous for R486W and another missense variant (two splenectomized) had haemoglobin of 9.4–11.9 g/dL and a red-cell PK/hexokinase activity ratio of 1.6–2.7 (healthy controls, mean 11.9; n = 15); in all 15 patients of that study as a group, whole-blood PEP was increased and pyruvate and ATP decreased (Rab *et al.* 2021). In the recombinant R486W enzyme, FBP still lowered the S₀.₅ for PEP from 1.69 to 0.40 mM and the Hill coefficient from 2.07 to 1.32 (Valentini *et al.* 2002).
-
 ## Discussion
 
 ### From the variant to the patient
 
-A CpG transition thus replaces a buried arginine at the A/C domain contact by a tryptophan that keeps a hydrogen bond to the A-domain carbonyls. As the recombinant enzyme retains FBP activation and thermostability, its defect is kinetic, unlike the instability caused by R504L and G364D at the same interface, and may be amplified by subsaturating substrate in red cells (Valentini *et al.* 2002). In compound heterozygotes, the low PK/hexokinase ratio and the metabolite pattern of their cohort indicate a block at the PK step, although both alleles contribute (Rab *et al.* 2021). Reviews describe the next steps, not measured for R486W: rigid, ATP-depleted red cells are removed in the spleen, and accumulated 2,3-diphosphoglycerate favours oxygen release (Fattizzo *et al.* 2022, Luke *et al.* 2023). The mild anaemia of homozygotes and the haemoglobin values of compound heterozygotes suggest, from few patients, a partial-loss-of-function allele whose clinical severity is set largely by the second allele. Patients with R486W meet the genotype criterion of the mitapivat trials, at least one missense variant other than R479H (Luke *et al.* 2023); their response has not been reported separately.
-
 ### Comparison with Valentini *et al.* (2002)
 
-We confirm the A/C location, hydrogen bonds, and distance from the catalytic centre (about 20 Å or more) of Arg486 and the unchanged active site. The paper, however, names the partner 'Asp361', whereas residue 361 is Asn in P30613, the supplied sequence, and both models; reports no atomic movement above 0.25 Å, whereas the current entries (which replaced 1LIU and 1LIX in 2007) show local Cα RMSDs of 0.30–0.36 Å, within the differences found throughout the two models; and gives a catalytic efficiency of 30% of wild type, whereas its Table II values give ratios of 0.36 without and 0.25 with FBP. Its hypothesis that the tryptophan restricts conformational changes in catalysis cannot be tested with ligand-bound structures.
-
 ### What the species comparison shows about the affected function
-
-The ancestral Arg486, present in 156 of 170 resolved orthologues and flanked by invariant residues, indicates constraint on this part of the C domain, but not absolute constraint: Gln replaced Arg independently in rat and in at least two primate lineages, and rat Gln455 satisfies its amide within the C domain, without the A/C hydrogen bond, in a folded tetramer that binds FBP and active-site ligands. This does not show that Gln or Trp is tolerated in human R-type PK, because no kinetics of Gln-carrying enzymes were found, the rat structure is of a phosphorylated L-type isoform, other sequence differences may compensate (Valentini *et al.* 2002), and human p.(Arg486Gln) is of uncertain significance. The absence of Trp from all orthologues is consistent with, but does not prove, a deleterious effect; mouse, with Arg486 and a PKD model (Morimoto *et al.* 1995), is a closer model than rat.
 
 ### Population frequency and penetrance
 
