@@ -1,4 +1,3 @@
-[report.md](https://github.com/user-attachments/files/33931533/report.md)
 # Pyruvate Kinase Deficiency: from a *PKLR* variant to haemolytic anaemia
 
 
@@ -58,31 +57,11 @@ In the window 476–496, 19 of 21 columns are identical in the four species; the
 
 ### Trp486 causes no change beyond model-to-model differences
 
-Protein Data Bank (PDB) entries 2VGB (wild type; 2.73 Å; R-free 0.271) and 2VGI (R486W; 2.87 Å; R-free 0.311) are X-ray structures of tetramers with FBP, the PEP analogue phosphoglycolate, K⁺, and Mn²⁺ bound to each subunit, modelled from residue 57 to 573 (with gaps only in the B domain) in R-type numbering (RCSB PDB 2026); of 81 PDB entries for human and rat PKLR, only 2VGI carries a substitution at residue 486. Per-chain values are in `analysis/structure/TABLE_structural_measurements.md`.
-
-![Figure 2](../figures/Figure2_PKR_overview_R486.png)
-
-**Figure 2.** Residue 486 in human R-type PK (PDB 2VGB). (a) Tetramer; domains N (orange), A (blue), B (reddish purple), and C (green) after Valentini *et al.* (2002); black spheres, residue 486. (b) Subunit A with FBP, phosphoglycolate (PGA), Mn²⁺ (purple), and K⁺ (grey); dotted lines, minimum distances from Arg486 to FBP (12.4 Å) and PGA (24.4 Å).
-
-Arg486 lies at the C-terminal end of the C-domain helix 479–487 (Figure 2) and is largely buried (relative solvent accessibility 0.11–0.12). Its only polar partner within 3.5 Å is the main-chain carbonyl oxygen of A-domain Leu362 (NH2–O 2.74–2.90 Å); its other contacts within 4 Å are A-domain residues 361–364 and C-domain residues, it forms no salt bridge, and atoms of other subunits are at least 6.1 Å away. Its minimum distances are 12.4–12.8 Å to FBP, 24.3–24.6 Å to phosphoglycolate, and 19.5–19.6 Å to the transition-state stabilizer Lys313 (UniProt Consortium 2026). The worldwide PDB validation report flags the Arg486 side chain as a rotamer outlier in all four chains, but the Arg486–Leu362 hydrogen bond is present in seven of eight chains of an independent 2.35 Å structure (8TBS; Liu *et al.* 2024).
-
-After superposition of 2VGI on 2VGB, the Cα root-mean-square deviation (RMSD) is 0.40–0.59 Å per subunit (N, A, and C domains 0.21–0.24 Å; B domain 0.42–0.66 Å). Around residue 486 (58–60 residues within 10 Å), the local Cα RMSD of 0.30–0.36 Å lies at the 74th–95th percentile of the same measure centred on every N-, A-, and C-domain residue (median 0.24–0.25 Å). The largest local shift is that of Glu453 OE2 towards Trp486 (1.56–1.75 Å). The Trp486 indole nitrogen lies 2.68–3.40 Å from the Asn361 and 2.82–3.37 Å from the Leu362 carbonyl oxygens, and ring atom CZ3 2.99–3.18 Å from Glu453 OE1 (Figure 3); Trp486 makes no contact with another subunit (at least 5.2 Å).
-
-In rat L-type PK (PDB 6ECH, 2.19 Å, phosphorylated at Ser12, with FBP, Mg²⁺, ATP, and oxalate; Gassaway *et al.* 2019), Gln455 (human 486) ends the equivalent helix (local Cα RMSD to human 0.42 Å), 11.9–12.0 Å from FBP; its amide nitrogen lies 2.86–3.10 Å from Glu422 OE2 (human Glu453) and 2.88–3.25 Å from the Leu452 carbonyl, its amide oxygen 2.30–2.54 Å from a water molecule (orientation inferred), and the Leu331 carbonyl (human Leu362) 5.5–6.4 Å away (Figure 3c), as in both chains of 6ECK.
-
-![Figure 3](../figures/Figure3_R486W_closeup.png)
-
-**Figure 3.** Environment of residue 486. (a) Wild-type Arg486 (PDB 2VGB, subunit A). (b) Trp486 (2VGI, subunit A) after local superposition on the wild type. (c) Rat Gln455 (6ECH, subunit D) superposed on human wild type. Dashed lines, polar contacts ≤ 3.5 Å (in Å); asterisk, Trp486 CZ3–Glu453 OE1 contact; thin dark sticks, wild-type Arg486.
-
 ### Clinical, population, and functional evidence
-
-The gnomAD v4.1 joint allele frequency of R486W, 0.295% (exomes 0.297%, genomes 0.276%; flagged 'discrepant_frequencies'), predicts under Hardy–Weinberg equilibrium 7.0 homozygotes among the 806 720 individuals represented (eight observed), a carrier frequency of one in 170, and a homozygote frequency of 8.7 per million. Patients homozygous for R486W generally have a mild anaemia (Valentini *et al.* 2002). Four patients compound heterozygous for R486W and another missense variant (two splenectomized) had haemoglobin of 9.4–11.9 g/dL and a red-cell PK/hexokinase activity ratio of 1.6–2.7 (healthy controls, mean 11.9; n = 15); in all 15 patients of that study as a group, whole-blood PEP was increased and pyruvate and ATP decreased (Rab *et al.* 2021). In the recombinant R486W enzyme, FBP still lowered the S₀.₅ for PEP from 1.69 to 0.40 mM and the Hill coefficient from 2.07 to 1.32 (Valentini *et al.* 2002).
 
 ## Discussion
 
 ### From the variant to the patient
-
-A CpG transition thus replaces a buried arginine at the A/C domain contact by a tryptophan that keeps a hydrogen bond to the A-domain carbonyls. As the recombinant enzyme retains FBP activation and thermostability, its defect is kinetic, unlike the instability caused by R504L and G364D at the same interface, and may be amplified by subsaturating substrate in red cells (Valentini *et al.* 2002). In compound heterozygotes, the low PK/hexokinase ratio and the metabolite pattern of their cohort indicate a block at the PK step, although both alleles contribute (Rab *et al.* 2021). Reviews describe the next steps, not measured for R486W: rigid, ATP-depleted red cells are removed in the spleen, and accumulated 2,3-diphosphoglycerate favours oxygen release (Fattizzo *et al.* 2022, Luke *et al.* 2023). The mild anaemia of homozygotes and the haemoglobin values of compound heterozygotes suggest, from few patients, a partial-loss-of-function allele whose clinical severity is set largely by the second allele. Patients with R486W meet the genotype criterion of the mitapivat trials, at least one missense variant other than R479H (Luke *et al.* 2023); their response has not been reported separately.
 
 ### Comparison with Valentini *et al.* (2002)
 
