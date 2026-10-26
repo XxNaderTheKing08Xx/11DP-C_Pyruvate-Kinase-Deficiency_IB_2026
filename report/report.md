@@ -1,4 +1,4 @@
-# Pyruvate kinase deficiency: how one amino acid change in *PKLR* reduces enzyme function
+# Pyruvate kinase deficiency: from *PKLR* variant to haemolytic anaemia
 
 
 
