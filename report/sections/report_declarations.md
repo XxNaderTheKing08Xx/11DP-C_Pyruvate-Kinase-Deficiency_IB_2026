@@ -1,8 +1,9 @@
+[report_declarations.md](https://github.com/user-attachments/files/33987962/report_declarations.md)
 ## Declarations
 
 ### Availability of data and materials
 
-All data, alignments, figures, and sources used in this work are available in our GitHub repository: https://github.com/XxNaderTheKing08Xx/11DP-C_Pyruvate-Kinase-Deficiency_IB_2026
+All data, alignments, figures, and sources used in this work are available in our GitHub repository, including every analysis step with its input files, screenshots, and outputs (folder `analysis/procedures/`): https://github.com/XxNaderTheKing08Xx/11DP-C_Pyruvate-Kinase-Deficiency_IB_2026
 
 ### Authors' contributions
 
