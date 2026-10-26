@@ -1,0 +1,241 @@
+1. J Vet Intern Med. 2012 Jul-Aug;26(4):935-44. doi: 
+10.1111/j.1939-1676.2012.00958.x.
+
+Erythrocytic pyruvate kinase mutations causing hemolytic anemia, osteosclerosis, 
+and secondary hemochromatosis in dogs.
+
+Gultekin GI(1), Raj K, Foureman P, Lehman S, Manhart K, Abdulmalik O, Giger U.
+
+Author information:
+(1)Section of Medical Genetics, School of Veterinary Medicine, University of 
+Pennsylvania, Philadelphia, PA, USA.
+
+BACKGROUND: Erythrocytic pyruvate kinase (PK) deficiency, first documented in 
+Basenjis, is the most common inherited erythroenzymopathy in dogs.
+OBJECTIVES: To report 3 new breed-specific PK-LR gene mutations and a 
+retrospective survey of PK mutations in as mall and selected group of Beagles 
+and West Highland White Terriers (WHWT).
+ANIMALS: Labrador Retrievers (2 siblings, 5 unrelated), Pugs (2 siblings, 1 
+unrelated), Beagles (39 anemic, 29 other),WHWTs (22 anemic, 226 nonanemic), 
+Cairn Terrier (n = 1).
+METHODS: Exons of the PK-LR gene were sequenced from genomic DNA of young dogs 
+(<2 years) with persistent highly regenerative hemolytic anemia.
+RESULTS: A nonsense mutation (c.799C>T) resulting in a premature stop codon was 
+identified in anemic Labrador Retriever siblings that had osteosclerosis, high 
+serum ferritin concentrations, and severe hepatic secondary hemochromatosis. 
+Anemic Pug and Beagle revealed 2 different missense mutations (c.848T>C, 
+c.994G>A, respectively) resulting in intolerable amino acid changes to protein 
+structure and enzyme function. Breed-specific mutation tests were developed. 
+Among the biased group of 248 WHWTs, 9% and 35% were homozygous (affected) and 
+heterozygous, respectively, for the previously described mutation (mutant allele 
+frequency 0.26). A PK-deficient Cairn Terrier had the same insertion mutation as 
+the affected WHWTs. Of the selected group of 68 Beagles, 35% were PK-deficient 
+and 3% were carriers (0.37).
+CONCLUSIONS AND CLINICAL IMPORTANCE: Erythrocytic PK deficiency is caused by 
+different mutations in different dog breeds and causes chronic severe hemolytic 
+anemia, hemosiderosis, and secondary hemochromatosis because of chronic 
+hemolysis and, an as yet unexplained osteosclerosis. The newly developed 
+breed-specific mutation assays simplify the diagnosis of PK deficiency.
+
+DOI: 10.1111/j.1939-1676.2012.00958.x
+PMCID: PMC3650904
+PMID: 22805166 [Indexed for MEDLINE]
+
+
+2. Exp Hematol. 1994 Aug;22(9):866-74.
+
+The molecular basis of canine pyruvate kinase deficiency.
+
+Whitney KM(1), Goodman SA, Bailey EM, Lothrop CD Jr.
+
+Author information:
+(1)Scott-Ritchey Research Center, College of Veterinary Medicine, Auburn 
+University, AL 36849.
+
+Inherited hemolytic anemia due to pyruvate kinase (PK) deficiency is an 
+autosomal recessive disease of the Basenji dog that closely resembles human PK 
+deficiency. Characterization of transcriptional and translational expression of 
+PK isozymes and sequencing of DNA from normal and mutant dogs were performed to 
+identify the genetic defect in Basenji dogs. Measurement of erythrocytic PK 
+activity by ion exchange chromatography, substrate kinetics, immunologic 
+reactivity, and electrophoretic mobility suggests that M2-type PK is the major 
+form of PK activity in erythrocytes of PK-deficient dogs, in contrast to normal 
+dogs having only R-type PK activity. Both R-type and M2-type PK mRNA are 
+detectable in reticulocytes of PK-deficient dogs, suggesting that the aberrant 
+isozyme expression is not due to a failure in the erythroid maturational switch 
+from M2- to R-type isozymes. Nucleotide sequence data from wild-type and mutant 
+R-type PK cDNA identified a single nucleotide deletion, delta C433, in the 
+mutant cDNA. The deduced amino acid sequence predicts a truncated mutant protein 
+devoid of all residues contributing to the catalytic site of the wild-type 
+protein. In the absence of R-type PK activity, there is anomalous compensatory 
+expression of M2-type PK in erythroid cells of PK-deficient Basenjis. The 
+PK-deficient Basenji dog may be valuable in somatic cell gene therapy trials 
+involving manipulation of hematopoietic stem cells.
+
+PMID: 7520391 [Indexed for MEDLINE]
+
+
+3. Am J Vet Res. 1999 Sep;60(9):1169-72.
+
+Identification of a 6 base pair insertion in West Highland White Terriers with 
+erythrocyte pyruvate kinase deficiency.
+
+Skelly BJ(1), Wallace M, Rajpurohit YR, Wang P, Giger U.
+
+Author information:
+(1)Section of Medical Genetics, School of Veterinary Medicine, University of 
+Pennsylvania, Philadelphia 19104-6010, USA.
+
+OBJECTIVE: To define the disease-causing mutation in West Highland White 
+Terriers (WHWT) with erythrocyte pyruvate kinase (R-PK) deficiency and to design 
+a genetic test capable of recognizing affected (homozygous) and carrier 
+(heterozygous) dogs.
+ANIMALS: 3 anemic WHWT littermates and 1 unaffected littermate; 16 dogs from the 
+same kennel, including 4 unrelated, phenotypically normal dogs (control dogs), 
+and 12 for which PK activity was not known; 2 PK-deficient Basenjis; 2 
+PK-deficient Beagles; 4 unaffected English Springer Spaniels; and 1 mixed-breed 
+dog.
+PROCEDURES: cDNA was cloned and sequenced, and cDNA sequences were compared with 
+the published sequence for canine R-PK cDNA to identify the putative 
+disease-causing mutation. Genomic DNA spanning the affected region was cloned 
+and sequenced to verify the mutation. Subsequently, polymerase chain reaction 
+primers were designed to amplify the section of the gene containing the mutation 
+from DNA in blood or buccal swab samples. Gel electrophoresis allowed assignment 
+of genotypes on the basis of allele separation.
+RESULTS: 4 single base polymorphisms attributable to sequencing errors in the 
+published sequence were identified, along with a 6 base pair (bp) insertion in 
+exon 10 that was recognized as a putative disease-causing mutation. An identical 
+insertion was found in genomic DNA. Amplification of genomic DNA yielded a 117 
+bp product for genotypically normal dogs and a 123 bp product for WHWT 
+homozygous for PK deficiency. Carriers had 1 copy of each allele and variable 
+heteroduplex structures.
+CONCLUSIONS AND CLINICAL RELEVANCE: A 6 bp insertion in the C domain of R-PK was 
+identified in WHWT with PK deficiency. Affected and carrier dogs could be 
+distinguished with a genetic test.
+
+PMID: 10490091 [Indexed for MEDLINE]
+
+
+4. Animals (Basel). 2025 Dec 17;15(24):3634. doi: 10.3390/ani15243634.
+
+From Mutation to Manifestation: Evaluation of a PKLR Gene Truncation Caused by 
+Exon Skipping in a Schnauzer Terrier.
+
+Ma TY(1), Kuo CJ(1), Liu PC(1)(2).
+
+Author information:
+(1)Department of Veterinary Medicine, College of Veterinary Medicine, National 
+Chung Hsing University, Taichung 40227, Taiwan.
+(2)Veterinary Medical Teaching Hospital, College of Veterinary Medicine, 
+National Chung Hsing University, Taichung 40227, Taiwan.
+
+A five-month-old, intact, female Miniature Schnauzer Terrier presented with 
+persistent severe hemolytic anemia following an initial infection with Babesia 
+gibsoni and B. vogeli. Despite treatment, severe regenerative anemia persisted, 
+and the patient was unresponsive to antibiotics, as well as antiprotozoal and 
+immunosuppressive agents. Subsequent laboratory tests and diagnostic imaging 
+ruled out persistent hemiparasitic infections, immune-mediated diseases, or 
+neoplasia. Genomic DNA and cDNA sequencing identified a point mutation in exon 8 
+(g.4978G>T) that introduced a premature termination codon, leading to exon 8 
+skipping and a single-nucleotide deletion at the exon 7-intron 7 boundary 
+(c.966delG) during splicing. A 151 bp deletion in the coding region of the 
+patient's PKLR cDNA was subsequently detected, which ultimately resulted in 
+pyruvate kinase deficiency. This missplicing results in a premature stop codon 
+and disrupts PKLR tetramer formation owing to the partial loss of domain A and 
+complete loss of domain C. Enzyme activity assays confirmed a complete loss of 
+function in the mutant PKLR protein compared to the wild-type, supporting the 
+causal role of this deletion in non-spherocytic hemolytic anemia. This is the 
+first report as per our knowledge documenting truncated PKLR variant in a dog, 
+and notably, the first such case in a Miniature Schnauzer breed.
+
+DOI: 10.3390/ani15243634
+PMCID: PMC12729902
+PMID: 41463922
+
+Conflict of interest statement: The authors declare no conflicts of interest.
+
+
+5. PLoS One. 2012;7(9):e45173. doi: 10.1371/journal.pone.0045173. Epub 2012 Sep
+13.
+
+Stem cell selection in vivo using foamy vectors cures canine pyruvate kinase 
+deficiency.
+
+Trobridge GD(1), Beard BC, Wu RA, Ironside C, Malik P, Kiem HP.
+
+Author information:
+(1)Clinical Division, Fred Hutchinson Cancer Research Center, Seattle, 
+Washington, USA.
+
+Erratum in
+    PLoS One. 2013;8(10). 
+doi:10.1371/annotation/90f278b2-f474-42ec-8645-435f7006018c.
+
+BACKGROUND: Hematopoietic stem cell (HSC) gene therapy has cured 
+immunodeficiencies including X-linked severe combined immunodeficiency (SCID-X1) 
+and adenine deaminase deficiency (ADA). For these immunodeficiencies corrected 
+cells have a selective advantage in vivo, and low numbers of gene-modified cells 
+are sufficient to provide therapeutic benefit. Strategies to efficiently 
+transduce and/or expand long-term repopulating cells in vivo are needed for 
+treatment of diseases that require higher levels of corrected cells, such as 
+hemoglobinopathies. Here we expanded corrected stem cells in vivo in a canine 
+model of a severe erythroid disease, pyruvate kinase deficiency.
+METHODOLOGY/PRINCIPAL FINDINGS: We used a foamy virus (FV) vector expressing the 
+P140K mutant of methylguanine methyltransferase (MGMTP140K) for in vivo 
+expansion of corrected hematopoietic repopulating cells. FV vectors are 
+attractive gene transfer vectors for hematopoietic stem cell gene therapy since 
+they efficiently transduce repopulating cells and may be safer than more 
+commonly used gammaretroviral vectors. Following transplantation with HSCs 
+transduced ex vivo using a tri-cistronic FV vector that expressed EGFP, R-type 
+pyruvate kinase, and MGMTP140K, we were able to increase marking from 
+approximately 3.5% to 33% in myeloid long-term repopulating cells resulting in a 
+functional cure.
+CONCLUSIONS/SIGNIFICANCE: Here we describe in one affected dog a functional cure 
+for a severe erythroid disease using stem cell selection in vivo. In addition to 
+providing a potential cure for patients with pyruvate kinase deficiency, in vivo 
+selection using foamy vectors with MGMTP140K has broad potential for several 
+hematopoietic diseases including hemoglobinopathies.
+
+DOI: 10.1371/journal.pone.0045173
+PMCID: PMC3441638
+PMID: 23028826 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing Interests: The authors have declared 
+that no competing interests exist.
+
+
+6. Prog Clin Biol Res. 1978;21:275-95.
+
+Hereditary persistence of fetal erythrocyte pyruvate kinase in the Basenji dog.
+
+Black JA, Rittenberg MB, Standerfer RJ, Peterson JS.
+
+PMID: 662893 [Indexed for MEDLINE]
+
+
+7. Comp Biochem Physiol B. 1989;92(1):151-6. doi: 10.1016/0305-0491(89)90328-3.
+
+Inherited persistence of immature type pyruvate kinase and hexokinase isozymes 
+in dog erythrocytes.
+
+Inaba M(1), Maede Y.
+
+Author information:
+(1)Department of Veterinary Internal Medicine, Faculty of Veterinary Medicine, 
+Hokkaido University, Sapporo, Japan.
+
+1. Red cell pyruvate kinase (EC 2.7.1.40) and hexokinase (EC 2.7.1.1) in high 
+and low potassium (K) dogs were shown to exist as multiple forms which were 
+separable by electrophoresis and ion-exchange chromatography. The R2-type 
+pyruvate kinase, which was determined to be a young type enzyme in canine red 
+cells, was shown to be the predominant form of pyruvate kinase in high K cells. 
+2. The M2-type pyruvate kinase, a prototype isozyme in erythroid cells, existed 
+in high K dog erythrocytes as well as in high K and low K dog reticulocytes. 3. 
+Isozyme analysis of high K red cell hexokinase also showed a profile similar to 
+that obtained for low K reticulocytes. 4. These results seem to reflect the 
+immaturity of high K erythrocytes, which suggest that an abnormal cell 
+differentiation or maturation may occur at an early stage of erythroid cell 
+proliferation in high K dogs.
+
+DOI: 10.1016/0305-0491(89)90328-3
+PMID: 2706933 [Indexed for MEDLINE]
