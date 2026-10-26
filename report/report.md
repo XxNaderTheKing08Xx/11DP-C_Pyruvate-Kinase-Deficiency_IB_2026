@@ -57,7 +57,7 @@ In the crystal structure of the wild-type enzyme (PDB 2VGB; RCSB PDB 2026), Arg4
 
 ### The mutant structure is almost identical to the wild type
 
-After superposition of the mutant structure (PDB 2VGI) on the wild type, the root-mean-square deviation (RMSD) of the 517 matched Cα atoms of chain A is 0.59 Å, and the backbone around residue 486 moves by 0.2 to 0.6 Å, as in the rest of the protein. For two crystal structures at a resolution of 2.7 Å, these differences are very small: the mutation does not change the shape of the protein. Valentini *et al.* (2002) reached the same conclusion: no atomic movement larger than 0.25 Å near the mutation. In the mutant, the ring of Trp486 takes the place of the Arg side chain, and its N–H group forms hydrogen bonds with the backbone oxygens of Asn361 (3.0 Å) and Leu362 (3.4 Å) (Figure 2). Residue 361 is Asn in UniProt P30613 and in both PDB entries; Valentini *et al.* (2002) name it Asp361.
+After superposition of the mutant structure (PDB 2VGI) on the wild type, the root-mean-square deviation (RMSD) of the 517 matched Cα atoms of chain A is 0.59 Å, and the backbone around residue 486 moves by 0.2 to 0.6 Å, as in the rest of the protein. For crystal structures solved at 2.73 Å (2VGB) and 2.87 Å (2VGI) resolution, these differences are very small: the mutation does not change the shape of the protein. Valentini *et al.* (2002) reached the same conclusion: no atomic movement larger than 0.25 Å near the mutation. In the mutant, the ring of Trp486 takes the place of the Arg side chain, and its N–H group forms hydrogen bonds with the backbone oxygens of Asn361 (3.0 Å) and Leu362 (3.4 Å) (Figure 2). Residue 361 is Asn in UniProt P30613 and in both PDB entries; Valentini *et al.* (2002) name it Asp361.
 
 ![Figure 2](../figures/Figure2_R486W_closeup.png)
 
@@ -90,7 +90,7 @@ We included the dog as an outgroup: its lineage separated from that of primates 
 
 ![Figure 3](../figures/Figure3_alignment_486.png)
 
-**Figure 3.** Multiple alignment (Clustal Omega) of PKLR from ten vertebrates around position 486 (human numbering, UniProt P30613). Grey: residue different from human; yellow: position 486. Arg486 is present in nine species; the rat has Gln; no species has Trp. Clustal symbols: `*` identical in all sequences, `:` similar, `.` weakly similar.
+**Figure 3.** Multiple alignment (Clustal Omega) of PKLR from ten vertebrates around position 486 (human numbering, UniProt P30613). Grey: residue different from human; yellow: position 486; red: the rat Gln. Arg486 is present in nine species; the rat has Gln; no species has Trp. Clustal symbols: `*` identical in all sequences, `:` similar, `.` weakly similar.
 
 ## Discussion
 
@@ -108,11 +108,11 @@ Arg486 is present in nine of the ten vertebrates we compared, from mammals to fi
 
 ### The dog: the same enzyme and the same disease
 
-PK deficiency also occurs naturally in dogs, where it is the most common inherited enzyme defect of red cells; each affected breed carries a different *PKLR* mutation, and affected dogs have chronic haemolytic anaemia and iron overload, as human patients do (Gultekin *et al.* 2012). Dog R-type PK has 574 amino acids, like the human enzyme, so positions can be compared directly. The Beagle mutation c.994G>A (p.Gly332Ser) is the same nucleotide and amino-acid change as the human mutation G332S (Gultekin *et al.* 2012), which in homozygous patients causes severe anaemia that requires regular transfusions (Valentini *et al.* 2002). No dog mutation at position 486 has been reported in the studies we consulted. The dog thus shares with humans the residue at position 486, at least one disease mutation, and the clinical picture of the disease.
+PK deficiency also occurs naturally in dogs, where it is the most common inherited enzyme defect of red cells; each affected breed carries a different *PKLR* mutation, and affected dogs have chronic haemolytic anaemia and iron overload, as human patients do (Gultekin *et al.* 2012). Dog R-type PK has 574 amino acids, like the human enzyme, so positions can be compared directly. The Beagle mutation c.994G>A, p.Gly332Ser (Gultekin *et al.* 2012), is the same nucleotide and amino-acid change as the human mutation G332S, which in homozygous patients causes severe anaemia that requires regular transfusions (Valentini *et al.* 2002). No dog mutation at position 486 has been reported in the studies we consulted. The dog thus shares with humans the residue at position 486, at least one disease mutation, and the clinical picture of the disease.
 
 ### Limitations
 
-Our comparison includes ten species; except for the four mammals with reviewed UniProt entries, the sequences are automatic annotations, which we accepted only when Ensembl lists them as one-to-one orthologues. For the rat we used the reference strain; the residue at position 486 differs between two rat genomes annotated in RefSeq. The ancestral residue is an inference from the outgroup, not a measurement. Our structural analysis relies on one wild-type and one mutant crystal structure at 2.7 Å resolution; crystal structures are static and cannot show changes in flexibility. We did not perform any laboratory measurement: all enzyme activity data come from Valentini *et al.* (2002). Finally, database records change over time, and ClinVar and gnomAD values are those of the records we consulted.
+Our comparison includes ten species; except for the four mammals with reviewed UniProt entries, the sequences are automatic annotations, which we accepted only when Ensembl lists them as one-to-one orthologues. For the rat we used the reference strain; the residue at position 486 differs between two rat genomes annotated in RefSeq. The ancestral residue is an inference from the outgroup, not a measurement. Our structural analysis relies on one wild-type and one mutant crystal structure, at 2.7 and 2.9 Å resolution; crystal structures are static and cannot show changes in flexibility. We did not perform any laboratory measurement: all enzyme activity data come from Valentini *et al.* (2002). Finally, database records change over time, and ClinVar and gnomAD values are those of the records we consulted.
 
 ## Conclusions
 
