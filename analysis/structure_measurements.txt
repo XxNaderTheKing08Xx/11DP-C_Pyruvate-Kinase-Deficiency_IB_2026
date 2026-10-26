@@ -1,0 +1,11 @@
+PyMOL 2.5.0, PDB 2VGB (wild type) and 2VGI (R486W), chain A
+Superposition 2VGI onto 2VGB, Calpha, no outlier rejection (align, cycles=0): RMSD 0.59 A over 517 atoms
+All chains (align, cycles=0): RMSD 0.82 A over 2007 Calpha
+Calpha shifts, residues 476-496 after chain A superposition: 0.16-0.60 A
+Arg486 CZ - phosphoglycolate C1 (2VGB, chain A): 26.1 A
+Shortest atom-atom distance residue 486 - phosphoglycolate: 24.3-24.6 A (chains A-D)
+Shortest atom-atom distance residue 486 - FBP: 12.4-12.8 A (chains A-D)
+Wild type Arg486 NH2 - Leu362 O: 2.74 A ; NH1 - Leu362 O: 3.49 A
+Mutant Trp486 NE1 - Asn361 O: 3.04 A ; NE1 - Leu362 O: 3.37 A
+Residue 361 is Asn in UniProt P30613 and in 2VGB/2VGI (Valentini et al. 2002 write Asp361)
+Domains (Valentini et al. 2002): N 57-84; A 85-159 and 263-431; B 160-262; C 432-574
