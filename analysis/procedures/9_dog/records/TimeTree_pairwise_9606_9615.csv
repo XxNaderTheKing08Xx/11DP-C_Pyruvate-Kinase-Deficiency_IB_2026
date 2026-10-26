@@ -1,0 +1,2 @@
+taxon_a_id,taxon_b_id,scientific_name_a,scientific_name_b,all_total,precomputed_age,precomputed_ci_low,precomputed_ci_high,adjusted_age
+9606,9615,Homo sapiens,Canis lupus familiaris,64,89.480669664156,86.018420156916,92.942919171395,89.48067

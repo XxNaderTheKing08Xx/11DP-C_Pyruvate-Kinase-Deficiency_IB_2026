@@ -1,0 +1,2 @@
+taxon_a_id,taxon_b_id,scientific_name_a,scientific_name_b,all_total,precomputed_age,precomputed_ci_low,precomputed_ci_high,adjusted_age
+9606,10090,Homo sapiens,Mus musculus,75,83.51395605058,80.136695286752,86.891216814408,83.51396
