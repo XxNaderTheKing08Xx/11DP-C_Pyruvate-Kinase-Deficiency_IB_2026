@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33985048/README.md)
 # 11DP-C_Pyruvate-Kinase-Deficiency_IB_2026
 
 **Course:** Introduction to Bioinformatics (2026/27-01, FIB-2703103) · BSc in Bioinformatics (UPC-UB-UAB-UPF)
@@ -28,9 +27,9 @@ Our answer to the project question, how one change in the *PKLR* sequence explai
 | [`status/`](status/) | Project Status documents of 9, 20, 24, and 26 October, and the live workbook [`Gantt_live_11DP-C.xlsx`](status/Gantt_live_11DP-C.xlsx) from which they are generated |
 | [`gantt/`](gantt/) | Project plan of 9 October (introduction, objectives, Gantt chart, and risk analysis), revised after the instructor's feedback of 12 October and frozen in [`Full_PDF_11DP-C_PKD_project.pdf`](gantt/Full_PDF_11DP-C_PKD_project.pdf); the Gantt chart of 9 October and the final Gantt chart of 26 October |
 | [`references/`](references/) | Sources used: articles ([`articles/`](references/articles/)), database records ([`databases/`](references/databases/)), and the reference list of the plan |
-| [`analysis/`](analysis/) | Outputs of the analyses: EMBOSS Needle and Clustal Omega alignments, structure measurements |
+| [`analysis/`](analysis/) | Outputs of the analyses (BLAST and Clustal Omega alignments, structure measurements); [`analysis/procedures/`](analysis/procedures/): every analysis step, with its input files, screenshots, and output files. The folders `evidence/`, `sequence/`, and `structure/` hold earlier preparatory work of 23–25 October |
 | [`figures/`](figures/) | Figures 1–3 of the report |
-| [`lab/`](lab/) | Lab 1 notebook (sequence alignment), with its pictures and alignments |
+| [`lab/`](lab/) | Lab 1 notebook (sequence alignment), with its pictures |
 
 ## Where to start
 
@@ -38,3 +37,4 @@ Our answer to the project question, how one change in the *PKLR* sequence explai
 - The project plan of 9 October: [`gantt/Full_PDF_11DP-C_PKD_project.pdf`](gantt/Full_PDF_11DP-C_PKD_project.pdf)
 - The final Gantt chart: [`gantt/gantt_chart_final_2026-10-26.png`](gantt/gantt_chart_final_2026-10-26.png)
 - The final Project Status: [`status/Project_Status_2026_10_26.md`](status/Project_Status_2026_10_26.md)
+- Every analysis step, click by click: [`analysis/procedures/`](analysis/procedures/)
