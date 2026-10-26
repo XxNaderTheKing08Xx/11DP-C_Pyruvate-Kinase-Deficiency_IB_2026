@@ -89,11 +89,19 @@ We confirm the A/C location, hydrogen bonds, and distance from the catalytic cen
 
 ### What the species comparison shows about the affected function
 
+The ancestral Arg486, present in 156 of 170 resolved orthologues and flanked by invariant residues, indicates constraint on this part of the C domain, but not absolute constraint: Gln replaced Arg independently in rat and in at least two primate lineages, and rat Gln455 satisfies its amide within the C domain, without the A/C hydrogen bond, in a folded tetramer that binds FBP and active-site ligands. This does not show that Gln or Trp is tolerated in human R-type PK, because no kinetics of Gln-carrying enzymes were found, the rat structure is of a phosphorylated L-type isoform, other sequence differences may compensate (Valentini *et al.* 2002), and human p.(Arg486Gln) is of uncertain significance. The absence of Trp from all orthologues is consistent with, but does not prove, a deleterious effect; mouse, with Arg486 and a PKD model (Morimoto *et al.* 1995), is a closer model than rat.
+
 ### Population frequency and penetrance
+
+The predicted frequency of R486W homozygotes (8.7 per million) equals or exceeds the prevalence of diagnosed PKD of all genotypes (Secrest *et al.* 2020), and gnomAD contains as many homozygotes as random mating predicts. By the reasoning of Whiffin *et al.* (2017), many R486W homozygotes are probably not diagnosed, consistent with their mild phenotype, although gnomAD does not report phenotypes; this does not argue against pathogenicity in compound heterozygotes, as all 33 ClinVar submitters agree.
 
 ### Limitations
 
+The truncated, ligand-bound crystal structures cannot show stability in red cells, dynamics, or inactive conformations, and their four chains, refined with non-crystallographic symmetry restraints, are not independent observations. The rat R-type CDS and primate sequences are gene models, and fish, amphibian, and reptile sequences are no more, or only marginally more, identical to human PKLR (62.6–73.0%) than to PKM, so their orthology rests on Compara gene trees. R486W-specific patient data come from small cohorts and four compound heterozygotes, with no series of homozygotes.
+
 ## Conclusions
+
+In the recombinant enzyme, R486W changes kinetics rather than stability, crystal structure, or allosteric regulation: the catalytic efficiency with PEP falls to 25–36% of wild type while the active site and the FBP site are unchanged, by a mechanism that static structures do not resolve. Arg486 is ancestral and highly but not absolutely conserved: Gln arose repeatedly and in rat does not form the A/C hydrogen bond, and Trp occurs in none of 190 homologues. Patient and population data are consistent with a partial-loss-of-function allele whose clinical expression depends on the second *PKLR* allele.
 
 ## Methods
 
@@ -107,12 +115,76 @@ Sequences were compared with Biopython 1.88 and named after the Human Genome Var
 
 ## Abbreviations
 
+AC: allele count; ADP: adenosine diphosphate; AF: allele frequency; AN: allele number; ATP: adenosine triphosphate; CDS: coding sequence; FBP: fructose 1,6-bisphosphate; gnomAD: Genome Aggregation Database; MANE: Matched Annotation from NCBI and EMBL-EBI; NCBI: National Center for Biotechnology Information; PDB: Protein Data Bank; PEP: phosphoenolpyruvate; PGA: phosphoglycolate; PK: pyruvate kinase; PKD: pyruvate kinase deficiency; RMSD: root-mean-square deviation; WT: wild type.
+
 ## Declarations
 
 ### Availability of data and materials
 
+Sequences, scripts, raw database responses, measurements, and protocols are in `analysis/`, figures in `figures/`, and sources in `references/` of https://github.com/XxNaderTheKing08Xx/11DP-C_Pyruvate-Kinase-Deficiency_IB_2026.
+
 ### Authors' contributions
+
+Aarón Godino Martínez (Product Owner): literature review, patient impact, Abstract, Background, and report assembly. Bruno Carrasquilla (Sequence Analyst): sequence and conservation analyses and their Results, Figure 1, Table 2, and read-through. Ettore Colombo (Project Manager): planning, independent sequence verification, Discussion, Conclusions, and Declarations. Leo Nader Al Hourani (Data and GitHub Manager): database evidence, Table 1, alignment verification, repository and references, clinical Results, Methods, and Abbreviations. Pol Monllau (Structure Analyst): structural analyses and their Results, and Figures 2 and 3.
 
 ### Use of generative AI
 
+As explicitly allowed by the course policy, the authors used a generative AI assistant (Claude, Anthropic) to draft and revise text, write analysis scripts, and check references and formatting. The authors guided the whole process and repeated the analyses with the tools described in Methods, verified every statement and reference against its source, and take full responsibility for the content.
+
 ## References
+
+Al-Samkari H et al. Mitapivat versus placebo for pyruvate kinase deficiency. N Engl J Med 2022;386:1432–42.
+
+Baronciani L, Beutler E. Analysis of pyruvate kinase-deficiency mutations that produce nonspherocytic hemolytic anemia. Proc Natl Acad Sci U S A 1993;90:4324–7.
+
+Bianchi P, Fermo E. Molecular heterogeneity of pyruvate kinase deficiency. Haematologica 2020;105:2218–28.
+
+Bianchi P et al. Genotype-phenotype correlation and molecular heterogeneity in pyruvate kinase deficiency. Am J Hematol 2020;95:472–82.
+
+Dyer SC et al. Ensembl 2025. Nucleic Acids Res 2025;53:D948–57.
+
+Fattizzo B et al. Pyruvate kinase deficiency: current challenges and future prospects. J Blood Med 2022;13:461–71.
+
+Gassaway BM et al. Distinct hepatic PKA and CDK signaling pathways control activity-independent pyruvate kinase phosphorylation and hepatic glucose production. Cell Rep 2019;29:3394–404.e9.
+
+gnomAD. Variants 1-155291918-G-A and 1-155291917-C-T (gnomAD v4.1.0); variant 1-155261709-G-A (gnomAD v2.1.1). 2026. https://gnomad.broadinstitute.org/ (22 October 2026, date last accessed).
+
+Grace RF, Barcellini W. Management of pyruvate kinase deficiency in children and adults. Blood 2020;136:1241–9.
+
+Grace RF et al. Clinical spectrum of pyruvate kinase deficiency: data from the Pyruvate Kinase Deficiency Natural History Study. Blood 2018;131:2183–92.
+
+IB Teaching Staff. Disease Project Overview [course document]. Introduction to Bioinformatics, 2026–2027. Barcelona, 2026.
+
+Kumar S et al. TimeTree 5: an expanded resource for species divergence times. Mol Biol Evol 2022;39:msac174.
+
+Liu T et al. Structure-based design of AG-946, a pyruvate kinase activator. ChemMedChem 2024;19:e202300559.
+
+Luke N et al. Updates and advances in pyruvate kinase deficiency. Trends Mol Med 2023;29:406–18.
+
+Morimoto M et al. Pyruvate kinase deficiency of mice associated with nonspherocytic hemolytic anemia and cure of the anemia by marrow transplantation without host irradiation. Blood 1995;86:4323–30.
+
+NCBI. ClinVar VCV000001513.102: NM_000298.6(PKLR):c.1456C>T (p.Arg486Trp); VCV000873616.7: NM_000298.6(PKLR):c.1457G>A (p.Arg486Gln). 2026a. https://www.ncbi.nlm.nih.gov/clinvar/variation/1513/ and https://www.ncbi.nlm.nih.gov/clinvar/variation/873616/ (22 October 2026, date last accessed).
+
+NCBI. Gene ID: 5313, PKLR pyruvate kinase L/R [Homo sapiens (human)]. 2026b. https://www.ncbi.nlm.nih.gov/gene/5313 (22 October 2026, date last accessed).
+
+Noguchi T et al. The L- and R-type isozymes of rat pyruvate kinase are produced from a single gene by use of different promoters. J Biol Chem 1987;262:14366–71.
+
+O'Leary NA et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res 2016;44:D733–45.
+
+OMIM. #266200 Anemia, congenital, nonspherocytic hemolytic, 2; CNSHA2; \*609712 Pyruvate kinase, liver and red blood cell; PKLR. 2026. https://www.omim.org/entry/266200 and https://www.omim.org/entry/609712 (22 October 2026, date last accessed).
+
+Rab MAE et al. AG-348 (mitapivat), an allosteric activator of red blood cell pyruvate kinase, increases enzymatic activity, protein stability, and ATP levels over a broad range of PKLR genotypes. Haematologica 2021;106:238–49.
+
+RCSB PDB. 2VGB: Human erythrocyte pyruvate kinase; 2VGI: Human erythrocyte pyruvate kinase: R486W mutant. 2026. https://www.rcsb.org/structure/2VGB and https://www.rcsb.org/structure/2VGI (22 October 2026, date last accessed).
+
+Secrest MH et al. Prevalence of pyruvate kinase deficiency: a systematic literature review. Eur J Haematol 2020;105:173–84.
+
+UniProt Consortium. UniProtKB entries P30613 · KPYR_HUMAN (entry version 260), P12928 · KPYR_RAT (209), P53657 · KPYR_MOUSE (181), and Q29536 · KPYR_CANLF (160). 2026. https://www.uniprot.org/uniprotkb/ (22 October 2026, date last accessed).
+
+Valentini G et al. Structure and function of human erythrocyte pyruvate kinase. Molecular basis of nonspherocytic hemolytic anemia. J Biol Chem 2002;277:23807–14.
+
+Whiffin N et al. Using high-resolution variant frequencies to empower clinical genome interpretation. Genet Med 2017;19:1151–8.
+
+Zanella A et al. Molecular characterization of PK-LR gene in pyruvate kinase-deficient Italian patients. Blood 1997;89:3847–52.
+
+Zarza R et al. Molecular characterization of the PK-LR gene in pyruvate kinase deficient Spanish patients. Br J Haematol 1998;103:377–82.

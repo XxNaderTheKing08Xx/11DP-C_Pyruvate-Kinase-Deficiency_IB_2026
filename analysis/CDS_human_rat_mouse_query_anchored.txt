@@ -1,0 +1,152 @@
+RID: DZBTU6YN114	
+Job Title:lcl|NM_000298.6_cds_NP_000289.1_1 [gene=PKLR]...				
+Program: BLASTN 
+Query: lcl|NM_000298.6_cds_NP_000289.1_1 [gene=PKLR] [db_xref=CCDS:CCDS1109.1] [protein=pyruvate kinase PKLR isoform 1] [protein_id=NP_000289.1] [location=44..1768] [gbkey=CDS] ID: lcl|Query_3391782(dna) Length: 1725
+			            
+Subject #1:lcl|XM_006232593.6_cds_XP_006232655.1_1 [gene=Pklr] [db_xref=GeneID:24651] [protein=pyruvate kinase PKLR isoform X1] [protein_id=XP_006232655.1] [location=42..1766] [gbkey=CDS] ID: lcl|Query_3391784 Length: 1725
+Subject #2:lcl|NM_013631.2_cds_NP_038659.2_1 [gene=Pklr] [db_xref=CCDS:CCDS17489.1] [protein=pyruvate kinase PKLR isoform 1] [protein_id=NP_038659.2] [location=42..1766] [gbkey=CDS] ID: lcl|Query_3391785 Length: 1725
+	                    			
+	
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+lcl|NM_013631.2_cds_NP_038659.2_1 [gene=Pklr]...                                                  0          1895   1895  100%  0.0   86.52  1725       Query_3391785    
+lcl|XM_006232593.6_cds_XP_006232655.1_1 [gene=Pklr]...                                            0          1895   1895  100%  0.0   86.51  1725       Query_3391784    
+
+Alignments:
+
+Query          1     ATGTCGATCCAGGAGAACATATCATCCCTGCAGCTTCGGTCATGGGTCTCTAAGTCCCAA  60
+Query_3391785  1     .....TG....A......-G.G..C...A......CT..C.C...A...T..........  60
+                                            \                                    
+                                            |                                    
+                                            T
+Query_3391784  1     .....TG............-C...C...A......CT..C.G...A...T..G.......  60
+                                            \                                    
+                                            |                                    
+                                            T
+
+Query          61    AGAGACTTAGCAAAGTCCATCCTGATTGGGGCTCCAGGAGGGCCAGCGGGGTATCTGCGG  120
+Query_3391785  61    .A...............-TG.T.A.G.....................A..A..C...A.A  120
+                                          \                                      
+                                          |                                      
+                                          T
+Query_3391784  61    .A......G........-TG...A.G.........C..............A..C..T..A  120
+                                           \                                     
+                                           |                                     
+                                           T
+
+Query          121   CGGGCCAGTGTGGCCCAACTGACCCAGGAGCTGGGCACTGCCTTCTTCCAGCAGCAGCAG  180
+Query_3391785  121   ..T..............G.........................................A  180
+Query_3391784  121   ..T..G........T............................................A  180
+
+Query          181   CTGCCAGCTGCTATGGCAGACACCTTCCTGGAACACCTCTGCCTACTGGACATTGACTCC  240
+Query_3391785  181   .....C..A........G..........................T.....T..C.....A  240
+Query_3391784  181   .....C..A........G..........................T.....T..C.....A  240
+
+Query          241   GAGCCCGTGGCTGCTCGCAGTACCAGCATCATTGCCACCATCGGGCCAGCATCTCGCTCC  300
+Query_3391785  241   .....T.....C...A.G..C..........................G..G..A.....T  300
+Query_3391784  241   C....T...........T..C....................T...........C.....T  300
+
+Query          301   GTGGAGCGCCTCAAGGAGATGATCAAGGCCGGGATGAACATTGCGCGACTCAACTTCTCC  360
+Query_3391785  301   .....C.......................A..............A...............  360
+Query_3391784  301   .....C....................A..A..............A...............  360
+
+Query          361   CACGGCTCCCACGAGTACCATGCTGAGTCCATCGCCAACGTCCGGGAGGCGGTGGAGAGC  420
+Query_3391785  361   ..T........T...........A...............A.T..........CT..A...  420
+Query_3391784  361   ..T........T...........A..A............A..........AACT.....T  420
+
+Query          421   TTTGCAGGTTCCCCACTCAGCTACCGGCCCGTGGCCATCGCCCTGGACACCAAGGGACCG  480
+Query_3391785  421   ......ACC...............A.A.............................T..C  480
+Query_3391784  421   ......ACC...............A.A..T.............................T  480
+
+Query          481   GAGATCCGCACTGGGATCCTGCAGGGGGGTCCAGAGTCGGAAGTGGAGCTGGTGAAGGGC  540
+Query_3391785  481   .....A........AG.........................G.....AA.T........T  540
+Query_3391784  481   .....A..A..C..AG..T.............G........G.....AA.T.........  540
+
+Query          541   TCCCAGGTGCTGGTGACTGTGGACCCCGCGTTCCGGACGCGGGGGAACGCGAACACCGTG  600
+Query_3391785  541   ..A....................T..GAA.........AA....CG.T..A..G..A...  600
+Query_3391784  541   ..A..............G........GAA.....A...AA....CG.T..A..G..A...  600
+
+Query          601   TGGGTGGACTACCCCAATATTGTCCGGGTCGTGCCGGTGGGGGGCCGCATCTACATTGAC  660
+Query_3391785  601   .............A......CAC..A......TG.A........................  660
+Query_3391784  601   .............A......CAC.........TG.A........................  660
+
+Query          661   GACGGGCTCATCTCCCTAGTGGTCCAGAAAATCGGCCCAGAGGGACTGGTGACCCAAGTG  720
+Query_3391785  661   ...............T.......G.G......T.....................G.....  720
+Query_3391784  661   ...............T.......A.............................AG.....  720
+
+Query          721   GAGAACGGCGGCGTCCTGGGCAGCCGGAAGGGCGTGAACTTGCCAGGGGCCCAGGTGGAC  780
+Query_3391785  721   ..AC....T..TT..T......A.A.......T............AAT...G........  780
+Query_3391784  721   ...C....T..TA..T........A.......T............AACA.TG........  780
+
+Query          781   TTGCCCGGGCTGTCCGAGCAGGACGTCCGAGACCTGCGCTTCGGGGTGGAGCATGGGGTG  840
+Query_3391785  781   C....T.....A..A.....A...T.TT.-..T.....................AAT...  840
+                                            \                                    
+                                            |                                    
+                                            T
+Query_3391784  781   C.............T.....A...C.TTTG..T...............C.....AAT...  840
+
+Query          841   GACATCGTCTTTGCCTCCTTTGTGCGGAAAGCCAGCGACGTGGCTGCCGTCAGGGCTGCT  900
+Query_3391785  841   ......A................A..A........T..T....TG..A...C.A.A...C  900
+Query_3391784  841   ......A............................T......TTA..A...C...A...C  900
+
+Query          901   CTGGGTCCGGAAGGACACGGCATCAAGATCATCAGCAAAATTGAGAACCACGAAGGCGTG  960
+Query_3391785  901   ..A..G..A.......GG........A..T...........C........T.........  960
+Query_3391784  901   .....G..A........GAA......A..T...........C........T.........  960
+
+Query          961   AAGAGGTTTGATGAAATCCTGGAGGTGAGCGACGGCATCATGGTGGCACGGGGGGACCTA  1020
+Query_3391785  961   ....A.........G.....A..A........T..............T.....T.....T  1020
+Query_3391784  961   ....A............T..A..A........T....................T.....G  1020
+
+Query          1021  GGCATCGAGATCCCAGCAGAGAAGGTTTTCCTGGCTCAGAAGATGATGATTGGGCGCTGC  1080
+Query_3391785  1021  .....T........................T......................A......  1080
+Query_3391784  1021  .....T........T..G............T......................A......  1080
+
+Query          1081  AACTTGGCGGGCAAGCCTGTTGTCTGTGCCACACAGATGCTGGAGAGCATGATTACCAAG  1140
+Query_3391785  1081  ...C....T...........C..T.............................C..T...  1140
+Query_3391784  1081  ...C....C...........C..T.............................C..T...  1140
+
+Query          1141  CCCCGGCCAACGAGGGCAGAGACAAGCGATGTCGCCAATGCTGTGCTGGATGGGGCTGAC  1200
+Query_3391785  1141  G.T..A.....TC....G..............G...........................  1200
+Query_3391784  1141  G.T..A.....TC....G..............G........C..................  1200
+
+Query          1201  TGCATCATGCTGTCAGGGGAGACTGCCAAGGGCAACTTCCCTGTGGAAGCGGTGAAGATG  1260
+Query_3391785  1201  ..T...........T..A.....C.....A....GT.....C.....G..T..A......  1260
+Query_3391784  1201  ..T...........C..A.....C..........GT..T...........T..A.T....  1260
+
+Query          1261  CAGCATGCGATTGCCCGGGAGGCAGAGGCCGCAGTGTACCACCGGCAGCTGTTTGAGGAG  1320
+Query_3391785  1261  ..A.............................T...........C...T...........  1320
+Query_3391784  1261  ..A...........G.................T...........C...T...........  1320
+
+Query          1321  CTACGTCGGGCAGCGCCACTAAGCCGTGATCCCACTGAGGTCACCGCCATTGGTGCTGTG  1380
+Query_3391785  1321  .....C...........G..G........C..A..C........T..A.....A..C...  1380
+Query_3391784  1321  .....C...........G..G........C..A...........T..G.....A..C...  1380
+
+Query          1381  GAGGCTGCCTTCAAGTGCTGTGCTGCTGCCATCATTGTGCTGACCACAACTGGCCGCTCA  1440
+Query_3391785  1381  ......T................C..A.................A.AG............  1440
+Query_3391784  1381  ......T................A..A........C........G.AG........T...  1440
+
+Query          1441  GCCCAGCTTCTGTCTCGGTACCGACCTCGGGCAGCAGTCATTGCTGTCACCCGCTCTGCC  1500
+Query_3391785  1441  ..T..............C..............T..T...........G..T..T......  1500
+Query_3391784  1441  ...........A....AA..............G..T...........G..T..A......  1500
+
+Query          1501  CAGGCTGCCCGCCAGGTCCACTTATGCCGAGGAGTCTTCCCCTTGCTTTACCGTGAACCT  1560
+Query_3391785  1501  ...........A.........C.G.C.....................C........G...  1560
+Query_3391784  1501  ...........A.........C.G.C.....................C........G...  1560
+
+Query          1561  CCAGAAGCCATCTGGGCAGATGATGTAGATCGCCGGGTGCAATTTGGCATTGAAAGTGGA  1620
+Query_3391785  1561  .....G..TG................G..C..AA....C...........C.........  1620
+Query_3391784  1561  .....G....................G.....AA....C.....................  1620
+
+Query          1621  AAGCTCCGTGGCTTCCTCCGTGTTGGAGACCTGGTGATTGTGGTGACAGGCTGGCGACCT  1680
+Query_3391785  1621  .....T..............A.....T..T..............................  1680
+Query_3391784  1621  ...........T...........G..T..T....................T.....G...  1680
+
+Query          1681  GGCTCCGGCTACACCAACATCATGCGGGTGCTAAGCATATCCTGA  1725
+Query_3391785  1681  .....T.....T........T...........G.C..........  1725
+Query_3391784  1681  .....T.....T....................G...G........  1725
+
+
+		
+
+
