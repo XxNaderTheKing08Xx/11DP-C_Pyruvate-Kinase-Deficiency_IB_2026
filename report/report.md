@@ -1,190 +1,207 @@
-# Pyruvate Kinase Deficiency: from a *PKLR* variant to haemolytic anaemia
-
+# Pyruvate kinase deficiency: how one amino acid change in *PKLR* reduces enzyme function without changing its structure
 
 Aarón Godino Martínez, Bruno Carrasquilla, Ettore Colombo, Leo Nader Al Hourani, Pol Monllau
 
 Group 11DP-C, BSc in Bioinformatics (UPC-UB-UAB-UPF), Barcelona, Spain
 
-
-
 ## Abstract
+
+**Background:** Pyruvate kinase deficiency (PKD) is an autosomal recessive disease caused by variants in *PKLR*, the gene of the red-cell pyruvate kinase, the enzyme of the last step of glycolysis. Because red blood cells have no mitochondria and obtain their ATP only from glycolysis, low pyruvate kinase activity shortens their life and causes chronic haemolytic anaemia. Our course provided the wild-type and mutant coding and protein sequences of the enzyme. We aimed to identify the variant, describe its effect on the gene, protein, structure, and function, explain its consequences for the patient, and compare the affected position across vertebrates, including the rat.
+
+**Results:** Pairwise alignment with BLAST showed a single difference between the supplied sequences: c.1456C>T, which changes codon 486 from CGG to TGG and replaces arginine with tryptophan (p.Arg486Trp, R486W). ClinVar classifies the variant as Pathogenic/Likely pathogenic, and gnomAD reports an allele frequency of 0.30%. In the crystal structure of the wild-type enzyme (PDB 2VGB), Arg486 lies at the contact between the C and A domains, about 26 Å from the active site, and forms a hydrogen bond with the backbone of Leu362. The mutant structure (PDB 2VGI) is almost identical to the wild type (RMSD 0.59 Å), and the Trp486 ring forms new hydrogen bonds with the same region. A multiple alignment (Clustal Omega) of PKLR from ten vertebrates showed Arg at position 486 in nine species, from mammals to fish; only the rat has Gln, and no species has Trp. With the dog as outgroup, Arg is most likely the ancestral residue.
+
+**Conclusions:** R486W leaves the shape of pyruvate kinase intact but, according to published enzyme data, reduces its catalytic efficiency to about 30% of normal. In red cells, which depend on glycolysis for ATP, this loss is enough to cause haemolytic anaemia when both copies of *PKLR* are affected. The conservation of Arg486 across vertebrates supports its importance, while the Gln of the rat shows that a similar residue can be tolerated.
 
 ## Keywords
 
+pyruvate kinase deficiency; PKLR; haemolytic anaemia; sequence alignment; protein structure
+
 ## Background
 
-Pyruvate kinase (PK) catalyses the last, irreversible step of glycolysis, from phosphoenolpyruvate (PEP) and adenosine diphosphate (ADP) to pyruvate and adenosine triphosphate (ATP) (Bianchi and Fermo 2020). *PKLR* (1q22; NCBI 2026b), a paralogue of *PKM*, encodes the R- and L-type isozymes from two tissue-specific promoters whose mRNAs differ in their first exon (Bianchi and Fermo 2020), as in rat (Noguchi *et al.* 1987); the first 33 of the 574 R-type residues are replaced by two in the 543-residue L-type, whose numbering is therefore 31 lower (UniProt Consortium 2026). R-type PK is a homotetramer activated allosterically by fructose 1,6-bisphosphate (FBP); each subunit has N, A, B, and C domains, and FBP binds in the C domain (Valentini *et al.* 2002).
+Pyruvate kinase (PK) catalyses the last step of glycolysis, the irreversible conversion of phosphoenolpyruvate to pyruvate, which produces one molecule of adenosine triphosphate (ATP) (Bianchi and Fermo 2020, Luke *et al.* 2023). The red-cell enzyme is a tetramer of four identical subunits. Each subunit has four domains (N, A, B, and C); the active site lies in the A domain, and fructose 1,6-bisphosphate (FBP), an earlier intermediate of glycolysis, binds to the C domain and activates the enzyme allosterically (Valentini *et al.* 2002).
 
-Red cells lack mitochondria and depend on glycolysis for ATP (Fattizzo *et al.* 2022, Luke *et al.* 2023); in pyruvate kinase deficiency (PKD), the most common glycolytic enzyme defect associated with congenital non-spherocytic haemolytic anaemia, insufficient red-cell PK activity lowers ATP and leads to premature removal of red cells, mainly in the spleen (Bianchi and Fermo 2020, Fattizzo *et al.* 2022). Inheritance is autosomal recessive; 142 of 177 unrelated patients of the PKD Natural History Study were compound heterozygous (Bianchi *et al.* 2020). Diagnosed PKD has a prevalence of 3.2–8.5 per million in Western populations (Secrest *et al.* 2020); among 254 patients, 48% had iron overload and 45% gallstones (Grace *et al.* 2018). Besides transfusion, splenectomy, and iron chelation (Grace and Barcellini 2020), the PK activator mitapivat, approved for adults (Luke *et al.* 2023), produced a haemoglobin response in 16 of 40 patients and in none of 40 on placebo in a phase 3 trial (Al-Samkari *et al.* 2022).
+Mature red blood cells have no nucleus and no mitochondria, so they depend entirely on glycolysis for the ATP they need (Bianchi and Fermo 2020, Fattizzo *et al.* 2022, Luke *et al.* 2023). When PK activity is too low, ATP falls, and the red cells are removed early from the circulation, mainly in the spleen (Bianchi and Fermo 2020, Fattizzo *et al.* 2022). The result is pyruvate kinase deficiency (PKD), a chronic non-spherocytic haemolytic anaemia whose severity ranges from fully compensated haemolysis to life-threatening anaemia in newborns (Bianchi and Fermo 2020). PKD is the most common glycolytic enzyme defect causing this type of anaemia (Bianchi and Fermo 2020); the prevalence of diagnosed PKD in Western populations is estimated at 3.2 to 8.5 cases per million (Secrest *et al.* 2020). Among 254 patients of the PKD Natural History Study, the most frequent complications were iron overload (48%) and gallstones (45%) (Grace *et al.* 2018).
 
-*PKLR* c.1456C>T, p.(Arg486Trp) (R486W), described in 1993 (Baronciani and Beutler 1993), was the most frequent *PKLR* variant in Italian and Spanish series (Zanella *et al.* 1997, Zarza *et al.* 1998). Its crystal structure is essentially unchanged although its catalytic efficiency is reduced (Valentini *et al.* 2002), and the conservation of position 486 across species had not been reported in the sources we read. To answer the course question of how sequence and structure changes explain disease and what comparison shows about function (IB Teaching Staff 2026), we aimed to (i) identify the cause of the disease at gene, protein, structure, and function level; (ii) describe how the mutant differs from the wild type; (iii) explain the consequences for the patient; and (iv) compare human PKLR with its rat, mouse, and dog orthologues, focusing on position 486.
+PKD is caused by variants in the gene *PKLR*, which encodes both the red-cell (R-type, 574 amino acids) and the liver (L-type) forms of the enzyme (Bianchi and Fermo 2020, UniProt Consortium 2026). Inheritance is autosomal recessive: patients carry a pathogenic variant on both copies of *PKLR*, either the same variant twice (homozygous) or two different ones (compound heterozygous) (Bianchi and Fermo 2020). In the Natural History Study, 142 of 177 unrelated patients were compound heterozygous (Bianchi *et al.* 2020), and more than 300 different variants have been reported (Bianchi and Fermo 2020). Treatment has long been supportive (transfusions, splenectomy, iron chelation) (Fattizzo *et al.* 2022, Luke *et al.* 2023); mitapivat, an oral activator of PK, is now approved for adults (Luke *et al.* 2023), and in a phase 3 trial 16 of 40 patients treated with mitapivat had a haemoglobin response, compared with none of 40 on placebo (Al-Samkari *et al.* 2022).
+
+Our course provided the coding and protein sequences of a wild-type and a mutant form of the enzyme (IB Teaching Staff 2026). The mutant carries R486W, one of the most frequent mutations in patients with red-cell PK deficiency; its crystal structure and its enzyme activity were described by Valentini *et al.* (2002). Following the question of the Disease Project, how changes in sequence and structure explain the molecular basis of a disease and what comparison tells us about the affected function (IB Teaching Staff 2026), we aimed to: (i) identify the cause of the disease at the level of gene, protein, structure, and function; (ii) describe how the mutant differs from the wild type; (iii) explain the consequences for the patient; and (iv) compare human PKLR with its orthologues in other vertebrates, including the rat, focusing on position 486.
 
 ## Results
 
-### The supplied sequences differ by c.1456C>T, p.(Arg486Trp)
+### The supplied sequences differ by one nucleotide: c.1456C>T, p.Arg486Trp
 
-The supplied coding sequences (CDSs) are 1725 nucleotides long, have no internal stop codon, and translate into the supplied 574-residue proteins. The wild-type CDS is identical to that of NM_000298.6 (Matched Annotation from NCBI and EMBL-EBI [MANE] Select), and the wild-type protein to NP_000289.1 and UniProt P30613-1. The mutant differs only at c.1456C>T, the first position of codon 486 (CGG→TGG), a CpG site, giving p.(Arg486Trp). c.1456 lies in exon 10 of NM_000298.6 (exon 11 in the 12-exon gene numbering; Bianchi *et al.* 2020); on the L-type transcript (NM_181871.4) the change is c.1363C>T, p.(Arg455Trp).
+BLAST identified the supplied sequences: the wild-type coding sequence (CDS, 1725 nucleotides including the stop codon) is identical over its whole length to the CDS of the red-cell *PKLR* transcript NM_000298.6 (NCBI 2026b), and the wild-type protein (574 amino acids) to its product NP_000289.1, the same sequence as UniProt P30613 (UniProt Consortium 2026). The BLAST alignment of wild type and mutant shows 1724 of 1725 identical nucleotides and 573 of 574 identical amino acids, with no gaps. The only difference is at nucleotide 1456, a C in the wild type and a T in the mutant (c.1456C>T). This nucleotide is the first position of codon 486 (3 × 486 − 2 = 1456), which changes from CGG (arginine) to TGG (tryptophan): p.Arg486Trp (R486W). It is a missense substitution: one amino acid is replaced, without a stop codon or a change of reading frame.
 
-**Table 1.** Evidence for *PKLR* c.1456C>T and for the other substitution recorded at codon 486 (gnomAD 2026, NCBI 2026a, OMIM 2026, UniProt Consortium 2026); identifiers, coordinates, and in silico scores are in `analysis/evidence/table1_variant_evidence.md`. gnomAD, Genome Aggregation Database; AC, allele count; AN, allele number; AF, allele frequency; k_cat, turnover number; S₀.₅, substrate concentration giving half-maximal rate; WT, wild type.
+The variant is recorded in ClinVar as Pathogenic/Likely pathogenic for pyruvate kinase deficiency, with 30 of 33 submissions contributing to this classification (NCBI 2026a), and UniProt lists it as a natural variant of P30613 found in this disease (UniProt Consortium 2026). In gnomAD v4.1.2 its allele frequency is 0.30% (4766 of 1 613 440 alleles), and eight people are homozygous (gnomAD 2026). The variant is therefore rare (Table 1). Because the disease is autosomal recessive, people who carry it on only one copy of *PKLR* do not have the disease (Bianchi and Fermo 2020).
 
-| Field | c.1456C>T, p.(Arg486Trp) | c.1457G>A, p.(Arg486Gln) |
-|---|---|---|
-| ClinVar (criteria provided, multiple submitters, no conflicts) | VCV000001513.102: Pathogenic/Likely pathogenic; 33 submitters | VCV000873616.7: Uncertain significance; two submitters |
-| gnomAD v4.1, exomes + genomes | AC 4766 / AN 1 613 440; AF 0.295%; eight homozygotes | AC 47 / AN 1 613 264; AF 0.0029%; no homozygotes |
-| Highest AF by group | Finnish 0.78% (v4.1); southern European 0.52% (v2.1.1 exomes, 60/11 494) | South Asian 0.012% (v4.1) |
-| Share of PKD alleles | 31 of 354 unrelated alleles (9%), second most frequent (Bianchi *et al.* 2020); seven of 30 in Italy (Zanella *et al.* 1997); seven of 22 in Spain (Zarza *et al.* 1998) | not reported in the sources read |
-| Recombinant enzyme, R486W vs WT (Valentini *et al.* 2002) | k_cat 195 vs 355 s⁻¹ (ratio 0.55); S₀.₅(PEP) 1.69 vs 1.10 mM; k_cat/S₀.₅(PEP) 116 vs 323 s⁻¹ mM⁻¹ (0.36) without and 492 vs 1972 (0.25) with 1 mM FBP; k_cat/S₀.₅(ADP) ratio 0.44; thermostability at 53 °C not reduced | no data |
+**Table 1.** The R486W variant. Sources: our BLAST alignments; ClinVar (NCBI 2026a); gnomAD (gnomAD 2026); Valentini *et al.* (2002).
 
-### Position 486 is Arg in most orthologues and Gln in rat
+| | |
+|---|---|
+| Gene | *PKLR* (chromosome 1), red-cell transcript NM_000298.6 |
+| DNA change | c.1456C>T (codon 486: CGG → TGG) |
+| Protein change | p.Arg486Trp (R486W), missense |
+| ClinVar (VCV000001513) | Pathogenic/Likely pathogenic; 30 of 33 submissions |
+| gnomAD v4.1.2 | Allele frequency 0.30% (4766 of 1 613 440 alleles); 8 homozygotes |
+| Crystal structures | PDB 2VGB (wild type), 2VGI (R486W) |
 
-The only reviewed UniProt PKLR entries (Table 2) are 574-residue R-type sequences and Ensembl Compara one-to-one orthologues, each more identical to human PKLR than to human PKM (rat 91.1% vs 64.5%, mouse 91.6% vs 64.1%, dog 92.5% vs 65.3%). They align without gaps; rat differs from human at 51 residues and at 152 further, synonymous codons (mouse 48 and 155; dog 43 and 121).
+### Arg486 lies at the contact between the C and A domains, far from the active site
 
-In the window 476–496, 19 of 21 columns are identical in the four species; the variable columns are 476 (Thr/Lys) and 486 (Arg; Gln in rat) (Figure 1). In 21 vertebrate sequences, column 486 holds Arg in 18 and Gln in three (rat, macaque, and marmoset), and Ser485 and Tyr487–Arg490 are invariant. Among the 179 jawed-vertebrate sequences of all 190 Ensembl Compara homologues, position 486 is Arg in 156, Gln in 13 (rat, six Old World and four New World monkeys, hedgehog, and sperm whale), Tyr in one (a misaligned gene model), and unresolved in nine; Trp occurs in none of the 190. By maximum parsimony, Arg is ancestral, and Gln arose repeatedly, including on the rat lineage and twice in primates.
+In the crystal structure of the wild-type enzyme (PDB 2VGB; RCSB PDB 2026), Arg486 is in the C domain, where it touches the A domain (Figure 1). Its side chain forms a hydrogen bond (2.7 Å) with the backbone oxygen of Leu362 in the A domain (Figure 2), as described by Valentini *et al.* (2002). Arg486 is about 26 Å from the substrate analogue bound in the active site and about 12 Å from the activator FBP (Figure 1); Valentini *et al.* (2002) also report a distance of more than 20 Å from the catalytic centre.
 
-![Figure 1](../figures/Figure1_PKLR_MSA_486.png)
+![Figure 1](../figures/Figure1_subunit_domains.png)
 
-**Figure 1.** Conservation of human PKLR position 486. Clustal Omega alignment (476–496) of the Swiss-Prot R-type sequences (top) and 17 Ensembl 116 orthologues (bottom), each in its own numbering. Framed column, human Arg486; colours and Clustal symbols as in the key; bars, fraction of sequences with the majority residue.
+**Figure 1.** One subunit of human red-cell pyruvate kinase (PDB 2VGB, chain A), coloured by domain (N, yellow; A, blue; B, orange; C, green; limits from Valentini *et al.* 2002). Arg486 (red spheres) lies in the C domain, at the contact with the A domain; the dashed line to the active site (substrate analogue phosphoglycolate in black, Mn²⁺ in magenta) measures 26 Å. The activator FBP is shown as yellow sticks, about 12 Å from Arg486. Made in PyMOL with the commands in `analysis/procedures/7_structure/`.
 
-**Table 2.** Human PKLR (R-type) compared with its orthologues. Protein: global (Needleman–Wunsch) identity and similarity as fractions of alignment columns. CDS: position-by-position identity of the gap-free 1725-nucleotide CDSs. Mouse NP_038659.2 differs from P53657 at residues 279 and 335.
+### The mutant structure is almost identical to the wild type
 
-| Species | Protein (UniProtKB / RefSeq) | CDS (RefSeq) | Protein identity; similarity | CDS identity | Residue at human 486 (codon) |
-|---|---|---|---|---|---|
-| Human | P30613 / NP_000289.1 | NM_000298.6 | — | — | Arg486 (CGG) |
-| Rat | P12928 / XP_006232655.1 | XM_006232593.5 | 523/574 (91.1%); 95.1% | 1491/1725 (86.4%) | Gln486 (CAA) |
-| Mouse | P53657 / NP_038659.2 | NM_013631.2 | 526/574 (91.6%); 95.5% | 1490/1725 (86.4%) | Arg486 (CGC) |
-| Dog | Q29536 / NP_001243191.1 | NM_001256262.2 | 531/574 (92.5%); 95.6% | 1544/1725 (89.5%) | Arg486 (CGG) |
-| 17 vertebrates (Figure 1) | Ensembl 116 orthologues | — | 62.6–99.7% identity | — | Arg in 15; Gln in macaque, marmoset |
+After superposition of the mutant structure (PDB 2VGI) on the wild type, the root-mean-square deviation (RMSD) of the 517 matched Cα atoms of chain A is 0.59 Å, and the backbone around residue 486 moves by 0.2 to 0.6 Å, as in the rest of the protein. For two crystal structures at a resolution of 2.7 Å, these differences are very small: the mutation does not change the shape of the protein. Valentini *et al.* (2002) reached the same conclusion: no atomic movement larger than 0.25 Å near the mutation. In the mutant, the ring of Trp486 takes the place of the Arg side chain, and its N–H group forms hydrogen bonds with the backbone oxygens of Asn361 (3.0 Å) and Leu362 (3.4 Å) (Figure 2). Residue 361 is Asn in UniProt P30613 and in both PDB entries; Valentini *et al.* (2002) name it Asp361.
 
-### Trp486 causes no change beyond model-to-model differences
+![Figure 2](../figures/Figure2_R486W_closeup.png)
 
-Protein Data Bank (PDB) entries 2VGB (wild type; 2.73 Å; R-free 0.271) and 2VGI (R486W; 2.87 Å; R-free 0.311) are X-ray structures of tetramers with FBP, the PEP analogue phosphoglycolate, K⁺, and Mn²⁺ bound to each subunit, modelled from residue 57 to 573 (with gaps only in the B domain) in R-type numbering (RCSB PDB 2026); of 81 PDB entries for human and rat PKLR, only 2VGI carries a substitution at residue 486. Per-chain values are in `analysis/structure/TABLE_structural_measurements.md`.
+**Figure 2.** Residue 486 at the contact between the C domain (green) and the A domain (blue), with the wild type (2VGB) and the mutant (2VGI) superposed. In the wild type, Arg486 (red) forms a hydrogen bond (2.7 Å, red dashes) with the backbone oxygen of Leu362. In the mutant, the N–H of the Trp486 ring (purple) forms hydrogen bonds with the backbone oxygens of Asn361 (3.0 Å) and Leu362 (3.4 Å) (purple dashes). The surrounding backbone of the two structures overlaps. Made in PyMOL with the commands in `analysis/procedures/7_structure/`.
 
-![Figure 2](../figures/Figure2_PKR_overview_R486.png)
+### Arg486 is conserved from mammals to fish; the rat has Gln
 
-**Figure 2.** Residue 486 in human R-type PK (PDB 2VGB). (a) Tetramer; domains N (orange), A (blue), B (reddish purple), and C (green) after Valentini *et al.* (2002); black spheres, residue 486. (b) Subunit A with FBP, phosphoglycolate (PGA), Mn²⁺ (purple), and K⁺ (grey); dotted lines, minimum distances from Arg486 to FBP (12.4 Å) and PGA (24.4 Å).
+UniProt contains reviewed PKLR entries for only four species, all mammals: human, rat, mouse, and dog (UniProt Consortium 2026). BLAST searches restricted to each of these species found the corresponding full-length PKLR entries in RefSeq (O'Leary *et al.* 2016): the dog protein NP_001243191.1 and the rat protein XP_006232655.1 are identical to the UniProt entries Q29536 and P12928, and the mouse protein NP_038659.2 differs from P53657 at two positions far from residue 486 (279 and 335). In the rat, the only curated RefSeq protein (NP_036756.3) is the liver form, and a second full-length entry, XP_087472322.1, comes from the genome of another rat strain (SHRSP); it differs from P12928 at a single position, residue 486, where it has Arg instead of Gln.
 
-Arg486 lies at the C-terminal end of the C-domain helix 479–487 (Figure 2) and is largely buried (relative solvent accessibility 0.11–0.12). Its only polar partner within 3.5 Å is the main-chain carbonyl oxygen of A-domain Leu362 (NH2–O 2.74–2.90 Å); its other contacts within 4 Å are A-domain residues 361–364 and C-domain residues, it forms no salt bridge, and atoms of other subunits are at least 6.1 Å away. Its minimum distances are 12.4–12.8 Å to FBP, 24.3–24.6 Å to phosphoglycolate, and 19.5–19.6 Å to the transition-state stabilizer Lys313 (UniProt Consortium 2026). The worldwide PDB validation report flags the Arg486 side chain as a rotamer outlier in all four chains, but the Arg486–Leu362 hydrogen bond is present in seven of eight chains of an independent 2.35 Å structure (8TBS; Liu *et al.* 2024).
+To include more distant vertebrates, we used the one-to-one orthologues of human *PKLR* listed by Ensembl (Dyer *et al.* 2025): opossum, platypus, turtle, frog, coelacanth, and zebrafish. Orthologues are genes in different species that descend from one gene of their common ancestor (Koonin 2005). For these species we relied on Ensembl rather than on BLAST alone, because the best BLAST hits in coelacanth and zebrafish are annotated as PKM, the other pyruvate kinase gene. We did not use the chicken: Ensembl lists no *PKLR* orthologue in chicken, and all chicken BLAST hits are PKM.
 
-After superposition of 2VGI on 2VGB, the Cα root-mean-square deviation (RMSD) is 0.40–0.59 Å per subunit (N, A, and C domains 0.21–0.24 Å; B domain 0.42–0.66 Å). Around residue 486 (58–60 residues within 10 Å), the local Cα RMSD of 0.30–0.36 Å lies at the 74th–95th percentile of the same measure centred on every N-, A-, and C-domain residue (median 0.24–0.25 Å). The largest local shift is that of Glu453 OE2 towards Trp486 (1.56–1.75 Å). The Trp486 indole nitrogen lies 2.68–3.40 Å from the Asn361 and 2.82–3.37 Å from the Leu362 carbonyl oxygens, and ring atom CZ3 2.99–3.18 Å from Glu453 OE1 (Figure 3); Trp486 makes no contact with another subunit (at least 5.2 Å).
+The multiple alignment of the ten sequences (Clustal Omega) shows that human PKLR is 91–93% identical to the mouse, rat, and dog sequences and 68–84% identical to the other six (Table 2). At position 486, nine species have Arg; only the rat has Gln, and no species has Trp (Figure 3). The neighbouring residues (SAQLLS-R-YRPR) are also almost identical in all ten species.
 
-In rat L-type PK (PDB 6ECH, 2.19 Å, phosphorylated at Ser12, with FBP, Mg²⁺, ATP, and oxalate; Gassaway *et al.* 2019), Gln455 (human 486) ends the equivalent helix (local Cα RMSD to human 0.42 Å), 11.9–12.0 Å from FBP; its amide nitrogen lies 2.86–3.10 Å from Glu422 OE2 (human Glu453) and 2.88–3.25 Å from the Leu452 carbonyl, its amide oxygen 2.30–2.54 Å from a water molecule (orientation inferred), and the Leu331 carbonyl (human Leu362) 5.5–6.4 Å away (Figure 3c), as in both chains of 6ECK.
+We included the dog as an outgroup: its lineage separated from that of primates and rodents about 89 million years ago, before primates and rodents separated from each other, about 84 million years ago (Kumar *et al.* 2022). The dog has Arg at position 486, encoded by the same codon as in human (CGG), and so do the mouse and the six more distant vertebrates. Arg is therefore most likely the ancestral residue, and Gln appeared in the rat lineage after rats and mice separated.
 
-![Figure 3](../figures/Figure3_R486W_closeup.png)
+**Table 2.** PKLR in ten vertebrates. Sources: UniProt (UniProt Consortium 2025, 2026), Ensembl (Dyer *et al.* 2025), and our Clustal Omega alignment (identity with human from the percent identity matrix). Rat: reference strain (Brown Norway); the genome of strain SHRSP has Arg at position 486 (see text).
 
-**Figure 3.** Environment of residue 486. (a) Wild-type Arg486 (PDB 2VGB, subunit A). (b) Trp486 (2VGI, subunit A) after local superposition on the wild type. (c) Rat Gln455 (6ECH, subunit D) superposed on human wild type. Dashed lines, polar contacts ≤ 3.5 Å (in Å); asterisk, Trp486 CZ3–Glu453 OE1 contact; thin dark sticks, wild-type Arg486.
+| Species | Entry | Length (aa) | Identity with human | Residue 486 |
+|---|---|---|---|---|
+| Human | P30613 | 574 | 100% | Arg |
+| Mouse | P53657 | 574 | 91.6% | Arg |
+| Rat | P12928 | 574 | 91.1% | **Gln** |
+| Dog | Q29536 | 574 | 92.5% | Arg |
+| Opossum | F6XZC6 | 569 | 84.0% | Arg |
+| Platypus | A0A6I8P009 | 568 | 80.9% | Arg |
+| Turtle | A0A8C3IT31 | 613 | 72.7% | Arg |
+| Frog | ENSXETP00000103107 | 583 | 72.3% | Arg |
+| Coelacanth | H3ATJ8 | 530 | 76.4% | Arg |
+| Zebrafish | ENSDARP00000069759 | 538 | 67.8% | Arg |
 
-### Clinical, population, and functional evidence
+![Figure 3](../figures/Figure3_alignment_486.png)
 
-The gnomAD v4.1 joint allele frequency of R486W, 0.295% (exomes 0.297%, genomes 0.276%; flagged 'discrepant_frequencies'), predicts under Hardy–Weinberg equilibrium 7.0 homozygotes among the 806 720 individuals represented (eight observed), a carrier frequency of one in 170, and a homozygote frequency of 8.7 per million. Patients homozygous for R486W generally have a mild anaemia (Valentini *et al.* 2002). Four patients compound heterozygous for R486W and another missense variant (two splenectomized) had haemoglobin of 9.4–11.9 g/dL and a red-cell PK/hexokinase activity ratio of 1.6–2.7 (healthy controls, mean 11.9; n = 15); in all 15 patients of that study as a group, whole-blood PEP was increased and pyruvate and ATP decreased (Rab *et al.* 2021). In the recombinant R486W enzyme, FBP still lowered the S₀.₅ for PEP from 1.69 to 0.40 mM and the Hill coefficient from 2.07 to 1.32 (Valentini *et al.* 2002).
+**Figure 3.** Multiple alignment (Clustal Omega) of PKLR from ten vertebrates around position 486 (human numbering, UniProt P30613). Grey: residue different from human; yellow: position 486. Arg486 is present in nine species; the rat has Gln; no species has Trp. Clustal symbols: `*` identical in all sequences, `:` similar, `.` weakly similar.
 
 ## Discussion
 
 ### From the variant to the patient
 
-A CpG transition thus replaces a buried arginine at the A/C domain contact by a tryptophan that keeps a hydrogen bond to the A-domain carbonyls. As the recombinant enzyme retains FBP activation and thermostability, its defect is kinetic, unlike the instability caused by R504L and G364D at the same interface, and may be amplified by subsaturating substrate in red cells (Valentini *et al.* 2002). In compound heterozygotes, the low PK/hexokinase ratio and the metabolite pattern of their cohort indicate a block at the PK step, although both alleles contribute (Rab *et al.* 2021). Reviews describe the next steps, not measured for R486W: rigid, ATP-depleted red cells are removed in the spleen, and accumulated 2,3-diphosphoglycerate favours oxygen release (Fattizzo *et al.* 2022, Luke *et al.* 2023). The mild anaemia of homozygotes and the haemoglobin values of compound heterozygotes suggest, from few patients, a partial-loss-of-function allele whose clinical severity is set largely by the second allele. Patients with R486W meet the genotype criterion of the mitapivat trials, at least one missense variant other than R479H (Luke *et al.* 2023); their response has not been reported separately.
+Our results connect one nucleotide change to the disease. The substitution c.1456C>T changes codon 486 from CGG to TGG and replaces arginine with tryptophan in the red-cell pyruvate kinase. The structures show that residue 486 sits at the contact between the C and A domains, far from the active site, and that the mutant protein keeps the same shape. The enzyme activity data of Valentini *et al.* (2002) complete the picture: the catalytic efficiency of the R486W enzyme drops to 30% of that of the wild type, while its thermostability is even higher and its response to the activator FBP is essentially unchanged. Red cells have no mitochondria and obtain their ATP only from glycolysis (Bianchi and Fermo 2020, Luke *et al.* 2023); with less pyruvate kinase activity they produce less ATP and are removed early from the circulation, which causes chronic haemolytic anaemia (Bianchi and Fermo 2020, Fattizzo *et al.* 2022). Because the disease is autosomal recessive, it appears when both copies of *PKLR* carry a pathogenic variant (Bianchi and Fermo 2020), for example R486W together with another variant.
 
 ### Comparison with Valentini *et al.* (2002)
 
-We confirm the A/C location, hydrogen bonds, and distance from the catalytic centre (about 20 Å or more) of Arg486 and the unchanged active site. The paper, however, names the partner 'Asp361', whereas residue 361 is Asn in P30613, the supplied sequence, and both models; reports no atomic movement above 0.25 Å, whereas the current entries (which replaced 1LIU and 1LIX in 2007) show local Cα RMSDs of 0.30–0.36 Å, within the differences found throughout the two models; and gives a catalytic efficiency of 30% of wild type, whereas its Table II values give ratios of 0.36 without and 0.25 with FBP. Its hypothesis that the tryptophan restricts conformational changes in catalysis cannot be tested with ligand-bound structures.
+Our measurements agree with the published analysis of the same structures: Arg486 is hydrogen-bonded to the backbone of Leu362, it is more than 20 Å from the catalytic centre, and the mutant structure shows almost no change (Valentini *et al.* 2002). This raises a question: how can a substitution that does not change the structure reduce the activity of a distant active site? Valentini *et al.* (2002) propose that the large Trp ring may restrict the movements that the enzyme makes during catalysis; this is a hypothesis that the crystal structures alone cannot test. They also note that, in the cell, the enzyme works below saturation with its substrates, which may amplify the effect of a moderate loss of efficiency. This fits the clinical picture: patients homozygous for R486W generally have mild anaemia (Valentini *et al.* 2002).
 
 ### What the species comparison shows about the affected function
 
-The ancestral Arg486, present in 156 of 170 resolved orthologues and flanked by invariant residues, indicates constraint on this part of the C domain, but not absolute constraint: Gln replaced Arg independently in rat and in at least two primate lineages, and rat Gln455 satisfies its amide within the C domain, without the A/C hydrogen bond, in a folded tetramer that binds FBP and active-site ligands. This does not show that Gln or Trp is tolerated in human R-type PK, because no kinetics of Gln-carrying enzymes were found, the rat structure is of a phosphorylated L-type isoform, other sequence differences may compensate (Valentini *et al.* 2002), and human p.(Arg486Gln) is of uncertain significance. The absence of Trp from all orthologues is consistent with, but does not prove, a deleterious effect; mouse, with Arg486 and a PKD model (Morimoto *et al.* 1995), is a closer model than rat.
+Arg486 is present in nine of the ten vertebrates we compared, from mammals to fish, and the residues around it are also nearly identical. Residues conserved over long evolutionary distances are often important for structure or function (Capra and Singh 2007), which agrees with the role of Arg486 in the contact between two domains. With the dog as outgroup, Arg is most likely the ancestral residue, and Gln is a later change of the rat lineage. That a healthy species carries Gln shows that the position can tolerate a change; two rat genomes annotated in RefSeq even differ at this position, which suggests variation within the rat, although sequencing more rats would be needed to confirm it. Clustal Omega marks this column with ':', which means that Arg and Gln have strongly similar properties; Trp, in contrast, is hydrophobic and aromatic, whereas Arg is positively charged (Škrbić *et al.* 2024), and no species in our comparison has Trp. We did not measure the activity of the rat enzyme, and Valentini *et al.* (2002) warn that the effect of a mutation in human red-cell PK cannot simply be predicted from other forms of the enzyme; the rat Gln is therefore a clue, not a proof.
 
-### Population frequency and penetrance
+### The dog: the same enzyme and the same disease
 
-The predicted frequency of R486W homozygotes (8.7 per million) equals or exceeds the prevalence of diagnosed PKD of all genotypes (Secrest *et al.* 2020), and gnomAD contains as many homozygotes as random mating predicts. By the reasoning of Whiffin *et al.* (2017), many R486W homozygotes are probably not diagnosed, consistent with their mild phenotype, although gnomAD does not report phenotypes; this does not argue against pathogenicity in compound heterozygotes, as all 33 ClinVar submitters agree.
+PK deficiency also occurs naturally in dogs, where it is the most common inherited enzyme defect of red cells; each affected breed carries a different *PKLR* mutation, and affected dogs have chronic haemolytic anaemia and iron overload, as human patients do (Gultekin *et al.* 2012). Dog R-type PK has 574 amino acids, like the human enzyme, so positions can be compared directly. The Beagle mutation c.994G>A (p.Gly332Ser) is the same nucleotide and amino-acid change as the human mutation G332S (Gultekin *et al.* 2012), which in homozygous patients causes severe anaemia that requires regular transfusions (Valentini *et al.* 2002). No dog mutation at position 486 has been reported in the studies we consulted. The dog thus shares with humans the residue at position 486, at least one disease mutation, and the clinical picture of the disease.
 
 ### Limitations
 
-The truncated, ligand-bound crystal structures cannot show stability in red cells, dynamics, or inactive conformations, and their four chains, refined with non-crystallographic symmetry restraints, are not independent observations. The rat R-type CDS and primate sequences are gene models, and fish, amphibian, and reptile sequences are no more, or only marginally more, identical to human PKLR (62.6–73.0%) than to PKM, so their orthology rests on Compara gene trees. R486W-specific patient data come from small cohorts and four compound heterozygotes, with no series of homozygotes.
+Our comparison includes ten species; except for the four mammals with reviewed UniProt entries, the sequences are automatic annotations, which we accepted only when Ensembl lists them as one-to-one orthologues. For the rat we used the reference strain; the residue at position 486 differs between two rat genomes annotated in RefSeq. The ancestral residue is an inference from the outgroup, not a measurement. Our structural analysis relies on one wild-type and one mutant crystal structure at 2.7 Å resolution; crystal structures are static and cannot show changes in flexibility. We did not perform any laboratory measurement: all enzyme activity data come from Valentini *et al.* (2002). Finally, database records change over time, and ClinVar and gnomAD values are those of the records we consulted.
 
 ## Conclusions
 
-In the recombinant enzyme, R486W changes kinetics rather than stability, crystal structure, or allosteric regulation: the catalytic efficiency with PEP falls to 25–36% of wild type while the active site and the FBP site are unchanged, by a mechanism that static structures do not resolve. Arg486 is ancestral and highly but not absolutely conserved: Gln arose repeatedly and in rat does not form the A/C hydrogen bond, and Trp occurs in none of 190 homologues. Patient and population data are consistent with a partial-loss-of-function allele whose clinical expression depends on the second *PKLR* allele.
+The supplied mutant sequence differs from the wild type by one nucleotide, c.1456C>T, which replaces arginine 486 with tryptophan (p.Arg486Trp) in red-cell pyruvate kinase. The variant is classified as Pathogenic/Likely pathogenic in ClinVar and is rare in the population (0.30%). Arg486 lies at the contact between the C and A domains, about 26 Å from the active site, and the mutant crystal structure is almost identical to the wild type. The published enzyme data show that the mutant keeps its stability and its activation by FBP but works with about 30% of the normal catalytic efficiency (Valentini *et al.* 2002). Because red cells depend on glycolysis for ATP, this loss of activity is enough to shorten their life and cause chronic haemolytic anaemia when both copies of *PKLR* are affected. Arg486 is conserved in nine of ten vertebrates, from mammals to fish, and is most likely the ancestral residue; the rat has the similar residue Gln, and no species has Trp. Dogs, which share Arg486 with humans, also develop PK deficiency, in Beagles through the same G332S change found in human patients. Our work shows how sequence alignment, database records, and structure comparison together explain a disease caused by a change that leaves the protein's shape intact but reduces its function.
 
 ## Methods
 
-### Data sources and species
+### Data sources
 
-Records (versions in the tables and reference list) were accessed on 22 October 2026 from the HUGO Gene Nomenclature Committee (HGNC:9020), National Center for Biotechnology Information (NCBI) Gene (NCBI 2026b), RefSeq (O'Leary *et al.* 2016) with MANE Select status, Ensembl 116 and Compara (Dyer *et al.* 2025), UniProtKB/Swiss-Prot (UniProt Consortium 2026), the PDB (RCSB PDB 2026), ClinVar (NCBI 2026a), gnomAD v4.1 and v2.1.1 (gnomAD 2026), and Online Mendelian Inheritance in Man (OMIM 2026). As the rat RefSeq Select protein (NP_036756.3) is the L-type, the rat R-type CDS was taken from XM_006232593.5, whose translation equals UniProt P12928. Rat is required by our assignment, mouse is its closest relative, and dog, the fourth reviewed entry, is the outgroup (divergence about 89 million years ago, against 84 between primates and rodents; TimeTree 5, Kumar *et al.* 2022).
+The wild-type and mutant coding and protein sequences were provided by the course (IB Teaching Staff 2026). We identified them with BLAST at NCBI (Altschul *et al.* 1990), using blastn for the coding sequences and blastp for the proteins against the default databases, and chose the best curated RefSeq hits (O'Leary *et al.* 2016): the *PKLR* transcript NM_000298.6 (NCBI 2026b) and its protein NP_000289.1, which is identical to UniProt P30613 (UniProt Consortium 2026). Variant information came from ClinVar (record VCV000001513; NCBI 2026a), gnomAD v4.1.2 (gnomAD 2026), and UniProt. The reviewed PKLR entries of rat (P12928), mouse (P53657), and dog (Q29536) came from UniProt (UniProt Consortium 2026); we checked them against BLAST searches restricted to each species (databases RefSeq protein and RefSeq RNA), in which we chose the PKLR entry covering the whole human query, that is, the red-cell form. For other vertebrates, we used the one-to-one orthologues of human *PKLR* (ENSG00000143627) listed by Ensembl (Dyer *et al.* 2025) and the corresponding UniProt entries where available (UniProt Consortium 2025). Divergence times between species were taken from TimeTree (Kumar *et al.* 2022). The crystal structures of the wild-type enzyme (PDB 2VGB) and of the R486W mutant (PDB 2VGI) (Valentini *et al.* 2002) were downloaded from the RCSB Protein Data Bank (RCSB PDB 2026). Copies of the database records are stored in the `references/` folder of our repository, and every analysis step (input files, screenshots, and output files) in the `analysis/procedures/` folder.
 
-### Analysis
+### Sequence analysis
 
-Sequences were compared with Biopython 1.88 and named after the Human Genome Variation Society recommendations (2016 update). Pairwise global alignments used the EMBOSS Needle defaults (BLOSUM62, gap opening 10, extension 0.5) and were reproduced with EMBOSS needle 6.6.0 and BLAST+ 2.17.0; multiple alignments used Clustal Omega 1.2.4, run locally with default parameters, and ancestral states were inferred by inspection under maximum parsimony. Contacts (heavy atoms ≤ 4.0 Å; polar N/O ≤ 3.5 Å) were computed with Biopython, relative solvent accessibility with FreeSASA 2.2.1, and secondary structure with DSSP in UCSF ChimeraX 1.10.1 and with PyMOL 3.1.8 (Schrödinger), which rendered Figures 2 and 3. Cα atoms were superposed by least squares without outlier rejection, and rat residues were mapped as L-type number + 31. Expected homozygotes were computed as (AN/2) × AF² and carriers as 2pq. Parameters, scripts, and step-by-step protocols are in the README files of the `analysis/` folders.
+Pairwise alignments were made with BLAST on the NCBI website, with the option "Align two or more sequences" (blastn for coding sequences, blastp for proteins) and the default settings; the variant was located in the "Query-anchored with dots for identities" view. The multiple alignment of the ten PKLR sequences was made with Clustal Omega (Sievers *et al.* 2011) on the EMBL-EBI website (Madeira *et al.* 2024), with the default settings; percent identities were taken from its percent identity matrix, and position 486 was read in the column aligned with human Arg486.
+
+### Structure analysis
+
+Structures were analysed with PyMOL (Schrödinger, LLC). For each structure we used chain A. Domains were coloured with the residue limits given by Valentini *et al.* (2002): N, 57–84; A, 85–159 and 263–431; B, 160–262; C, 432–574. The mutant was superposed on the wild type with the PyMOL command `align` on the Cα atoms of chain A, without outlier rejection (`cycles=0`), which gives the RMSD. Distances and hydrogen bonds were measured with the PyMOL commands `distance` and `get_distance`. Figures 1 and 2 were made with the same list of PyMOL commands, which is stored with the analysis.
+
+### Statistical analysis
+
+No statistical analysis was performed.
 
 ## Abbreviations
 
-AC: allele count; ADP: adenosine diphosphate; AF: allele frequency; AN: allele number; ATP: adenosine triphosphate; CDS: coding sequence; FBP: fructose 1,6-bisphosphate; gnomAD: Genome Aggregation Database; MANE: Matched Annotation from NCBI and EMBL-EBI; NCBI: National Center for Biotechnology Information; PDB: Protein Data Bank; PEP: phosphoenolpyruvate; PGA: phosphoglycolate; PK: pyruvate kinase; PKD: pyruvate kinase deficiency; RMSD: root-mean-square deviation; WT: wild type.
+aa: amino acids; ATP: adenosine triphosphate; BLAST: Basic Local Alignment Search Tool; CDS: coding sequence; FBP: fructose 1,6-bisphosphate; gnomAD: Genome Aggregation Database; PDB: Protein Data Bank; PK: pyruvate kinase; PKD: pyruvate kinase deficiency; RMSD: root-mean-square deviation.
 
 ## Declarations
 
 ### Availability of data and materials
 
-Sequences, scripts, raw database responses, measurements, and protocols are in `analysis/`, figures in `figures/`, and sources in `references/` of https://github.com/XxNaderTheKing08Xx/11DP-C_Pyruvate-Kinase-Deficiency_IB_2026.
+All data, alignments, figures, and sources used in this work are available in our GitHub repository, including every analysis step with its input files, screenshots, and outputs (folder `analysis/procedures/`): https://github.com/XxNaderTheKing08Xx/11DP-C_Pyruvate-Kinase-Deficiency_IB_2026
 
 ### Authors' contributions
 
-Aarón Godino Martínez (Product Owner): literature review, patient impact, Abstract, Background, and report assembly. Bruno Carrasquilla (Sequence Analyst): sequence and conservation analyses and their Results, Figure 1, Table 2, and read-through. Ettore Colombo (Project Manager): planning, independent sequence verification, Discussion, Conclusions, and Declarations. Leo Nader Al Hourani (Data and GitHub Manager): database evidence, Table 1, alignment verification, repository and references, clinical Results, Methods, and Abbreviations. Pol Monllau (Structure Analyst): structural analyses and their Results, and Figures 2 and 3.
+AGM wrote the Background, the Abstract, the Abbreviations, and the Declarations, and deposited the cited articles. BC characterized the supplied sequences, performed the species comparison, wrote the Results on the variant and on the species comparison, and prepared Table 2 and Figure 3. EC managed the project, wrote the Discussion and the Conclusions, assembled the report, and prepared the final Project Status and Gantt chart. LNAH collected the database records, prepared Table 1, and wrote the Methods and the References. PM performed the structure analysis, wrote the Results on the structures, prepared Figures 1 and 2, and revised the Lab 1 notebook. All authors read and approved the final manuscript.
 
 ### Use of generative AI
 
-As explicitly allowed by the course policy, the authors used a generative AI assistant (Claude, Anthropic) to draft and revise text, write analysis scripts, and check references and formatting. The authors guided the whole process and repeated the analyses with the tools described in Methods, verified every statement and reference against its source, and take full responsibility for the content.
+Generative AI was used, in line with the course guidelines, for drafting and reviewing text, for formatting, and for understanding concepts; the authors checked all content and take responsibility for it.
 
 ## References
 
 Al-Samkari H et al. Mitapivat versus placebo for pyruvate kinase deficiency. N Engl J Med 2022;386:1432–42.
 
-Baronciani L, Beutler E. Analysis of pyruvate kinase-deficiency mutations that produce nonspherocytic hemolytic anemia. Proc Natl Acad Sci U S A 1993;90:4324–7.
+Altschul SF et al. Basic local alignment search tool. J Mol Biol 1990;215:403–10.
 
 Bianchi P, Fermo E. Molecular heterogeneity of pyruvate kinase deficiency. Haematologica 2020;105:2218–28.
 
 Bianchi P et al. Genotype-phenotype correlation and molecular heterogeneity in pyruvate kinase deficiency. Am J Hematol 2020;95:472–82.
 
+Capra JA, Singh M. Predicting functionally important residues from sequence conservation. Bioinformatics 2007;23:1875–82.
+
 Dyer SC et al. Ensembl 2025. Nucleic Acids Res 2025;53:D948–57.
 
 Fattizzo B et al. Pyruvate kinase deficiency: current challenges and future prospects. J Blood Med 2022;13:461–71.
 
-Gassaway BM et al. Distinct hepatic PKA and CDK signaling pathways control activity-independent pyruvate kinase phosphorylation and hepatic glucose production. Cell Rep 2019;29:3394–404.e9.
-
-gnomAD. Variants 1-155291918-G-A and 1-155291917-C-T (gnomAD v4.1.0); variant 1-155261709-G-A (gnomAD v2.1.1). 2026. https://gnomad.broadinstitute.org/ (22 October 2026, date last accessed).
-
-Grace RF, Barcellini W. Management of pyruvate kinase deficiency in children and adults. Blood 2020;136:1241–9.
+gnomAD. Variant 1-155291918-G-A, gnomAD v4.1.2. https://gnomad.broadinstitute.org/variant/1-155291918-G-A?dataset=gnomad_r4 (22 October 2026, date last accessed).
 
 Grace RF et al. Clinical spectrum of pyruvate kinase deficiency: data from the Pyruvate Kinase Deficiency Natural History Study. Blood 2018;131:2183–92.
 
-IB Teaching Staff. Disease Project Overview [course document]. Introduction to Bioinformatics, 2026–2027. Barcelona, 2026.
+Gultekin GI et al. Erythrocytic pyruvate kinase mutations causing hemolytic anemia, osteosclerosis, and secondary hemochromatosis in dogs. J Vet Intern Med 2012;26:935–44.
+
+IB Teaching Staff. Disease Project Overview [course document]. Introduction to Bioinformatics, 2026–2027. Barcelona: Universitat Politècnica de Catalunya, 2026.
+
+Koonin EV. Orthologs, paralogs, and evolutionary genomics. Annu Rev Genet 2005;39:309–38.
 
 Kumar S et al. TimeTree 5: an expanded resource for species divergence times. Mol Biol Evol 2022;39:msac174.
 
-Liu T et al. Structure-based design of AG-946, a pyruvate kinase activator. ChemMedChem 2024;19:e202300559.
-
 Luke N et al. Updates and advances in pyruvate kinase deficiency. Trends Mol Med 2023;29:406–18.
 
-Morimoto M et al. Pyruvate kinase deficiency of mice associated with nonspherocytic hemolytic anemia and cure of the anemia by marrow transplantation without host irradiation. Blood 1995;86:4323–30.
+Madeira F et al. The EMBL-EBI Job Dispatcher sequence analysis tools framework in 2024. Nucleic Acids Res 2024;52:W521–5.
 
-NCBI. ClinVar VCV000001513.102: NM_000298.6(PKLR):c.1456C>T (p.Arg486Trp); VCV000873616.7: NM_000298.6(PKLR):c.1457G>A (p.Arg486Gln). 2026a. https://www.ncbi.nlm.nih.gov/clinvar/variation/1513/ and https://www.ncbi.nlm.nih.gov/clinvar/variation/873616/ (22 October 2026, date last accessed).
+NCBI. ClinVar VCV000001513: NM_000298.6(PKLR):c.1456C>T (p.Arg486Trp). https://www.ncbi.nlm.nih.gov/clinvar/variation/1513/ (22 October 2026, date last accessed). [cited as NCBI 2026a]
 
-NCBI. Gene ID: 5313, PKLR pyruvate kinase L/R [Homo sapiens (human)]. 2026b. https://www.ncbi.nlm.nih.gov/gene/5313 (22 October 2026, date last accessed).
-
-Noguchi T et al. The L- and R-type isozymes of rat pyruvate kinase are produced from a single gene by use of different promoters. J Biol Chem 1987;262:14366–71.
+NCBI. Homo sapiens pyruvate kinase L/R (PKLR), transcript variant 1, mRNA. NM_000298.6. https://www.ncbi.nlm.nih.gov/nuccore/NM_000298.6 (22 October 2026, date last accessed). [cited as NCBI 2026b]
 
 O'Leary NA et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res 2016;44:D733–45.
 
-OMIM. #266200 Anemia, congenital, nonspherocytic hemolytic, 2; CNSHA2; \*609712 Pyruvate kinase, liver and red blood cell; PKLR. 2026. https://www.omim.org/entry/266200 and https://www.omim.org/entry/609712 (22 October 2026, date last accessed).
+RCSB PDB. 2VGB: Human erythrocyte pyruvate kinase; 2VGI: Human erythrocyte pyruvate kinase: R486W mutant. https://www.rcsb.org/structure/2VGB and https://www.rcsb.org/structure/2VGI (22 October 2026, date last accessed).
 
-Rab MAE et al. AG-348 (mitapivat), an allosteric activator of red blood cell pyruvate kinase, increases enzymatic activity, protein stability, and ATP levels over a broad range of PKLR genotypes. Haematologica 2021;106:238–49.
-
-RCSB PDB. 2VGB: Human erythrocyte pyruvate kinase; 2VGI: Human erythrocyte pyruvate kinase: R486W mutant. 2026. https://www.rcsb.org/structure/2VGB and https://www.rcsb.org/structure/2VGI (22 October 2026, date last accessed).
+Schrödinger, LLC. The PyMOL Molecular Graphics System. https://www.pymol.org/ (22 October 2026, date last accessed).
 
 Secrest MH et al. Prevalence of pyruvate kinase deficiency: a systematic literature review. Eur J Haematol 2020;105:173–84.
 
-UniProt Consortium. UniProtKB entries P30613 · KPYR_HUMAN (entry version 260), P12928 · KPYR_RAT (209), P53657 · KPYR_MOUSE (181), and Q29536 · KPYR_CANLF (160). 2026. https://www.uniprot.org/uniprotkb/ (22 October 2026, date last accessed).
+Sievers F et al. Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol Syst Biol 2011;7:539.
+
+Škrbić T et al. Amino-acid characteristics in protein native state structures. Biomolecules 2024;14:805.
+
+UniProt Consortium. UniProt: the Universal Protein Knowledgebase in 2025. Nucleic Acids Res 2025;53:D609–17.
+
+UniProt Consortium. UniProtKB entries P30613 (KPYR_HUMAN), P12928 (KPYR_RAT), P53657 (KPYR_MOUSE), and Q29536 (KPYR_CANLF). https://www.uniprot.org/ (22 October 2026, date last accessed).
 
 Valentini G et al. Structure and function of human erythrocyte pyruvate kinase. Molecular basis of nonspherocytic hemolytic anemia. J Biol Chem 2002;277:23807–14.
-
-Whiffin N et al. Using high-resolution variant frequencies to empower clinical genome interpretation. Genet Med 2017;19:1151–8.
-
-Zanella A et al. Molecular characterization of PK-LR gene in pyruvate kinase-deficient Italian patients. Blood 1997;89:3847–52.
-
-Zarza R et al. Molecular characterization of the PK-LR gene in pyruvate kinase deficient Spanish patients. Br J Haematol 1998;103:377–82.
