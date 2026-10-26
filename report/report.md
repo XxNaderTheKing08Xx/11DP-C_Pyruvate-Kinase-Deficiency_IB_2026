@@ -1,4 +1,6 @@
-# Pyruvate kinase deficiency: how one amino acid change in *PKLR* reduces enzyme function without changing its structure
+# Pyruvate kinase deficiency: how one amino acid change in *PKLR* reduces enzyme function
+
+
 
 Aarón Godino Martínez, Bruno Carrasquilla, Ettore Colombo, Leo Nader Al Hourani, Pol Monllau
 
