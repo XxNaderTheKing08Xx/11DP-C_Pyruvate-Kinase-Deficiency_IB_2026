@@ -1,0 +1,60 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+
+BLASTN 2.17.0+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+RID: DZ96ECP3016
+
+
+Database: NCBI Transcript Reference Sequences
+           85,490,458 sequences; 253,873,649,046 total letters
+
+Query= PKD_CDS_WT
+
+Length=1725
+
+
+<b>No significant similarity found.</b> For reasons why, <A HREF = "Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ"><b>click here</A>.</b><br><br>
+  Database: NCBI Transcript Reference Sequences
+    Posted date:  Oct 24, 2026  1:20 AM
+  Number of letters in database: 161,739,111
+  Number of sequences in database:  49,147
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 49147
+Number of Hits to DB: 4226
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 0.05: 0
+Number of HSP's better than 0.05 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 1725
+Length of database: 161739111
+Length adjustment: 27
+Effective length of query: 1698
+Effective length of database: 160412142
+Effective search space: 272379817116
+Effective search space used: 272379817116
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 23 (43.6 bits)
+
+

@@ -1,0 +1,12 @@
+# blastp
+# Iteration: 0
+# Query: PKD_protein_WT
+# RID: DZ9FWWY6014
+# Database: refseq_protein
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 3 hits found
+PKD_protein_WT	XP_006001702.1	76.705	528	122	1	44	571	1	527	0.0	834	87.88
+PKD_protein_WT	XP_064421835.1	72.590	529	145	0	46	574	6	534	0.0	817	85.82
+PKD_protein_WT	XP_064421836.1	72.212	529	147	0	46	574	6	534	0.0	803	84.69
+
+

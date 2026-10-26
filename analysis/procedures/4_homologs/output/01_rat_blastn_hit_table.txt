@@ -1,0 +1,14 @@
+# blastn
+# Iteration: 0
+# Query: PKD_CDS_WT
+# RID: DZ81K692014
+# Database: refseq_rna
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+PKD_CDS_WT	XM_087616196.1	86.624	1727	227	4	1	1725	42	1766	0.0	1906
+PKD_CDS_WT	XM_006232593.6	86.508	1727	229	4	1	1725	42	1766	0.0	1895
+PKD_CDS_WT	XM_087616198.1	87.186	1631	209	0	95	1725	108	1738	0.0	1855
+PKD_CDS_WT	XM_039101740.3	87.063	1631	211	0	95	1725	108	1738	0.0	1844
+PKD_CDS_WT	NM_012624.3	87.093	1627	210	0	99	1725	21	1647	0.0	1842
+
+
