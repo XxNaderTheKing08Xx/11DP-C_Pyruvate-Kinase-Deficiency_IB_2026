@@ -16,11 +16,15 @@ Gantt chart and risk analysis submitted on 9 October 2026 and revised after the 
 
 Files in this folder:
 
-Frozen and live version of the Gantt Chart:
+Gantt chart, first and final version (Disease Project Formal Requirements, section II.3):
 
 ◊ [`gantt_chart_2026-10-09.png`](gantt_chart_2026-10-09.png): the Gantt chart of 9 October (frozen version).
 
-◊ [`Gantt_live_11DP-C.xlsx`](Gantt_live_11DP-C.xlsx): the workbook as submitted on 9 October (frozen). The live Gantt chart and Project Status, updated by each task owner until the end of the project, is [`../status/Gantt_live_11DP-C.xlsx`](../status/Gantt_live_11DP-C.xlsx).
+◊ [`Gantt_live_11DP-C.xlsx`](Gantt_live_11DP-C.xlsx): the workbook as submitted on 9 October (frozen).
+
+◊ [`gantt_chart_final_2026-10-26.png`](gantt_chart_final_2026-10-26.png): the final Gantt chart of 26 October, planned dates of 9 October against real dates.
+
+◊ [`Gantt_final_11DP-C_2026-10-26.xlsx`](Gantt_final_11DP-C_2026-10-26.xlsx): the final workbook. During the project it was maintained live in [`../status/Gantt_live_11DP-C.xlsx`](../status/Gantt_live_11DP-C.xlsx), together with the Project Status.
 
 
 Complete readable version of the project in .pdf format:
