@@ -1,0 +1,11 @@
+# blastn
+# Iteration: 0
+# Query: lcl|NM_000298.6_cds_NP_000289.1_1 [gene=PKLR] [db_xref=CCDS:CCDS1109.1] [protein=pyruvate kinase PKLR isoform 1] [protein_id=NP_000289.1] [location=44..1768] [gbkey=CDS]
+# RID: DZBTU6YN114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+lcl|NM_000298.6_cds_NP_000289.1_1	lcl|NM_013631.2_cds_NP_038659.2_1	86.516	1728	227	6	1	1725	1	1725	0.0	1895
+lcl|NM_000298.6_cds_NP_000289.1_1	lcl|XM_006232593.6_cds_XP_006232655.1_1	86.508	1727	229	4	1	1725	1	1725	0.0	1895
+
+

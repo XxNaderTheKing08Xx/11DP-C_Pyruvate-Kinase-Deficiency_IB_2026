@@ -1,0 +1,61 @@
+RID: DZBV7MRR114	
+Job Title:sp|P30613|KPYR_HUMAN Pyruvate kinase PKLR...				
+Program: BLASTP 
+Query: sp|P30613|KPYR_HUMAN Pyruvate kinase PKLR OS=Homo sapiens OX=9606 GN=PKLR PE=1 SV=2 ID: lcl|Query_3493342(amino acid) Length: 574
+			            
+Subject #1:sp|P12928|KPYR_RAT Pyruvate kinase PKLR OS=Rattus norvegicus OX=10116 GN=Pklr PE=1 SV=2 ID: lcl|Query_3493344 Length: 574
+Subject #2:sp|P53657|KPYR_MOUSE Pyruvate kinase PKLR OS=Mus musculus OX=10090 GN=Pklr PE=1 SV=1 ID: lcl|Query_3493345 Length: 574
+	                    			
+	
+Clusters producing significant alignments:
+                                                                  #          #          Scientific      Cluster                    Max    Total Query   E   Per.   Acc.                        
+Cluster Rep.                                                      Mem.       Taxa       Name            Ancestor        Taxid      Score  Score cover Value Ident  Len        Accession        
+sp|P53657|KPYR_MOUSE Pyruvate kinase PKLR OS=Mus musculus...      0          0                                          0          1071   1071  100%  0.0   91.64  574        Query_3493345    
+sp|P12928|KPYR_RAT Pyruvate kinase PKLR OS=Rattus norvegicus...   0          0                                          0          1070   1070  100%  0.0   91.11  574        Query_3493344    
+
+Alignments:
+
+Query          1    MSIQENISSLQLRSWVSKSQRDLAKSILIGAPGGPAGYLRRASVAQLTQELGTAFFQQQQ  60
+Query_3493345  1    ..V...ELPQ..WP.IF...K.....A.S...............................  60
+Query_3493344  1    ..V...TLPQ..WP.IFR..K.....A.S...............................  60
+
+Query          61   LPAAMADTFLEHLCLLDIDSEPVAARSTSIIATIGPASRSVERLKEMIKAGMNIARLNFS  120
+Query_3493345  61   .........................................D..................  120
+Query_3493344  61   ....................Q....................D..................  120
+
+Query          121  HGSHEYHAESIANVREAVESFAGSPLSYRPVAIALDTKGPEIRTGILQGGPESEVELVKG  180
+Query_3493345  121  .............I...A....T......................V..........I...  180
+Query_3493344  121  .............I...T....T......................V..........I...  180
+
+Query          181  SQVLVTVDPAFRTRGNANTVWVDYPNIVRVVPVGGRIYIDDGLISLVVQKIGPEGLVTQV  240
+Query_3493345  181  .........K.....D.K......H..TQ..A................R.........E.  240
+Query_3493344  181  .........K.Q...D.K......H..T...A..........................E.  240
+
+Query          241  ENGGVLGSRKGVNLPGAQVDLPGLSEQDVRDLRFGVEHGVDIVFASFVRKASDVAAVRAA  300
+Query_3493345  241  .H..F..N.......N.E..........LL........Y...I...........V...D.  300
+Query_3493344  241  .H..I..........NTE..........LL......Q.N...I...........L...D.  300
+
+Query          301  LGPEGHGIKIISKIENHEGVKRFDEILEVSDGIMVARGDLGIEIPAEKVFLAQKMMIGRC  360
+Query_3493345  301  .....R...............K............M.........................  360
+Query_3493344  301  .....QN..............K......................................  360
+
+Query          361  NLAGKPVVCATQMLESMITKPRPTRAETSDVANAVLDGADCIMLSGETAKGNFPVEAVKM  420
+Query_3493345  361  ....................A..............................S........  420
+Query_3493344  361  ....................A..............................S......M.  420
+
+Query          421  QHAIAREAEAAVYHRQLFEELRRAAPLSRDPTEVTAIGAVEAAFKCCAAAIIVLTTTGRS  480
+Query_3493345  421  ..........................................S............K....  480
+Query_3493344  421  ..........................................S............K....  480
+
+Query          481  AQLLSRYRPRAAVIAVTRSAQAARQVHLCRGVFPLLYREPPEAIWADDVDRRVQFGIESG  540
+Query_3493345  481  ............................S..............V................  540
+Query_3493344  481  .....Q......................S...............................  540
+
+Query          541  KLRGFLRVGDLVIVVTGWRPGSGYTNIMRVLSIS  574
+Query_3493345  541  ...............................T..  574
+Query_3493344  541  ................................V.  574
+
+
+		
+
+
