@@ -1,0 +1,284 @@
+PyMOL>load 2VGB.pdb
+HEADER    TRANSFERASE                             12-NOV-07   2VGB
+TITLE     HUMAN ERYTHROCYTE PYRUVATE KINASE
+COMPND    MOL_ID: 1;
+COMPND   2 MOLECULE: PYRUVATE KINASE ISOZYMES R/L;
+COMPND   3 CHAIN: A, B, C, D;
+COMPND   4 FRAGMENT: RESIDUES 47-574;
+COMPND   5 SYNONYM: R-TYPE/L-TYPE PYRUVATE KINASE, RED CELL/LIVER PYRUVATE
+COMPND   6 KINASE, PYRUVATE KINASE 1, PYRUVATE KINASE;
+COMPND   7 EC: 2.7.1.40;
+COMPND   8 ENGINEERED: YES
+ ObjectMolecule: Read secondary structure assignments.
+ ObjectMolecule: Read crystal symmetry information.
+ CmdLoad: "" loaded as "2VGB".
+PyMOL>load 2VGI.pdb
+HEADER    TRANSFERASE                             13-NOV-07   2VGI
+TITLE     HUMAN ERYTHROCYTE PYRUVATE KINASE: R486W MUTANT
+COMPND    MOL_ID: 1;
+COMPND   2 MOLECULE: PYRUVATE KINASE ISOZYMES R/L;
+COMPND   3 CHAIN: A, B, C, D;
+COMPND   4 FRAGMENT: RESIDUES 47-574;
+COMPND   5 SYNONYM: R-TYPE/L-TYPE PYRUVATE KINASE, RED CELL/LIVER PYRUVATE
+COMPND   6 KINASE, PYRUVATE KINASE 1, PYRUVATE KINASE;
+COMPND   7 EC: 2.7.1.40;
+COMPND   8 ENGINEERED: YES;
+COMPND   9 MUTATION: YES
+ ObjectMolecule: Read secondary structure assignments.
+ ObjectMolecule: Read crystal symmetry information.
+ CmdLoad: "" loaded as "2VGI".
+PyMOL>remove solvent
+ Remove: eliminated 65 atoms in model "2VGB".
+PyMOL>bg_color white
+PyMOL>set ray_opaque_background, 1
+ Setting: ray_opaque_background set to 1.
+PyMOL>remove not chain A
+ Remove: eliminated 11604 atoms in model "2VGB".
+ Remove: eliminated 11396 atoms in model "2VGI".
+PyMOL>orient 2VGB
+PyMOL>turn x, -90
+PyMOL>align 2VGI and name CA, 2VGB and name CA, cycles=0
+ Match: read scoring matrix.
+ Match: assigning 517 x 517 pairwise scores.
+ MatchAlign: aligning residues (517 vs 517)...
+ MatchAlign: score 2597.000
+ ExecutiveAlign: 517 atoms aligned.
+ Executive: RMSD =    0.587 (517 to 517 atoms)
+PyMOL>color grey70, all
+ Executive: Colored 7889 atoms and 2 objects.
+PyMOL>color yellow, resi 57-84
+ Executive: Colored 430 atoms.
+PyMOL>color skyblue, resi 85-159+263-431
+ Executive: Colored 3650 atoms.
+PyMOL>color orange, resi 160-262
+ Executive: Colored 1530 atoms.
+PyMOL>color palegreen, resi 432-574
+ Executive: Colored 2217 atoms.
+PyMOL>set cartoon_transparency, 0.6, 2VGI
+ Setting: cartoon_transparency set to 0.60000 in object "2VGI".
+PyMOL>show spheres, 2VGB and resi 486 and not name N+C+O
+PyMOL>color red, 2VGB and resi 486 and elem C
+ Executive: Colored 6 atoms.
+PyMOL>show sticks, 2VGB and resn PGA+FBP
+PyMOL>color black, 2VGB and resn PGA and elem C
+ Executive: Colored 2 atoms.
+PyMOL>color magenta, 2VGB and resn MN
+ Executive: Colored 1 atom.
+PyMOL>show spheres, 2VGB and resn MN
+PyMOL>distance d_active, 2VGB and resi 486 and name CZ, 2VGB and resn PGA and name C1
+ Executive: object "d_active" created.
+PyMOL>get_distance 2VGB and resi 486 and name CZ, 2VGB and resn PGA and name C1
+ cmd.get_distance: 26.124 Angstroms.
+PyMOL>hide spheres
+PyMOL>show sticks, resi 486 and not name N+C+O
+PyMOL>show sticks, resi 361+362
+PyMOL>color red, 2VGB and resi 486 and elem C
+ Executive: Colored 6 atoms.
+PyMOL>color purple, 2VGI and resi 486 and elem C
+ Executive: Colored 11 atoms.
+PyMOL>disable d_active
+PyMOL>set cartoon_transparency, 0.75
+ Setting: cartoon_transparency set to 0.75000.
+PyMOL>orient resi 486+361+362
+PyMOL>zoom resi 486+361+362, 4.5
+PyMOL>distance hb_wt, 2VGB and resi 486 and name NH2, 2VGB and resi 362 and name O
+ Executive: object "hb_wt" created.
+PyMOL>get_distance 2VGB and resi 486 and name NH2, 2VGB and resi 362 and name O
+ cmd.get_distance: 2.743 Angstroms.
+PyMOL>distance hb_mut1, 2VGI and resi 486 and name NE1, 2VGI and resi 361 and name O
+ Executive: object "hb_mut1" created.
+PyMOL>get_distance 2VGI and resi 486 and name NE1, 2VGI and resi 361 and name O
+ cmd.get_distance: 3.045 Angstroms.
+PyMOL>distance hb_mut2, 2VGI and resi 486 and name NE1, 2VGI and resi 362 and name O
+ Executive: object "hb_mut2" created.
+PyMOL>get_distance 2VGI and resi 486 and name NE1, 2VGI and resi 362 and name O
+ cmd.get_distance: 3.373 Angstroms.
+PyMOL>set ray_opaque_background, 1
+ Setting: ray_opaque_background set to 1.
+PyMOL>enable d_active
+PyMOL>hide everything, 2VGI
+PyMOL>hide sticks, resi 361+362
+PyMOL>show spheres, 2VGB and resi 486 and not name N+C+O
+PyMOL>color red, 2VGB and resi 486
+ Executive: Colored 11 atoms.
+PyMOL>show spheres, 2VGB and resn PGA+MN
+PyMOL>color black, 2VGB and resn PGA
+ Executive: Colored 9 atoms.
+PyMOL>color magenta, 2VGB and resn MN
+ Executive: Colored 1 atom.
+PyMOL>show sticks, 2VGB and resn FBP
+PyMOL>color yellow, 2VGB and resn FBP
+ Executive: Colored 20 atoms.
+PyMOL>set cartoon_transparency, 0, 2VGB
+ Setting: cartoon_transparency set to 0.00000 in object "2VGB".
+PyMOL>orient 2VGB
+PyMOL>turn x, -90
+PyMOL>turn y, 180
+PyMOL>zoom 2VGB, -2
+PyMOL>set float_labels, on
+ Setting: float_labels set to 1.
+PyMOL>set label_size, 26
+ Setting: label_size set to 26.00000.
+PyMOL>set label_font_id, 7
+ Setting: label_font_id set to 7.
+PyMOL>set label_color, black
+ Setting: label_color set to black.
+PyMOL>set dash_color, black, d_active
+ Setting: dash_color set to black in object "d_active".
+PyMOL>set dash_width, 4
+ Setting: dash_width set to 4.00000.
+PyMOL>set label_distance_digits, 0
+ Setting: label_distance_digits set to 0.
+PyMOL>set label_size, 34, d_active
+ Setting: label_size set to 34.00000 in object "d_active".
+PyMOL>set label_position, (0, 0, 20), d_active
+ Setting: label_position set to [ 0.00000, 0.00000, 20.00000 ] in object "d_active".
+PyMOL>set label_color, black, d_active
+ Setting: label_color set to black in object "d_active".
+PyMOL>pseudoatom lbl_A, selection=2VGB and resi 85-159+263-431 and name CA
+ ObjMol: created lbl_A/PSDO/P/PSD`1 /PS1
+PyMOL>pseudoatom lbl_B, selection=2VGB and resi 160-262 and name CA
+ ObjMol: created lbl_B/PSDO/P/PSD`1 /PS1
+PyMOL>pseudoatom lbl_C, selection=2VGB and resi 432-574 and name CA
+ ObjMol: created lbl_C/PSDO/P/PSD`1 /PS1
+PyMOL>pseudoatom lbl_N, selection=2VGB and resi 57-84 and name CA
+ ObjMol: created lbl_N/PSDO/P/PSD`1 /PS1
+PyMOL>pseudoatom lbl_486, selection=2VGB and resi 486 and name CZ
+ ObjMol: created lbl_486/PSDO/P/PSD`1 /PS1
+PyMOL>pseudoatom lbl_PGA, selection=2VGB and resn PGA
+ ObjMol: created lbl_PGA/PSDO/P/PSD`1 /PS1
+PyMOL>pseudoatom lbl_FBP, selection=2VGB and resn FBP
+ ObjMol: created lbl_FBP/PSDO/P/PSD`1 /PS1
+PyMOL>hide everything, lbl_*
+PyMOL>label lbl_A, "A domain"
+ Label: labelled 1 atoms.
+PyMOL>label lbl_B, "B domain"
+ Label: labelled 1 atoms.
+PyMOL>label lbl_C, "C domain"
+ Label: labelled 1 atoms.
+PyMOL>label lbl_N, "N domain"
+ Label: labelled 1 atoms.
+PyMOL>label lbl_486, "Arg486"
+ Label: labelled 1 atoms.
+PyMOL>label lbl_PGA, "Active site"
+ Label: labelled 1 atoms.
+PyMOL>label lbl_FBP, "FBP site"
+ Label: labelled 1 atoms.
+PyMOL>set label_color, skyblue, lbl_A
+ Setting: label_color set to skyblue in object "lbl_A".
+PyMOL>set label_color, orange, lbl_B
+ Setting: label_color set to orange in object "lbl_B".
+PyMOL>set label_color, forest, lbl_C
+ Setting: label_color set to forest in object "lbl_C".
+PyMOL>set label_color, grey40, lbl_N
+ Setting: label_color set to grey40 in object "lbl_N".
+PyMOL>set label_color, red, lbl_486
+ Setting: label_color set to red in object "lbl_486".
+PyMOL>set label_color, black, lbl_PGA
+ Setting: label_color set to black in object "lbl_PGA".
+PyMOL>set label_color, olive, lbl_FBP
+ Setting: label_color set to olive in object "lbl_FBP".
+PyMOL>set label_position, (16, 54, 20), lbl_A
+ Setting: label_position set to [ 16.00000, 54.00000, 20.00000 ] in object "lbl_A".
+PyMOL>set label_position, (2, 24, 20), lbl_B
+ Setting: label_position set to [ 2.00000, 24.00000, 20.00000 ] in object "lbl_B".
+PyMOL>set label_position, (-34, 14, 20), lbl_C
+ Setting: label_position set to [ -34.00000, 14.00000, 20.00000 ] in object "lbl_C".
+PyMOL>set label_position, (-12, 30, 20), lbl_N
+ Setting: label_position set to [ -12.00000, 30.00000, 20.00000 ] in object "lbl_N".
+PyMOL>set label_position, (-2, -12, 20), lbl_486
+ Setting: label_position set to [ -2.00000, -12.00000, 20.00000 ] in object "lbl_486".
+PyMOL>set label_position, (10, -34, 20), lbl_PGA
+ Setting: label_position set to [ 10.00000, -34.00000, 20.00000 ] in object "lbl_PGA".
+PyMOL>set label_position, (-14, -18, 20), lbl_FBP
+ Setting: label_position set to [ -14.00000, -18.00000, 20.00000 ] in object "lbl_FBP".
+PyMOL>ray 2400, 1700
+ Ray: render time: 4.06 sec. = 886.7 frames/hour (4.06 sec. accum.).
+PyMOL>png Figure1_subunit_domains.png, dpi=300
+ ScenePNG: wrote 2400x1700 pixel image to file "Figure1_subunit_domains.png".
+PyMOL>hide labels, lbl_A or lbl_B or lbl_C or lbl_N or lbl_486 or lbl_PGA or lbl_FBP
+PyMOL>disable d_active
+PyMOL>hide spheres
+PyMOL>hide sticks
+PyMOL>show cartoon, 2VGI
+PyMOL>set cartoon_transparency, 0.8, 2VGB
+ Setting: cartoon_transparency set to 0.80000 in object "2VGB".
+PyMOL>set cartoon_transparency, 0.8, 2VGI
+ Setting: cartoon_transparency set to 0.80000 in object "2VGI".
+PyMOL>show sticks, resi 486 and not name N+C+O
+PyMOL>show sticks, resi 361+362
+PyMOL>set_color wt_red, [0.85, 0.0, 0.0]
+ Color: "wt_red" defined as [ 0.850, 0.000, 0.000 ].
+PyMOL>set_color mut_purple, [0.45, 0.0, 0.6]
+ Color: "mut_purple" defined as [ 0.450, 0.000, 0.600 ].
+PyMOL>color wt_red, 2VGB and resi 486 and elem C
+ Executive: Colored 6 atoms.
+PyMOL>color mut_purple, 2VGI and resi 486 and elem C
+ Executive: Colored 11 atoms.
+PyMOL>color skyblue, resi 361+362 and elem C
+ Executive: Colored 20 atoms.
+PyMOL>color blue, (resi 361+362+486) and elem N
+ Executive: Colored 12 atoms.
+PyMOL>color red, (resi 361+362) and elem O
+ Executive: Colored 6 atoms.
+PyMOL>set label_distance_digits, 1
+ Setting: label_distance_digits set to 1.
+PyMOL>set dash_width, 5
+ Setting: dash_width set to 5.00000.
+PyMOL>set dash_color, wt_red, hb_wt
+ Setting: dash_color set to wt_red in object "hb_wt".
+PyMOL>set dash_color, mut_purple, hb_mut1
+ Setting: dash_color set to mut_purple in object "hb_mut1".
+PyMOL>set dash_color, mut_purple, hb_mut2
+ Setting: dash_color set to mut_purple in object "hb_mut2".
+PyMOL>set label_color, wt_red, hb_wt
+ Setting: label_color set to wt_red in object "hb_wt".
+PyMOL>set label_color, mut_purple, hb_mut1
+ Setting: label_color set to mut_purple in object "hb_mut1".
+PyMOL>set label_color, mut_purple, hb_mut2
+ Setting: label_color set to mut_purple in object "hb_mut2".
+PyMOL>pseudoatom lbl_R, selection=2VGB and resi 486 and name CB
+ ObjMol: created lbl_R/PSDO/P/PSD`1 /PS1
+PyMOL>pseudoatom lbl_W, selection=2VGI and resi 486 and name CZ2
+ ObjMol: created lbl_W/PSDO/P/PSD`1 /PS1
+PyMOL>pseudoatom lbl_361, selection=2VGB and resi 361 and name CB
+ ObjMol: created lbl_361/PSDO/P/PSD`1 /PS1
+PyMOL>pseudoatom lbl_362, selection=2VGB and resi 362 and name CD1
+ ObjMol: created lbl_362/PSDO/P/PSD`1 /PS1
+PyMOL>hide everything, lbl_R or lbl_W or lbl_361 or lbl_362
+PyMOL>label lbl_R, "Arg486 (wild type)"
+ Label: labelled 1 atoms.
+PyMOL>label lbl_W, "Trp486 (R486W)"
+ Label: labelled 1 atoms.
+PyMOL>label lbl_361, "Asn361"
+ Label: labelled 1 atoms.
+PyMOL>label lbl_362, "Leu362"
+ Label: labelled 1 atoms.
+PyMOL>set label_color, wt_red, lbl_R
+ Setting: label_color set to wt_red in object "lbl_R".
+PyMOL>set label_color, mut_purple, lbl_W
+ Setting: label_color set to mut_purple in object "lbl_W".
+PyMOL>set label_color, black, lbl_361
+ Setting: label_color set to black in object "lbl_361".
+PyMOL>set label_color, black, lbl_362
+ Setting: label_color set to black in object "lbl_362".
+PyMOL>set label_position, (2, 7, 4), lbl_R
+ Setting: label_position set to [ 2.00000, 7.00000, 4.00000 ] in object "lbl_R".
+PyMOL>set label_position, (-7, -6, 4), lbl_W
+ Setting: label_position set to [ -7.00000, -6.00000, 4.00000 ] in object "lbl_W".
+PyMOL>set label_position, (5, 4, 4), lbl_361
+ Setting: label_position set to [ 5.00000, 4.00000, 4.00000 ] in object "lbl_361".
+PyMOL>set label_position, (6, -4, 4), lbl_362
+ Setting: label_position set to [ 6.00000, -4.00000, 4.00000 ] in object "lbl_362".
+PyMOL>orient resi 486+361+362
+PyMOL>zoom resi 486+361+362, 6
+PyMOL>set label_size, 22, hb_wt
+ Setting: label_size set to 22.00000 in object "hb_wt".
+PyMOL>set label_size, 22, hb_mut1
+ Setting: label_size set to 22.00000 in object "hb_mut1".
+PyMOL>set label_size, 22, hb_mut2
+ Setting: label_size set to 22.00000 in object "hb_mut2".
+PyMOL>ray 2400, 1700
+ Ray: render time: 37.64 sec. = 95.6 frames/hour (41.70 sec. accum.).
+PyMOL>png Figure2_R486W_closeup.png, dpi=300
+ ScenePNG: wrote 2400x1700 pixel image to file "Figure2_R486W_closeup.png".
