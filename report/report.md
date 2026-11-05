@@ -53,7 +53,7 @@ In the crystal structure of the wild-type enzyme (PDB 2VGB; RCSB PDB 2026), Arg4
 
 ![Figure 1](../figures/Figure1_subunit_domains.png)
 
-**Figure 1.** One subunit of human red-cell pyruvate kinase (PDB 2VGB, chain A), coloured by domain (N, yellow; A, blue; B, orange; C, green; limits from Valentini *et al.* 2002). Arg486 (red spheres) lies in the C domain, at the contact with the A domain; the dashed line to the active site (substrate analogue phosphoglycolate in black, Mn²⁺ in magenta) measures 26 Å. The activator FBP is shown as yellow sticks, about 12 Å from Arg486. Made in PyMOL with the commands in `analysis/procedures/7_structure/`.
+**Figure 1. Location of Arg486 in human red-cell pyruvate kinase.** (a) The four-subunit enzyme and (b) one subunit, shown from Protein Data Bank entry 2VGB. Domains are coloured orange (N-terminal), blue (A), pink (B), and green (C). Arg486, highlighted in black, lies at the contact between the A and C domains within a subunit. Dashed lines show minimum interatomic distances to phosphoglycolate, a substrate analogue at the active site (24.4 Å), and fructose 1,6-bisphosphate, the activator (12.4 Å). Manganese and potassium ions are also shown. Prepared in PyMOL.
 
 ### The mutant structure is almost identical to the wild type
 
@@ -61,7 +61,7 @@ After superposition of the mutant structure (PDB 2VGI) on the wild type, the roo
 
 ![Figure 2](../figures/Figure2_R486W_closeup.png)
 
-**Figure 2.** Residue 486 at the contact between the C domain (green) and the A domain (blue), with the wild type (2VGB) and the mutant (2VGI) superposed. In the wild type, Arg486 (red) forms a hydrogen bond (2.7 Å, red dashes) with the backbone oxygen of Leu362. In the mutant, the N–H of the Trp486 ring (purple) forms hydrogen bonds with the backbone oxygens of Asn361 (3.0 Å) and Leu362 (3.4 Å) (purple dashes). The surrounding backbone of the two structures overlaps. Made in PyMOL with the commands in `analysis/procedures/7_structure/`.
+**Figure 2. Local environment of the position corresponding to human Arg486.** (a) Human reference enzyme, Arg486 (2VGB, chain A); (b) human mutant, Trp486 (2VGI, chain A); and (c) rat liver enzyme, Gln455 (6ECH, chain D). Rat liver residue 455 corresponds to residue 486 in red-cell numbering. The highlighted side-chain carbons are blue, orange, and green, respectively. Nitrogen atoms are blue and oxygen atoms red. Thin dark sticks in panels b and c show human reference Arg486 after local superposition. Dashed lines mark selected heavy-atom distances. Nitrogen–oxygen contacts are compatible with hydrogen bonding; the starred 3.0 Å carbon–oxygen contact is not a conventional N–H···O hydrogen bond. The red sphere in panel c represents a modelled water molecule. Prepared in PyMOL.
 
 ### Arg486 is conserved from mammals to fish; the rat has Gln
 
